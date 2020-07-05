@@ -35,7 +35,7 @@ deploy_job:
 
     - ssh -T git@gitlab.com
     - git remote set-url origin git@gitlab.com:curben/phishing-filter.git
-    # - git push origin master
+    - git push origin master
 
   rules:
     # Only trigger through schedule job in master branch
@@ -73,7 +73,7 @@ failed_job:
     - git diff-index --quiet HEAD || git commit -m "Failed pipeline"
     - ssh -T git@gitlab.com
     - git remote set-url origin git@gitlab.com:curben/phishing-filter.git
-    # - git push origin master
+    - git push origin master
 
   rules:
     - if: '$CI_COMMIT_REF_NAME == "master" && $CI_PIPELINE_SOURCE == "schedule"'
