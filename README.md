@@ -211,7 +211,9 @@ Use shallow clone to get the recent revisions only. Getting the last five revisi
 
 [Creative Commons Zero v1.0 Universal](LICENSE.md)
 
-[Tranco List](https://tranco-list.eu/): [MIT License](https://choosealicense.com/licenses/mit/)
+[csvquote](https://github.com/dbro/csvquote): [MIT License](https://choosealicense.com/licenses/mit/)
+
+[Tranco List](https://tranco-list.eu/): MIT License
 
 [Umbrella Popularity List](https://s3-us-west-1.amazonaws.com/umbrella-static/index.html): Available free of charge by Cisco Umbrella
 
