@@ -191,11 +191,11 @@ printf '\n  include: "/usr/local/etc/unbound/dist/phishing-filter-unbound.conf"\
 
 This blocklist operates by blocking the **whole** website, instead of specific webpages; exceptions are made on popular websites (e.g. `https://docs.google.com/`), in which webpages are specified instead (e.g. `https://docs.google.com/phishing-page`). Phishing webpages are only listed in [URL-based](#url-based) filter, popular websites are excluded from other filters.
 
-*Popular* websites are as listed in the [Umbrella Popularity List](https://s3-us-west-1.amazonaws.com/umbrella-static/index.html) (top 1M domains + subdomains) and [Tranco List](https://tranco-list.eu/) (top 1M domains) and this [custom list](src/exclude.txt).
+*Popular* websites are as listed in the [Umbrella Popularity List](https://s3-us-west-1.amazonaws.com/umbrella-static/index.html) (top 1M domains + subdomains), [Tranco List](https://tranco-list.eu/) (top 1M domains) and this [custom list](src/exclude.txt).
 
 If you wish to exclude certain website(s) that you believe is sufficiently well-known, please create an [issue](https://gitlab.com/curben/phishing-filter/issues) or [merge request](https://gitlab.com/curben/phishing-filter/merge_requests).
 
-This filter **only** accepts new phishing URLs from [PhishTank](https://www.phishtank.com/).
+This blocklist **only** accepts new phishing URLs from [PhishTank](https://www.phishtank.com/).
 
 Please report new phishing URL to the upstream maintainer through https://www.phishtank.com/add_web_phish.php.
 
