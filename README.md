@@ -219,4 +219,6 @@ Use shallow clone to get the recent revisions only. Getting the last five revisi
 
 [PhishTank](https://www.phishtank.com/): [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5/)
 
-PhishTank and Cisco are either trademarks or registered trademarks of Cisco Systems, Inc. and/or its affiliates in the United States and certain other countries.
+PhishTank is either trademark or registered trademark of OpenDNS, LLC. 
+
+This repository is not endorsed by PhishTank/OpenDNS.
