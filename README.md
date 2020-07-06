@@ -87,7 +87,7 @@ printf '#!/bin/sh\ncurl -L "https://gitlab.com/curben/phishing-filter/raw/master
 chmod 755 /etc/cron.daily/phishing-filter
 
 # Configure dnsmasq to use the blocklist
-printf "\nconf-file=/usr/local/etc/dnsmasq/dist/phishing-filter-dnsmasq.conf\n" >> /etc/dnsmasq.conf
+printf "\nconf-file=/usr/local/etc/dnsmasq/phishing-filter-dnsmasq.conf\n" >> /etc/dnsmasq.conf
 ```
 
 <details>
@@ -120,7 +120,7 @@ printf '#!/bin/sh\ncurl -L "https://gitlab.com/curben/phishing-filter/raw/master
 chmod 755 /etc/cron.daily/phishing-filter
 
 # Configure BIND to use the blocklist
-printf '\ninclude "/usr/local/etc/bind/dist/phishing-filter-bind.conf";\n' >> /etc/bind/named.conf
+printf '\ninclude "/usr/local/etc/bind/phishing-filter-bind.conf";\n' >> /etc/bind/named.conf
 ```
 
 Add this to "/etc/bind/null.zone.file" (skip this step if the file already exists):
@@ -171,7 +171,7 @@ printf '#!/bin/sh\ncurl -L "https://gitlab.com/curben/phishing-filter/raw/master
 chmod 755 /etc/cron.daily/phishing-filter
 
 # Configure Unbound to use the blocklist
-printf '\n  include: "/usr/local/etc/unbound/dist/phishing-filter-unbound.conf"\n' >> /etc/unbound/unbound.conf
+printf '\n  include: "/usr/local/etc/unbound/phishing-filter-unbound.conf"\n' >> /etc/unbound/unbound.conf
 ```
 
 <details>
