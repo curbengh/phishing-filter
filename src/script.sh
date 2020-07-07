@@ -33,7 +33,7 @@ cat "phishtank.csv" | \
 "./$CSVQUOTE" | \
 cut -f 2 -d "," | \
 "./$CSVQUOTE" -u | \
-sed 's/"$//g' | \
+sed 's/"//g' | \
 cut -f 3- -d "/" | \
 # Domain must have at least a 'dot'
 grep -F "." | \
