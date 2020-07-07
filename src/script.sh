@@ -88,7 +88,7 @@ grep -F -vf "phishtank-top-domains.txt" > "phishing-domains.txt"
 cat "phishtank.txt" | \
 grep -F -f "phishtank-top-domains.txt" | \
 sed "s/^/||/g" | \
-sed "s/$/^\$all/g" > "phishing-url-top-domains.txt"
+sed "s/$/\$all/g" > "phishing-url-top-domains.txt"
 
 
 ## Merge malware domains and URLs
