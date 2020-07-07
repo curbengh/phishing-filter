@@ -22,7 +22,7 @@ Import the following URL into uBO to subscribe:
 <details>
 <summary>Mirrors</summary>
 
-- https://cdn.statically.io/gl/curben/phishing-filter/raw/master/dist/phishing-filter.txt
+- https://cdn.statically.io/gl/curben/phishing-filter/master/dist/phishing-filter.txt
 - https://glcdn.githack.com/curben/phishing-filter/raw/master/dist/phishing-filter.txt
 - https://raw.githubusercontent.com/curbengh/phishing-filter/master/dist/phishing-filter.txt
 - https://cdn.statically.io/gh/curbengh/phishing-filter/master/dist/phishing-filter.txt
@@ -41,7 +41,7 @@ This blocklist includes domains and IP addresses.
 <details>
 <summary>Mirrors</summary>
 
-- https://cdn.statically.io/gl/curben/phishing-filter/raw/master/dist/phishing-filter-domains.txt
+- https://cdn.statically.io/gl/curben/phishing-filter/master/dist/phishing-filter-domains.txt
 - https://glcdn.githack.com/curben/phishing-filter/raw/master/dist/phishing-filter-domains.txt
 - https://raw.githubusercontent.com/curbengh/phishing-filter/master/dist/phishing-filter-domains.txt
 - https://cdn.statically.io/gh/curbengh/phishing-filter/master/dist/phishing-filter-domains.txt
@@ -60,7 +60,7 @@ This blocklist includes domains only.
 <details>
 <summary>Mirrors</summary>
 
-- https://cdn.statically.io/gl/curben/phishing-filter/raw/master/dist/phishing-filter-hosts.txt
+- https://cdn.statically.io/gl/curben/phishing-filter/master/dist/phishing-filter-hosts.txt
 - https://glcdn.githack.com/curben/phishing-filter/raw/master/dist/phishing-filter-hosts.txt
 - https://raw.githubusercontent.com/curbengh/phishing-filter/master/dist/phishing-filter-hosts.txt
 - https://cdn.statically.io/gh/curbengh/phishing-filter/master/dist/phishing-filter-hosts.txt
@@ -93,7 +93,7 @@ printf "\nconf-file=/usr/local/etc/dnsmasq/phishing-filter-dnsmasq.conf\n" >> /e
 <details>
 <summary>Mirrors</summary>
 
-- https://cdn.statically.io/gl/curben/phishing-filter/raw/master/dist/phishing-filter-dnsmasq.conf
+- https://cdn.statically.io/gl/curben/phishing-filter/master/dist/phishing-filter-dnsmasq.conf
 - https://glcdn.githack.com/curben/phishing-filter/raw/master/dist/phishing-filter-dnsmasq.conf
 - https://raw.githubusercontent.com/curbengh/phishing-filter/master/dist/phishing-filter-dnsmasq.conf
 - https://cdn.statically.io/gh/curbengh/phishing-filter/master/dist/phishing-filter-dnsmasq.conf
@@ -144,7 +144,7 @@ Zone file is derived from [here](https://github.com/tomzuu/blacklist-named/blob/
 <details>
 <summary>Mirrors</summary>
 
-- https://cdn.statically.io/gl/curben/phishing-filter/raw/master/dist/phishing-filter-bind.conf
+- https://cdn.statically.io/gl/curben/phishing-filter/master/dist/phishing-filter-bind.conf
 - https://glcdn.githack.com/curben/phishing-filter/raw/master/dist/phishing-filter-bind.conf
 - https://raw.githubusercontent.com/curbengh/phishing-filter/master/dist/phishing-filter-bind.conf
 - https://cdn.statically.io/gh/curbengh/phishing-filter/master/dist/phishing-filter-bind.conf
@@ -177,7 +177,7 @@ printf '\n  include: "/usr/local/etc/unbound/phishing-filter-unbound.conf"\n' >>
 <details>
 <summary>Mirrors</summary>
 
-- https://cdn.statically.io/gl/curben/phishing-filter/raw/master/dist/phishing-filter-unbound.conf
+- https://cdn.statically.io/gl/curben/phishing-filter/master/dist/phishing-filter-unbound.conf
 - https://glcdn.githack.com/curben/phishing-filter/raw/master/dist/phishing-filter-unbound.conf
 - https://raw.githubusercontent.com/curbengh/phishing-filter/master/dist/phishing-filter-unbound.conf
 - https://cdn.statically.io/gh/curbengh/phishing-filter/master/dist/phishing-filter-unbound.conf
