@@ -101,7 +101,13 @@ FIFTH_LINE="! License: https://creativecommons.org/publicdomain/zero/1.0/"
 SIXTH_LINE="! Source: https://www.phishtank.com/"
 COMMENT_UBO="$FIRST_LINE\n$SECOND_LINE\n$THIRD_LINE\n$FOURTH_LINE\n$FIFTH_LINE\n$SIXTH_LINE"
 
-cat "phishing-domains.txt" "phishing-url-top-domains.txt" | \
+# Compatibility with Adguard Home
+# https://gitlab.com/curben/urlhaus-filter/-/issues/19
+cat "phishing-domains.txt" | \
+sed "s/^/||/g" | \
+sed "s/$/^/g" > "phishing-domains-adguard.txt"
+
+cat "phishing-domains-adguard.txt" "phishing-url-top-domains.txt" | \
 sort | \
 sed '1 i\'"$COMMENT_UBO"'' > "../dist/phishing-filter.txt"
 
