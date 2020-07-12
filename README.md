@@ -1,6 +1,6 @@
 # Phishing URL Blocklist
 
-A blocklist of phishing websites, based on the [PhishTank](https://www.phishtank.com/) list. Blocklist is updated twice a day.
+A blocklist of phishing websites, based on the [PhishTank](https://www.phishtank.com/) and [OpenPhish](https://openphish.com/) lists. Blocklist is updated twice a day.
 
 There are multiple formats available, refer to the appropriate section according to the program used:
 
@@ -195,9 +195,9 @@ This blocklist operates by blocking the **whole** website, instead of specific w
 
 If you wish to exclude certain website(s) that you believe is sufficiently well-known, please create an [issue](https://gitlab.com/curben/phishing-filter/issues) or [merge request](https://gitlab.com/curben/phishing-filter/merge_requests).
 
-This blocklist **only** accepts new phishing URLs from [PhishTank](https://www.phishtank.com/).
+This blocklist **only** accepts new phishing URLs from [PhishTank](https://www.phishtank.com/) and [OpenPhish](https://openphish.com/).
 
-Please report new phishing URL to the upstream maintainer through https://www.phishtank.com/add_web_phish.php.
+Please report new phishing URL to [PhishTank](https://www.phishtank.com/add_web_phish.php) or [OpenPhish](https://openphish.com/faq.html).
 
 ## Cloning
 
@@ -211,14 +211,16 @@ Use shallow clone to get the recent revisions only. Getting the last five revisi
 
 [Creative Commons Zero v1.0 Universal](LICENSE.md)
 
-[csvquote](https://github.com/dbro/csvquote): [MIT License](https://choosealicense.com/licenses/mit/)
+[PhishTank](https://www.phishtank.com/): [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5/)
+
+_PhishTank is either trademark or registered trademark of OpenDNS, LLC._
+
+[OpenPhish](https://openphish.com/): Available free of charge by OpenPhish
 
 [Tranco List](https://tranco-list.eu/): MIT License
 
 [Umbrella Popularity List](https://s3-us-west-1.amazonaws.com/umbrella-static/index.html): Available free of charge by Cisco Umbrella
 
-[PhishTank](https://www.phishtank.com/): [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5/)
+[csvquote](https://github.com/dbro/csvquote): [MIT License](https://choosealicense.com/licenses/mit/)
 
-PhishTank is either trademark or registered trademark of OpenDNS, LLC. 
-
-This repository is not endorsed by PhishTank/OpenDNS.
+This repository is not endorsed by PhishTank/OpenDNS and OpenPhish.
