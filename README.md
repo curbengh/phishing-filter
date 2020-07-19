@@ -28,7 +28,6 @@ Import the following URL into uBO to subscribe:
 - https://cdn.statically.io/gh/curbengh/phishing-filter/master/dist/phishing-filter.txt
 - https://gitcdn.xyz/repo/curbengh/phishing-filter/master/dist/phishing-filter.txt
 - https://cdn.jsdelivr.net/gh/curbengh/phishing-filter/dist/phishing-filter.txt
-- https://repo.or.cz/phishing-filter.git/blob_plain/refs/heads/master:/dist/phishing-filter.txt
 
 </details>
 
@@ -47,7 +46,6 @@ This blocklist includes domains and IP addresses.
 - https://cdn.statically.io/gh/curbengh/phishing-filter/master/dist/phishing-filter-domains.txt
 - https://gitcdn.xyz/repo/curbengh/phishing-filter/master/dist/phishing-filter-domains.txt
 - https://cdn.jsdelivr.net/gh/curbengh/phishing-filter/dist/phishing-filter-domains.txt
-- https://repo.or.cz/phishing-filter.git/blob_plain/refs/heads/master:/dist/phishing-filter-domains.txt
 
 </details>
 
@@ -66,7 +64,6 @@ This blocklist includes domains only.
 - https://cdn.statically.io/gh/curbengh/phishing-filter/master/dist/phishing-filter-hosts.txt
 - https://gitcdn.xyz/repo/curbengh/phishing-filter/master/dist/phishing-filter-hosts.txt
 - https://cdn.jsdelivr.net/gh/curbengh/phishing-filter/dist/phishing-filter-hosts.txt
-- https://repo.or.cz/phishing-filter.git/blob_plain/refs/heads/master:/dist/phishing-filter-hosts.txt
 
 </details>
 
@@ -99,7 +96,6 @@ printf "\nconf-file=/usr/local/etc/dnsmasq/phishing-filter-dnsmasq.conf\n" >> /e
 - https://cdn.statically.io/gh/curbengh/phishing-filter/master/dist/phishing-filter-dnsmasq.conf
 - https://gitcdn.xyz/repo/curbengh/phishing-filter/master/dist/phishing-filter-dnsmasq.conf
 - https://cdn.jsdelivr.net/gh/curbengh/phishing-filter/dist/phishing-filter-dnsmasq.conf
-- https://repo.or.cz/phishing-filter.git/blob_plain/refs/heads/master:/dist/phishing-filter-dnsmasq.conf
 
 </details>
 
@@ -150,7 +146,6 @@ Zone file is derived from [here](https://github.com/tomzuu/blacklist-named/blob/
 - https://cdn.statically.io/gh/curbengh/phishing-filter/master/dist/phishing-filter-bind.conf
 - https://gitcdn.xyz/repo/curbengh/phishing-filter/master/dist/phishing-filter-bind.conf
 - https://cdn.jsdelivr.net/gh/curbengh/phishing-filter/dist/phishing-filter-bind.conf
-- https://repo.or.cz/phishing-filter.git/blob_plain/refs/heads/master:/dist/phishing-filter-bind.conf
 
 </details>
 
@@ -183,7 +178,6 @@ printf '\n  include: "/usr/local/etc/unbound/phishing-filter-unbound.conf"\n' >>
 - https://cdn.statically.io/gh/curbengh/phishing-filter/master/dist/phishing-filter-unbound.conf
 - https://gitcdn.xyz/repo/curbengh/phishing-filter/master/dist/phishing-filter-unbound.conf
 - https://cdn.jsdelivr.net/gh/curbengh/phishing-filter/dist/phishing-filter-unbound.conf
-- https://repo.or.cz/phishing-filter.git/blob_plain/refs/heads/master:/dist/phishing-filter-unbound.conf
 
 </details>
 
