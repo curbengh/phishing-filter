@@ -205,6 +205,8 @@ Use shallow clone to get the recent revisions only. Getting the last five revisi
 
 [Creative Commons Zero v1.0 Universal](LICENSE.md)
 
+[badge.sh](src/badge.sh) & [.gitlab/](.gitlab/) contain badges that are licensed by [Shields.io](https://shields.io) under [CC0 1.0](LICENSE.md)
+
 [PhishTank](https://www.phishtank.com/): [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5/)
 
 _PhishTank is either trademark or registered trademark of OpenDNS, LLC._
