@@ -203,7 +203,9 @@ Use shallow clone to get the recent revisions only. Getting the last five revisi
 
 ## License
 
-[Creative Commons Zero v1.0 Universal](LICENSE.md)
+[src/](src/): [CC0](LICENSE.md)
+
+[dist/](dist/): [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
 [badge.sh](src/badge.sh) & [.gitlab/](.gitlab/) contain badges that are licensed by [Shields.io](https://shields.io) under [CC0 1.0](LICENSE.md)
 
