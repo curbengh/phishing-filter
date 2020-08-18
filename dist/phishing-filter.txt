@@ -1,5 +1,5 @@
 ! Title: Phishing URL Blocklist
-! Updated: Tue, 18 Aug 2020 00:06:35 UTC
+! Updated: Tue, 18 Aug 2020 12:07:00 UTC
 ! Expires: 1 day (update frequency)
 ! Repo: https://gitlab.com/curben/phishing-filter
 ! License: https://creativecommons.org/licenses/by-sa/4.0/
@@ -10,6 +10,7 @@
 ||000p4en.wcomhost.com/Ameli-Assurance/remboursement/login/iframe-page2.html$all
 ||000p4en.wcomhost.com/Ameli-Assurance/remboursement/login/iframe-page3.html$all
 ||00324il.moonfruit.com$all
+||01025.yimumon.xyz^
 ||010league0flegends010euw0.000webhostapp.com^
 ||01888f90-c5de-40b5-aa35-28082cf97171.htmlcomponentservice.com^
 ||02-update.billing72.com^
@@ -118,12 +119,11 @@
 ||173.212.239.242^
 ||173.212.240.54^
 ||173.82.123.232^
-||173.82.143.219^
 ||173.82.180.220^
 ||174.138.36.47^
 ||174.139.126.102^
+||174.139.126.104^
 ||174.139.126.105^
-||174.139.126.107^
 ||174.139.126.108^
 ||174.139.126.110^
 ||174.139.126.117^
@@ -156,6 +156,7 @@
 ||188elexusbet.blogspot.com/$all
 ||18afb9dad63056836.temporary.link^
 ||191.239.255.175^
+||192.119.111.32^
 ||192.145.232.221^
 ||193.135.153.242^
 ||194.124.251.18^
@@ -224,10 +225,13 @@
 ||20200817084002-dot-platinum-tract-269612.appspot.com/push/$all
 ||20200817111110-dot-platinum-tract-269612.appspot.com/push/$all
 ||20200817120007-dot-platinum-tract-269612.appspot.com/push/$all
+||20200817121001-dot-platinum-tract-269612.appspot.com/$all
 ||20200817121001-dot-platinum-tract-269612.appspot.com/push/$all
+||20200817130008-dot-platinum-tract-269612.appspot.com/$all
 ||20200817130008-dot-platinum-tract-269612.appspot.com/push/$all
 ||20200817135109-dot-platinum-tract-269612.appspot.com/push/$all
 ||20200817142003-dot-platinum-tract-269612.appspot.com/push/$all
+||20200818045001-dot-platinum-tract-269612.appspot.com/push/$all
 ||2038277.weebly.com^
 ||206.189.118.168^
 ||207.241.227.38^
@@ -272,6 +276,7 @@
 ||33c59f73d1.nxcli.net^
 ||34.232.124.21^
 ||34.94.148.132^
+||3489874873478-secondary.z13.web.core.windows.net^
 ||35.180.226.15^
 ||35.186.228.86^
 ||35.199.84.117^
@@ -292,6 +297,7 @@
 ||3no.ro^
 ||3sekabet.blogspot.com$all
 ||3sekabet.blogspot.com/$all
+||3taw1axhzpzgihrd7pec.us-south.cf.appdomain.cloud^
 ||3tbfffogav.000webhostapp.com^
 ||3zonasegurabeta-viabcp.ga^
 ||40.83.181.2^
@@ -332,6 +338,7 @@
 ||5bn0j.app.link^
 ||5cfe61ed061038.multiscreensite.com^
 ||5co.com^
+||5lire.net^
 ||5x.to^
 ||5x726-alternate.app.link^
 ||60minutesoffame.com^
@@ -340,7 +347,6 @@
 ||623112j4j3.codesandbox.io^
 ||6281389003617.000webhostapp.com^
 ||6281996261006.000webhostapp.com^
-||6281997201663.000webhostapp.com^
 ||62819972610027.000webhostapp.com^
 ||6281997801557.000webhostapp.com^
 ||6281998261003.000webhostapp.com^
@@ -357,8 +363,6 @@
 ||67.229.29.73^
 ||67.229.29.76^
 ||67.229.29.91^
-||67.229.48.213^
-||67.229.48.236^
 ||67.229.48.238^
 ||67.229.48.239^
 ||67.229.48.240^
@@ -401,19 +405,20 @@
 ||8dw5g.codesandbox.io^
 ||8hsfskj-alternate.app.link^
 ||8hsfskj.app.link^
+||91.138.224.107^
 ||91.234.99.203^
 ||92.119.115.94^
 ||94.250.248.75^
 ||951239.com^
+||96b4d58e213077161.temporary.link^
 ||96c8714c-d919-44cf-a1a1-dd300c4b3a06.htmlcomponentservice.com^
 ||98.126.214.103^
-||98.126.214.105^
 ||98.126.214.74^
 ||98.126.214.77^
 ||98.126.214.91^
 ||98.126.214.95^
 ||98.126.214.96^
-||98.126.214.97^
+||98438748758954898954-secondary.z13.web.core.windows.net^
 ||9843878929879437838-secondary.z13.web.core.windows.net^
 ||9aJbJO5llopcZRHvfr7hHdr7VLKKxRmZqT64VWRJFJqCrENMecaVFy.fccfc.org^
 ||9d62cfee-59b3-42a8-9542-4b3a32692792.htmlcomponentservice.com^
@@ -426,8 +431,8 @@
 ||O2-mobile-signin.com^
 ||PayPal.unlock-myaccount.com/$all
 ||PayUkLimited.com^
+||SamsungPromo.info^
 ||TIMECLOCKME.COM^
-||Three.Restore-Services0074.com^
 ||a-a5a5.000webhostapp.com^
 ||a-onetraders.com^
 ||a.a.3483.fhug.5875.dhirt.4989.rgkhr.594k.egih.dg4r4t.clearpointsupplies.com^
@@ -452,6 +457,7 @@
 ||abastecedoracalderas.com^
 ||abcd.idknet.com/$all
 ||abcexpresslogistics.com^
+||abconvention.in^
 ||abdnepal.com^
 ||abdullahnetwork.com^
 ||abhishekgroup.co.in^
@@ -485,6 +491,7 @@
 ||accountcheckid.000webhostapp.com^
 ||accounthelpcentorsyfwefregrthytjuyjkjytygerg.xyz^
 ||accounthelpcentorsyhuyusdhvuysughrsuginsdfygbviushndifis.xyz^
+||accounting.utc.ac.th^
 ||accounts-craigslist-idsupport184000893161.com^
 ||accounts-craigslist-verifypostid918572624.com^
 ||accounts-login-idm-telekomidm.cloud^
@@ -538,6 +545,7 @@
 ||adidas.hop.ru^
 ||adidasfrsoldes.fr^
 ||adivk.000webhostapp.com^
+||adleadbrazil.com.br^
 ||adlh.ga^
 ||admin.baragor.se^
 ||admin.fragoimpex.com^
@@ -547,21 +555,18 @@
 ||adrienneo.dreamhosters.com^
 ||adriiana.com^
 ||adtekz.com^
-||advanced-enable-certificated-pages-valid-0211466016.tk^
 ||advanced-enable-certificated-pages-valid-0214686016.tk^
 ||advanced-enable-pages-certificated-valid-00016.tk^
-||advanced-enable-pages-certificated-valid-00017.tk^
 ||advanced-enable-pages-certificated-valid-00020.tk^
-||advanced-enable-pages-certificated-valid-00047.tk^
 ||advanced-enable-repair-pages.my.id^
 ||advanced-pages-certificated-valid-2020.my.id^
 ||advanced-pages-certificated-valid-invitation-19264402020.tk^
 ||adventurediscoverytravel.com^
 ||adventures9.com^
-||adventurouslives.net^
 ||advokatsf-my.sharepoint.com/:o:/g/personal/janne_advokatsf_no/EmJXNmFJyFVNt-ZXabBci14BjPXfODh3CYNMH1Kt5cdV-g?e=7ou09Z$all
 ||advonationusa.com^
 ||advtejas.com^
+||aec.com.my^
 ||aecbank.net^
 ||aegisredmedia.com^
 ||aerobic-botany-284423.ey.r.appspot.com/home.html$all
@@ -617,7 +622,6 @@
 ||albcp.com^
 ||albel.intnet.mu^
 ||albenecon.com^
-||alcionenovios.com^
 ||alcochemphil.com.ph^
 ||aldcliffe.com^
 ||alealtaseguros.com^
@@ -691,18 +695,19 @@
 ||amazeodn.webstarterz.com^
 ||amazextrabalt.com/ING_es$all
 ||amazextrabalt.com/ING_es/0e103/$all
-||amazextrabalt.com/ING_es/64bb8$all
 ||amazextrabalt.com/ING_es/64bb8/$all
 ||amaziionn.com^
+||amazing-swartz-d31e02.netlify.app^
 ||amazn.oo.jp.amzogon.top^
 ||amaznn.oo.jp.zz0i69.cn^
 ||amazoene.webstarterz.com^
-||amazon-co-jp-cn.buzz^
 ||amazon-co-jp-cn.shop^
 ||amazon-co-jp-d13f1fed4d24d232f3c591.co^
 ||amazon-co-jp.bid^
 ||amazon-co-jp.cloud^
+||amazon-co-jpreviews.xyz^
 ||amazon-support.nijiyamarket.com/$all
+||amazon.co-jp-com.art^
 ||amazon.co.jp.0z9aonma24duyuia4567afa30sopyia989amtu.club^
 ||amazon.co.jp.amazjon.top^
 ||amazon.co.jp.amazomcojp.xyz^
@@ -710,7 +715,6 @@
 ||amazon.co.jp.amazznip.top^
 ||amazon.co.jp.jpamazn.top^
 ||amazon.co.jp.liaolilajiao.top^
-||amazon.co.jp.pass-amazon.buzz^
 ||amazon.co.jp.signin-id-234488990.checkidupdate.link^
 ||amazon.co.jp.sms-japan.icu^
 ||amazon.co.jp.sms-jp.club^
@@ -723,6 +727,7 @@
 ||amazon.w1tmikwlimo.buzz^
 ||amazonvi.top^
 ||ambautosalvage.com^
+||ambedakarwebnews.com^
 ||ambienteprotegido.foregon.com^
 ||ambrosecourt.com/Our/Ourtime/ourtime.html$all
 ||ambrotypeshirked.net^
@@ -733,6 +738,7 @@
 ||americanas-shoploja.com^
 ||americanasdiadapipoqueira.com^
 ||americanasloja17.com^
+||americancnexpress.com^
 ||americanexprese-card.xyz^
 ||americanretrieval-my.sharepoint.com:443/:b:/p/pjohnson/EchWsjmcdClInGo-IaBzTl0BY1lPkJ0KL-7L2rn_BEUXHw?e=Oo9N_i946USNK07yCuVcXg&amp;at=9$all
 ||americonnect-my.sharepoint.com/:b:/g/personal/bufwhse_ameri-connect_com/EUkwVq-2GS9KjPp0qjVOuZQBm_iSW0bELO4_j1NQdslslw$all
@@ -788,7 +794,6 @@
 ||annarborhandsonmuseum-my.sharepoint.com/personal/jklute_aahom_org/_layouts/15/WopiFrame2.aspx?sourcedoc={32b08432-df6e-45ce-b9dd-bd06a2fd8ffc}&amp;action=default&amp;originalPath=aHR0cHM6Ly9hbm5hcmJvcmhhbmRzb25tdXNldW0tbXkuc2hhcmVwb2ludC5jb20vOm86L2cvcGVyc29uYWwvamtsdXRlX2FhaG9tX29yZy9FaktFc0RKdTM4NUZ1ZDI5QnFMOWpfd0J2U3EwWjVXaG1iSnNiTTdkdVg4RDBRP3J0aW1lPTNHMWxmTUI0MTBn$all
 ||annazonjp.co^
 ||annazonvip.co^
-||annestrabach.wixsite.com^
 ||anniewright-my.sharepoint.com/:x:/r/personal/mary_belisle_aw_org/_layouts/15/WopiFrame.aspx?guestaccesstoken=rxpjQbfln4drfnV4SGFnnqWylDsjBncElDcpqDPe7hU%3d&docid=1_120e0a15e74f24c589d87788d99c1c667&wdFormId=%7B493B5CD7%2D227E%2D4339%2D98B3%2DA8644C8CE588%7D&action=formsubmit$all
 ||anon.to/H2jGQ0$all
 ||anon.to/uRnAyx$all
@@ -879,6 +884,7 @@
 ||apps-instagram.0fees.us^
 ||apps-secure.update-information.jaxuan.tk^
 ||apps.secure.update-account.jaxuan.ml^
+||appserversecurty.z1.web.core.windows.net^
 ||appsolutefaster.com^
 ||apptuts.bio^
 ||appuniswap.org^
@@ -886,13 +892,13 @@
 ||appviagespontosbr.com^
 ||appxi.com.ar^
 ||aprenderparaser.com.br^
+||apt1a.co^
 ||apuwa.com^
 ||aqf.129bp.cn^
 ||aqgm.aibawu.top/edme$all
 ||aqgm.aibawu.top/edme/$all
 ||aqgm.aibawu.top/edme/app/index.php?/user$all
 ||aqgm.aibawu.top/edme/app/index.php?/user/$all
-||aquahlppge01recvrcnfrm01.my.id^
 ||aquariushand.com^
 ||arablinkedindocument.df.r.appspot.com/home.html$all
 ||arablinkedindocument.df.r.appspot.com/off365.html?payment%20codeAAQkADUyYzNhODUwLTAwNzYtNGE2YS04YWQ1LWI2Yjg5MWY5NzM2ZAAQADKpx%20lv1KxDr2OE5uAPrZw=$all
@@ -935,6 +941,7 @@
 ||artesacracremona.it^
 ||artfullyrestless.com^
 ||artg.placeof.space^
+||artofliving.social/modules/mod_login/mail.ubc.ca.html$all
 ||artofmine.be^
 ||artopiel.ma^
 ||arturana.com^
@@ -954,13 +961,13 @@
 ||asd.ilbagno.com^
 ||asdgfdhd.club^
 ||asean-india.org^
+||aserventures.com^
 ||asesoresdeproyectosytesis.com^
 ||asianmoulding.com^
 ||asiastarchsolutions.com^
 ||asinter.cl^
 ||askinbirkan.com^
 ||askulcorporation.tt.omtrdc.net/m2/askulcorporation/ubox/page?mbox=Lohaco_pc_yshppoint_redirect&amp;mboxDefault=https://urlz.fr/dzIN$all
-||askulcorporation.tt.omtrdc.net^
 ||askyounow.com/html/frame.php$all
 ||asoerxzs.000webhostapp.com^
 ||asp403r.paperless.com.pe^
@@ -1031,7 +1038,6 @@
 ||attmailupruge.weebly.com^
 ||attnett.yolasite.com^
 ||attserverupdate2020.weebly.com^
-||attt.alexandraheadland.com.au^
 ||attt.cemi.mx^
 ||atttttnet.weebly.com^
 ||attverificationofficeadmintenet.weebly.com^
@@ -1050,6 +1056,7 @@
 ||auth-chaseuserservice.ssmailer.com^
 ||auth-rbcsecurity.serveirc.com^
 ||authlogin-seryk.web.app^
+||authlogs-f818e.web.app^
 ||authorcheck.com^
 ||authoriseyouracc.000webhostapp.com^
 ||authsecure-unauthorized.com^
@@ -1069,6 +1076,7 @@
 ||autoscurt24.de^
 ||autosolehotels.com^
 ||autosrobadoschile.com^
+||autotesteu.com^
 ||autoverwertung-kauder.de^
 ||autre.biz^
 ||avadvertising.in^
@@ -1086,7 +1094,9 @@
 ||axtron.in^
 ||ayadialrahma.net^
 ||ayanie-ppe.com^
+||ayehikellznm.xyz^
 ||ayjegvgm.livedrive.com^
+||aykacinsaat.com.tr/fibank/EBank/$all
 ||azosimoveis.com^
 ||azreptile.com^
 ||aztravelo.com^
@@ -1130,6 +1140,7 @@
 ||bahisadam.net^
 ||bahisortamix.com/konu/marsbahisten-herkese-20-bonus.29292/$all
 ||bakerpatagonia.com^
+||bakker.be^
 ||balancasvilaarens.com.br^
 ||balconservice.ru^
 ||balex.cc^
@@ -1148,7 +1159,7 @@
 ||bancochile-personas-creditos.gq^
 ||bancodelanacionzonasegura1.com^
 ||bancoestado700.blogspot.com/$all
-||bancolombia-sucursalpersonas.com.co^
+||bancolombia-co.hopto.org^
 ||bancomercantil-org.haxsecurity.org^
 ||banconesecurity.com^
 ||bancosantander-apps.com^
@@ -1157,6 +1168,7 @@
 ||bank0famerica-on.webcindario.com^
 ||bankcampuscareers.tal.net^
 ||bankhpoailim.qafzaa.com^
+||bankieren-rabobank-nl.140409.prohoster.biz^
 ||bankloginonline.com^
 ||bankmaluku.co.id^
 ||bankofamerica-logins.dns05.com^
@@ -1216,6 +1228,7 @@
 ||bcpaws.beget.tech^
 ||bcpz0nasegurabeta.vipbcp.club^
 ||bcpz0nasegvrabeta.viabcp.c0m.calgaryhardwoodrefinishing.com^
+||bcpzonasegura74-beta-viabcp-com.000webhostapp.com^
 ||bcpzonasegurabeta-actualizaviabcp.coc-sap.com^
 ||bcpzonasegurabeta-viabcp-comperugana.cyou^
 ||bcpzonasegurabeta.viabcp.com.thephysiofix.com^
@@ -1226,6 +1239,7 @@
 ||bcpzonaseguraibetaviabcpe.com^
 ||bcpzonasegurasbeta-vlabcp.dns-cloud.net^
 ||bcpzonasegurasbetas-viabcp.b2gly.com^
+||bcpzonasegvro1-vialbcp1-com-pe.000webhostapp.com^
 ||bcxdsed.com^
 ||bd-times.com^
 ||bdkmakassar.net^
@@ -1248,8 +1262,6 @@
 ||beebo.co.in^
 ||beerfactoristanbul.com.tr^
 ||beesnaturals.com^
-||begona-martnez-j95vihmwh.vercel.app^
-||behmining.com/resources/update/nfx/$all
 ||belaircoltd.com^
 ||belfius-service.info^
 ||believemytravels.com^
@@ -1433,6 +1445,7 @@
 ||betebetgirisimiz.blogspot.com/$all
 ||beteebetgiris.blogspot.com$all
 ||beteebetgiris.blogspot.com/$all
+||bethlouella.com^
 ||betpergir4.blogspot.com$all
 ||betpergir4.blogspot.com/$all
 ||betpergiris3.blogspot.com$all
@@ -1481,6 +1494,7 @@
 ||binaryconsultltd.com^
 ||bintangsrrrcpblm.site^
 ||bio.akkerman.club^
+||bioathin.com^
 ||biobandit.com/yes/jk/$all
 ||biocleanecuador.com^
 ||bionet.nsc.ru^
@@ -1529,7 +1543,6 @@
 ||bit.ly/2ETX99T$all
 ||bit.ly/2OMJ4N6$all
 ||bit.ly/2OQ6dhZ$all
-||bit.ly/2PSlFL7$all
 ||bit.ly/2PnZVX1$all
 ||bit.ly/2SV5Ipf$all
 ||bit.ly/2XROPhI$all
@@ -1613,6 +1626,7 @@
 ||blue.engprod.consumer.fe-spectrum.net^
 ||bluecheckmarksupport.my.id^
 ||bluefish-digital.com^
+||blueion.com.au^
 ||blueozchile.cl^
 ||bluereparation.com^
 ||bluesynergy.me^
@@ -1628,6 +1642,7 @@
 ||boclog.com^
 ||boconceptla.com^
 ||bocquetjf.wixsite.com^
+||bodabom.com^
 ||bodegalatinacorp-my.sharepoint.com/:x:/r/personal/012dsd_fiestamart_com/_layouts/15/WopiFrame.aspx?guestaccesstoken=t3V5ldmmHrTLw5CYIoHlP9Z4YO7uFNRoP9j1PLYfDKM%3d&docid=1_1d89d259f7e704301aca26ac4dbabaa8d&wdFormId=%7BFEB771E5%2D93EE%2D4015%2D8E87%2DD1C30D0F406A%7D&action=formsubmit&cid=f609fe16-56c4-4e2b-a964-75e250d31c99$all
 ||bodegalatinacorp-my.sharepoint.com/personal/012dsd_fiestamart_com/_layouts/15/WopiFrame.aspx?guestaccesstoken=t3V5ldmmHrTLw5CYIoHlP9Z4YO7uFNRoP9j1PLYfDKM%3d&docid=1_1d89d259f7e704301aca26ac4dbabaa8d&wdFormId=%7BFEB771E5%2D93EE%2D4015%2D8E87%2DD1C30D0F406A%7D&action=formsubmit&cid=f609fe16-56c4-4e2b-a964-75e250d31c99$all
 ||bodegalatinacorp-my.sharepoint.com/personal/012dsd_fiestamart_com/_layouts/15/WopiFrame.aspx?guestaccesstoken=t3V5ldmmHrTLw5CYIoHlP9Z4YO7uFNRoP9j1PLYfDKM%3d&docid=1_1d89d259f7e704301aca26ac4dbabaa8d&wdFormId=%7BFEB771E5%2D93EE%2D4015%2D8E87%2DD1C30D0F406A%7D&action=formsubmit&cid=f609fe16-56c4-4e2b-a964-75e250d31c99/$all
@@ -1666,6 +1681,7 @@
 ||botandrealfollowers.000webhostapp.com^
 ||botaoff-cupom1203.com^
 ||botforbyks.blogspot.ru^
+||boutique.ferme-des-campagnes.com^
 ||bowmanconsultinggroup-my.sharepoint.com/:b:/g/personal/rbennett_bowmanconsulting_com/EVTdtEH1IU1LoyyBZJv-0lQBQthXG9De7FHgSMB0Uto5vw?e=4:PwCnqu&amp;at=9$all
 ||bowmanconsultinggroup-my.sharepoint.com/personal/rbennett_bowmanconsulting_com/_layouts/15/onedrive.aspx?id=/personal/rbennett_bowmanconsulting_com/Documents/Attachments/3/Parcel209_FUNDSREQUISITION(Rev).pdf&amp;parent=/personal/rbennett_bowmanconsulting_com/Documents/Attachments/3&amp;cid=821bbc7d-47b9-43c4-b158-eb4f8a6a6eb2$all
 ||bowmanconsultinggroup-my.sharepoint.com/personal/rbennett_bowmanconsulting_com/_layouts/15/onedrive.aspx?id=/personal/rbennett_bowmanconsulting_com/documents/attachments/3/parcel209_fundsrequisition(rev).pdf&amp;parent=/personal/rbennett_bowmanconsulting_com/documents/attachments/3&amp;originalpath=ahr0chm6ly9ib3dtyw5jb25zdwx0aw5nz3jvdxatbxkuc2hhcmvwb2ludc5jb20vomi6l2cvcgvyc29uywwvcmjlbm5ldhrfym93bwfuy29uc3vsdgluz19jb20vrvzuzhrfsdfjvtfmb3l5qlpkdi0wbffcuxrowec5rgu3rkhnu01cmfv0bzv2dz9ydgltzt1qve9itvhevtewzw$all
@@ -1689,7 +1705,6 @@
 ||braineyak.com^
 ||brainplow.com^
 ||brainsconsulting.ro^
-||brandotoday.com^
 ||brave-haibt-a1f1ea.netlify.app^
 ||bravobeveiliging-my.sharepoint.com/:o:/g/personal/r_bouman_bravobeveiliging_nl/EiAFjbDdqLtCmDXXRDBAJDsBhfR37KUsMUCacMgOxITRaA?e=DrnrdM$all
 ||bravobeveiliging-my.sharepoint.com/personal/r_bouman_bravobeveiliging_nl/_layouts/15/doc.aspx?sourcedoc={b08d0520-a8dd-42bb-9835-d7443040243b}&amp;action=default&amp;slrid=1bef3f9f-6078-2000-b22e-969d6b1087ac&amp;originalpath=ahr0chm6ly9icmf2b2jldmvpbglnaw5nlw15lnnoyxjlcg9pbnquy29tlzpvoi9nl3blcnnvbmfsl3jfym91bwfux2jyyxzvymv2zwlsawdpbmdfbmwvrwlbrmpirgrxthrdburywfjeqkfkrhncagzsmzdlvxnnvunhy01nt3hjvfjhqt9ydgltzt02wvjzd2hitdewzw&amp;cid=fa76d1ab-0178-4af6-9277-2f7cec72f87f$all
@@ -1717,6 +1732,7 @@
 ||brighant.com/1122?sec=LauraDanzeisen$all
 ||bright-moon.co.jp^
 ||brightdestructive.com^
+||brightonhomes.in^
 ||brishti.tweetw.com^
 ||brockstarapparel.com^
 ||brsbrosker.ml^
@@ -1725,6 +1741,7 @@
 ||bryanurbs.com^
 ||bsgstiklyigrskbbswjfqpmwrumrkswglrly-dot-gl494903049.wl.r.appspot.com/$all
 ||bsknz.ga^
+||bssbharat.org^
 ||bswcz903st.projects.webpages.one^
 ||bsysrwi.serviceorder.su^
 ||bt-lntraneti.com^
@@ -1798,7 +1815,7 @@
 ||ca.inc-gosnnama.xyz?e=TressaMcGinty@legalshieldcorp.com^
 ||ca.inc-gosnnama.xyz?e=clareMcCann@legalshieldcorp.co.uk^
 ||ca.inc-gosnnama.xyz?e=gemmahissey@legalshieldcorp.co.uk^
-||cache.nebula.phx3.secureserver.net^
+||cache.nebula.phx3.secureserver.net/obj/QkMyMThBNjg0RjJCRjg2Njc3OEM6YWY1ZDcwYjhhODdhZmQwZDgyZTdkOTUyMDlkY2YzODY6Ojo6/$all
 ||cadacosaalseulloc.cresidusvo.info^
 ||cafecitoperez.ivanidzakovic.com^
 ||cagm.in^
@@ -1824,6 +1841,7 @@
 ||cannabisindustryexpos.com^
 ||cannabispropertybrokers.com^
 ||cantarinobrasileiro.com.br^
+||canyon.me^
 ||capholeful1978.blogspot.be^
 ||capital-it.eu^
 ||capsblog.0fees.us^
@@ -1907,6 +1925,7 @@
 ||cedarsales-my.sharepoint.com/personal/leon_modinex_com_au/_layouts/15/WopiFrame.aspx?guestaccesstoken=fKdATYJtKv9HnhkyhGtjwpgqENNlUlKIqkewrNRJWGA%3d&docid=1_1eb7822f8cef04e93928700fa7a8e6082&wdFormId=%7B5C15727F%2D2DE9%2D4613%2DA64A%2DFDF91CC171C9%7D%2F&action=formsubmit$all
 ||cedarsales-my.sharepoint.com/personal/leon_modinex_com_au/_layouts/15/WopiFrame.aspx?guestaccesstoken=fKdATYJtKv9HnhkyhGtjwpgqENNlUlKIqkewrNRJWGA%3d&docid=1_1eb7822f8cef04e93928700fa7a8e6082&wdFormId=%7B5C15727F%2D2DE9%2D4613%2DA64A%2DFDF91CC171C9%7D&action=formsubmit$all
 ||cedarsales-my.sharepoint.com/personal/leon_modinex_com_au/_layouts/15/guestaccess.aspx?guestaccesstoken=fKdATYJtKv9HnhkyhGtjwpgqENNlUlKIqkewrNRJWGA%3d&docid=1_1eb7822f8cef04e93928700fa7a8e6082&wdFormId=%7B5C15727F%2D2DE9%2D4613%2DA64A%2DFDF91CC171C9%7D$all
+||cedricoworld.com^
 ||ceifeiros.org.br^
 ||ceithipormi.tk^
 ||cekilisciniz.net^
@@ -1926,6 +1945,7 @@
 ||celtabets2020.blogspot.com/$all
 ||cena.sn^
 ||cengelkoylife.com^
+||cenoa.com.ar^
 ||centec-am.com.br^
 ||centerai.vot.pl^
 ||centerfax.tk^
@@ -1946,6 +1966,7 @@
 ||cf50l.csb.app^
 ||cfe-recibos.com.mx^
 ||cfostrategiesllc-my.sharepoint.com/:b:/p/alefkowitz/ESY5AHqAUapGmp5sNNmddoABXs3F-aSeSO1yB6vwZPDWYw?e=L3eZ1r$all
+||cfp0pedfeuseroclien.ts.r.appspot.com/$all
 ||cfremaux60.free.fr^
 ||cg-oe.snprobbx.pbz.r.de.a2ip.ru^
 ||ch.net2care.com^
@@ -1960,6 +1981,7 @@
 ||changing-downgrade.000webhostapp.com^
 ||chantale.e-monsite.com^
 ||chantelray-my.sharepoint.com/:x:/r/personal/tracy_pudder_chantelray_com/_layouts/15/WopiFrame.aspx?guestaccesstoken=bqnTsiLq1c9k43eo9weuF6YL%2ftssKkuTmFVfCnmZkOo%3d&amp;docid=1_172c665e0c6c9451f82f287aab0f71d3c&amp;wdFormId=%7B9AB41D91%2D5BCF%2D4FB0%2D8F7F%2D3CE486948C79%7D&amp;action=formsubmit$all
+||chargerbeetroots.com^
 ||charlydejadefumar.com^
 ||charytatywni.allegro.secfence.lesavik.net^
 ||chase-onlinesupport.cloudns.cl^
@@ -2015,7 +2037,6 @@
 ||chinadryer.cn^
 ||chinajinfang.com^
 ||chinalawlist.com/images/modules/css/Netframe/f27ff25816c02b37a4d87c0fd5e22c97/login1.php$all
-||chingowashers.gq^
 ||chitnchaat.com/wp-admin/images/yes/$all
 ||chivalric-contraban.000webhostapp.com^
 ||chivasgrillconcepcion.cl^
@@ -2029,6 +2050,7 @@
 ||chrischan.net^
 ||christinacreates.com^
 ||christmas-around-the-world.org^
+||chronicle.co.kr^
 ||chronopost-france-livreur.westus.cloudapp.azure.com^
 ||chronopostfrlivraison8.blogspot.com/2020/07/repondrechronopost.html$all
 ||chserviceemployeedesk.moonfruit.com/$all
@@ -2168,7 +2190,7 @@
 ||columbiaps-my.sharepoint.com/:x:/r/personal/agerzen_cpsk12_org/_layouts/15/WopiFrame.aspx?guestaccesstoken=usNbE6yBJHo9h25fK68jTyI54oK8%2b9ELlr1aq%2fst9K8%3d&docid=1_1b3a9c7812c9d4683b1b5cc7fc8ae677d&wdFormId=%7BF32B5748%2D8761%2D4D74%2DB73E%2D295011A92875%7D&action=formsubmit&cid=84c7b00e-fca9-46c9-b4f6-6c3148ca22a4$all
 ||columbiaps-my.sharepoint.com/personal/agerzen_cpsk12_org/_layouts/15/WopiFrame.aspx?guestaccesstoken=usNbE6yBJHo9h25fK68jTyI54oK8%2b9ELlr1aq%2fst9K8%3d&docid=1_1b3a9c7812c9d4683b1b5cc7fc8ae677d&wdFormId=%7BF32B5748%2D8761%2D4D74%2DB73E%2D295011A92875%7D&action=formsubmit&cid=84c7b00e-f$all
 ||columbiaps-my.sharepoint.com/personal/agerzen_cpsk12_org/_layouts/15/WopiFrame.aspx?guestaccesstoken=usNbE6yBJHo9h25fK68jTyI54oK8%2b9ELlr1aq%2fst9K8%3d&docid=1_1b3a9c7812c9d4683b1b5cc7fc8ae677d&wdFormId=%7BF32B5748%2D8761%2D4D74%2DB73E%2D295011A92875%7D&action=formsubmit&cid=84c7b00e-fca9-46c9-b4f6-6c3148ca22a4$all
-||columbus.shortest-route.com^
+||columbus.shortest-route.com/cignaprd/home/login.jsp$all
 ||com-as.ru^
 ||com-en.ru^
 ||combioticglobal.com^
@@ -2193,7 +2215,6 @@
 ||commerce.proeassist.com/nit?mn=Z31wlWpkb2KclYGnlnFmaIh7YKCDomZjb2KjY31y/michael.jansen@versandhausberater.de$all
 ||commerce.proeassist.com/nit?mn=Z31wlWpkb2KclYGnlnFmaIh7YKCDomZjb2KjY31y/tczifery@epicor.com$all
 ||commerce.proeassist.com/tjj?no=Z31wlWpkb2KclYGnlnFmaIh7YKCDomZjbmKjY31y/eat-office@eat-finecatering.de$all
-||commerce.proeassist.com/tjj?no=Z31wlWpkb2KclYGnlnFmaIh7YKCDomZjbmKjY31y/franz.bachl@whiskyworld.de$all
 ||commerce.proeassist.com/tjj?no=Z31wlWpkb2KclYGnlnFmaIh7YKCDomZjbmKjY31y/hisham.ezzalarab%40cibeg.com$all
 ||commerce.proeassist.com/tjj?no=Z31wlWpkb2KclYGnlnFmaIh7YKCDomZjbmKjY31y/hisham.ezzalarab@cibeg.com$all
 ||commercialinvestingcenter.com^
@@ -2221,7 +2242,7 @@
 ||con-firma.firebaseapp.com^
 ||conceivable-freedom.000webhostapp.com^
 ||condos-at-the-beach.com^
-||conexiondevida.com^
+||confirmationimpots.ddns.net^
 ||confirmdados.com^
 ||congressoagrotec.com.br^
 ||connect365i.ue.r.appspot.com/$all
@@ -2240,7 +2261,7 @@
 ||contactsupportgroup.com/att-email-support/$all
 ||contarv.creatorlink.net^
 ||contatoitib2.com^
-||continueto.fromjpamazon.icu^
+||contourelectrical.com.au^
 ||control.pw^
 ||controllo-it-sms.com^
 ||conversionseo.co^
@@ -2252,6 +2273,7 @@
 ||coolspeakers.eu^
 ||coperbyte.co.in^
 ||copinyasociados.com.mx^
+||copium.org^
 ||copula.in^
 ||copyright-form.com^
 ||copyrightcenter.0fees.us^
@@ -2263,6 +2285,7 @@
 ||corinneca.moonfruit.com/$all
 ||cornia.in^
 ||corpinsta.000webhostapp.com^
+||corporacionmachuan.com^
 ||corporacionplaneta.com^
 ||corpulent-correlati.000webhostapp.com^
 ||correoweu.internetbasedfamily.com^
@@ -2280,6 +2303,7 @@
 ||courgeon-immobilier.fr^
 ||covid-19challengecoin.com^
 ||covidmask24.com^
+||covidseasonsloafbed.com^
 ||covismedical.com^
 ||coworkanytime.com^
 ||cp0c7pc.du.r.appspot.com/$all
@@ -2293,6 +2317,7 @@
 ||cp0c7pc.du.r.appspot.com/jim@thejimburkefamily.com$all
 ||cp0c7pc.du.r.appspot.com/linkedrecruiter.html$all
 ||cp0c7pc.du.r.appspot.com/wp-content$all
+||cpanelpourcontinuerhqnfghjkackmailercom.000webhostapp.com^
 ||cpc.cx^
 ||cpccivils-my.sharepoint.com/:b:/g/personal/jim_walton_cpccivils_net/EaWedjO-NQlIt4Jt8KpAYtABxT_tI6lHWiMCSlkspJfrlQ?e=I6RRui$all
 ||cporiente.cl^
@@ -2366,6 +2391,7 @@
 ||cu8.in^
 ||cuadi.com.mx^
 ||culottes.premiumbrandd.com^
+||culturework.ie^
 ||cuntabuse.za.net^
 ||cuny620-my.sharepoint.com/:x:/r/personal/katie_higgins10_myhunter_cuny_edu/_layouts/15/WopiFrame.aspx?guestaccesstoken=X3SH4RrHFwiW8xU7klXKFkCJMAbW3tF1T9ZSF0iH3WU%3d&docid=1_1712dfa7447ed4258967f98253eab9afe&wdFormId=%7B31B100CB%2DB37A%2D4782%2D93CA%2D6E1136741ED8%7D&action=formsubmit$all
 ||cuny620-my.sharepoint.com/personal/katie_higgins10_myhunter_cuny_edu/_layouts/15/WopiFrame.aspx?guestaccesstoken=X3SH4RrHFwiW8xU7klXKFkCJMAbW3tF1T9ZSF0iH3WU%3d&docid=1_1712dfa7447ed4258967f98253eab9afe&wdFormId=%7B31B100CB%2DB37A%2D4782%2D93CA%2D6E1136741ED8%7D&action=formsubmit&cid=d040c867-57be-47ca-a00d-7eee6d619875$all
@@ -2376,13 +2402,11 @@
 ||cursoemdr.com^
 ||cursos.ibmec.br^
 ||cursosmaquiagem.com^
-||customboxprinting.com^
 ||custombrand.com.pk^
 ||custombusinessresults.com^
 ||customelectronicsco.com^
 ||customer-ebay.com^
 ||customerhelponline.000webhostapp.com^
-||customerservicesupport.my-free.website^
 ||customersupportdesks.com^
 ||customtllc.com^
 ||cutekasia.com^
@@ -2391,7 +2415,6 @@
 ||cutt.ly/WdEjmec$all
 ||cutt.ly/actualizarbcp$all
 ||cutt.ly/ldTGuAB$all
-||cutt.ly/tsqb6ai?/secure.php$all
 ||cutt.us/MSf1O?Page-Support$all
 ||cvbccxve.website^
 ||cvpvirsdkxvgubcynubsurkhdeiaqqtfiifd-dot-gl494903049.wl.r.appspot.com/$all
@@ -2439,7 +2462,6 @@
 ||dag-mot-lan.firebaseapp.com^
 ||dahwaaboutique.fr^
 ||dailyairlogs.com^
-||dailydeals.today/santander/$all
 ||dailyexclusiveoffer.com^
 ||dailyshops.co.in^
 ||daisyloke.eu^
@@ -2463,6 +2485,7 @@
 ||dasagrotech.com^
 ||dashtonwat.com/produto.php?sku=2929132&amp;fbclid=IwAR1NWsULqJwKsc38UhhHVEVsCIUa_tYlTzQlw1fFXk2T1_7lK1SalvBxJzY$all
 ||daskammbank.com^
+||dat-25.com^
 ||data.cloudsave247.com^
 ||data.travelzoo.com/e/index.ashx?tid=639&t=4&m=117236090&b=2879562&c=/hotelbanner/&clicktype=1&l=https://s6iwsmpxzc.firebaseapp.com?$all
 ||dataforce.co.uk^
@@ -2486,6 +2509,7 @@
 ||dc-63ec171c01e5.yandex-delivery24.ru^
 ||dcdc.com.ph^
 ||dcmufgcard.com^
+||dctech.com.br^
 ||ddfbvgazrhhmrzjqdpywnsmfqinnvgehexvo-dot-gl494903049.wl.r.appspot.com/$all
 ||ddgelengenharia.com.br^
 ||ddnnews.in^
@@ -2522,6 +2546,7 @@
 ||dedalesdeana.com^
 ||deep-edible-oils.000webhostapp.com^
 ||deepvenom.000webhostapp.com^
+||defeatcheap.com^
 ||defendblog.com^
 ||delezhen.mashalezhen.com^
 ||delicioushabitat.com/mnakind/042017/vip163/$all
@@ -2556,6 +2581,7 @@
 ||designermall.ru^
 ||designferreira.com.br^
 ||designfitters.com^
+||designlocus.co.uk^
 ||destaque-dos-amoresvip.com?enc=722157352&amp;fbclid=IwAR13Vw3l7vyDIn_0TprLqY9JgqvcDzgNAKAFP__PP9t4QlKLd8cqwGvSDqs^
 ||destaque-dos-amoresvip.com^
 ||destaques-offer1.com^
@@ -2575,6 +2601,7 @@
 ||device-gived.xyz^
 ||device1event.com$all
 ||device1event.com/$all
+||devikasdiet.com/frank/donald$all
 ||devikasdiet.com/frank/donald/$all
 ||devops.com.vn^
 ||dexamfetamine.eu^
@@ -2616,9 +2643,11 @@
 ||digitalbccr.com^
 ||digitalflashbacks.ca^
 ||digitalmillionaires.com^
+||digitalshopyz.com^
 ||digitaltaxmatters.co.uk^
+||digitaltechyguru.com^
 ||digitalwoodproducts.com^
-||dijari.com^
+||digitnum.ci^
 ||dimakisjewelry.com^
 ||dimasrv.com^
 ||dimolo.activehosted.com^
@@ -2645,7 +2674,6 @@
 ||disq.us/?url=https%3A%2F%2Fwww.gepard.ru%2Flogin%2Faccount%2F&key=JgDq7zS0rAtd6srC39cdig$all
 ||dissilient-knowledg.000webhostapp.com^
 ||distinctfreight.co.zw/fgjj/PDFFILE/$all
-||distressbuoyant.com/more$all
 ||distressbuoyant.com/more/$all
 ||distressbuoyant.com/more/mobile/surf3.php$all
 ||distressbuoyant.com/more/view/login.php?userid=$all
@@ -2674,6 +2702,7 @@
 ||dnzapdfegsahcbdnyysfnlkbqjietjzhykkk-dot-gl494903049.wl.r.appspot.com/$all
 ||doapositioning.com^
 ||doc.google.share.pressurecookerindia.com^
+||doc76-obje-galileo-fd022b.netlify.app^
 ||docerom.ro^
 ||docment-dot-trusty-sentinel-284111.ey.r.appspot.com$all
 ||docs.envytheme.com^
@@ -2872,6 +2901,7 @@
 ||docs.google.com/forms/d/e/1FAIpQLSduyjdUyNN1pYN6uouzxS00zaO-L_E-XxZXpl0aaALGVILSeQ/viewform?usp=send_form$all
 ||docs.google.com/forms/d/e/1FAIpQLSdvzXGPSf_8EXmEqn7uUGQYotvRs_miFTjoXtEgIVlSPtVjtA/viewform$all
 ||docs.google.com/forms/d/e/1FAIpQLSdw7WWLMe5NBmdW5bohTmHDl3Uyh4bKaoCq0P7I7wbcuSoWeg/viewform$all
+||docs.google.com/forms/d/e/1FAIpQLSdy15kafibOv_SNpwx8GJxRl2q3KZm-PwFoT3Gc94lNBsXVHA/viewform$all
 ||docs.google.com/forms/d/e/1FAIpQLSdz7GphGIQcvQMzEodzFj14yuuP-yNxTG31PSFWwfuUctgGCw/viewform?usp=sf_link$all
 ||docs.google.com/forms/d/e/1FAIpQLSdz7GphGIQcvQMzEodzFj14yuuP-yNxTG31PSFWwfuUctgGCw/viewform?usp=sf_link%3E/$all
 ||docs.google.com/forms/d/e/1FAIpQLSe0EVZCYYtVTz1GNve2OhV3Z1GSvUPuHaQBANLhkKFACN10Bw/viewform?usp=sf_link/$all
@@ -3097,8 +3127,6 @@
 ||docusignsecuredocuadmin.weebly.com^
 ||dofus-cuenta.com^
 ||dogo-lema.firebaseapp.com^
-||dohas.com.my^
-||dokivsem.com^
 ||dokyit.000webhostapp.com^
 ||doldabang.com^
 ||dolperty.cloudns.cl^
@@ -3106,20 +3134,20 @@
 ||domesticroadcarriers.com^
 ||domtkaney.by^
 ||domuterra.ch^
+||donack4444-001-site1.gtempurl.com^
 ||donagt.com/abc/0nfile/0nfile/oneddrive/login-option.php?cmd=login_submit&amp;id=471eb965b9aaa71d1b111ab2adc4ce6e471eb965b9aaa71d1b111ab2adc4ce6e&amp;session=471eb965b9aaa71d1b111ab2adc4ce6e471eb965b9aaa71d1b111ab2adc4ce6e$all
 ||donald-repare.droppages.com^
 ||donghuong.uk^
 ||dongsters.com^
 ||donieyuhuu05.getenjoyment.net^
 ||dop5.hyperphp.com^
+||doqan.de^
 ||dorahospitality-my.sharepoint.com/:x:/g/personal/lsmoot_dorahg_com/Eb3Q7r0DmCVDq1XgI8SbpdkB3r_cGgQTU904TXY1s9OgiQ?rtime=1MX6jz_410g$all
 ||dortchandassociates.com^
 ||dostavkacvetovkievzakazatonlajn.cheap^
 ||dota-hook.com^
-||dota2-gold.top^
 ||dota2ez.top^
 ||dota2og.top^
-||dotaf12966.wixsite.com^
 ||dotdre.com^
 ||dotilo.com^
 ||dousisenterprises.co.ke^
@@ -3270,7 +3298,6 @@
 ||ebay.co.uk.2912168371646.bid^
 ||ebay.co.uk.rovera.uk^
 ||ebay.com-item-mobile-food-cart-trailer.service.ey-product.com/$all
-||ebay.con-itm.37i45r36e2.xyz^
 ||ebay.de-p-102817401-iid-103817201.unaux.com^
 ||ebay.de-p-19270194-iid-273802710714.unaux.com^
 ||ebay.de-sch-angebote-wurden-beendet-de-eb.zacinishop.com^
@@ -3305,6 +3332,7 @@
 ||ecusltd-my.sharepoint.com/:x:/r/personal/angela_ure_ecusltd_co_uk/_layouts/15/WopiFrame.aspx?guestaccesstoken=umwOSbgUHWAQIc3hhtqfLy7ZjwF8OGGrCn6d%2bgGOhoc%3d&docid=1_1956f6e254d71417a89981b2a1c8d0a99&wdFormId=%7BE61CA4F5-C461-425A-A52E-4598E7B699E5%7D&action=formsubmit&cid=4ab9a2a7-7cf4-43ae-8149-ffead8d66e7b$all
 ||ecusltd-my.sharepoint.com/personal/angela_ure_ecusltd_co_uk/_layouts/15/WopiFrame.aspx?guestaccesstoken=umwOSbgUHWAQIc3hhtqfLy7ZjwF8OGGrCn6d%2bgGOhoc%3d&docid=1_1956f6e254d71417a89981b2a1c8d0a99&wdFormId=%7BE61CA4F5-C461-425A-A52E-4598E7B699E5%7D&action=formsubmit&cid=4ab9a2a7-7cf4-43ae-8149-ffead8d66e7b$all
 ||eddic-experience.000webhostapp.com^
+||edecorhome.com^
 ||edenmountaintop.com^
 ||edoism.com^
 ||edu-canet2.web.app^
@@ -3314,15 +3342,15 @@
 ||edujio.com^
 ||edulindberghschools-my.sharepoint.com/personal/20jessicamiller_lindberghschools_ws/_layouts/15/WopiFrame.aspx?guestaccesstoken=Jv9WbvF6jFQMu%2bPjY3c%2bJ7gD%2bvswNc1xz8O9BkuLrKM%3d&docid=1_124e7318433ca471780ebffb8ed3119fb&wdFormId=%7BFBF01B7F%2DC381%2D45E7%2DAA1A%2D86EB8E279071%7D%2F&action=formsubmit$all
 ||ee-account-recovery.000webhostapp.com^
-||ee-accountbilling.co.uk^
 ||ee-activity.com^
 ||ee-bill-uk.com^
+||ee-billing-alerts.com^
 ||ee-billing.uk^
 ||ee-billingalerts.com^
 ||ee-customer-details.000webhostapp.com^
-||ee-error.com^
 ||ee-limited.com^
 ||ee-myaccountbilling.co.uk^
+||ee-mycontactinfo.co.uk^
 ||ee-secure-account.com/login/$all
 ||ee-signin.com^
 ||ee-uk1.com^
@@ -3358,6 +3386,7 @@
 ||elanlimitedgurgaon.com^
 ||elastic-poincare-1fdcbc.netlify.app^
 ||elbowarea.com^
+||elcafe.co^
 ||elccircuit.com/wp-content/themes/twentynineteen/fonts/verify/ourtime/ourtime123/ourtime.php$all
 ||elearn.mgacademy.co.in^
 ||elearningytecnologia.com^
@@ -3401,6 +3430,7 @@
 ||eliotecae-my.sharepoint.com/personal/subind_eliotec_ae/_layouts/15/WopiFrame.aspx?guestaccesstoken=R0CwyxEzu0u4QskHqLg4IUppG/8kb5p%20BD26C7pm5mg=&amp;docid=1_10a004d72e6c74e5da1a88324055cba4f&amp;wdFormId={0457694D-EA64-4327-9A31-BCE69CAE1542}&amp;action=formsubmit&amp;cid=88eeca03-d4ac-4558-b97e-18a02dae5070$all
 ||eliotecae-my.sharepoint.com/personal/subind_eliotec_ae/_layouts/15/WopiFrame.aspx?guestaccesstoken=R0CwyxEzu0u4QskHqLg4IUppG/8kb5p%20BD26C7pm5mg=&amp;docid=1_10a004d72e6c74e5da1a88324055cba4f&amp;wdFormId={0457694D-EA64-4327-9A31-BCE69CAE1542}&amp;action=formsubmit&amp;cid=a282247b-742d-4691-a4d3-5c6a72070c7c$all
 ||eliotecae-my.sharepoint.com/personal/subind_eliotec_ae/_layouts/15/WopiFrame.aspx?guestaccesstoken=R0CwyxEzu0u4QskHqLg4IUppG/8kb5p%20BD26C7pm5mg=&amp;docid=1_10a004d72e6c74e5da1a88324055cba4f&amp;wdFormId={0457694D-EA64-4327-9A31-BCE69CAE1542}&amp;action=formsubmit&amp;cid=c90d1e34-23da-45a1-b4ba-84881dbfeb13$all
+||elitesounds.com.au^
 ||eliteyouthtour.com^
 ||elivant.com/039242398356$all
 ||elivant.com/039242398356/$all
@@ -3431,7 +3461,6 @@
 ||emiemz.com^
 ||emigratingtothesun.com/we/trans/fer/?email=info@century21diamant.com$all
 ||emigratingtothesun.com^
-||emilyeggebraatenphotography.com^
 ||emissionstipend.com^
 ||emobile.bookit.net^
 ||emojidictionary75d139b8243558347d778dafc4b938fe.dns-cloud.net^
@@ -3443,10 +3472,8 @@
 ||en.baikal-planet.ru^
 ||en.polarklima.hu^
 ||enable-pages-certificated-valid-manager-advanced-000012.tk^
-||enable-pages-certificated-valid-manager-advanced-000013.tk^
-||enable-pages-certificated-valid-manager-advanced-000031.tk^
 ||enable-pages-certificated-valid-manager-advanced-000032.tk^
-||enable-pages-certificated-valid-manager-advanced-000033.tk^
+||enarriendo.co^
 ||encarnacionhurtado.com^
 ||encryptdrive.booogle.net^
 ||encuestafinaltrabajo.000webhostapp.com^
@@ -3468,7 +3495,6 @@
 ||enricocaproni.it^
 ||ensemblearsmundi.com^
 ||enternetnow.com^
-||entromizer.com^
 ||envirodrilling.com^
 ||eostechnologies.net^
 ||epgpianos.com.au^
@@ -3486,6 +3512,7 @@
 ||equinsight.com/templates/atomic/_support.php/?1c$all
 ||erasmus-besancon.com^
 ||erh-consulting.com^
+||ericoco.000webhostapp.com^
 ||erotic.za.net^
 ||erp.dadagroup.org^
 ||errictandalex.kenaidanceta.com^
@@ -3497,7 +3524,10 @@
 ||ersfilter-my.sharepoint.com/personal/nradonich_ersfilter_com/_layouts/15/guestaccess.aspx?guestaccesstoken=6yWMLBQi9%20SJfgzhADHvte2gYoWjf83IQBjRjehiK4s=&amp;docid=1_135f7008dfbfa44e6b09dab0eb165b997&amp;wdFormId={E037F2D9-5DAA-4916-BA03-EB11D0AA6DEA}$all
 ||ersfilter-my.sharepoint.com/personal/nradonich_ersfilter_com/_layouts/15/guestaccess.aspx?guestaccesstoken=6yWMLBQi9%2bSJfgzhADHvte2gYoWjf83IQBjRjehiK4s%3d&docid=1_135f7008dfbfa44e6b09dab0eb165b997&wdFormId=%7BE037F2D9%2D5DAA%2D4916%2DBA03%2DEB11D0AA6DEA%7D$all
 ||ert.earthresourcetechnology.com^
+||ertu.streamlink.to^
+||eruditetechnologies.com^
 ||es.monclershop.top^
+||esadar.com^
 ||escuelanormalbenvver.000webhostapp.com^
 ||eset-store.gr^
 ||esg.4e887.com^
@@ -3524,7 +3554,6 @@
 ||estiklal.com^
 ||estuar.org/att/at.html$all
 ||estudiomaskin.com^
-||et.thcscapes.com^
 ||et.yourintentionisyourreality.com^
 ||etacticos.com/wp-content/plugins/loginpage/insertive$all
 ||etecindsvc.com^
@@ -3541,7 +3570,6 @@
 ||etvmedia.pl^
 ||eu-amazon-creturns.com/ap/forgotpassword?clientContext=FCCustomerReturns.Authenticate&showRememberMe=true&openid.identity=http://specs.openid.net/auth/2.0/identifier_select&marketPlaceId=A1P8O8ON3CCPHC&pageId=FCCustomerReturns&openid.return_to=https://www.eu-amazon-creturns.com/prepClassification/new&prevRID=5S8W38YD8DV6X4AZ388X&openid.assoc_handle=amzn_returns_eu&openid.mode=checkid_setup&prepopulatedLoginId=&failedSignInCount=0&openid.claimed_id=http://specs.openid.net/auth/2.0/identifier_select&openid.ns=http://specs.openid.net/auth/2.0&suppressSignInRadioButtons=1$all
 ||eu.stanesvisitorcentre.xyz^
-||euonmulou.xyz^
 ||eurdebkhsrogqmkpedxqlbjgyfikicaqwecs-dot-gl494903049.wl.r.appspot.com/$all
 ||eurodisposables-my.sharepoint.com/personal/david_s_e-disposables_co_uk/_layouts/15/guestaccess.aspx?guestaccesstoken=OG5QEnRvNteMw7VoD%2fJhrCVt0cLrPfHDHd6QH2QUZss%3d&amp;docid=1_1243946cf30114430a5f51a0bac2deeb6&amp;wdFormId=%7B127AF870%2D31FB%2D4E27%2DB117%2D27F6BABBBC55%7D$all
 ||euroguma.rs^
@@ -3576,7 +3604,6 @@
 ||excalmore-8888.000webhostapp.com^
 ||excavationguay.com^
 ||exchangedictionary.com^
-||exito-co.myshopify.com^
 ||exodus-staking.web.app^
 ||exodus.mcdir.ru^
 ||expeditions-of-e.com^
@@ -3623,11 +3650,11 @@
 ||facbooksupp0rt.000webhostapp.com^
 ||faccebbook.0fees.us^
 ||face1122998866.000webhostapp.com^
+||faceasdasdasd.000webhostapp.com^
+||faceb-authenticat.000webhostapp.com^
 ||faceb00k2125.000webhostapp.com^
 ||faceb00kchrissoifervideo.000webhostapp.com^
-||faceb00kfriendswithbenefitsgroupfb.000webhostapp.com^
 ||faceb00kkepo.000webhostapp.com^
-||faceb00kpagina.000webhostapp.com^
 ||faceb00kpostid906828.000webhostapp.com^
 ||faceb0k1.0fees.us^
 ||faceb0ok-authenticate.000webhostapp.com^
@@ -3649,6 +3676,8 @@
 ||facebook.anasaounalsoud.eu^
 ||facebook.com-marketplace-93839.mediaryte.co^
 ||facebook.com-marketplace-item-835489753.confirmposts.com^
+||facebook.com.hybridteletech.com^
+||facebook.com.lifeafterforty.org^
 ||facebook.com.secured.acess.adnankhattak.com.au^
 ||facebook.com.twostartraders.com.np^
 ||facebook.dmvrealtyinvestments.com^
@@ -3671,6 +3700,7 @@
 ||facebukads.000webhostapp.com^
 ||facecovid.000webhostapp.com^
 ||facedekarikatur.0fees.us^
+||facedook-secure.000webhostapp.com^
 ||facefook.0fees.us^
 ||faceidentify.000webhostapp.com^
 ||facelookcomvideos1997.000webhostapp.com^
@@ -3755,6 +3785,7 @@
 ||fb-recovery-1000004573104-eu.tk^
 ||fb-recovery-1000004573105-eu.tk^
 ||fb-tbac.000webhostapp.com^
+||fb.saddleupforstjude.com^
 ||fb0-authenticate.000webhostapp.com^
 ||fb124.000webhostapp.com^
 ||fb327-items-market46.farmerscentre.com.ng^
@@ -3803,8 +3834,6 @@
 ||feceboolk.blogspot.com/$all
 ||feciusa-my.sharepoint.com/:b:/g/personal/bwhite_feci-usa_com/EXF4drujP9hFkaRikIbTyz8BenxKv2kqD_yHVRvLJoLBjQ?e=4%3auL4G4J&at=9$all
 ||federalidentity-my.sharepoint.com/personal/ebellan_federalidentity_com/_layouts/15/guestaccess.aspx?guestaccesstoken=1XCB0diATofV%2fGR5mww7d1BVOIXboRYr2afSDyMlV9o%3d&amp;docid=1_1aff98d5f39a24cb492acb9f525098765&amp;wdFormId=%7BDC5C03C6%2D11D2%2D4463%2DB982%2D1ADBFC06BB92%7D$all
-||federicq.cf^
-||fedexs.net^
 ||feeds.feedburner.com/investorway$all
 ||feelio.cc^
 ||feis-ruralvia-caja.com^
@@ -3828,6 +3857,8 @@
 ||ffb-ffb.000webhostapp.com^
 ||ffdffafyauserowa.dt.r.appspot.com/$all
 ||ffdffafyauserowa.dt.r.appspot.com/%23x.y@vodafone.com$all
+||ffdffafyauserowa.dt.r.appspot.com/&reason=0$all
+||ffraye.tk^
 ||ffraym.tk^
 ||ffrayo.tk^
 ||fgtss2020.com^
@@ -3848,6 +3879,7 @@
 ||filetransfer.io/data-package/J1D4h9C3$all
 ||filetransfer.io/data-package/J1D4h9C3/gnegc$all
 ||filltechusacom-my.sharepoint.com/personal/priscilla_filltechusa_com/_layouts/15/guestaccess.aspx?guestaccesstoken=Fh83Wj2ae9Ca1N8bwvqQoGNjNuBTSlKogk8rCJoghTU%3d&amp;docid=1_10ad4ada2d99b45ac84d0984a4d125902&amp;wdFormId=%7B7C5CB0FF%2D72E5%2D4BF8%2D85B9%2DF7987E52489E%7D$all
+||filmgue.club^
 ||finalencuestaproyect.000webhostapp.com^
 ||financiallifecoaching.builderallwp.com^
 ||financialone.com.hk^
@@ -3865,12 +3897,12 @@
 ||firebasestorage.googleapis.com/v0/b/apps-mic365office059854356.appspot.com/o/index.html?alt=media&token=c93b9d68-1661-4e55-b1a1-f21646e1d8b8#andreas@muehlemann.net$all
 ||firebasestorage.googleapis.com/v0/b/awele-5ebd4.appspot.com/o/azure%2F%23%24%24%24%24!%40%23%24%25%5E%26(%25%24%23%26%23%40.html?alt=media&amp;token=35f1bd29-f57d-4c1b-a975-daa48ba55311#nboccia@lemay.com$all
 ||firebasestorage.googleapis.com/v0/b/boss-fb820.appspot.com/o/yolo.html?alt=media&token=f570e6f7-0ee9-4043-a263-df5046e22492&email=darlenefawcett@prepaidlegal.com&domain=prepaidlegal.com$all
-||firebasestorage.googleapis.com/v0/b/boss-fb820.appspot.com/o/yolo.html?alt=media&token=f570e6f7-0ee9-4043-a263-df5046e22492&email=djdallas@prepaidlegal.com&domain=prepaidlegal.com$all
 ||firebasestorage.googleapis.com/v0/b/brop-590e1.appspot.com/o/owa.html?alt=media&token=e7f2cd41-d856-4237-8df9-408d67342fda$all
 ||firebasestorage.googleapis.com/v0/b/buike-43323.appspot.com/o/ind.htm?alt=media&amp;token=6517a889-3e18-47a9-b4bc-16d0a9016423#contact@blackchristianpeoplemeet.com$all
 ||firebasestorage.googleapis.com/v0/b/darn-e2353.appspot.com/o/r89.htm?alt=media&token=3f13fe5f-dea3-4d70-9702-5a70d4432caf$all
 ||firebasestorage.googleapis.com/v0/b/daz1-bbbf3.appspot.com/o/daa1.htm?alt=media&amp;token=3ca285dd-ca0d-4036-b5f0-3be866f611f3#ccrc@prepaidlegal.com$all
 ||firebasestorage.googleapis.com/v0/b/daz1-bbbf3.appspot.com/o/daa1.htm?alt=media&token=3ca285dd-ca0d-4036-b5f0-3be866f611f3$all
+||firebasestorage.googleapis.com/v0/b/denhujutytyuiy.appspot.com/o/wekfrfykfa%2Fwethfer.html?alt=media&token=22de7121-7c64-4d64-b3d1-da3fe3e3ec1a$all
 ||firebasestorage.googleapis.com/v0/b/dexx-efb26.appspot.com/o/daa.htm?alt=media&token=94e4b25f-27ab-4bd4-947d-a0ab373ea945$all
 ||firebasestorage.googleapis.com/v0/b/document-a419a.appspot.com/o/webmail_net_login.html?alt=media&token=402b04e3-acb8-48dc-8c86-d3a8b366a284#USER@DOMAIN.ch$all
 ||firebasestorage.googleapis.com/v0/b/doro-3d58f.appspot.com/o/webmail_login.html?alt=media&amp;token=eec2b3ac-6bf4-4301-918b-e585016fb00c#info@ro-groep.nl$all
@@ -3951,7 +3983,6 @@
 ||firebasestorage.googleapis.com/v0/b/vgty56e4sexdfgy6yhj.appspot.com/o/7%20r6%20viy%3Dg97%2Fgh%2087%20go%3Dg.html?alt=media&amp;token=68ec8a71-d840-4d58-945d-a9f594598d82$all
 ||firebasestorage.googleapis.com/v0/b/walletphraserecovery.appspot.com/o/Blockchain.html?alt=media&amp;token=6631e61b-d5a2-4e33-b47b-26c3b278c6f3$all
 ||firebasestorage.googleapis.com/v0/b/webmailuser6744769.appspot.com/o/index.html?alt=media&amp;token=9e213041-4a81-4154-a099-6720e5d5a7fd#rlawrence@kikcorp.com$all
-||firebasestorage.googleapis.com/v0/b/wisd-692e4.appspot.com/o/yolo.html?alt=media&amp;token=4a8defef-1b00-4950-9218-6a4950ba5065&amp;email=davidfeng@toptechmachine.cn&amp;domain=toptechmachine.cn WebApp**$all
 ||firebasestorage.googleapis.com/v0/b/woodtoday-ae8d3.appspot.com/o/index.html?alt=media&amp;token=539c3dcb-a9a4-462d-aae2-88fd6f76527e#$all
 ||firebasestorage.googleapis.com/v0/b/xxzs-e0cec.appspot.com/o/mmx%2Fyolo.html?alt=media&token=f9069d0c-aad6-457e-a7d5-66a911328f90&email=email@ddr.ess&domain=email@ddr.ess%20WebApp**$all
 ||firedon.co.uk^
@@ -3971,6 +4002,7 @@
 ||fjoingrub-xxx.itsaol.com^
 ||fk-engineering.com^
 ||flame-burger.com^
+||flankinglib.net^
 ||flavena.co.rs^
 ||fleckyfleck.com^
 ||fleeciest-taxes.000webhostapp.com^
@@ -4006,6 +4038,7 @@
 ||forgetive-liquors.000webhostapp.com^
 ||form-caisse-primaire-assure-cpam-cgibin.vercel.app^
 ||form.elementform.com^
+||form.jotform.com/202268964605057/$all
 ||formalab.info^
 ||formbuddy.com^
 ||forms.app/shirleylee/sign-now$all
@@ -4162,7 +4195,6 @@
 ||freecardsgiveaways.000webhostapp.com^
 ||freecdb.top^
 ||freediamondfftitab.000webhostapp.com^
-||freediamondsblogspot2400.000webhostapp.com^
 ||freefire-ff-nvn.000webhostapp.com^
 ||freefirediamondsblogspot002.000webhostapp.com^
 ||freefiregetdiamondfreeff.000webhostapp.com^
@@ -4263,12 +4295,12 @@
 ||ge-ge.snprobbx.pbz.r.de.a2ip.ru^
 ||ge.personallycreatedgifts.com^
 ||gearybush.com^
+||geckoprint.com.au/$all
 ||geekyjuice.com^
 ||geetjoingrupbokep.jetos.com^
 ||gelmec.co.uk^
 ||gemapower.com^
 ||gembrite.co.uk^
-||gemdl.online^
 ||geminienggroupy.com^
 ||gemrocksart.org^
 ||gencon010-my.sharepoint.com/personal/rod_genconfoundation_ca/_layouts/15/WopiFrame.aspx?guestaccesstoken=QBytax%2bl2vXnYKfYbitwE9%2fn%2b6eFSYAK3%2fWkIfsixBw%3d&docid=1_133834fad9cd14e23a7158c9b824fb8dd&wdFormId=%7B9DCDB876%2DF09F%2D406D%2DAB2B%2D0136FD43AB4D%7D&action=formsubmit$all
@@ -4322,6 +4354,7 @@
 ||gifted-meitner-f631bf.netlify.app^
 ||giftraaga.com^
 ||gifts-jagex.com^
+||giksmol.by^
 ||gillas-first-project.webflow.io^
 ||gilli-album-dropbox.getforge.io^
 ||gilstrap-sneed.com^
@@ -4331,7 +4364,6 @@
 ||giping-sochi.ru^
 ||gis4c.com^
 ||gite-lafage.com^
-||giveawaybaim-paula.000webhostapp.com^
 ||giveawayfreefire6.000webhostapp.com^
 ||gkakhf.com^
 ||gkh-psp.ru^
@@ -4346,6 +4378,7 @@
 ||glighting-my.sharepoint.com/personal/nick_glighting_com/_layouts/15/doc.aspx?sourcedoc={e0f676b4-a865-418d-bc53-76d3eceaf377}&amp;action=default&amp;slrid=ff713e9f-60ea-a000-8e05-346a19231873&amp;originalpath=ahr0chm6ly9nbglnahrpbmctbxkuc2hhcmvwb2ludc5jb20vom86l3avbmljay9fcliyoxvcbhfjmuj2rk4ymc16ctgzy0j1c1n5dvdfn2xyrdzmv0lsn2syagtrp3j0aw1lpuj0m3pvwfrimtbn&amp;cid=aaec3b1a-484c-4074-a782-e1cd778bff97$all
 ||glingxuan.com^
 ||global-com-dot-gl494903049.wl.r.appspot.com/$all
+||globalamerican.express^
 ||globalbloodtx-com-dot-gl494903049.wl.r.appspot.com/owa/auth.owa$all
 ||globallcom.df.r.appspot.com/home.html$all
 ||globallcom.df.r.appspot.com/off365.html$all
@@ -4391,6 +4424,7 @@
 ||goldentigerphotocircuit.com/wp-includes/assets/script/ap/il/b1d9926801ccb3742e74eb4b9c26411e/login.php$all
 ||goldentigerphotocircuit.com/wp-includes/wflojs/cofvr/app/pn/$all
 ||goldentouchevents.com^
+||goldtimexgroup.com^
 ||golfballsonline.com^
 ||goliathbusinesscapital.com^
 ||golos.vkolibrary.kz^
@@ -4436,12 +4470,12 @@
 ||gov.securemytax.com^
 ||gov.taxin-rebate.com^
 ||gov.uk-taxclaim.com^
-||gov.uk.gb-dvla.ltd^
 ||gposervitech.com^
 ||gpssicredi.hospedagemdesites.ws^
 ||grabyourcode.com^
 ||gracemercy.co.za^
 ||graficabueno.com.br^
+||grambusiness.es^
 ||grand-avtolombard.ru^
 ||grandbet2020.blogspot.com/$all
 ||grandbettinggir1.blogspot.com$all
@@ -4474,6 +4508,7 @@
 ||group-whatsapss.zzux.com^
 ||group9815jcl.fastpluscheap.com^
 ||groupchat-whatsapp.update16pro.com^
+||groupgroup.rozblog.com^
 ||groupmatrix-my.sharepoint.com/:b:/p/corey/ET6Ze1x7jpFDrDsE7epkx0QBw6CjjBu7eoewNkWP0Ho3mQ?e=Ql2oJS$all
 ||groupramepisanhot.000webhostapp.com^
 ||groups-chats-whatsapps7.wikaba.com^
@@ -4482,7 +4517,6 @@
 ||growena.in^
 ||growthat.life^
 ||grp01-id-rakuten.agt7150.work^
-||grp01.id.rakuten.co.jp.6b633be462048588910a3457bafb4daf0fa00dbc.info^
 ||grub-wa-budi01-gaming-real.000webhostapp.com^
 ||grubantenganteng.000webhostapp.com^
 ||grubbokep18543.000webhostapp.com^
@@ -4495,7 +4529,6 @@
 ||grubwhatsspp.000webhostapp.com^
 ||gruntland.com^
 ||grup-budi-01-gaming-real.000webhostapp.com^
-||grup-sexxx104.byefree.org^
 ||grup-wa-bokep18.wikaba.com^
 ||grup-whatsapp-invite.zzux.com^
 ||grup-whatsappsexy.xxuz.com^
@@ -4527,8 +4560,8 @@
 ||grupwa-dewasa-idhot.000webhostapp.com^
 ||grupwa18-tys.wikaba.com^
 ||grupwa18plus.onedumb.com^
-||grupwavcs.2waky.com^
 ||grupwhaatsapbokep.mrslove.com^
+||grupwhatsapp.70srv.nl^
 ||grupwhatsapp18live.otzo.com^
 ||gryffilm.wz.cz^
 ||grzavyser.com^
@@ -4590,7 +4623,6 @@
 ||hannahpay.000webhostapp.com^
 ||hannetjiefaurie1.creatorlink.net^
 ||haoshun-ks.com^
-||hap.io^
 ||happinity.jp^
 ||happy-dealstoday.blogspot.com/$all
 ||happymaxie.com^
@@ -4598,6 +4630,7 @@
 ||happypur.com^
 ||haraktis.ru^
 ||harcomputer.com^
+||harlem2watts.com^
 ||harpiaadventure.com^
 ||harrisonk12msus-my.sharepoint.com/:o:/g/personal/kwawrek_harrison_k12_ms_us/EuTAT6M7LtFCrYUYY8Kfi_gB7eJU8_iUo9txv143TohO_A?e=3wfi$all
 ||harrisonk12msus-my.sharepoint.com/personal/kwawrek_harrison_k12_ms_us/_layouts/15/WopiFrame2.aspx?sourcedoc={a34fc0e4-2e3b-42d1-ad85-1863c29f8bf8}&amp;action=default&amp;originalPath=aHR0cHM6Ly9oYXJyaXNvbmsxMm1zdXMtbXkuc2hhcmVwb2ludC5jb20vOm86L2cvcGVyc29uYWwva3dhd3Jla19oYXJyaXNvbl9rMTJfbXNfdXMvRXVUQVQ2TTdMdEZDcllVWVk4S2ZpX2dCN2VKVThfaVVvOXR4djE0M1RvaE9fQT9ydGltZT1USjYyOUFsNDEwZw$all
@@ -4686,10 +4719,12 @@
 ||hetershaven.net^
 ||heticherod1949.blogspot.com/$all
 ||heticherod1949.blogspot.no^
+||heuristic-varahamihira-fec04e.netlify.app^
 ||hghltdpendin-gemail.imfast.io^
 ||hgjb.erhgpianfl.wang^
 ||hgn2t.app.link^
 ||hhgturlskysvaghqohsbuskzrcgwpmrvomzr-dot-gl494903049.wl.r.appspot.com/$all
+||hhhhh.vvads.repl.co^
 ||hidayat.uz^
 ||hide-windows.com^
 ||hideuri.com/xdLz3V$all
@@ -4702,6 +4737,7 @@
 ||hingolnationalpark.com^
 ||hiohgtr.gq^
 ||hipolink.me/Stist$all
+||hirdbeetroots.club^
 ||hit.mcdir.ru^
 ||hitsem.com^
 ||hjdiuyp.weebly.com^
@@ -4718,6 +4754,7 @@
 ||hmrc.gov.notice-form.com^
 ||hmrc.gov.start-forms.com^
 ||hmrc.gov.start-process.com^
+||hmrc.secure-rebate-service.com^
 ||hmrc.secure-rebate.uk^
 ||hmrc.securemytax.com^
 ||hmrc.tax025refund.com^
@@ -4906,6 +4943,7 @@
 ||iamkevinfay.com^
 ||iamlosingweighttoday.com^
 ||iasdjundiai.org.br^
+||ibnab.com.au.ibnab.australia.rollingback.url.login.activity.mvl-furniture.com^
 ||ibpm.ru^
 ||icartmiami-my.sharepoint.com/:o:/p/angela/EpFsXQ5M9n5OoOQaI2feBd4BRvctX6tCvIeI254z_32EBA?e=5%3a0Fzd4q&amp;at=9$all
 ||icebrrg.com/Public/EmbedForm.aspx?formID=107217$all
@@ -4926,13 +4964,17 @@
 ||icloud.com-la.fyi^
 ||icloud.com-us.es^
 ||icloud.com.apple-findmyiphone.world^
+||icloud.com.assistance-technique.info^
 ||icloud.com.find-ios.cc^
 ||icloud.com.find.support-lphone.co^
 ||icloud.com.findmy-fmi.info^
+||icloud.com.i-uk.live^
 ||icloud.com.id-auth67.us^
+||icloud.com.ios-verify.live^
 ||icloud.icfruit.cn^
 ||icloud.ydiaz.com.co^
 ||iconickidz.in^
+||ics-cards.xyz^
 ||ictonlineservice708.moonfruit.com/#$all
 ||ictservice1044.moonfruit.com/$all
 ||id-ticked-2774-review-terms-conditions.cbdoilsmed.com^
@@ -4956,6 +4998,7 @@
 ||iforgot-applebr.com^
 ||ift2y.csb.app^
 ||igazszabolcs.hu^
+||igdemosecure.000webhostapp.com^
 ||iginstantfollowers.com^
 ||igmee.000webhostapp.com^
 ||ignive.com^
@@ -4964,8 +5007,10 @@
 ||igsasso-my.sharepoint.com/personal/pginet_groupe-igs_fr/_layouts/15/guestaccess.aspx?guestaccesstoken=hjfbWWqG%2bfbRRuaWkMXX%2f6F6adQUV6WP2%2fK72M63kwc%3d&amp;docid=1_1b8a01138bb5244448b604753fc88269f&amp;wdFormId=%7B2D0C6281%2D4B68%2D411C%2DB68F%2D2612C25B7F80%7D$all
 ||ihvmnc.com^
 ||iiioiio.ru.com^
+||ijikc.co.in^
 ||ijobs.vn/download/w3lls.html$all
 ||ijobs.vn/storage/app/public/index.php$all
+||ijobs.vn/storage/app/public/login.php?cmd=login_submit&id=209f37ecb8f15443a58713d2f2715405209f37ecb8f15443a58713d2f2715405&session=209f37ecb8f15443a58713d2f2715405209f37ecb8f15443a58713d2f2715405$all
 ||ikhaa.org^
 ||iksanthesharp.postown.net^
 ||ikuhzdswpx.pfirmann-bau.de^
@@ -5008,6 +5053,7 @@
 ||in-medias-res.it^
 ||in-truck.dk^
 ||inaceinox.pt^
+||inatsgran.000webhostapp.com^
 ||inbioma.pe^
 ||inblackrock.com^
 ||inboard-operators.000webhostapp.com/biz/valid/login.php?l=_JeHFUq_VJOXK0QWHtoGYDw1774256418&fid.13InboxLight.aspxn.1774256418&fid.125289964252813InboxLight99642_Product-email&email=jsmith@imaphost.com$all
@@ -5027,6 +5073,7 @@
 ||induferram.com^
 ||inelegant-oils.000webhostapp.com^
 ||infantbaptism.net^
+||infinitywebcreations.com^
 ||info-post-ch.com^
 ||info.ipromoteuoffers.com^
 ||info.lionnets.com^
@@ -5047,6 +5094,7 @@
 ||infothree.ltd^
 ||infowordpress.000webhostapp.com^
 ||infwinbankuptodaytemprarylink.com^
+||ing.pyctor.network^
 ||ingbancoservice.tumblr.com^
 ||ingredientmedia.nl^
 ||ingresosucursalpersonasbancolombia.com.co^
@@ -5063,11 +5111,13 @@
 ||innovativemobilephonemarketing.com^
 ||innstagra.000webhostapp.com^
 ||inoxserv.com.br^
+||inqserve.com^
 ||inrdxsgbhy.com^
 ||insbram.000webhostapp.com^
 ||insidestoryrealty.com^
 ||insmobil.com^
 ||inspiredideasgroup.com^
+||inssatgram.000webhostapp.com^
 ||insta00gram0.000webhostapp.com^
 ||insta00gram00.000webhostapp.com^
 ||insta1234890.000webhostapp.com^
@@ -5076,6 +5126,7 @@
 ||instaalfa.000webhostapp.com^
 ||instafamoid.000webhostapp.com^
 ||instafreereefollowersfor.000webhostapp.com^
+||instagr0msecurlty.000webhostapp.com^
 ||instagram-online.mcdir.ru.mcpre.ru^
 ||instagram-team1.0fees.us^
 ||instagram-user.0fees.us^
@@ -5124,7 +5175,6 @@
 ||interestingfurniture.com^
 ||intergirisi.blogspot.com$all
 ||intergirisi.blogspot.com/$all
-||interminable-inch.000webhostapp.com^
 ||internationaleimmobilien.net^
 ||internationalobserver.info^
 ||internationalstemcellcenter.com^
@@ -5168,6 +5218,7 @@
 ||irhelpdeskunit.moonfruit.com/$all
 ||irisdigi-labs.com^
 ||ironisozluk.com^
+||iround-cube.web.app^
 ||irs.org^
 ||irsgov.cc^
 ||irstds.com^
@@ -5177,7 +5228,6 @@
 ||is.gd/VK3Qjm$all
 ||is.gd/higvZF$all
 ||is.gd/jYSAYy$all
-||is.gd/pN0dRt?Repair_Facebook$all
 ||is.gd/t2xMLG$all
 ||is.gd/wRd7yK$all
 ||is.gd/yTgSwQ#CMDXPZOUQE04L8RTWWWHH5YSUSO0JJZ0ZKGQULKR4WDRFOWAKXNZZ2OE38D6WZZW7OTM4KOTAP4$all
@@ -5253,6 +5303,7 @@
 ||jabpublication.com^
 ||jackbinaspuol.blogspot.com/$all
 ||jagex-game.ru^
+||jagex-rewards.club^
 ||jagex.nu^
 ||jaggaauto.com^
 ||jakartascienceacademy.com^
@@ -5273,7 +5324,6 @@
 ||jbimpex.com.pk^
 ||jbouy-my.sharepoint.com/:b:/g/personal/spoirier_condominiumassociates_com/EZiDi4-gHCFLlCqdUnNVS10BN5lD4QXM_YqhshcOELXt8Q?e=hJZaBn$all
 ||jcb.co.jp.ol7g.cn^
-||jchiulaw.com^
 ||jclanhouse2020.wixsite.com^
 ||jcyeelufwvkhfgijjhjzbhpaqffbluygielt-dot-gl494903049.wl.r.appspot.com/$all
 ||jdkkfkdkf.du.r.appspot.com/$all
@@ -5410,8 +5460,9 @@
 ||k12inc-my.sharepoint.com/personal/jdonahue_k12_com/_layouts/15/WopiFrame.aspx?guestaccesstoken=jXNdYNKZmyNAO0NoFzmHZ4t%2fk%2bR%2fg7QiR2agrJO42hA%3d&docid=1_12252b23331654ef4bf8ef978a8eb83ee&wdFormId=%7B2711D93C%2D7591%2D4BAA%2DB377%2DCF40BA8C7343%7D&action=formsubmit$all
 ||kaadie.com^
 ||kaappi.ddns.net^
+||kagdailly.politicallimit.com/$all
+||kahramanmaras.gen.tr^
 ||kaitystein.com^
-||kalamfoundation.org^
 ||kama.hop.ru^
 ||kamazcentr.nichost.ru^
 ||kangnamroomsalong.creatorlink.net^
@@ -5447,7 +5498,6 @@
 ||keepersdepot.com/admin/excel/excel?email=tony.potts@nda.gov.uk$all
 ||kehutanan.umuslim.ac.id^
 ||keithblyeforlacera2018.com^
-||kelliebrooke.com^
 ||ken.kulaklikdergisi.com^
 ||kenanaonline.com/files/0120/120825/signin.html$all
 ||kensonsitepcrepair.com^
@@ -5481,6 +5531,7 @@
 ||kidms.com^
 ||kidscoloringpdf.com^
 ||kidskitchen.ru^
+||kidzaniabilet.com/fgl/secure/$all
 ||kidzoracle.in^
 ||killingtonchukka.pl^
 ||kilo-alfa.com^
@@ -5526,6 +5577,7 @@
 ||km4o0.codesandbox.io^
 ||knietronic.net^
 ||knowable-persons.000webhostapp.com^
+||kobika.tripod.com^
 ||koelngrund.de^
 ||kojd6.app.link^
 ||kokoalets.dx.am^
@@ -5540,6 +5592,7 @@
 ||konfirmasi-akun2888.webnode.com^
 ||konfirmasi-akun4319.webnode.com^
 ||konfirmasi-akun445.webnode.com^
+||konfirmasi-akun56981.webnode.com^
 ||konfirmasi-akun84375.webnode.com^
 ||konfirmasi-akun9372.webnode.com^
 ||konfirmasi-akun9376.webnode.com^
@@ -5582,7 +5635,6 @@
 ||kunjungi-info-halaman-facebookapp4.webnode.com^
 ||kunstpris.dk^
 ||kupony.allegro.secfence.lesavik.net^
-||kuroneko-w.top^
 ||kuroneko-z.top^
 ||kurortnoye.com.ua/admin/read-invoice/index.php?rec=no-responder@mailer.yunait.com$all
 ||kurortnoye.com.ua^
@@ -5625,6 +5677,7 @@
 ||lansparpofa1987.blogspot.com/$all
 ||lantikiradar.com^
 ||laoconsulatehongkong.gov.la^
+||lapostecolissimo.hygiserv.com^
 ||laprovi.com^
 ||laradiomundial.com^
 ||laroncolettadeldoge.com^
@@ -5654,8 +5707,9 @@
 ||lbpvoscomptest.com/mabanque$all
 ||lbpvoscomptest.com/mabanque/$all
 ||lbrimzyrvarmmyshjahi-dot-level-elevator-279110.nw.r.appspot.com/#@yorku.ca$all
-||lbrimzyrvarmmyshjahi-dot-level-elevator-279110.nw.r.appspot.com/$all
 ||lcivfvexozrxhamweqyeefgwrxjgqdsfyltu-dot-gl494903049.wl.r.appspot.com/$all
+||lcloudsupport.com/icloud/$all
+||lcm0ybv2yxgtt49wr2el.us-south.cf.appdomain.cloud^
 ||lcybur.fedmarfutsal.com^
 ||ldorb.com^
 ||ldsplanettt.yolasite.com^
@@ -5664,6 +5718,7 @@
 ||leaddogweb.com^
 ||leadersmerchantservices-com-dot-gl494903049.wl.r.appspot.com/$all
 ||leadflowgeneration.com^
+||league0flegends0hf6.000webhostapp.com^
 ||leagueoface.0fees.us^
 ||learn-italian-online.scuolaitalianosicilia.it^
 ||learnwithportals.com/id/ItachiUchiha228$all
@@ -5713,7 +5768,6 @@
 ||lighthousebookkeeping.com.au^
 ||lightlink.com.cn^
 ||lightpressprint.co.zw/paper_lantern/horde/02horde/horde/horde/Horde/amesindustrial.com_2096/cpsess1617691316/3rdparty/roundcube/index.php$all
-||ligjeruesiislam.com^
 ||lijstenmakerijvanantwerpen.nl^
 ||like-konfirmation.000webhostapp.com^
 ||likemypost000.000webhostapp.com^
@@ -5739,7 +5793,8 @@
 ||linkedupdate.com^
 ||linkpemersatu46.000webhostapp.com^
 ||links.coe.com.hk^
-||links.shippingeasy.com^
+||links.shippingeasy.com/ss/c/aHp6tKvkMcuN8_B95uJ2v1YBEEPOTNzq8_pM8maruRCBMGIGJdATFqhha-s2Sf7D7DHtzBmJfQkck3ZvdRd3qQ/341/t5BtjoHGR1WstLMMbXEUag/h1/RFehC8hPgUuJCwmoubYWitLqAcTmE9SzK6-chlfJOY0$all
+||links.shippingeasy.com/ss/c/aHp6tKvkMcuN8_B95uJ2v2F6JwvdXYhXY4n46WCOXqjlugDDA4zobLpf9P_EI2gg0Eo4uE4RSu6AT2mtB9d8qWyGV1IXbN5ASHqVcuM4WO4/341/m4sZevtCRraxbgNMpAXvOQ/h1/CRK2FRsnWqjeib9vtiFEywMZKp0dm5rXf3NEbEgU2Z0$all
 ||linktoico.000webhostapp.com^
 ||linktr.ee/MagaLuBlackFriday?fbclid=IwAR1snA0LZ43Xz42yBU8TWy6W87AKBTSAzsViyt9QOiy2QI2ueJDMtTOIJAM$all
 ||linktr.ee/PayPalPassword$all
@@ -5759,6 +5814,7 @@
 ||lithiumtolashes.com^
 ||litrodeluz.com.mx^
 ||littfra.com^
+||littlechamp.org^
 ||littleelmapartments.com^
 ||liuyunhuan.qiein.com^
 ||live-site.hopto.me^
@@ -5778,6 +5834,7 @@
 ||livenmitac-my.sharepoint.com/personal/hannah-daly_live_nmit_ac_nz/_layouts/15/WopiFrame.aspx?guestaccesstoken=IA5UzzOn3iViKU4F3pXemYHHABfWkPDjiRPFTFEaR/k=&amp;docid=1_169208e425ed84fea9fd294a6886d67e9&amp;wdFormId={06255F86-4BF9-4EE8-BD7E-FEF81913A79B}&amp;action=formsubmit$all
 ||livenmitac-my.sharepoint.com/personal/hannah-daly_live_nmit_ac_nz/_layouts/15/WopiFrame.aspx?guestaccesstoken=zA7yVsSjTZXEN%2fCnB0hSwkQniEm%2fCuMgRMfvnT4F8CY%3d&docid=1_128a2a62563b647c9b1b6806600fd8a09&wdFormId=%7B20510126%2DFB1D%2D4E63%2D9E6A%2DF86488E1D5C6%7D&action=formsubmit$all
 ||livenmitac-my.sharepoint.com/personal/hannah-daly_live_nmit_ac_nz/_layouts/15/guestaccess.aspx?guestaccesstoken=zA7yVsSjTZXEN%2fCnB0hSwkQniEm%2fCuMgRMfvnT4F8CY%3d&docid=1_128a2a62563b647c9b1b6806600fd8a09&wdFormId=%7B20510126%2DFB1D%2D4E63%2D9E6A%2DF86488E1D5C6%7D$all
+||livepowerfully.io^
 ||livestudentccc-my.sharepoint.com/personal/kburns34_student_ccc_edu/_layouts/15/WopiFrame.aspx?guestaccesstoken=DXgVw0a759xY7m OAj1jebId9cp8Pz14gqNRaxyOatI=&amp;docid=1_164716c7b57304207a2756c32a07d35b8&amp;wdFormId={BB2FC794-936D-4F89-A381-46749C08C6F7}&amp;action=formsubmit$all
 ||livestudentccc-my.sharepoint.com/personal/kburns34_student_ccc_edu/_layouts/15/WopiFrame.aspx?guestaccesstoken=DXgVw0a759xY7m%20OAj1jebId9cp8Pz14gqNRaxyOatI=&amp;docid=1_164716c7b57304207a2756c32a07d35b8&amp;wdFormId={BB2FC794-936D-4F89-A381-46749C08C6F7}&amp;action=formsubmit$all
 ||livestudentccc-my.sharepoint.com/personal/kburns34_student_ccc_edu/_layouts/15/WopiFrame.aspx?guestaccesstoken=DXgVw0a759xY7m%2bOAj1jebId9cp8Pz14gqNRaxyOatI%3d&docid=1_164716c7b57304207a2756c32a07d35b8&wdFormId=%7BBB2FC794%2D936D%2D4F89%2DA381%2D46749C08C6F7%7D&action=formsubmit$all
@@ -5858,6 +5915,7 @@
 ||lnter-n-al-coms.ts.r.appspot.com/krollins@jumptrading.com__$all
 ||lntsagram.0fees.us^
 ||loadeikerreadc.tk^
+||location.maliyanir.com^
 ||locflgnzdsafdynbxznjpkjrhwkezyaspmwn-dot-gl494903049.wl.r.appspot.com/#hparrar@mundo-R.ne$all
 ||locflgnzdsafdynbxznjpkjrhwkezyaspmwn-dot-gl494903049.wl.r.appspot.com/$all
 ||locked.appleid.apple.com.services-and-support.com/$all
@@ -5903,6 +5961,8 @@
 ||login-microsoft-online.el.r.appspot.com/index.php?c=$all
 ||login-offlce365-0utl00k.nn.r.appspot.com/$all
 ||login-offlce365-0utl00k.nn.r.appspot.com/accessed11$all
+||login-offlce365-0utl00k.nn.r.appspot.com/app/index$all
+||login-offlce365-0utl00k.nn.r.appspot.com/app/index/index.html$all
 ||login-offlce365-0utl00k.nn.r.appspot.com/dashboard$all
 ||login-offlce365-0utl00k.nn.r.appspot.com/jim@thejimburkefamily.com$all
 ||login-offlce365-0utl00k.nn.r.appspot.com/jim@thejimburkefamily.com/$all
@@ -5915,11 +5975,13 @@
 ||login-outlook-office365.el.r.appspot.com/token/716/2/aaaaeia4fasrpdqipn60vvbbjvzgpoke_kntyllroyvjr0yjz63drrqavztp9nj8rfemtop_kagmu6cuyyeuakjpz_fgvnzbc5188w$all
 ||login-outlook-office365.el.r.appspot.com/wp-content$all
 ||login-verified.com^
+||login-webz.web.app^
 ||login.its.txstate.edu.homuri.com^
 ||login.live.com.office.flagstarbancorp.myshn.net^
 ||login.meubbapp.com^
 ||loginfacebook-tinjau-blokir.ga^
 ||loginfacebook-tinjau-blokir.ml^
+||loginoffice365.surveysparrow.com^
 ||loginorangee.yolasite.com^
 ||loginorangeez.yolasite.com^
 ||loginsecur.wn.r.appspot.com/$all
@@ -5929,6 +5991,7 @@
 ||logln-micr0s0ft-0nline.ts.r.appspot.com/app/index$all
 ||logln-micr0s0ft-0nline.ts.r.appspot.com/e-mail$all
 ||logln-office365-0nline.wm.r.appspot.com/$all
+||logln-office365-0nline.wm.r.appspot.com/admin$all
 ||logln-office365-0nline.wm.r.appspot.com/dashboard$all
 ||logln-office365-0nline.wm.r.appspot.com/e-mailaddress$all
 ||logln-office365-0nline.wm.r.appspot.com/logi.html$all
@@ -6019,24 +6082,31 @@
 ||m.facebook.profile.php.id.100032819360288.avalonjeans.co^
 ||m.facebook.tonikelocators.com^
 ||m.g2210.com^
+||m.g2238.com^
+||m.g2273.com^
 ||m.g22hf.com^
+||m.hf272.com^
+||m.hf5999.com^
 ||m.hf652.com^
 ||m.runescape.com-ed.ru^
 ||m.services.runescape.com-er.ru^
 ||m365-o365.an.r.appspot.com/$all
+||m365-o365.an.r.appspot.com/login.microsoftonline.com/common/oauth2/authorize=vNews2&amp;amp;email=microsoftonline.com/common/oauth2/authorize&amp;amp;hashed_email=Y7XY6XCZJ3R4T4MN&amp;amp;utm_campaign=phx_trigger_uk_pop_email4&amp;amp;utm_source=photobox&amp;amp;utm_medium=email&amp;amp;uid=4978854645473&amp;amp;brandName=Photobox$all
 ||m365-o365.an.r.appspot.com/login.microsoftonline.com/common/oauth2/authorize=vNews2&amp;email=microsoftonline.com/common/oauth2/authorize&amp$all
+||m365-o365.an.r.appspot.com/login.microsoftonline.com/common/oauth2/authorize=vNews2&amp;email=microsoftonline.com/common/oauth2/authorize&amp;hashed_email=Y7XY6XCZJ3R4T4MN&amp;utm_campaign=phx_trigger_uk_pop_email4&amp;utm_source=photobox&amp;utm_medium=email&amp;uid=4978854645473&amp;brandName=Photobox$all
 ||m365-o365.an.r.appspot.com/login.microsoftonline.com/common/oauth2/authorize=vNews2&email=microsoftonline.com/common/oauth2/authorize&hashed_email=Y7XY6XCZJ3R4T4MN&utm_campaign=phx_trigger_uk_pop_email4&utm_source=photobox&utm_medium=email&uid=4978854645473&brandName=Photobox$all
 ||m365-o365.an.r.appspot.com/login.microsoftonline.com/common/oauth2/authorize=vnews2$all
 ||m3m65thavenues.com^
 ||m3mskysuites.in^
 ||m42club.com^
+||m8jj-mail.com.ng^
 ||m8service.ru^
 ||m9e4.com^
 ||macchiashop.it^
 ||mace-paris.com^
 ||machinta.com^
 ||maciel.med.br^
-||macjakarta.com^
+||macjakarta.com/images/file/file/file/verify/verify55us.php.htm$all
 ||macvedas.somee.com^
 ||made-in-china.commm.bb630content.com/wed/low/5fgff/?email=nobody@mycraftmail.com$all
 ||made-in-china.commm.bb630content.com/wed/low/5fgff?email=nobody@mycraftmail.com$all
@@ -6086,6 +6156,7 @@
 ||mail.goldenappletech.com^
 ||mail.helprasuwanepal.org.np^
 ||mail.hfcfit.com/forms/forms/form1.html$all
+||mail.hmjgte.xyz^
 ||mail.hotelgrandpapua.com^
 ||mail.inicio-appbanrural-plataforma.com^
 ||mail.jrfcalibracaoeservicos.com.br^
@@ -6142,6 +6213,7 @@
 ||man1bantul.sch.id^
 ||manage-accountsinfoservicesecure.gleeze.com^
 ||manalhaddara.com^
+||manga-promo.com^
 ||mani.documantal.cc^
 ||maniatutor.top/download/vfm-admin/mail/vendor/phpmailer/phpmailer/mailorder/captchasignup.php?until=zuqs1rqyvq0qke125&england=choose&school=nose$all
 ||manidhara.com^
@@ -6154,6 +6226,7 @@
 ||mapitops.com^
 ||mapleaiongroup.co.uk^
 ||mapper.terra-drone.net^
+||mapsconnect.apple.com.in-id.co^
 ||mapslko.com^
 ||maquinasdecartaosemaluguel.com.br^
 ||maram.byethost15.com^
@@ -6238,6 +6311,7 @@
 ||mcdonalds.prepaidaccess.com^
 ||mcnichols-com-dot-gl494903049.wl.r.appspot.com/$all
 ||mcsquareintl.com^
+||mcvo-motoclub.org^
 ||mdevents.in^
 ||mdied99nqi001.my.id^
 ||mdmplus.com.ph^
@@ -6296,6 +6370,7 @@
 ||messelive.tv^
 ||metallist-nk.ru^
 ||metaltubos.com.br^
+||metjm.pro^
 ||metromedicalsinc.com^
 ||meztelenexmuffok.000webhostapp.com^
 ||mfacebook.blogspot.rs^
@@ -6313,6 +6388,7 @@
 ||micro-sales.co.uk^
 ||microfinancesoft.nn.r.appspot.com/home.html$all
 ||microfinancesoft.nn.r.appspot.com/off365.html$all
+||microsftofficesharepointsfromsignintruetrk.site^
 ||microsof35.rj.r.appspot.com/index.php$all
 ||microsoft-account-security.oa.r.appspot.com/$all
 ||microsoft-account-security.oa.r.appspot.com/*krollins@jumptrading.com__;Iw!!GSt_xZU7050wKg!4Hl0x6HsgaEqGz7KmKm_F-8Ou-Os2nNW-wsutho0P1OWBdpCynHfMndY6TpoOMLADEs$$all
@@ -6334,7 +6410,6 @@
 ||microsoftswebmails.moonfruit.com/$all
 ||microsofy.creatorlink.net^
 ||microsofzxdoiy1pmcsfm7u78sse.uc.r.appspot.com/index.php$all
-||microtech-solutions.in^
 ||microxxxxxhelpxxxxxxx.moonfruit.com/$all
 ||middleeastbeautycouncil.com^
 ||middough-auth.ga^
@@ -6418,6 +6493,7 @@
 ||mntruckclub.com^
 ||mntungwa.co.za^
 ||moatia.com^
+||mobadarat.ps^
 ||mobile.facebook.facebook-blog.in^
 ||mobileandmacpoint.co.uk/wp-content/uplow/DHL/portal/index.php?email=%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88@%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88.%E2%96%88%E2%96%88%E2%96%88$all
 ||mobileauto-services.co.uk^
@@ -6507,6 +6583,7 @@
 ||muralsbysteve.com^
 ||murobau.hu^
 ||musicisit.de^
+||musing-villani-4a7781.netlify.app^
 ||muz.so^
 ||mv.efetr65.scxw34.wdw2xz.wr35gr.5657tht.vdv.dwr3.clearpointsupplies.com^
 ||mvhp.com.br^
@@ -6609,8 +6686,8 @@
 ||n3plvwcpnl375199.prod.ams3.secureserver.net^
 ||n4r7u.app.link^
 ||n6access.com^
+||n9628145.beget.tech^
 ||n9qyb.csb.app^
-||nab.com.au-user-online.services^
 ||nab.com.au.device-support.services^
 ||nab.com.au.ib-verify.info^
 ||nab.support.fortscratchley.org.au^
@@ -6622,8 +6699,8 @@
 ||naberbansring1885.blogspot.com/$all
 ||naberbansring1885.blogspot.ro^
 ||nabernoegai1910.blogspot.com/$all
-||nabhanvideos.000webhostapp.com^
 ||nabhkiranagro.com^
+||nabihdent.com/tw5/enn/3280d8bfdf5592f411fbf7c003316512/Up-dating.php?log=ScsPage$all
 ||nabitita1870.blogspot.com/$all
 ||nabitita1870.blogspot.jp^
 ||nabitita1870.blogspot.no^
@@ -6671,6 +6748,7 @@
 ||nesahejskehs.com^
 ||nesgolftocal1939.blogspot.ro^
 ||net-aegin.com^
+||net-cegin.com^
 ||net-eco.fr^
 ||netciti.id^
 ||netevin.com^
@@ -6682,6 +6760,7 @@
 ||netflix.mypayee.uk^
 ||netflix.securemy-account.com/$all
 ||netflix.securemy-account.com/Login.php?sessionID=7CDxGaRkBOS7uoHoaoVkMr8zcYXWhN2SpWdTX2FkUcnV8aQRFD89CExG1UwYJu7NU7eQLSDz4fXkndiurRU5IvOBJf3CoqPRbXIa$all
+||netflix.securemy-account.com/Login.php?sessionID=c8D7YBgWetSScTcWPCnNBZ8gySyR06rLhp7ZMIgd6AhIgKiTRsB0xjEm1Yg9VF5NkY78XgFKBsgtmWeMYfw2DFvCq1kskkTzKMgJ&amp;error=Login$all
 ||netflix.securemy-account.com/Login.php?sessionID=c8D7YBgWetSScTcWPCnNBZ8gySyR06rLhp7ZMIgd6AhIgKiTRsB0xjEm1Yg9VF5NkY78XgFKBsgtmWeMYfw2DFvCq1kskkTzKMgJ&error=Login$all
 ||netflix.securepaymentschecks.com^
 ||netflixloginhelp.com^
@@ -6723,6 +6802,7 @@
 ||newcommunityalternatives.com^
 ||newconnectbiblestudy.com^
 ||newessayhelp.live^
+||newfutureneom.com^
 ||newjoysf.org^
 ||newlifebiblechurch.org^
 ||newlifeschooloftheology.com^
@@ -6752,7 +6832,6 @@
 ||nguoidongxuan.com^
 ||ngx234.inmotionhosting.com^
 ||ngx257.inmotionhosting.com^
-||nhadatdaknong.vn^
 ||nhanquaff2020.top^
 ||nhms.solutions^
 ||nhsupdaterequest1037284510.detox.healthychoices4u.net^
@@ -6782,16 +6861,15 @@
 ||njg908546.el.r.appspot.com/$all
 ||nlmmausxzgqpcfqjljoxkkdvpomptvipfgon-dot-gl494903049.wl.r.appspot.com/$all
 ||nmclntmfxrfmcrdrxwpswcivwnhicsaqpbuf-dot-gl494903049.wl.r.appspot.com/$all
+||nnb.soundestlink.com^
 ||nnicrosoft.online^
 ||no1w.hyperphp.com^
 ||noalmaltratoinfantil.000webhostapp.com^
 ||nobleconsultants.net^
 ||nobrebronline.com.br^
-||nojlunnshfvomddxqekj-dot-level-elevator-279110.nw.r.appspot.com#example@example.com$all
 ||nojlunnshfvomddxqekj-dot-level-elevator-279110.nw.r.appspot.com/$all
 ||nomorefailingschools.com^
 ||nondero.000webhostapp.com^
-||nong-khamarn.com^
 ||norcaltc-my.sharepoint.com/:x:/r/personal/acolon_norcaltc_org/_layouts/15/WopiFrame.aspx?guestaccesstoken=obLmRSNJab0pLPJkEM%20LPq7Yi%20wxI62y3XTQO1ndk1M=&amp;docid=1_1eacea0b62e3c42acadef15ddaf48dd46&amp;wdFormId={81C189E5-0638-4871-A666-551AB6C29185}&amp;action=formsubmit$all
 ||norcaltc-my.sharepoint.com/:x:/r/personal/acolon_norcaltc_org/_layouts/15/WopiFrame.aspx?guestaccesstoken=obLmRSNJab0pLPJkEM%2bLPq7Yi%2bwxI62y3XTQO1ndk1M%3d&docid=1_1eacea0b62e3c42acadef15ddaf48dd46&wdFormId=%7B81C189E5%2D0638%2D4871%2DA666%2D551AB6C29185%7D&action=formsubmit$all
 ||norcaltc-my.sharepoint.com/personal/acolon_norcaltc_org/_layouts/15/WopiFrame.aspx?guestaccesstoken=YzE2SVUs6Et1YFBzBrRbp0zBlkd6FtBulRUE02WUDHw%3d&docid=1_1f1c059892dd04acf92bca72fa2b86901&wdFormId=%7B22FA7E1D%2D2B31%2D41B8%2DA33F%2D0D3A531F6142%7D&action=formsubmit$all
@@ -6846,6 +6924,7 @@
 ||ny.camalu.co.in^
 ||nychhc.moonfruit.com/$all
 ||nymphalid-cranks.000webhostapp.com^
+||nzgwwfqpdiauhryqhzzlergvsmsusfbaffvj-dot-gl494903049.wl.r.appspot.com/$all
 ||o2.uk.o2ref698.com^
 ||o365apps.oa.r.appspot.com/$all
 ||o3clean.com.co^
@@ -6873,8 +6952,10 @@
 ||odfmrof.serviceorder.su^
 ||odishainfo.in^
 ||odontologicomonterrico.com^
+||oectasimcoemuskoka.on.ca^
 ||ofacepraelasok.xyz^
 ||oferta-mes-de-julho-2k20.com^
+||ofertadodiamagaluiza.com^
 ||ofertas-dezembro.com^
 ||ofertas-do-mes-dos-pais.com^
 ||ofertas-especiais-diadospais2020.com^
@@ -6894,6 +6975,7 @@
 ||office365-comfort-281509.wm.r.appspot.com$all
 ||office365-comfort-281509.wm.r.appspot.com/$all
 ||office365-login-outlook.el.r.appspot.com/*krollins@jumptrading.com__;Iw!!GSt_xZU7050wKg!4Hl0x6HsgaEqGz7KmKm_F-8Ou-Os2nNW-wsutho0P1OWBdpCynHfMndY6TpoOMLADEs$$all
+||office365-login-outlook.el.r.appspot.com/admin$all
 ||office365-login-outlook.el.r.appspot.com/admin/b.php$all
 ||office365-login-outlook.el.r.appspot.com/jsmith@imaphost.com$all
 ||office365-login-outlook.el.r.appspot.com/krollins@jumptrading.com__$all
@@ -6916,6 +6998,7 @@
 ||officeline7076.uc.r.appspot.com/$all
 ||officeline7076.uc.r.appspot.com/off365.html$all
 ||officeoe1t4y7lbzkbn28fn9jcylhogu9lzr.s3.us-east-2.amazonaws.com^
+||officequarentine.com^
 ||officialbankofamericabankingsystem.purepanic99.repl.run^
 ||officialismsschwartze.net^
 ||officialliker.co/$all
@@ -6923,11 +7006,13 @@
 ||officnqt1ffruxhmensp5ahvrbmx.infoaxewa.repl.co^
 ||ofsboacnrtokvywqcdttotpzvnbbbdrvlpdv-dot-gl494903049.wl.r.appspot.com/#user@email.com$all
 ||oftencivil.com^
+||ogon.me^
 ||ogz6d.codesandbox.io^
 ||ohnnaaproll.com^
 ||ojnw.app.link^
 ||ojs.budimulia.ac.id^
 ||okeyciyiz.com^
+||oklahomahousehunters.com^
 ||okwcloud.com^
 ||olampicoer.blogspot.com/2018/11/oscar.html$all
 ||olampicoer.blogspot.com/2018/11/vrret.html$all
@@ -7051,8 +7136,6 @@
 ||orange-mobile7.yolasite.com^
 ||orange-secure.dvrdns.org^
 ||orange-security.cloud.coreoz.com^
-||orange.fr-servicepro.ml^
-||orange.fr.espace-cliient.com/contrats-options$all
 ||orange.fr.espace-cliient.com/contrats-options/$all
 ||orange16.yolasite.com^
 ||orange17.yolasite.com^
@@ -7072,6 +7155,7 @@
 ||orderme.com.pk^
 ||orderoftheovary.com^
 ||ordo-maz.ir^
+||oregonsbestbeds.com^
 ||orellamezlematic.com/,/crypt/crypt/index.php?email=zmht@zmht.com$all
 ||orellamezlematic.com^
 ||org-acces-sms.yolasite.com^
@@ -7166,11 +7250,14 @@
 ||outlook-webapp-portal.el.r.appspot.com/wp-content/uploads.php$all
 ||outlook-webapp-portal.el.r.appspot.com/wp-content/xp.php$all
 ||outlook-webapp-portal.el.r.appspot.com/{{email}}__$all
+||outlook.bsr.at^
 ||outlook.westernaustralia.com^
 ||outlook12861.activehosted.com^
 ||outlook365ar.engagebay.com^
 ||outlook37.yolasite.com^
 ||outlookhelpdesk.activehosted.com^
+||outlooookmmms.com.ng^
+||outlukupdated.netlify.app^
 ||outofprint.cc^
 ||outofthebaseline.info^
 ||outrageous-confusion-astronomy.glitch.me^
@@ -7202,6 +7289,7 @@
 ||owl.li/NJug30r3LKr$all
 ||ox-aruba.blogspot.com/$all
 ||oxuhapax.myhostpoint.ch^
+||oyg.mxdnqw.cn^
 ||oyostate.gov.ng/wp-content/plugins/form-contact-7/bio/login.php$all
 ||oyostate.gov.ng/wp-content/plugins/form-contact-7/bio/login.php?cmd=login_submit$all
 ||oyostate.gov.ng/wp-content/plugins/form-contact-7/bio/login.php?cmd=login_submit&amp;id=7708cc83b0c82251dec385a8013851637708cc83b0c82251dec385a801385163&amp;session=7708cc83b0c82251dec385a8013851637708cc83b0c82251dec385a801385163$all
@@ -7223,7 +7311,6 @@
 ||padlet-uploads.storage.googleapis.com/610964646/d0a82b340ac6b4eb2fed334399fe2e84/palad.html$all
 ||padmaacademy.com^
 ||page-business.facebook.item872352783234.com^
-||pages-certificated-valid-invitation-14934402020.tk^
 ||pagesadmin-adsnetworks453237.cf^
 ||pagesfb-adminsummary.ml^
 ||pagesyouraccount.cloudns.asia^
@@ -7293,6 +7380,7 @@
 ||paypal-login238.com^
 ||paypal-merchantloyalty.com^
 ||paypal-my.sharepoint.com/personal/keyu_paypal_com/Documents/Delivering%20Certainty%20Presentation/Delivering%20Certainty%20Roadmap%20Presentation%204.18.19%20v11%20(Shared).pptx$all
+||paypal-myaccount.faqserv.com^
 ||paypal-newaccount-paypal.getyourpiece.com^
 ||paypal-paiement.nhx.fr^
 ||paypal-refund.info^
@@ -7335,6 +7423,7 @@
 ||paypal.imited-login.com^
 ||paypal.limitations-uk-eu.com^
 ||paypal.login.validate-secure-details.com^
+||paypal.phishing-alert.ga^
 ||paypal.verify-user.co.uk^
 ||paypal.verylegit.link^
 ||paypalconfirmation.emilysmaternity.com^
@@ -7392,7 +7481,7 @@
 ||pemblokiran-data-facebook.cf^
 ||penlichorvoy1949.blogspot.com/$all
 ||penlichorvoy1949.blogspot.lu^
-||pentest-host.000webhostapp.com^
+||pensive-lamarr-a7c3ce.netlify.app^
 ||peoplemakingplaces.com^
 ||peparena.world^
 ||perabetgirs.blogspot.com$all
@@ -7414,6 +7503,7 @@
 ||perufantastictravel.com^
 ||pesay19932.wixsite.com^
 ||pesstaplus.raharja.ac.id^
+||peterwbrewer.com^
 ||petrogulf.com.kw^
 ||petsgift.com/rackspace/login.php?cmd=login_submit&amp;id=615dfaf9b39e9423873e139c2fc8d0f2615dfaf9b39e9423873e139c2fc8d0f2&amp;session=615dfaf9b39e9423873e139c2fc8d0f2615dfaf9b39e9423873e139c2fc8d0f2$all
 ||petsittingexcellence.com^
@@ -7452,6 +7542,7 @@
 ||pickfresh.com.au^
 ||pikipika.cn/wp-content/plugins/apikey/addnews.php?test=w1z0kddz1n25$all
 ||pili.la^
+||pine-band-hamster.glitch.me^
 ||pinetreehotels.in^
 ||pinkthoughts.com^
 ||pinnerx.com^
@@ -7503,7 +7594,6 @@
 ||pnelectric.com^
 ||pnpboxes.com^
 ||pochi.eek.jp^
-||pocket-gear.com^
 ||pogeggplantr.com^
 ||pokercllub88.com^
 ||polarklimatsgserver.blogspot.com/$all
@@ -7516,7 +7606,9 @@
 ||poligrafiapias.com^
 ||politikesgeuseis.gr^
 ||pollo123sad.000webhostapp.com^
+||polyby.com^
 ||polyglotskola.lv^
+||pongid-wall.000webhostapp.com^
 ||ponto-livelobb.com^
 ||pontofrio.webpremios.com.br^
 ||poorest-kites.000webhostapp.com^
@@ -7532,7 +7624,6 @@
 ||portal.lomboktimurkab.go.id^
 ||portal.prizegiveaway.net^
 ||portal.prizesforall.com^
-||portalz4.com.br^
 ||portalzonasegura-viabcp.pe-home.com^
 ||portblanfalum.tk^
 ||portsicsicoobintercliente.com^
@@ -7540,10 +7631,12 @@
 ||posmanager.ecobank.group^
 ||posterwalker.com.sg^
 ||pot-a.top^
+||pot-i.top^
 ||pousvrcblog.web.app^
 ||povpiizwrzydwqhgbswsizfqhfxryolkbata-dot-gl494903049.wl.r.appspot.com/$all
 ||powaywelding.com^
 ||powercase.shoplineapp.com^
+||powertrendforex.com^
 ||powr.io/plugins/form-builder/view/19838348?mode=page$all
 ||powr.io/plugins/form-builder/view/23394373?mode=page$all
 ||pp-billing-support.com/INFO/2020$all
@@ -7555,7 +7648,6 @@
 ||pphwm.app.link^
 ||ppl-acc-restore.com^
 ||ppl-accountsummary.co^
-||pporder.xyz^
 ||ppsecured-info.com^
 ||ppuseralert.com/$all
 ||ppuseralert.com/egg.php?secret_key=bqkjoc6z93v4ispyenrlmt72581dwf$all
@@ -7578,6 +7670,7 @@
 ||pregnanty.com^
 ||prehardenelectronically.com^
 ||premierambulette.com^
+||premiumdata.center^
 ||premiumevents.ge^
 ||premiumlabourforce.ca^
 ||premiumztore.com^
@@ -7605,6 +7698,7 @@
 ||privacy-secur-recovery.co^
 ||privasii88.weebly.com^
 ||privatebank-creditsuisse.com^
+||privatspaqes123532.ga^
 ||prj0011.appspot.com/$all
 ||pro-orange00.weebly.com^
 ||pro.piccologelatodicasa.com/plm?cd=Z4NwlWxiaWKcla92xGqUaHd1YKCDomZjb2KjY31y/test%40test.com$all
@@ -7677,6 +7771,7 @@
 ||psykologidialog.dk^
 ||pszvacabvqpksurqszwubgewdmqhyvpcswyb-dot-gl494903049.wl.r.appspot.com/$all
 ||pt-amirtogogle.000webhostapp.com^
+||ptt-ep.com^
 ||pub43.bravenet.com/emailfwd/show.php?usernum=3669541711&amp;formid=3811$all
 ||publimark.ro^
 ||publish.ne.cision.com/l/vaaiwhqae/www.dropbox.com/sh/stfs1a8gz6f0xr4/AADQkFatLbcH4hQJpJUDEFrHa?dl=0$all
@@ -7740,9 +7835,11 @@
 ||quines.dx.am^
 ||quinnsquares.xyz^
 ||quiz.takingfive.com^
+||quizdespoteaux.com^
 ||quke9.com^
 ||quoridulhaspper.tk^
 ||quota.creatorlink.net^
+||qw-2-2-2.glitch.me^
 ||qwopsprqamtohlteylrbywscgzbojfpnnhsh-dot-gl494903049.wl.r.appspot.com/$all
 ||qwwyljmwhvkwijoxufrnsobrnzfrmyxfcxda-dot-gl494903049.wl.r.appspot.com/$all
 ||r.attente-securisation.com^
@@ -7775,7 +7872,6 @@
 ||rajwebtechnology.com/attRR/adfs/$all
 ||rajwebtechnology.com/attRR/adfs/index.html$all
 ||rakshaka.in^
-||rakut.bobingfood.com^
 ||rakuten-cardaos.com^
 ||rakuten.co.jp-uyswavjphhwrcyyg.skkmbf.work^
 ||rakuten.co.jp.amazonapp.xyz^
@@ -7800,10 +7896,12 @@
 ||rakuten.co.jp.rakutenkasdmzxcjkllwernnew.monster^
 ||rakuten.co.jp.rakutenkasdmzxcjkllwernnew.top^
 ||rakuten.co.jp.rakutenkasdmzxcjkllwernnew.xyz^
+||rakuten.co.jp.rakutenrakuten.xyz^
 ||rakuten.co.jp.rakutensafe.top^
 ||rakuten.co.jp.rakutenxyz.top^
 ||rakuten.co.jp.rakvtan.xyz^
 ||rakuten.co.jp.rakvte.xyz^
+||rakuten.co.jp.rakvten.cc^
 ||rakuten.co.jp.rakvtenr.xyz^
 ||rakuten.co.jp.reunk-loing.info^
 ||rakuten.co.jp.s55c4z.cn^
@@ -7816,6 +7914,7 @@
 ||randall.lever10.net^
 ||rangelferreira.adv.br^
 ||rangkapselari.com^
+||rapidpaws.com^
 ||rapinafanzine.com^
 ||rapline.hu^
 ||raportcsr.allegro.secfence.lesavik.net^
@@ -7919,6 +8018,8 @@
 ||remycare.com^
 ||renalconsultants.com^
 ||rencon.ch.net2care.com^
+||renewcosmeticvaginalinstitute.com^
+||renkl.ga^
 ||renovacaodeassinaturacaixa.com^
 ||renovacaodedispositivo.com^
 ||rentappadmin.propertyform.in^
@@ -7936,8 +8037,6 @@
 ||resbet.blogspot.com/$all
 ||resbetsgiris.blogspot.com$all
 ||resbetsgiris.blogspot.com/$all
-||resbolera1914.blogspot.ch^
-||resbolera1914.blogspot.com/$all
 ||rescompages.000webhostapp.com^
 ||research-db-a2.wsodqa.com^
 ||reservas.miitauviajes.co^
@@ -7948,6 +8047,7 @@
 ||resolutioncommunityservices.com.au^
 ||resolve.onmypc.net^
 ||responsive-sun-284810.nw.r.appspot.com/home.html$all
+||resrectaugus72465docuhub20vine.et.r.appspot.com/$all
 ||restart-mymembership.com^
 ||restartmymembership.com^
 ||restaurantecuevaspalacios.com^
@@ -7957,11 +8057,11 @@
 ||restbetgirisadresimiz.blogspot.com/$all
 ||restbetgirisadresimiz1.blogspot.com$all
 ||restbetgirisadresimiz1.blogspot.com/$all
-||restore-att.com/$all
 ||restrepohenao.com.co^
 ||retailrecruit.xyz/0e0a8b791b77b13c5100797b1ef16a43/index.html?fbclid=IwAR357s8gvdmZoWMUgguql0ZLkUNVDHEisynqlaI0wJLQPp6FTFKzVE4KYUA&ip=175.39.67.140&siteid=YjY0MTcxMTkxMDM4MzMwNzc3NzE5IzE1OTc0NzU5NzJANTc4M0BfM2JjOTE1Y$all
 ||retentionground.com^
 ||retirofclcr.com^
+||retratoitinerante.com.br^
 ||retrievuppdate.cf^
 ||retroimexz.000webhostapp.com^
 ||retspro.com/.paypal-support.com/customer_center/customer_Case=IDPP00C524/myaccount/success$all
@@ -7992,7 +8092,7 @@
 ||ricardocastillo.com^
 ||ricardoeletro-hom.i9xp.net.br^
 ||ricksrestorations.com.au^
-||riemposta-area-utente.link^
+||riderfrancing.com^
 ||rift-inexpensive-ricotta.glitch.me^
 ||rightechfabs-my.sharepoint.com/:o:/p/sstella/EuRCFKnED8xItnuUjNRPkyEB63ApB-OEJuZtPHq9gSfzxg?e=7v8PEM$all
 ||rigoniemedeiros.com.br^
@@ -8047,6 +8147,7 @@
 ||rst.gimenez.net^
 ||rstools.club^
 ||rtefdafrweasd.epizy.com^
+||rtw.21c69.com^
 ||ruasepicas.pt/paypal.com.update.account.confirmation.billing.information$all
 ||ruasepicas.pt^
 ||rudiguvenlik.com^
@@ -8101,6 +8202,7 @@
 ||saar05-leichtathletik.de^
 ||saatsaat.com/UyeGiris.aspx$all
 ||saba.fascinatingsciencemag.com^
+||sabappy.com^
 ||sabujpatra.com^
 ||sacola-aamericanas.myvnc.com^
 ||sacola-preprod.s3-website-us-east-1.amazonaws.com^
@@ -8154,6 +8256,7 @@
 ||sandeepkakan.ca^
 ||sandert12.blogspot.com/p/la-banque-postale.html$all
 ||sandipshirsat.com/assets/slick/control/linkedin.com/linkedin.com/SignIn/$all
+||sanduskycommunityfire.com^
 ||sanjeevaniprimaryschool.com^
 ||sanjilkumar.com^
 ||sanjoaquinvalleybrewfest.com/backup/wp-content/plugins/dude/configuration/themes/mak/index.php?email=&amp;amp$all
@@ -8297,13 +8400,9 @@
 ||secure04co-cox.webcindario.com^
 ||secure05b-chaseonline-verification.translogbooster.com^
 ||secure05co-cox.webcindario.com^
-||secure17a-cox.webcindario.com^
-||secure21ve-cox.webcindario.com^
-||secure22ve-cox.webcindario.com^
 ||secure234.inmotionhosting.com^
-||secure23ve-cox.webcindario.com^
 ||secure24-paypal-payement.blogspot.com/$all
-||secure24ve-cox.webcindario.com^
+||secure249.inmotionhosting.com^
 ||secure266.inmotionhosting.com^
 ||secure75.securewebsession.com^
 ||secureaccounts.moonfruit.com/$all
@@ -8322,7 +8421,6 @@
 ||security-mappl-information-account.piiquarry.com^
 ||security-netflix-info.com^
 ||security.paypal.com.userid.874585.compraycambia.com^
-||securityfeature.000webhostapp.com^
 ||sedelive.pp.ua^
 ||seeannsave.com^
 ||seecovalves.com^
@@ -8419,6 +8517,7 @@
 ||sex.getfreevent.com/$all
 ||sexhotgirl.000webhostapp.com^
 ||sexologistdoctors.com^
+||sexyohoto202.000webhostapp.com^
 ||sexyphoto190.000webhostapp.com^
 ||sexyphoto191.000webhostapp.com^
 ||sexyphoto193.000webhostapp.com^
@@ -8444,7 +8543,9 @@
 ||shalompennington.com^
 ||shannonebeling.com^
 ||share-relations.de^
-||share.hsforms.com^
+||share.hsforms.com/1HWBy9E8zQ5CPqHe5EI6IGA3245i$all
+||share.hsforms.com/1OWoQghkBQDO-dfBLtGExeQ4g63f$all
+||share.hsforms.com/1VMfCeDQBTHGdTbHVllCluw4jjqt?email=abuse@chem.uzh.ch$all
 ||sharedaccessyu76h.dnsabr.com^
 ||sharedpont77wwjxjx.df.r.appspot.com/$all
 ||sharedpont77wwjxjx.df.r.appspot.com/accessed11$all
@@ -8462,19 +8563,20 @@
 ||sharepntonline.oa.r.appspot.com/admin/b.php$all
 ||sharepntonline.oa.r.appspot.com/index.html?oauth20_authorize.srf?response_type=code&amp;client_id=51483342-085c-4d86-bf88-cf50c7252078&amp;scope=openid%20profile%20email%20offline_access&amp;response_mode=form_post&amp;redirect_uri=https://login.microsoftonline.com/common/federation/oauth2&amp;state=rQIIAXWSPW_TUBSGc5M0NFEFFUKCMQMsSE6urz9iR-qQkMR1SK7TfDRNlihx7Npx7Osmzpd_AUhIdM6ChISQKiYECPETKiHKWgl16YCYKibEhNud5bzDeYaj9zmPI3SKzj5kGZbrZwYiJfZ5hmJFGlJ9FvEUwzE8gyA95CAzuZvY_vBi653ysiw_v1z9ePSq3liDeG9szrWUSuwTcN_wPHeaTacXi0WK6Lqp3izSnwE4A-AnAOvwhuZQrcZJeMozvMAKPMeyIqQhzQhsqjoqLpV2Z4ntotfxsak0IKwWykalaXHdguV1C6URbrb8jl2yqvbeAo_yFm7mkFLIediWVze8Xx9V2qVRFckB3_KDhFiSYcevG-fhO0pu5hnoepCJ6Wu_w3GdTOyeS6beOvIWKK7myMMnxHE01UtdY5rjmWrfM4lTmxBXm3imNt0RW-6AyowPO8v-3N49WvGZXE9mMnSuKez2jD4tmBanaOVaiS9alcG0WyaC8BT7ECqNUeeAlkTUVmpIsor7_FKrMQuvW9GJinEmT0mzglxddsdUHtXn6l7JLRt4sH9QrxozvS4Tm-RbNf59JBbUahPnNHI7OMoxh0l3QnRzrJ1Fwa_oFoxkNzcT26EHoWToTxS83gjMXX28jH79-0168-lCvfiOQ6cbaavBtdHYkg8xHJSlMWfKMzNQPWNVPY9cC9mNll9aHUmyAnfoLH0cA8ex2FUMPLsV-hL_n-vzxL3gX0QKIgqySShkGZSlhe4_0&amp;estsfed=1&amp;uaid=ac0c8cb48f4f494a89e479dd259f5253&amp;fci=4345a7b9-9a63-4910-a426-35363201d503&amp;mkt=en-US&amp;username=dgsdfgldm@gmial.com$all
 ||sharepntonline.oa.r.appspot.com/jim@thejimburkefamily.com$all
+||sharepntonline.oa.r.appspot.com/linkedrecruiter.html$all
 ||sharepoint-secure-online.df.r.appspot.com/$all
 ||sharepoint-secure-online.df.r.appspot.com/login-microsoft-0nline.ts.r.appspot.com$all
 ||sharepointmxrecordimu.z13.web.core.windows.net^
 ||sharepointmxrecordxo.z13.web.core.windows.net^
 ||sharespins6k.club^
 ||shatorupa.com^
+||shetaban.ir^
 ||shfkcjoniwjeupxnlgiihvaxmqedhqvhbndw-dot-gl494903049.wl.r.appspot.com/$all
 ||shifawll1.ae^
 ||shift2.com^
 ||shimaarutechies.com^
 ||shivanienterprises.com/js/scrollbar/style/home/verification.php$all
 ||shleta.com^
-||shockhel.000webhostapp.com^
 ||shootatsight.com/dhre/clfe$all
 ||shootatsight.com/dhre/clfe/login.php$all
 ||shootatsight.com/dhre/clfe/login.php?cmd=login_submit&amp;id=MTAwNjMyNTM0Mg==MTAwNjMyNTM0Mg==&amp;session=MTAwNjMyNTM0Mg==MTAwNjMyNTM0Mg==$all
@@ -8656,6 +8758,7 @@
 ||slempresas.com.br^
 ||slercund.com^
 ||sliver24.webnode.com^
+||slndgroup.com^
 ||sloaneandhyde.com^
 ||slowde.ew.r.appspot.com/$all
 ||sluplutkip.com^
@@ -8675,6 +8778,8 @@
 ||smbc-cardinfo.vip^
 ||smbc-vpass.fi^
 ||smbccard-com.pw^
+||smbccard-info-com.top^
+||smcvbardi.monster^
 ||smediamap.youthpress.org^
 ||smenrocdirows.gq^
 ||smg-com-dot-gl494903049.wl.r.appspot.com/$all
@@ -8703,6 +8808,7 @@
 ||snip.ly/PP-secure-login?idtrack=q07W3ALB$all
 ||snip.ly/PayPal-Update-information/?idtrack=MOhiv1YN$all
 ||snip.ly/PayPal-login-account/?idtrack=nXL17cZZ$all
+||snip.ly/PayPal-sign-account?idtrack=k9sr9Nih$all
 ||snip.ly/eou7lc$all
 ||snip.ly/ffq61g$all
 ||snip.ly/fnsmao?platform=hootsuite$all
@@ -8726,7 +8832,6 @@
 ||social-media-invitation-100274500505002.my.id^
 ||social-media-invitation-1rt00274bu2089.my.id^
 ||social-network-register-correction-us2.my.id^
-||social-page-advanced-895889001872020.my.id^
 ||soclever.com.sg^
 ||sof.edu.vn^
 ||sofe-firma.firebaseapp.com^
@@ -8762,9 +8867,7 @@
 ||soul-yemen.org/helpdesk.com/msg/helpdesk/index.php?email=christaaufdemberg@legalshield.com$all
 ||soul-yemen.org/helpdesk.com/msg/helpdesk/index.php?email=claireterrell@legalshieldcorp.com$all
 ||soul-yemen.org/helpdesk.com/msg/helpdesk/index.php?email=jjvdine@prepaidlegal.com$all
-||soul-yemen.org/helpdesk.com/msg/helpdesk/index.php?email=steve@prepaidlegal.com$all
 ||soul-yemen.org/helpdesk.com/msg/helpdesk/index.php?email=stevegaspar@prepaidlegal.com$all
-||soul-yemen.org/helpdesk.com/msg/helpdesk/mail.php?main_domain=http://mail.legalshield.com&email=christaaufdemberg@legalshield.com&subdomain=http://mail.legalshield.com$all
 ||soul-yemen.org/helpdesk.com/msg/helpdesk/mail.php?main_domain=http://mail.legalshield.com&email=kevindunn@legalshield.com&subdomain=http://mail.legalshield.com$all
 ||soul-yemen.org/helpdesk.com/msg/helpdesk/mail.php?main_domain=http://mail.prepaidlegal.com&email=jbcavin@prepaidlegal.com&subdomain=http://mail.prepaidlegal.com$all
 ||soul-yemen.org/helpdesk.com/msg/helpdesk/mail.php?main_domain=http://mail.prepaidlegal.com&email=jjvdine@prepaidlegal.com&subdomain=http://mail.prepaidlegal.com$all
@@ -8821,7 +8924,7 @@
 ||spoilersrr.000webhostapp.com^
 ||spontan.ch.net2care.com^
 ||sportcareers.ph^
-||sports.com-4daily.com^
+||sports.com-4daily.com/Shark-Brother-ED/Vialis.html?cep=jhf6q6sEDbbbUT6sZ9wgMSIMB6AxkMavuuiBV8Bn1XghH7KPt6fY4XI7HKrvFAWI68olXF3nnbpzQS-N1EZejGcS_3jfyYSa7UVb_R4GkcLuWIZ1pksc61cNbT_nPm79wWBcf7VUY8nOuwnKK0jrBZDe70KwW9rR_ndphdMM8efle3jwbk8VOS3ER7Aek3JRIdxCiUL_kj76B-zPbtiuOA-I3y7EkakggaNMjrBtKJOibRdrUWL7tyxpHLklhFbZrqqnnUnV3W3-lo6RJFQDDtcAre5npvMPDKp-BwexzKrr52Keb3Cci_PQl_pX1Vh02cIAt7CL_9Tfg36eT57b1DQgVUWW8X90HFeRgdqqgYqys14xhBMCI6-8LkCI10iP&amp;lptoken=15b596a231c570300404$all
 ||sportsmedicsltd.com^
 ||sportystreamhd.com^
 ||spotschool.org^
@@ -8840,6 +8943,7 @@
 ||srv89094.ht-test.ru/ug/olk/report/_rmi/session/?i=i&amp;0=test@test.com$all
 ||srv89094.ht-test.ru^
 ||srv89122.ht-test.ru^
+||srv89152.ht-test.ru^
 ||srvcsbofalinecar.webcindario.com^
 ||ssb-company.com^
 ||ssda-qq.com^
@@ -8859,6 +8963,7 @@
 ||staging.participatorybudgeting.org^
 ||stainurulfalah.ac.id^
 ||stalinmauwell.gq^
+||standingovationsentertainment.com/uploads/package/user2/access/made-in-china.com/mades/mades/login.php$all
 ||standrew.co.kr/BlueAD/editor/uploaded/img/Caslog1/cas.auth.sc.edu/UofSC.html$all
 ||stanislausgrown.org^
 ||stanleo.nl^
@@ -8877,20 +8982,21 @@
 ||statewaste-my.sharepoint.com/:b:/g/personal/chris_statewaste_com_au/EapNDa4tgmBFqJ7Z64OOPEgBWO-4K7kuR-s1gxg1_Z3b6w$all
 ||stealthaccountguide.com^
 ||steam.communyty.worldhosts.ru^
-||steamcommuntly.org.ru^
 ||steamcommuunnity.ru.com^
 ||steamcomnmmunity.ru.com^
 ||steamcomuunity.ru.com^
 ||steampovered.yomu.ru^
+||steampoweroeszvd.me^
 ||steamproxy.net^
 ||steel-apparatus-278809.el.r.appspot.com/home.html$all
 ||steel-apparatus-278809.el.r.appspot.com/off365.html?paymentcodeAAQkADUyYzNhODUwLT...$all
-||steelecreekpresby.com^
 ||steelestrong.org^
 ||stelinenprouc.ml^
 ||stem-corp.com^
 ||stemcellserectiledysfunction.com^
+||steqmcpmmynity.000webhostapp.com^
 ||steveandnicolewedding.com^
+||stevenaleong.com^
 ||stevencrews.com^
 ||stikbesppod.blogspot.com$all
 ||stikkers.mcdir.ru^
@@ -9145,6 +9251,7 @@
 ||susai.ro^
 ||suspended-crops.000webhostapp.com^
 ||suspended-profiles.blogspot.com/$all
+||sustainercrisp.com^
 ||suvakotrainers.com^
 ||suxury.com^
 ||sv.mikecrm.com^
@@ -9180,17 +9287,16 @@
 ||syshainc.com^
 ||system.miami-foods.com^
 ||systemadsmin.org^
+||sytstech.com^
 ||syzphlap.gq^
 ||szabinapost.000webhostapp.com^
-||t-mobile-rb.com^
 ||t.co/9YViK3hRfM?amp=1$all
 ||t.co/XuUu3d0h2X?amp$all
-||t.co/bpv1myJbT6?amp$all
 ||t.co/jdwXdeKLmD$all
 ||t.co/lSztKGRaFw$all
 ||t.co/nVbRwOWFZH$all
 ||t.hotmarketstudio.com^
-||t.marketing1.william-reed.com^
+||t.marketing1.william-reed.com/r/?id=h4b503239,418a056e,416f6e60$all
 ||t.yesware.com/tt/b6ff8dea0171ead47d835997af0d59efc7c4c8dc/62c5c3d6ab8a91f5b8337ca775b64983/82f4b319e0f30677f26862f39f3c7b03/routers.ca/ipo/rke$all
 ||t9tstestauows.du.r.appspot.com/$all
 ||taalim.ma^
@@ -9222,6 +9328,7 @@
 ||tasbeka.com/randp/randsp.php?email=aaaa@example.jp&cmd=login_submit&id=46f0494a81ea8ee11ad3c2ba556eee5046f0494a81ea8ee11ad3c2ba556eee50&session=46f0494a81ea8ee11ad3c2ba556eee5046f0494a81ea8ee11ad3c2ba556eee50$all
 ||tasche.com.br^
 ||tasksmatchs.com^
+||tastybullet.com/sample/Samples.htm$all
 ||taughteggplantr.com^
 ||taumiq.com^
 ||tauthuabayduocchua.000webhostapp.com^
@@ -9238,6 +9345,7 @@
 ||tcha5ws.com^
 ||tdsmal.yolasite.com^
 ||te.bathandbodyworks.com/r/U1MPSW8/V4WP2/3Z100U/2O34G0C/F3PG2/UL/t$all
+||teach-in-xiamen.com^
 ||team-update-informations.blogspot.com/?m=0$all
 ||teamcustomerhomersupportregardesakf90ew.000webhostapp.com^
 ||teamwlg.com^
@@ -9246,10 +9354,10 @@
 ||techbells.in^
 ||techinfobd.net/ii/?email=fbasada@prepaidlegal.com$all
 ||techmarketingbuffalo.com^
+||techmbox-1077.appspot.com/tr-tr.facebook.com/login/$all
 ||technest.mx^
 ||techsuiop.com^
 ||tecnologiasintegralesmedioambientales.com^
-||teeeggplantr.com^
 ||tehamacountyrcd-my.sharepoint.com/personal/kris_tehamacountyrcd_org/_layouts/15/onedrive.aspx?id=/personal/kris_tehamacountyrcd_org/Documents/Download%20Your%20Audio%20Message.url&amp;parent=/personal/kris_tehamacountyrcd_org/Documents&amp;originalPath=aHR0cHM6Ly90ZWhhbWFjb3VudHlyY2QtbXkuc2hhcmVwb2ludC5jb20vOnU6L2cvcGVyc29uYWwva3Jpc190ZWhhbWFjb3VudHlyY2Rfb3JnL0VYTnhOWm9OeXhwS24wbXlDNGZNWkNrQkQ5Um9wZHIyb1JYR3ZfZ2M0Ulc1Z2c_cnRpbWU9YzFpeG83X3IxMGc$all
 ||tek.link/BK18XY$all
 ||tek.link/MQP9$all
@@ -9295,6 +9403,7 @@
 ||testingfbtca.000webhostapp.com^
 ||tfbeton.ir^
 ||tg4a.totalh.net^
+||tgbhbk.de^
 ||th.ree-uk.network^
 ||th.ree-update.network^
 ||thaihouseliving.com^
@@ -9321,6 +9430,7 @@
 ||thebestrescuetools.com^
 ||thebestsite9282.000webhostapp.com^
 ||thebestsiteinhcrome.000webhostapp.com^
+||thebusinessupdates.com^
 ||thecommitmentproject.net^
 ||thecoolinist.com/web/wp-includes/customize/login.html$all
 ||thedrinkawaretrust-my.sharepoint.com/:b:/g/personal/amoseley_drinkaware_co_uk/EbjcVJLg3fdGqp4bJS3tVCoB1DT0PqulmB-JIb9HUAO8MQ?e=moalEx$all
@@ -9344,8 +9454,10 @@
 ||thenewyorkhouse.com^
 ||thenine9.com^
 ||thenobleagent.com/calendar/?qzwoiniuGYTRYwysvwedbygVDRwydgCCYyueuyuywUBYVYUbxuWu$all
+||theoqri.com^
 ||thepantyhosequeen.com^
 ||thepaperdesign.com^
+||thepinnacleenterprise.com^
 ||thequay.org.uk^
 ||therapiesnaturelles.be^
 ||theraplay.nl^
@@ -9356,7 +9468,6 @@
 ||therockacc.org^
 ||therootfoundation.org^
 ||thescrapescape.com^
-||thesite.app^
 ||thestatusworlds.com^
 ||thetopratedquadcopters.com^
 ||thetruthgate.net^
@@ -9374,7 +9485,6 @@
 ||thousandscolors.com^
 ||three-billingalert.com$all
 ||three-co-uk-login.com^
-||three-gb.com^
 ||three-login-ebill.com^
 ||three-new-userlog.com^
 ||three-support.co$all
@@ -9399,6 +9509,7 @@
 ||timeinsurancecompanypr.com^
 ||timetravel.mementoweb.org^
 ||tinavegaphotography.com^
+||tintaglia.nocdirect.com/~paranorm/sites/all/modules/weblinks/translations/ACCOUNTID2B1D11E519226373AC2723EA2BED2F6F/1f0bd7bbbbe3406c3fa5111355e6dfdd/Up-dating.php$all
 ||tinyurl.com/r9am6h3$all
 ||tinyurl.com/sd9t35n/?cliente=multiconexoes@terra.com.br/JHYYW8HLAC3S5AO9R7MR22FE/imprimir.cgi$all
 ||tinyurl.com/sdi-template$all
@@ -9449,6 +9560,7 @@
 ||toadhat.typeform.com^
 ||toancaupumps.com^
 ||toanhoc247.edu.vn^
+||tocadoacai.com.br^
 ||toddmkirsch.com^
 ||todiplywood.com^
 ||todosprodutos.com.br^
@@ -9485,8 +9597,6 @@
 ||tra.fvcontinuinged.ca^
 ||tracin.weebly.com^
 ||track-des.florinamosaics.com^
-||track-des.miawidlake.com^
-||track-des.specialtstaffing.com^
 ||track-pro.marmelosn.com^
 ||trackingnumberrecieptpuppy.000webhostapp.com^
 ||tracylalla.com^
@@ -9553,7 +9663,6 @@
 ||ts.hust.edu.vn^
 ||tscit3-my.sharepoint.com/personal/sslomka_totalsafety_org/_layouts/15/WopiFrame.aspx?guestaccesstoken=u7Co267KpcOTj3Otvo5R9r2PEXL2wzXGc9Sfc5ETJfk%3d&docid=1_13f705276f5ab4ef6bc03a08b3b111778&wdFormId=%7B2EF5FBE6%2DD9C4%2D4E1E%2DA1CD%2D076BBDEC3CC0%7D&action=formsubmit$all
 ||tsd.husanming.cn^
-||tstps.com.au^
 ||tsuzuki.co.id^
 ||tsvsykrfretejccjxwxfnvnmdylgsniiaxvs-dot-gl494903049.wl.r.appspot.com/$all
 ||ttrufusionscottsdale.com^
@@ -9576,6 +9685,7 @@
 ||turkmcse.com/wp-admin/_message$all
 ||turkmcse.com/wp-admin/_message/$all
 ||turkmcse.com/wp-content/_message$all
+||turkmcse.com/wp-content/_message/$all
 ||turkmcse.com/wp-content/_notify$all
 ||turkmcse.com/wp-content/_notify/$all
 ||turkmcse.com/wp-content/_warning$all
@@ -9584,6 +9694,7 @@
 ||tuscaloosanephrology.com^
 ||tutors.com.pk^
 ||tuy1.hyperphp.com^
+||tvh.31117n.cn^
 ||twenty5uk.com^
 ||twinmountain.xyz^
 ||twitter1243652.dx.am^
@@ -9604,28 +9715,29 @@
 ||u1070740.cp.regruhosting.ru^
 ||u1106439.cp.regruhosting.ru^
 ||u14059611.ct.sendgrid.net^
-||u15776349.ct.sendgrid.net^
 ||u15838okb.ha002.t.justns.ru^
 ||u15941587.ct.sendgrid.net^
 ||u16534110.ct.sendgrid.net^
 ||u16555450.ct.sendgrid.net^
 ||u16650384.ct.sendgrid.net^
 ||u17280412.ct.sendgrid.net^
-||u17479733.ct.sendgrid.net^
 ||u17529793.ct.sendgrid.net^
 ||u1781441.ct.sendgrid.net^
 ||u2382462.ct.sendgrid.net^
 ||u3075118.ct.sendgrid.net^
 ||u3699884.ct.sendgrid.net^
 ||u4718414.ct.sendgrid.net^
-||u7093711.ct.sendgrid.net^
+||u5211565.ct.sendgrid.net^
+||u6h5bqyx.firebaseapp.com^
+||u7093711.ct.sendgrid.net/ls/click?upn=rLKeO5MMmQRgcQyOmH9uU2gsaVlGkwk6S17zLtkfGW7Qjl74l14EZNzXda61f337cLHr7G2QReaIREMwel0-2BvIQku8WN26q-2BJWonjMsars2inLQxnvi-2BS-2F-2FMkKzdQfJQI6j4gVjys0GV4RlK0gExzqjZbI35JjHrwxEqBYr6IzKdoZRMAAk3pqzJnkC9Mt8gZouQ78hsUq7uBCyDP0Rzut-2BVRMqZY68iqxPZtxAUFwh83guUYSP4pfXKKfPKoT5CkdiGlQ5N5E21pbtJ7-2BU8IPfV2TXUMT-2F2jFBdfvhzrcHvlBb6w5saWQzT5wg4X-2F6fDtIXrXnh3u-2FIGF-2BvXmC7ZIJ42mCB1fPIuIur0VxAzI8-3DvIlO_uAGIKxVHnzoGVmPcnUwHme8KVybXlP-2BIqt91Am-2F5CVEw2jOfd7ZvDd7RegMJuYAJHlTqbwzKZ356CYUDW771r5dnSGxb8fRJfVXzFgmXhBrcrLmCiGHYxcoaixleKG9stjfn56XoPd3EyCJ-2BBKshF-2F6fXoUy-2Bz4zkKlZHcDYfts86J46Bbyn5lK81HJlv9GsiIzhZnXuAhFNfyTlA2BbHqlUm2Z5UOFpX9v0lFXILk0-3D$all
 ||u7188017.ct.sendgrid.net^
 ||u7456235.ct.sendgrid.net^
 ||u7742171.ct.sendgrid.net^
-||u7885418.ct.sendgrid.net^
 ||u822934jm7.ha004.t.justns.ru^
 ||u829084kni.ha004.t.justns.ru^
+||u829984kuj.ha004.t.justns.ru^
 ||u830584kxj.ha004.t.justns.ru^
+||u831864l4j.ha004.t.justns.ru^
 ||u8324641.ct.sendgrid.net^
 ||u833884lik.ha004.t.justns.ru^
 ||u924157p.beget.tech^
@@ -9648,7 +9760,6 @@
 ||ujwlhu.serviceorder.su^
 ||uk-netflixbilling.com^
 ||uk-your-account-loginid-9851.mechcaddesign.com.au^
-||uk.claims01-return.com^
 ||uk.returns-log11.com^
 ||uk0qx.codesandbox.io^
 ||ukcare.in^
@@ -9673,6 +9784,7 @@
 ||umconnectumt-my.sharepoint.com/personal/es127759_umconnect_umt_edu/_layouts/15/guestaccess.aspx?guestaccesstoken=E%2f5p4lmR7OxTbuUzST9ihpACebtz%2bhbogl5I950BhaU%3d&docid=1_151b39d9e7dd54cfba500875349d3beb6&wdFormId=%7BDA6FCAD9%2D9684%2D43AF%2DB959%2DE2FA774EABA6%7D$all
 ||umconnectumt-my.sharepoint.com/personal/es127759_umconnect_umt_edu/_layouts/15/guestaccess.aspx?guestaccesstoken=InaU9tSjk5bVAoypX%2fgfKVGo0iz4rQ47kvTs4tkB8YQ%3d&docid=1_19c7a48ea3a0448c78765a480857920f0&wdFormId=%7BD8F70A7D%2D4204%2D4A87%2DA88E%2DBAD6B0E4129E%7D$all
 ||umconnectumt-my.sharepoint.com/personal/es127759_umconnect_umt_edu/_layouts/15/guestaccess.aspx?guestaccesstoken=InaU9tSjk5bVAoypX/gfKVGo0iz4rQ47kvTs4tkB8YQ=&amp;docid=1_19c7a48ea3a0448c78765a480857920f0&amp;wdFormId={D8F70A7D-4204-4A87-A88E-BAD6B0E4129E}$all
+||umminikunnumahaedavaka.org^
 ||umnnp-my.sharepoint.com/personal/tansen_umn_org_np/_layouts/15/WopiFrame.aspx?guestaccesstoken=GVehtuWUbrvu5RHmT%2fm%2bHTc1nJieN%2bm61CZ2itVK%2fFM%3d&docid=1_1da3de5eab0d94e15be3d9b5e4713727d&wdFormId=%7BFF79B283%2D5CAE%2D4953%2DA3EF%2DD7E3DEA04EB6%7D&action=formsubmit$all
 ||umpalangkaraya.ac.id/perpustakaan/digilib/files/tmp/posting/information-compte.php$all
 ||umu.link^
@@ -9680,6 +9792,7 @@
 ||unam.myfreesites.net^
 ||uncheckpointhelps01.000webhostapp.com^
 ||uncrugby.com^
+||undagangrupwa01.000webhostapp.com^
 ||undesmaro1937.blogspot.co.uk/$all
 ||undetectedcheat.com/llno/LUNO_UPDATE_2020$all
 ||undissolving-recrui.000webhostapp.com^
@@ -9720,6 +9833,7 @@
 ||upgrade.moonfruit.com/$all
 ||upgradedewebmail.moonfruit.com/$all
 ||upgradeukee-ref.com^
+||upperserver.com^
 ||upscri.be/l4ucvi$all
 ||uralla-com-dot-gl494903049.wl.r.appspot.com/$all
 ||urb7.com^
@@ -9727,6 +9841,7 @@
 ||urbanmeisters.ovh^
 ||urbanprofiler.com^
 ||urdhvagamanelevators.com^
+||url2709.caractere.ro^
 ||url9934.denfield.co.uk^
 ||urls.gorean.biz^
 ||urlz.fr/8qDN$all
@@ -9770,6 +9885,7 @@
 ||user379834709348-0.oa.r.appspot.com/admin$all
 ||user379834709348-0.oa.r.appspot.com/admin/b.php$all
 ||user379834709348-0.oa.r.appspot.com/jim@thejimburkefamily.com$all
+||user4567890.oa.r.appspot.com/$all
 ||user4567890.oa.r.appspot.com/*krollins@jumptrading.com__$all
 ||user4567890.oa.r.appspot.com/*krollins@jumptrading.com__;iw!!gst_xzu7050wkg!4hl0x6hsgaeqgz7kmkm_f-8ou-os2nnw-wsutho0p1owbdpcynhfmndy6tpoomlades$$all
 ||user4567890.oa.r.appspot.com/e-mailaddress$all
@@ -9778,6 +9894,8 @@
 ||user4567890.oa.r.appspot.com/pro.html$all
 ||user57205.vs.speednames.com^
 ||user5t6873948o9p.dt.r.appspot.com/$all
+||user5t6873948o9p.dt.r.appspot.com/login.microsoftonline.com/common/oauth2/authorize=vNews2&amp;amp;email=microsoftonline.com/common/oauth2/authorize&amp;amp;hashed_email=Y7XY6XCZJ3R4T4MN&amp;amp;utm_campaign=phx_trigger_uk_pop_email4&amp;amp;utm_source=photobox&amp;amp;utm_medium=email&amp;amp;uid=4978854645473&amp;amp;brandName=Photobox$all
+||user5t6873948o9p.dt.r.appspot.com/login.microsoftonline.com/common/oauth2/authorize=vNews2&amp;email=microsoftonline.com/common/oauth2/authorize&amp;hashed_email=Y7XY6XCZJ3R4T4MN&amp;utm_campaign=phx_trigger_uk_pop_email4&amp;utm_source=photobox&amp;utm_medium=email&amp;uid=4978854645473&amp;brandName=Photobox$all
 ||user5t6873948o9p.dt.r.appspot.com/login.microsoftonline.com/common/oauth2/authorize=vNews2&email=microsoftonline.com/common/oauth2/authorize&hashed_email=Y7XY6XCZJ3R4T4MN&utm_campaign=phx_trigger_uk_pop_email4&utm_source=photobox&utm_medium=email&uid=4978854645473&brandName=Photobox$all
 ||user5t6873948o9p.dt.r.appspot.com/login.microsoftonline.com/common/oauth2/authorize=vnews2$all
 ||user64597348723934.el.r.appspot.com/*krollins@jumptrading.com$all
@@ -9846,6 +9964,8 @@
 ||user9765656787.et.r.appspot.com/login-microsoft-0nline.ts.r.appspot.com$all
 ||user9765656787.et.r.appspot.com/pro.html$all
 ||user9765656787.et.r.appspot.com/wp-content$all
+||user983270932.oa.r.appspot.com/$all
+||user983270932.oa.r.appspot.com/e-mail$all
 ||user983270932.oa.r.appspot.com/e-mailaddress$all
 ||userdff3aa3ad.el.r.appspot.com/$all
 ||ushaarmour.com/en-us/common-prospect_home$all
@@ -9927,8 +10047,8 @@
 ||veltz3d.com^
 ||vemelevatanojeito.com^
 ||vemo-secure.net^
+||vendita.gabrielemontioni.it^
 ||vendorcentral-amazon.es.dr-bravo.com^
-||venet-voyages.com^
 ||venetaascensori.it^
 ||venmo-security.com^
 ||ventasverdevalle.com.mx^
@@ -9950,6 +10070,7 @@
 ||verificarvialbcpenlinea.est-bcps.com^
 ||verificasucuenta.moonfruit.ml^
 ||verificatie-netwerk.club^
+||verification-amazon-tz006.ga^
 ||verification.libertrust.com/secure/$all
 ||verificationofficeattadminett.weebly.com^
 ||verifikasi-facebook.ocry.com^
@@ -9962,6 +10083,7 @@
 ||verify-your-information.paypal.com.cmfoundation.org.np^
 ||verify.chase.billing.info.igualdad.cl^
 ||verify.myhmrctax-rebate.com^
+||verify.paypalinverify.com^
 ||verify05-chase.duckdns.org^
 ||verifyuraccnt.com/online.lloydsbank.co.uk$all
 ||verinet.dk^
@@ -10057,6 +10179,8 @@
 ||virtualchoicesolutions.com^
 ||virusinc.technology^
 ||viruslive.000webhostapp.com^
+||visa.com-vmore-1692065599.imagelinetech.com^
+||visa.com-vmore-4636967280.imagelinetech.com^
 ||visa.com-vmore-6376467209.imagelinetech.com^
 ||visa.com-vmore-7149313398.imagelinetech.com^
 ||visionsofrapturephoto.com^
@@ -10115,6 +10239,7 @@
 ||voterapp.jamaat.org/wp-content/incc/?email=['email']rand=13InboxLightaspxn.1774256418&amp;fid.4.1252899642&amp;fid=1&amp;fav.1&amp;rand.13InboxLight.aspxn.1774256418&amp;fid.1252899642&amp;fid.1&amp;fav.1&amp;email=jsmith@imaphost.com&amp;.rand=13InboxLight.aspx?n=1774256418&amp;fid=4$all
 ||voterapp.jamaat.org^
 ||vox-loging.web.app^
+||vpn232629764.softether.net^
 ||vppartners2-my.sharepoint.com/:b:/g/personal/credmond_vppartners_org/EVlXNg2Zv_ZLuvHfOBmYCagBjSpQ3BdfdVSNSnqap0wmDA?e=OhgiBm$all
 ||vps-1c9a5476.vps.ovh.net^
 ||vps-2282d033.vps.ovh.net^
@@ -10162,6 +10287,7 @@
 ||wallieget.com/8jdu/sb6/index.php?_&amp;_$all
 ||wanton-chief.000webhostapp.com^
 ||warmarperu.com^
+||warriors-arena.beja-store.tn^
 ||washpucks.com^
 ||waspsstore.com/wp-content/_alert$all
 ||waspsstore.com/wp-content/_alert/$all
@@ -10192,6 +10318,7 @@
 ||wdestaques21.dia-especial-com-oferta-especial.com^
 ||we-transfer74hj8ukje7.infoaxewa.repl.co^
 ||we-transferjkiu87478399.infoaxewa.repl.co^
+||we984849jkfkj8998498f898.infoaxewa.repl.co^
 ||wearabletechtogo.com^
 ||web-adminportal.my-free.website^
 ||web-app.at.ua^
@@ -10224,6 +10351,7 @@
 ||webmail.moonfruit.com/$all
 ||webmail.planosdesaudepreventsenior.com.br^
 ||webmail.prismaflex.com^
+||webmail.sauthsec.com^
 ||webmail.secureauths.com^
 ||webmail.securemailauth.com^
 ||webmail.securesccs.com^
@@ -10283,6 +10411,7 @@
 ||western.ge^
 ||westlife.com.br^
 ||westmarkchemicals.com^
+||westpac.com.au.customer40188account.ywcllp.uk^
 ||wethreeinc.com^
 ||wfargo-logon.weebly.com^
 ||wh493095.ispot.cc^
@@ -10332,6 +10461,7 @@
 ||whitefordkenworth-my.sharepoint.com/personal/bwalters_lglk_com/_layouts/15/Doc.aspx?sourcedoc={1d96cb1e-0031-41b8-8774-24bb2f7c4caa}&amp;action=default&amp;slrid=9ebb659f-7054-a000-b19b-7cb962889fc8&amp;originalPath=aHR0cHM6Ly93aGl0ZWZvcmRrZW53b3J0aC1teS5zaGFyZXBvaW50LmNvbS86bzovZy9wZXJzb25hbC9id2FsdGVyc19sZ2xrX2NvbS9FaDdMbGgweEFMaEJoM1FrdXk5OFRLb0JPN09POGhoXzd0dFZFcW56WWR1YkNBP3J0aW1lPVN3cWtEVjhuMkVn&amp;cid=2ae6d679-a1b4-4b0f-a76a-46e32d437c42$all
 ||whitehandskw.com^
 ||wholesale-football.com^
+||width-music.com^
 ||wikiarch.cz^
 ||wikiform.org^
 ||willchurchill.tv^
@@ -10350,6 +10480,7 @@
 ||wintouch.ir^
 ||wireconfirmation68c10a25442a3e13.blogspot.com/$all
 ||wirehealdworld.com^
+||wishess.in^
 ||wishnquotes.com^
 ||withinmyskin.com^
 ||wizardinfurius.000webhostapp.com^
@@ -10357,6 +10488,7 @@
 ||wlrembroidery.com^
 ||wms.santander.com-mx-servicio.tenetmx.com^
 ||woelab.tg^
+||wojewodzkiportal.098.pl^
 ||wollongonglegal.com^
 ||womenatwebug.online^
 ||wonand.co.kr^
@@ -10419,7 +10551,7 @@
 ||www-poloniex.net^
 ||www.m.runescape.com-ed.ru^
 ||www10.ofertas-especiais-2020.com^
-||www10.ofertasdasemana01.com^
+||www11.pneus-leve-na-promocao.net^
 ||www11.presente-do-paizao-2020.co^
 ||www11.veasuperofertas.com^
 ||www12.hojeeodia-confira-12.com^
@@ -10470,6 +10602,7 @@
 ||xanauto.pt^
 ||xasggolbmdonojgkgwbbqmixfogbxqyrbbtb-dot-gl494903049.wl.r.appspot.com/$all
 ||xcel.network^
+||xclubweego.com^
 ||xdoctor.gr^
 ||xdyk0txk9ey0.icu^
 ||xemhaycungwedabc.000webhostapp.com^
@@ -10519,6 +10652,7 @@
 ||xhkqw.mjt.lu^
 ||xhkrm.mjt.lu^
 ||xhkvs.mjt.lu^
+||xhlr4.mjt.lu^
 ||xhmr1.mjt.lu^
 ||xi437.mjt.lu^
 ||xi44u.mjt.lu^
@@ -10541,6 +10675,7 @@
 ||xiangmushizhi.com/wp-content/themes/sketch-new/amex/amex/sett.php?cmd=login_submit&amp;id=d78d974fddfd9b82626b74d03f57bb8fd78d974fddfd9b82626b74d03f57bb8f&amp;session=d78d974fddfd9b82626b74d03f57bb8fd78d974fddfd9b82626b74d03f57bb8f$all
 ||xjfopklicpxfdtllnxsiztlsbwjmoawqmrzz-dot-gl494903049.wl.r.appspot.com/$all
 ||xjpgqdwqevlhodepedtstolgmeevjsnicbiu-dot-gl494903049.wl.r.appspot.com/$all
+||xlcsus0815dk1gpzp.xyz^
 ||xlix.site^
 ||xmley.codesandbox.io^
 ||xmz.sushmagp.com^
@@ -10575,7 +10710,6 @@
 ||xo.eebilll.com^
 ||xocovid19.com.br^
 ||xoserv.com^
-||xpbpvkexssxqqfygsd.top^
 ||xpixl.me^
 ||xsauxz.serviceorder.su^
 ||xserjuc2jd.du.r.appspot.com/$all
@@ -10584,6 +10718,7 @@
 ||xtremefish.rs^
 ||xtrixtviptv.com^
 ||xtronbikewear.co.uk^
+||xtywuikdhophjuorvjukhjbolkjmnj.herokuapp.com^
 ||xuko.com/wp-content/upgrading/$all
 ||xuko.com/wp-content/upgrading/?email=sacbbdigital2020@hotmail.com$all
 ||xuperweb.com^
@@ -10594,6 +10729,7 @@
 ||xxddfete.nw.r.appspot.com/$all
 ||xxx-com-dot-c2c01-531c7.uc.r.appspot.com/$all
 ||xxxfoxwew.wn.r.appspot.com/$all
+||xxxfoxwew.wn.r.appspot.com/admin$all
 ||xxxfoxwew.wn.r.appspot.com/favicon.ico$all
 ||xxxfoxwew.wn.r.appspot.com/jim@thejimburkefamily.com$all
 ||xxxfoxwew.wn.r.appspot.com/linkedrecruiter.html$all
@@ -10604,6 +10740,8 @@
 ||y80yyxccn.df.r.appspot.com/linkedrecruiter.html$all
 ||y9o5m.codesandbox.io^
 ||yadadikh.com^
+||yahoo-configure2020.weebly.com^
+||yahoologinmailfsiefpbgetgisj.weebly.com^
 ||yahoologinupdate.weebly.com^
 ||yahoomailywdsuqiosujaghsw.weebly.com^
 ||yakutcement.ru^
@@ -10616,7 +10754,7 @@
 ||yeamo.org^
 ||yehia732.000webhostapp.com^
 ||yetpack.com^
-||yinhuntelln.xyz^
+||yghe.bch6.cn^
 ||yle-news.com^
 ||ylivestore.com^
 ||ymwyxlbztlnaansthlmmmlgzzghzeznixrml-dot-gl494903049.wl.r.appspot.com/$all
@@ -10663,6 +10801,7 @@
 ||zaborkursk.ru^
 ||zacoindus.com^
 ||zairametalicas.com^
+||zairyu.biz^
 ||zakalonderando.blogspot.com/?m=0$all
 ||zamindaar.com^
 ||zanimaem.kz^
@@ -10710,7 +10849,6 @@
 ||zohard.com^
 ||zolampaqes-secur0.ga^
 ||zonactualisegvrabetabn1.es^
-||zonadelogue.vercel.app^
 ||zonaensegura1bnperu.web-virtual.com^
 ||zonaenseguran1bnperu.lineaenvirtual.com^
 ||zonanseguralbn1-vlrtual.multlnet-peru.com^
@@ -10722,7 +10860,6 @@
 ||zonasegurabcp.movil-viabcp.com^
 ||zonasegurabn.com.pe.utimen.com^
 ||zonasegurabn1.com.multiservicioslamosa.com^
-||zonaseguraenlineasereactivaelperu.com^
 ||zonaseguraviabcp.sms-pe.com^
 ||zonaseguraweblbetavialbcp.com^
 ||zonasegvra-bncompe1.com^
@@ -10733,4 +10870,6 @@
 ||zteandroid.com^
 ||zubeeinternational.com^
 ||zucchini.co.za^
+||zugriff-dkb.de.cool^
 ||zxmewvguuwrdhswwxmslwykyygncgowzkjps-dot-gl494903049.wl.r.appspot.com/$all
+||zyuukefubn.xyz^
