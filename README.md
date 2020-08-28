@@ -87,6 +87,8 @@ chmod 755 /etc/cron.daily/phishing-filter
 printf "\nconf-file=/usr/local/etc/dnsmasq/phishing-filter-dnsmasq.conf\n" >> /etc/dnsmasq.conf
 ```
 
+- https://gitlab.com/curben/phishing-filter/raw/master/dist/phishing-filter-dnsmasq.conf
+
 <details>
 <summary>Mirrors</summary>
 
@@ -137,6 +139,8 @@ $TTL    86400   ; one day
 
 Zone file is derived from [here](https://github.com/tomzuu/blacklist-named/blob/master/null.zone.file).
 
+- https://gitlab.com/curben/phishing-filter/raw/master/dist/phishing-filter-bind.conf
+
 <details>
 <summary>Mirrors</summary>
 
@@ -168,6 +172,8 @@ chmod 755 /etc/cron.daily/phishing-filter
 # Configure Unbound to use the blocklist
 printf '\n  include: "/usr/local/etc/unbound/phishing-filter-unbound.conf"\n' >> /etc/unbound/unbound.conf
 ```
+
+- https://gitlab.com/curben/phishing-filter/raw/master/dist/phishing-filter-unbound.conf
 
 <details>
 <summary>Mirrors</summary>
