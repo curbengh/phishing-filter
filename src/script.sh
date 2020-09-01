@@ -18,6 +18,8 @@ fi
 mkdir -p "tmp/"
 cd "tmp/"
 
+PHISHTANK_API="f6d24512707c96f8d01875ace77d52950a5b9157e1535ea70e7f704efb3e4066"
+
 ## Prepare datasets
 curl -L "https://data.phishtank.com/data/$PHISHTANK_API/online-valid.csv.bz2" -o "phishtank.bz2"
 curl -L "https://openphish.com/feed.txt" -o "openphish-raw.txt"
@@ -111,10 +113,16 @@ SIXTH_LINE="! Source: https://www.phishtank.com/ & https://openphish.com/"
 COMMENT_UBO="$FIRST_LINE\n$SECOND_LINE\n$THIRD_LINE\n$FOURTH_LINE\n$FIFTH_LINE\n$SIXTH_LINE"
 
 # Compatibility with Adguard Home
-# https://gitlab.com/curben/urlhaus-filter/-/issues/19
+# curben/urlhaus-filter#19
 cat "phishing-notop-domains.txt" | \
 sed "s/^/||/g" | \
 sed "s/$/^/g" > "phishing-domains-adguard.txt"
+
+# curben/urlhaus-filter#22
+cat "phishing-domains-adguard.txt" | \
+sort | \
+sed '1 i\'"$COMMENT_UBO"'' | \
+sed "1s/Blocklist/Blocklist (AdGuard Home)/" > "../dist/phishing-filter-agh.txt"
 
 cat "phishing-domains-adguard.txt" "phishing-url-top-domains.txt" | \
 sort | \

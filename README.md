@@ -6,6 +6,7 @@ There are multiple formats available, refer to the appropriate section according
 
 - uBlock Origin (uBO) -> [URL-based](#url-based) section (recommended)
 - Pi-hole -> [Domain-based](#domain-based) or [Hosts-based](#hosts-based) section
+- AdGuard Home -> [Domain-based (AdGuard Home)](#domain-based-adguard-home) or [Hosts-based](#hosts-based) section
 - Hosts file -> [Hosts-based](#hosts-based) section
 - Dnsmasq -> [Dnsmasq](#dnsmasq) section
 - BIND -> [BIND](#bind) section
@@ -29,6 +30,8 @@ Import the following URL into uBO to subscribe:
 - https://gitcdn.xyz/repo/curbengh/phishing-filter/master/dist/phishing-filter.txt
 - https://cdn.jsdelivr.net/gh/curbengh/phishing-filter/dist/phishing-filter.txt
 
+**Note:** AdGuard Home is not compatible with the URL filter (`||baddomain.com/bad/page$all`) of this blocklist, although it is still compatible with the domain filter (`||baddomain.com^`) also used in this blocklist, consider using a [smaller blocklist](#domain-based-adguard-home) (it's around half smaller).
+
 </details>
 
 ## Domain-based
@@ -46,6 +49,24 @@ This blocklist includes domains and IP addresses.
 - https://cdn.statically.io/gh/curbengh/phishing-filter/master/dist/phishing-filter-domains.txt
 - https://gitcdn.xyz/repo/curbengh/phishing-filter/master/dist/phishing-filter-domains.txt
 - https://cdn.jsdelivr.net/gh/curbengh/phishing-filter/dist/phishing-filter-domains.txt
+
+</details>
+
+## Domain-based (AdGuard Home)
+
+This AdGuard Home-compatible blocklist includes domains and IP addresses.
+
+- https://gitlab.com/curben/phishing-filter/raw/master/dist/phishing-filter-agh.txt
+
+<details>
+<summary>Mirrors</summary>
+
+- https://cdn.statically.io/gl/curben/phishing-filter/master/dist/phishing-filter-agh.txt
+- https://glcdn.githack.com/curben/phishing-filter/raw/master/dist/phishing-filter-agh.txt
+- https://raw.githubusercontent.com/curbengh/phishing-filter/master/dist/phishing-filter-agh.txt
+- https://cdn.statically.io/gh/curbengh/phishing-filter/master/dist/phishing-filter-agh.txt
+- https://gitcdn.xyz/repo/curbengh/phishing-filter/master/dist/phishing-filter-agh.txt
+- https://cdn.jsdelivr.net/gh/curbengh/phishing-filter/phishing-filter-agh.txt
 
 </details>
 
