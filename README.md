@@ -7,10 +7,11 @@ There are multiple formats available, refer to the appropriate section according
 - uBlock Origin (uBO) -> [URL-based](#url-based) section (recommended)
 - Pi-hole -> [Domain-based](#domain-based) or [Hosts-based](#hosts-based) section
 - AdGuard Home -> [Domain-based (AdGuard Home)](#domain-based-adguard-home) or [Hosts-based](#hosts-based) section
-- Hosts file -> [Hosts-based](#hosts-based) section
-- Dnsmasq -> [Dnsmasq](#dnsmasq) section
-- BIND -> [BIND](#bind) section
-- Unbound -> [Unbound](#unbound) section
+- AdGuard browser extension -> [URL-based (AdGuard)](#url-based-adguard)
+- [Hosts](#hosts-based)
+- [Dnsmasq](#dnsmasq)
+- [BIND](#bind)
+- [Unbound](#unbound)
 
 Not sure which format to choose? See [Compatibility](https://gitlab.com/curben/urlhaus-filter/wikis/compatibility) page.
 
@@ -30,7 +31,25 @@ Import the following URL into uBO to subscribe:
 - https://gitcdn.xyz/repo/curbengh/phishing-filter/master/dist/phishing-filter.txt
 - https://cdn.jsdelivr.net/gh/curbengh/phishing-filter/dist/phishing-filter.txt
 
-**Note:** AdGuard Home is not compatible with the URL filter (`||baddomain.com/bad/page$all`) of this blocklist, although it is still compatible with the domain filter (`||baddomain.com^`) also used in this blocklist, consider using a [smaller blocklist](#domain-based-adguard-home) (it's around half smaller).
+</details>
+
+**AdGuard Home** users should use [this blocklist](#domain-based-adguard-home), compatibility with URL-based blocklist is retained temporarily until in 30 Sep 2020 (UTC).
+
+## URL-based (AdGuard)
+
+Import the following URL into AdGuard browser extension to subscribe:
+
+- https://gitlab.com/curben/phishing-filter/raw/master/dist/phishing-filter-ag.txt
+
+<details>
+<summary>Mirrors</summary>
+
+- https://cdn.statically.io/gl/curben/phishing-filter/master/dist/phishing-filter-ag.txt
+- https://glcdn.githack.com/curben/phishing-filter/raw/master/dist/phishing-filter-ag.txt
+- https://raw.githubusercontent.com/curbengh/phishing-filter/master/dist/phishing-filter-ag.txt
+- https://cdn.statically.io/gh/curbengh/phishing-filter/master/dist/phishing-filter-ag.txt
+- https://gitcdn.xyz/repo/curbengh/phishing-filter/master/dist/phishing-filter-ag.txt
+- https://cdn.jsdelivr.net/gh/curbengh/phishing-filter/dist/phishing-filter-ag.txt
 
 </details>
 
