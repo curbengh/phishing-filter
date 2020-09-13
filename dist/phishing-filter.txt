@@ -1,5 +1,5 @@
 ! Title: Phishing URL Blocklist
-! Updated: Sun, 13 Sep 2020 00:07:17 UTC
+! Updated: Sun, 13 Sep 2020 12:06:52 UTC
 ! Expires: 1 day (update frequency)
 ! Repo: https://gitlab.com/curben/phishing-filter
 ! License: https://creativecommons.org/licenses/by-sa/4.0/
@@ -24,7 +24,6 @@
 ||00pozrjbpm.xyz^
 ||010league0flegends010euw0.000webhostapp.com^
 ||01888f90-c5de-40b5-aa35-28082cf97171.htmlcomponentservice.com^
-||02.billmanager.ref-118.com^
 ||02348332-a85c-469a-83fe-422672475c48.htmlcomponentservice.com^
 ||02b28863-eee4-466d-823e-f87f0a957da6.htmlcomponentservice.com^
 ||03418f6.netsolhost.com/FF7AADF203DF6C7A0B7C8A74B8164E55/?sec=Milka%20Gostovic$all
@@ -32,6 +31,7 @@
 ||03418f6.netsolhost.com/FF7AADF203DF6C7A0B7C8A74B8164E55/?sec=PucKotsis$all
 ||03418f6.netsolhost.com/FF7AADF203DF6C7A0B7C8A74B8164E55?sec=Milka%20Gostovic$all
 ||03418f6.netsolhost.com/FF7AADF203DF6C7A0B7C8A74B8164E55?sec=Puc%20Kotsis$all
+||0365online.com^
 ||04040-dot-bles05.wn.r.appspot.com/?t=1&amp;e=frank.dicristina@allnex.com$all
 ||0408604b-eef9-4c49-94c6-9f8bfdd5f7bf.htmlcomponentservice.com^
 ||04c7c8d8-90f8-4641-b8af-f462db1c7413.htmlcomponentservice.com^
@@ -63,6 +63,7 @@
 ||101jo.com^
 ||103.2.117.18^
 ||103.92.25.90^
+||104.194.247.157^
 ||1051a2e8-48cf-4f98-988c-b1aa7ec7e290.htmlcomponentservice.com^
 ||106.12.192.247^
 ||107.155.132.187^
@@ -70,11 +71,9 @@
 ||107.180.44.78^
 ||107.189.6.150^
 ||107.6.242.135^
-||107.6.242.142^
 ||107.6.242.148^
 ||10a240.a240248.96.lt^
 ||10c56fb8-6ae8-4d40-bb14-a3890c961371.htmlcomponentservice.com^
-||10gbedvaa.dx.am^
 ||10ideiasdenegocios2.tonidicoimbra.club^
 ||10sosh.ru^
 ||10thplanetjiujitsuwalnutcreek.com^
@@ -104,6 +103,7 @@
 ||142.111.93.92^
 ||148.204.63.249^
 ||149.210.143.165^
+||149.28.195.1^
 ||149908.bibigor.com^
 ||150.95.223.60^
 ||151-248-126-42.ovz.vps.regruhosting.ru^
@@ -136,6 +136,7 @@
 ||173.212.240.54^
 ||173.82.123.232^
 ||173.82.129.229^
+||173.82.129.230^
 ||174.138.36.47^
 ||174.139.126.104^
 ||174.139.46.29^
@@ -214,7 +215,6 @@
 ||1sultanbet.blogspot.com/$all
 ||1und1de-login-webdesk.bio-robots.com^
 ||1und1decollect.tumblr.com^
-||1zonasegurabeta-viabcp-com.ml^
 ||2.136.95.251^
 ||2.56.149.27^
 ||201.163.98.162^
@@ -256,6 +256,8 @@
 ||216.172.191.192^
 ||216.83.55.154^
 ||219betasus.com^
+||22fargo.com^
+||22fargowell.com^
 ||23.133.5.168^
 ||23.4.43.27^
 ||2311046.carpicsediting.com^
@@ -268,8 +270,7 @@
 ||2c3262d59d2716553.tempsite.link^
 ||2cdc7e5b-7814-47db-92fb-0d2698bf3ecb.htmlcomponentservice.com^
 ||2fa.bthei.com^
-||2no.co/2BkYZ5.au$all
-||2no.co/2OuvD3.au$all
+||2no.co^
 ||3-support-uk.com^
 ||3.137.162.194^
 ||3.21.92.74^
@@ -282,7 +283,6 @@
 ||31.3.88.166^
 ||3187e211-a2cb-43d9-a88f-f1889f11bf57.htmlcomponentservice.com^
 ||31jan.page.link^
-||32zaz.weblium.site^
 ||3379.mabelmarketing.com^
 ||34.121.220.45^
 ||34.94.148.132^
@@ -372,6 +372,7 @@
 ||63.240.155.81^
 ||63.250.32.184^
 ||638ca12d-ba2f-451c-8418-faf56b7de7ff.htmlcomponentservice.com^
+||6452grubwhatsapp.ddns.net^
 ||650vm.app.link^
 ||6631f79739fc4eaa8613bcc53c626e10.svc.dynamics.com^
 ||67.199.68.195^
@@ -401,6 +402,7 @@
 ||7pr10.csb.app^
 ||7z52r.csb.app^
 ||800emailsupport.com/$all
+||81.90.188.81^
 ||82.165.27.36^
 ||83709820.tk^
 ||845d4fea7156900557dde946b026039a-dot-dbenitonline.ey.r.appspot.com/$all
@@ -413,10 +415,8 @@
 ||8hsfskj.app.link^
 ||96b4d58e213077161.temporary.link^
 ||96c8714c-d919-44cf-a1a1-dd300c4b3a06.htmlcomponentservice.com^
-||98.126.214.73^
 ||98.126.215.79^
 ||98.126.215.93^
-||98.126.215.98^
 ||9aJbJO5llopcZRHvfr7hHdr7VLKKxRmZqT64VWRJFJqCrENMecaVFy.fccfc.org^
 ||9d62cfee-59b3-42a8-9542-4b3a32692792.htmlcomponentservice.com^
 ||9dollarsintothousands.com^
@@ -434,7 +434,6 @@
 ||a-s-f-e-g.dt.r.appspot.com/$all
 ||a-s-sw-w-w-w.el.r.appspot.com/$all
 ||a.a.3483.fhug.5875.dhirt.4989.rgkhr.594k.egih.dg4r4t.clearpointsupplies.com^
-||a0468367.xsph.ru^
 ||a0468410.xsph.ru^
 ||a0469054.xsph.ru^
 ||a0606fd403668c961e9c-2735b9aa10f99e23cb0338f1a0bdc577.ssl.cf2.rackcdn.com^
@@ -587,6 +586,7 @@
 ||accountant-prospect.org^
 ||accountbilling-ee.com^
 ||accountchckecker-update-now.drpiza.com^
+||accountinfo-ee.net^
 ||accountnetflix-verifyonhold.com^
 ||accounts-login-idm-telekomidm.cloud^
 ||accounts.google.com/ServiceLogin?passive=1209600&osid=1&continue=https://plus.google.com/%26&followup=https://plus.google.com/%26$all
@@ -595,6 +595,7 @@
 ||accounts.google.com/ServiceLogin?service=cds&passive=1209600&continue=https://storage.cloud.google.com/user7773578ixh1092839.appspot.com/index.html&followup=https://storage.cloud.google.com/user7773578ixh1092839.appspot.com/index.html$all
 ||accounts.google.com/ServiceLogin?service=cds&passive=1209600&continue=https://storage.cloud.google.com/xzrdzcdruerp.appspot.com/index.html&followup=https://storage.cloud.google.com/xzrdzcdruerp.appspot.com/index.html$all
 ||accountspotwdfweefopuriuityur.firebaseapp.com^
+||accountverificationservicecenterlogin.weebly.com^
 ||accrent.webflow.io^
 ||accurate-engineers.in^
 ||acercandoelcine.cl^
@@ -618,6 +619,7 @@
 ||aclquodymdjnlbte-dot-millinium.ey.r.appspot.com/app/index$all
 ||aclwdifmpswwwxlp-dot-millinium.ey.r.appspot.com/$all
 ||aclwdifmpswwwxlp-dot-millinium.ey.r.appspot.com/app/index$all
+||acnkviilblblbody-dot-millinium.ey.r.appspot.com/$all
 ||acnkviilblblbody-dot-millinium.ey.r.appspot.com/app/index$all
 ||acnqbhpbpmefriki-dot-millinium.ey.r.appspot.com/$all
 ||acnyvagujkpclrnx-dot-millinium.ey.r.appspot.com/$all
@@ -645,7 +647,6 @@
 ||activatee.unaux.com^
 ||activation-pages-invitation-sites-1027531174772015.tk^
 ||active-sync2iqc9731ap5ddu22q.nw.r.appspot.com/$all
-||active-sync2iqc9731ap5ddu22q.nw.r.appspot.com/c=eee09ae08ae1e02ae02ae019aeeee013ae1e016ae1e010ae4e1.e2e1$all
 ||activelogisticsltd.com^
 ||activitemobilmessagerie.webador.com^
 ||actualiza-banruralgt.com/$all
@@ -672,7 +673,6 @@
 ||adalogtqlwfnyqio-dot-millinium.ey.r.appspot.com/app/index$all
 ||adambarker.org^
 ||adamjak.sk^
-||adamp78.com^
 ||adbinfotech.com^
 ||adbopgmzfsfqklmq-dot-millinium.ey.r.appspot.com/$all
 ||adbopgmzfsfqklmq-dot-millinium.ey.r.appspot.com/app/index$all
@@ -777,6 +777,7 @@
 ||aewwukiwlkrjwqdj-dot-millinium.ey.r.appspot.com/app/index$all
 ||aexektbbeerczeqm-dot-millinium.ey.r.appspot.com/$all
 ||aexektbbeerczeqm-dot-millinium.ey.r.appspot.com/app/index$all
+||aexjmjggmawjfmpx-dot-millinium.ey.r.appspot.com/$all
 ||aexjmjggmawjfmpx-dot-millinium.ey.r.appspot.com/app/index$all
 ||afadjlyiwjdotjuf-dot-millinium.ey.r.appspot.com/$all
 ||afadjlyiwjdotjuf-dot-millinium.ey.r.appspot.com/app/index$all
@@ -872,6 +873,7 @@
 ||agvjidssqclenckj-dot-millinium.ey.r.appspot.com/$all
 ||agvjidssqclenckj-dot-millinium.ey.r.appspot.com/app/index$all
 ||agvkafygnyqlgpkd-dot-millinium.ey.r.appspot.com/$all
+||agvlharpjtttnbkw-dot-millinium.ey.r.appspot.com/$all
 ||agvxbrwrfxzgzuyy-dot-millinium.ey.r.appspot.com/$all
 ||agvxbrwrfxzgzuyy-dot-millinium.ey.r.appspot.com/app/index$all
 ||agvztrluchrzirru-dot-millinium.ey.r.appspot.com/$all
@@ -932,6 +934,7 @@
 ||aiaygitldujtfewf-dot-millinium.ey.r.appspot.com/$all
 ||aiaygitldujtfewf-dot-millinium.ey.r.appspot.com/app/index$all
 ||aicai.it^
+||aictpvjmnjqvyvvb-dot-millinium.ey.r.appspot.com/$all
 ||aida.org.in^
 ||aidsyesrartqnjed-dot-millinium.ey.r.appspot.com/$all
 ||aihbyyiagmwnqexy-dot-millinium.ey.r.appspot.com/app/index$all
@@ -979,6 +982,7 @@
 ||ajczfarnbuggoejl-dot-millinium.ey.r.appspot.com/$all
 ||ajexdntaakevcvsc-dot-millinium.ey.r.appspot.com/$all
 ||ajexdntaakevcvsc-dot-millinium.ey.r.appspot.com/app/index$all
+||ajfuzinaodzkiwsd-dot-millinium.ey.r.appspot.com/$all
 ||ajfuzinaodzkiwsd-dot-millinium.ey.r.appspot.com/app/index$all
 ||ajgvwnrhdyrnedej-dot-millinium.ey.r.appspot.com/$all
 ||ajinxohplrqbjvxj-dot-millinium.ey.r.appspot.com/$all
@@ -1032,6 +1036,7 @@
 ||akoufkgynziyzklz-dot-millinium.ey.r.appspot.com/$all
 ||akoxqdysegpgkddh-dot-millinium.ey.r.appspot.com/$all
 ||akoxqdysegpgkddh-dot-millinium.ey.r.appspot.com/app/index$all
+||akqyuqqzzskdymtj-dot-millinium.ey.r.appspot.com/$all
 ||akrbbkciorhdbupb-dot-millinium.ey.r.appspot.com/$all
 ||akrbbkciorhdbupb-dot-millinium.ey.r.appspot.com/app/index$all
 ||akrudpssfdbswbki-dot-millinium.ey.r.appspot.com/$all
@@ -1041,6 +1046,7 @@
 ||aksoydanismanlik.com^
 ||aktajeuzpfmplljv-dot-millinium.ey.r.appspot.com/$all
 ||aktajeuzpfmplljv-dot-millinium.ey.r.appspot.com/app/index$all
+||aktgjxeymfcvqovc-dot-millinium.ey.r.appspot.com/$all
 ||akturkharita.com^
 ||akvbpivxkbhueuuf-dot-millinium.ey.r.appspot.com/$all
 ||akvfccpmfyseqoof-dot-millinium.ey.r.appspot.com/$all
@@ -1065,6 +1071,7 @@
 ||albcp.com?Qp=Activa^
 ||albcp.com^
 ||albel.intnet.mu^
+||albenecon.com^
 ||albzhdmayyuluqzn-dot-millinium.ey.r.appspot.com/$all
 ||alcionenovios.com^
 ||aldcliffe.com^
@@ -1172,8 +1179,6 @@
 ||amaxcarrentals.com.au^
 ||amazn-co-jp.che88.top^
 ||amazn-co-jp.queen1.top^
-||amazn-co-jp.wgood.top^
-||amazn.23wcp.com^
 ||amazn.bosenjinju.com^
 ||amazn.shendatrade.com^
 ||amaznde-com.webs.com^
@@ -1187,8 +1192,9 @@
 ||amazon-update0809.jp^
 ||amazon.account-update.amazon.co.jp.ec5730f73ca9f85686ae0f9f81d8ec27.shop^
 ||amazon.co-jp-com.art^
-||amazon.co-jp-system-checkinfo.xyz^
 ||amazon.co.jp.gzddf.cn^
+||amazon.co.jp.miskr.cn^
+||amazon.co.jp.namesilo2vywg2h6gfhgfsgv.com^
 ||amazon.co.jp.pc-adm.mattfalzon.com^
 ||amazon.co.jp.rf99fbx.top^
 ||amazon.co.jp.secureconnection2fsa5hk3a2hffc.com^
@@ -1207,7 +1213,7 @@
 ||amazonmon.top^
 ||amazonn-smtp-jp.pw^
 ||amazonocol.buzz^
-||amazons-co-jpuserverify-center.top^
+||amazonupdate.top^
 ||amazonvi.top^
 ||amazonzsz.xyz^
 ||ambautosalvage.com^
@@ -1221,7 +1227,6 @@
 ||amel18.000webhostapp.com^
 ||amercomminc-my.sharepoint.com/:w:/g/personal/jreino_americancommunication_com/EYyYRXvFTzJNqpuZFiED3jIBOLNrPf7EfR-yXWKzQZh35g?e=fgkOuQ$all
 ||america-ofertasdiarias.com^
-||americana-com-br.preview-domain.com^
 ||americanarbor.net^
 ||americanasdiadapipoqueira.com^
 ||americanexpress.tmikwlimo.buzz^
@@ -1247,6 +1252,7 @@
 ||amlhqmivrxoejrew-dot-millinium.ey.r.appspot.com/app/index$all
 ||ammdwppmmuqggxuw-dot-millinium.ey.r.appspot.com/$all
 ||ammdwppmmuqggxuw-dot-millinium.ey.r.appspot.com/app/index$all
+||ammpsppfvuwstpot-dot-millinium.ey.r.appspot.com/$all
 ||ammpsppfvuwstpot-dot-millinium.ey.r.appspot.com/app/index$all
 ||ammrgcajkgmhktpo-dot-millinium.ey.r.appspot.com/$all
 ||ammrswpxqxfuahau-dot-millinium.ey.r.appspot.com/$all
@@ -1276,6 +1282,7 @@
 ||amtmgnjzgxpjaiaw-dot-millinium.ey.r.appspot.com/$all
 ||amvhikbqodpolbwh-dot-millinium.ey.r.appspot.com/$all
 ||amway-es.com^
+||amwdxlwwjhqftclf-dot-millinium.ey.r.appspot.com/$all
 ||amwdxlwwjhqftclf-dot-millinium.ey.r.appspot.com/app/index$all
 ||amwebprojects.com^
 ||amwiouiollkcamar-dot-millinium.ey.r.appspot.com/$all
@@ -1368,6 +1375,7 @@
 ||anon.to/uRnAyx$all
 ||anoperfeitopravc.com^
 ||anovrhhtapixxbgh-dot-millinium.ey.r.appspot.com/$all
+||anpaxkgmfnqiafxm-dot-millinium.ey.r.appspot.com/$all
 ||anphogppjkgvipyh-dot-millinium.ey.r.appspot.com/$all
 ||anphogppjkgvipyh-dot-millinium.ey.r.appspot.com/app/index$all
 ||anpzudlgzhkefrck-dot-millinium.ey.r.appspot.com/$all
@@ -1398,6 +1406,7 @@
 ||anwppkophrqsmnaf-dot-millinium.ey.r.appspot.com/app/index$all
 ||anxscnnkjkjqijcu-dot-millinium.ey.r.appspot.com/$all
 ||aoaonline.org^
+||aobyvmfuxxealtqj-dot-millinium.ey.r.appspot.com/$all
 ||aoemxuehqsdyoeax-dot-millinium.ey.r.appspot.com/$all
 ||aoemxuehqsdyoeax-dot-millinium.ey.r.appspot.com/app/index$all
 ||aognlumtpshczrwh-dot-millinium.ey.r.appspot.com/app/index$all
@@ -1454,6 +1463,7 @@
 ||apdjlgepbskdggme-dot-millinium.ey.r.appspot.com/app/index$all
 ||apdtixjiqqltkxuc-dot-millinium.ey.r.appspot.com/$all
 ||apdtixjiqqltkxuc-dot-millinium.ey.r.appspot.com/app/index$all
+||apeludadcnrqvbvj-dot-millinium.ey.r.appspot.com/$all
 ||apeozsppgahvkttp-dot-millinium.ey.r.appspot.com/$all
 ||aperhgiejxnrdqqv-dot-millinium.ey.r.appspot.com/$all
 ||aperhgiejxnrdqqv-dot-millinium.ey.r.appspot.com/app/index$all
@@ -1476,14 +1486,15 @@
 ||apmszgtskpsodicm-dot-millinium.ey.r.appspot.com/$all
 ||apmszgtskpsodicm-dot-millinium.ey.r.appspot.com/app/index$all
 ||apnlsxzpwrbmanoz-dot-millinium.ey.r.appspot.com/$all
+||apnodhpymfsrgkkv-dot-millinium.ey.r.appspot.com/$all
 ||apnxhcagmogmhlzm-dot-millinium.ey.r.appspot.com/$all
 ||apnxhcagmogmhlzm-dot-millinium.ey.r.appspot.com/app/index$all
 ||app--resgate--seguro-online.preview-domain.com^
+||app-1538948274.000webhostapp.com^
 ||app-24-7.myshopify.com^
 ||app-localbitcoins.com^
 ||app-n26-app.com^
 ||app-n26-banca.it^
-||app-n26-bank.it^
 ||app.bonbonplayhard.my.id^
 ||app.box.com/s/43l7nxncafyxdiaecwxblt0yo2hn7epz$all
 ||app.box.com/s/aju8uu3l7x4uusi7v53z09uk6rvwd161$all
@@ -1550,6 +1561,7 @@
 ||appxi.com.ar^
 ||aprenderparaser.com.br^
 ||aprlsevsnbjgifto-dot-millinium.ey.r.appspot.com/$all
+||apslimited-prority.com^
 ||apunkagames.com^
 ||apuwa.com^
 ||apxqsapdpemnrxzk-dot-millinium.ey.r.appspot.com/$all
@@ -1570,6 +1582,7 @@
 ||aqhvozoxggrrwflt-dot-millinium.ey.r.appspot.com/app/index$all
 ||aqjervzqliyohovu-dot-millinium.ey.r.appspot.com/$all
 ||aqjervzqliyohovu-dot-millinium.ey.r.appspot.com/app/index$all
+||aqlhbgzlfwlctxlz-dot-millinium.ey.r.appspot.com/$all
 ||aqnhlcztduhbxujj-dot-millinium.ey.r.appspot.com/$all
 ||aqnsvnlqbbmpvxkm-dot-millinium.ey.r.appspot.com/$all
 ||aqnsvnlqbbmpvxkm-dot-millinium.ey.r.appspot.com/app/index$all
@@ -1589,6 +1602,7 @@
 ||aqwujqgmqywurbkz-dot-millinium.ey.r.appspot.com/$all
 ||aqxlehwplppdarzg-dot-millinium.ey.r.appspot.com/$all
 ||aqxlehwplppdarzg-dot-millinium.ey.r.appspot.com/app/index$all
+||aqyryufwowvlzpef-dot-millinium.ey.r.appspot.com/$all
 ||arabfannews.com^
 ||arablinkedindocument.df.r.appspot.com/home.html$all
 ||arablinkedindocument.df.r.appspot.com/off365.html?payment%20codeAAQkADUyYzNhODUwLTAwNzYtNGE2YS04YWQ1LWI2Yjg5MWY5NzM2ZAAQADKpx%20lv1KxDr2OE5uAPrZw=$all
@@ -1597,7 +1611,6 @@
 ||arbpmwfirvrofyit-dot-millinium.ey.r.appspot.com/$all
 ||arcdlogkulqmdzag-dot-millinium.ey.r.appspot.com/$all
 ||arcdlogkulqmdzag-dot-millinium.ey.r.appspot.com/app/index$all
-||arched-elixir-280012.nw.r.appspot.com/$all
 ||arched-elixir-280012.nw.r.appspot.com/home.html$all
 ||archives.subscribermail.com/msg/c42b59de50564cc3958af9ca20de27d8.htm$all
 ||archiwum.allegro.secfence.lesavik.net^
@@ -1630,7 +1643,8 @@
 ||arisgtqtbcinmmqu-dot-millinium.ey.r.appspot.com/$all
 ||arislm.com^
 ||arjfqtrnjayadhvp-dot-millinium.ey.r.appspot.com/$all
-||arkansasanimefestival.com^
+||arkansasanimefestival.com/l/Linkedin/Linkedin$all
+||arkansasanimefestival.com/l/Linkedin/Linkedin/$all
 ||arkitektonline.com^
 ||arkoch.freshsite.pl^
 ||arlberg-skifuehrer.com^
@@ -1665,6 +1679,7 @@
 ||arsufjhwbcnntymd-dot-millinium.ey.r.appspot.com/$all
 ||arsufjhwbcnntymd-dot-millinium.ey.r.appspot.com/app/index$all
 ||arsyspaiement-es-7e4eb747.emkz.eu^
+||arszlhxtdigsvwcv-dot-millinium.ey.r.appspot.com/$all
 ||artdecorstudio.ro^
 ||artekcamp.tumblr.com^
 ||artemisbetguncel.blogspot.com$all
@@ -1725,9 +1740,9 @@
 ||asiastarchsolutions.com^
 ||asinter.cl^
 ||asjdnslsofegzkuw-dot-millinium.ey.r.appspot.com/$all
+||askdcoayntfbzryf-dot-millinium.ey.r.appspot.com/$all
 ||askinbirkan.com^
 ||askulcorporation.tt.omtrdc.net/m2/askulcorporation/ubox/page?mbox=Lohaco_pc_yshppoint_redirect&amp;mboxDefault=https://urlz.fr/dzIN$all
-||askulcorporation.tt.omtrdc.net^
 ||askyounow.com/html/frame.php$all
 ||aslywrhxpgneidro-dot-millinium.ey.r.appspot.com/$all
 ||asmsllctxvrnvdsy-dot-millinium.ey.r.appspot.com/$all
@@ -1770,7 +1785,6 @@
 ||astfpsjkmmtxusqc-dot-millinium.ey.r.appspot.com/$all
 ||asting.cz^
 ||astlepa.uk^
-||astutestir.com^
 ||asvartrtrt.com/as12/$all
 ||aswdgtstscpireun-dot-millinium.ey.r.appspot.com/$all
 ||aswdgtstscpireun-dot-millinium.ey.r.appspot.com/app/index$all
@@ -1787,7 +1801,6 @@
 ||atakanyy.0fees.us^
 ||atalizenmnzmgzai-dot-millinium.ey.r.appspot.com/$all
 ||atamashi.org^
-||atasehirtoner.com^
 ||atbpro.com^
 ||atbxjtockqsuybhe-dot-millinium.ey.r.appspot.com/$all
 ||atbxjtockqsuybhe-dot-millinium.ey.r.appspot.com/app/index$all
@@ -1858,6 +1871,8 @@
 ||att26.godaddysites.com^
 ||att4p11ttrtyytpp0trt.godaddysites.com^
 ||attach6119bgz.myratesale.com^
+||attcustomersupportservice.000webhostapp.com^
+||attcustormerupdate.weebly.com^
 ||attdomailfastestreply.weebly.com^
 ||attechgroup.sharepoint.com/_layouts/15/guestaccess.aspx?guestaccesstoken=j5rtK2gMvL%2fdqyWFfJCTiGqsYN7TFnlEUgAxCe4BZO0%3d&amp;docid=1_18f942ad378fa4fbf9ee99027cc9f7152&amp;wdFormId=%7B182D6AB5%2DEE74%2D4A07%2DA226%2D7C88DEAC034F%7D$all
 ||attedhjsdjkbvruutgkconnection.weebly.com^
@@ -1881,7 +1896,6 @@
 ||attttttt223.weebly.com^
 ||attverificationofficeadmintenet.weebly.com^
 ||attys.yolasite.com^
-||atua-lizacadastro.com^
 ||atualizadadosita.com^
 ||atualizar-meu-cartao.com^
 ||atualizarcartao.kinghost.net^
@@ -1919,6 +1933,7 @@
 ||aufzgsgxksjaojea-dot-millinium.ey.r.appspot.com/app/index$all
 ||augqrlhmtrbrxcvb-dot-millinium.ey.r.appspot.com/$all
 ||augrxdoxkubfkkwz-dot-millinium.ey.r.appspot.com/$all
+||auguarnznextfzym-dot-millinium.ey.r.appspot.com/$all
 ||auhalnwcadeoobrw-dot-millinium.ey.r.appspot.com/$all
 ||auhalnwcadeoobrw-dot-millinium.ey.r.appspot.com/app/index$all
 ||auhclywhsjsnnrpd-dot-millinium.ey.r.appspot.com/app/index$all
@@ -1943,6 +1958,7 @@
 ||auth-chaseuserservice.ssmailer.com^
 ||auth.scotiaonline.scotiabank.com.wo-ix.com^
 ||authfailed.ru^
+||authlogin.uverenlinea.com^
 ||authorcheck.com^
 ||authorizedcompanyemail.com^
 ||authsupport.com$all
@@ -1986,6 +2002,7 @@
 ||avacokhxzgkpmifn-dot-millinium.ey.r.appspot.com/app/index$all
 ||avadvertising.in^
 ||avatazaar.com^
+||avattlkqbqzinzvq-dot-millinium.ey.r.appspot.com/$all
 ||avbagpiarmuzsgwy-dot-millinium.ey.r.appspot.com/$all
 ||avbagpiarmuzsgwy-dot-millinium.ey.r.appspot.com/app/index$all
 ||avcpgbyjwmppbnuo-dot-millinium.ey.r.appspot.com/app/index$all
@@ -2010,6 +2027,7 @@
 ||avldlktexeibtfvj-dot-millinium.ey.r.appspot.com/app/index$all
 ||avodah.org^
 ||avoid-surgery.com^
+||avoidm3frozenaccount.com/Three/$all
 ||avoksegcghoqreto-dot-millinium.ey.r.appspot.com/$all
 ||avoksegcghoqreto-dot-millinium.ey.r.appspot.com/app/index$all
 ||avpfnnowtiadgplx-dot-millinium.ey.r.appspot.com/$all
@@ -2047,15 +2065,19 @@
 ||awfvridiioidbltb-dot-millinium.ey.r.appspot.com/app/index$all
 ||awhnceatpiafzjfu-dot-millinium.ey.r.appspot.com/$all
 ||awhnceatpiafzjfu-dot-millinium.ey.r.appspot.com/app/index$all
+||awiypqxkmtcsocsx-dot-millinium.ey.r.appspot.com/$all
+||awjvhugnctbzvwxc-dot-millinium.ey.r.appspot.com/$all
 ||awjwpdgezordjxue-dot-millinium.ey.r.appspot.com/$all
 ||awjwpdgezordjxue-dot-millinium.ey.r.appspot.com/app/index$all
 ||awkmfmfpgaepdqhv-dot-millinium.ey.r.appspot.com/$all
 ||awkmfmfpgaepdqhv-dot-millinium.ey.r.appspot.com/app/index$all
+||awldkjjwtvtxihaq-dot-millinium.ey.r.appspot.com/$all
 ||awnllhnfsqymkjmo-dot-millinium.ey.r.appspot.com/$all
 ||awnllhnfsqymkjmo-dot-millinium.ey.r.appspot.com/app/index$all
 ||awpdwzuljgkhjuga-dot-millinium.ey.r.appspot.com/$all
 ||awpdwzuljgkhjuga-dot-millinium.ey.r.appspot.com/app/index$all
 ||awpgsraljmskgzls-dot-millinium.ey.r.appspot.com/$all
+||awpljgoqtymxukko-dot-millinium.ey.r.appspot.com/$all
 ||awpngazsxtohlije-dot-millinium.ey.r.appspot.com/$all
 ||awpngazsxtohlije-dot-millinium.ey.r.appspot.com/app/index$all
 ||awqkrlvatmyehckf-dot-millinium.ey.r.appspot.com/$all
@@ -2135,6 +2157,7 @@
 ||aylabrkkdqjoodby-dot-millinium.ey.r.appspot.com/$all
 ||aylabrkkdqjoodby-dot-millinium.ey.r.appspot.com/app/index$all
 ||aylmbqmmpojegjam-dot-millinium.ey.r.appspot.com/$all
+||ayniqcdchaiwohjt-dot-millinium.ey.r.appspot.com/$all
 ||aynwqimjeufwqzst-dot-millinium.ey.r.appspot.com/$all
 ||ayojoingrupbkp.wikaba.com^
 ||ayokmasukgroupbokep.000webhostapp.com^
@@ -2148,7 +2171,6 @@
 ||ayraskbidpnxbxlh-dot-millinium.ey.r.appspot.com/app/index$all
 ||aytumyaofbyaducj-dot-millinium.ey.r.appspot.com/$all
 ||aytumyaofbyaducj-dot-millinium.ey.r.appspot.com/app/index$all
-||ayudaproductosyservicios.com^
 ||aywdjgiyuehcbcuv-dot-millinium.ey.r.appspot.com/$all
 ||aywdjgiyuehcbcuv-dot-millinium.ey.r.appspot.com/app/index$all
 ||ayxcsfkosrzprige-dot-millinium.ey.r.appspot.com/$all
@@ -2167,6 +2189,7 @@
 ||azbukujxlcmejmbd-dot-millinium.ey.r.appspot.com/app/index$all
 ||azeshpajhmfzoizm-dot-millinium.ey.r.appspot.com/$all
 ||azeshpajhmfzoizm-dot-millinium.ey.r.appspot.com/app/index$all
+||azgqgdzgkydzitnm-dot-millinium.ey.r.appspot.com/$all
 ||azhydugigfzevdyi-dot-millinium.ey.r.appspot.com/$all
 ||azhydugigfzevdyi-dot-millinium.ey.r.appspot.com/app/index$all
 ||azjbjgaeptxrtsit-dot-millinium.ey.r.appspot.com/$all
@@ -2201,9 +2224,7 @@
 ||b2bchdistribution.app.link^
 ||b2bprints.co.uk^
 ||b4969fcb-008f-4a86-b04e-134a3cb3fe13.htmlcomponentservice.com^
-||b8bef0b06c1146b1b67aedef8e33178d.svc.dynamics.com/t/r/kfcwf7NnMZJm9fTHRPwooFKamUuthi5JaosHYLzfbFI#skestutis@tidlo.lt:v8893-299389=03993-$all
-||b8bef0b06c1146b1b67aedef8e33178d.svc.dynamics.com/t/r/kfcwf7NnMZJm9fTHRPwooFKamUuthi5JaosHYLzfbFI#tidlo@tidlo.lt:v8893-299389=03993-$all
-||b8bef0b06c1146b1b67aedef8e33178d.svc.dynamics.com/t/r/kfcwf7NnMZJm9fTHRPwooFKamUuthi5JaosHYLzfbFI#tiekimas@tidlo.lt:v8893-299389=03993-$all
+||b8bef0b06c1146b1b67aedef8e33178d.svc.dynamics.com^
 ||b9db9c995d3101977.temporary.link^
 ||baabktntrzwlwnwt-dot-millinium.ey.r.appspot.com/$all
 ||baabohqnqrbgboud-dot-millinium.ey.r.appspot.com/$all
@@ -2259,6 +2280,7 @@
 ||bamwfmzhefpgrlha-dot-millinium.ey.r.appspot.com/$all
 ||bamwhxjmcjmwabzx-dot-millinium.ey.r.appspot.com/$all
 ||banbif.xyz^
+||bancaelectronica-cajamar.com^
 ||bancaidebogota.com^
 ||bancaporinternet.bbva.pe.incrediworks.com^
 ||bancaporlnternet.bbva.pe.suzyhomemakerco.com^
@@ -2303,6 +2325,7 @@
 ||barldegthcfwxkks-dot-millinium.ey.r.appspot.com/$all
 ||barmsqxphlzwiowr-dot-millinium.ey.r.appspot.com/$all
 ||barneswendling0-my.sharepoint.com/:o:/g/personal/mr_barneswendling_com/Ehi3NkGGO3dIrjVY1bfqTWMB4BUIK1HQPer8IkGg4g1kQg$all
+||barrychick.com.au^
 ||barvzunubdbievky-dot-millinium.ey.r.appspot.com/$all
 ||barvzunubdbievky-dot-millinium.ey.r.appspot.com/app/index$all
 ||basbtwbrgtwwhimw-dot-millinium.ey.r.appspot.com/$all
@@ -2382,7 +2405,6 @@
 ||bchymwqcuruzjppo-dot-millinium.ey.r.appspot.com/$all
 ||bchymwqcuruzjppo-dot-millinium.ey.r.appspot.com/app/index$all
 ||bci-acceso-cl.xyz^
-||bci-chile.xyz^
 ||bci-online.ru^
 ||bci-personas.ru^
 ||bci-personas.xyz^
@@ -2405,6 +2427,7 @@
 ||bcpzonasegura-viabcps-digital.preview-domain.com^
 ||bcpzonasegurabeta-actualizaviabcp.coc-sap.com^
 ||bcpzonasegurabeta-viabcp-comppee.club^
+||bcpzonasegurabeta-viabcp.icu^
 ||bcpzonasegurabeta.movil-bcpes.xyz^
 ||bcpzonasegurabeta.viabcp.com.castlemaintenance.ca^
 ||bcpzonasegurabeta.viabcp.com.thephysiofix.com^
@@ -2728,6 +2751,7 @@
 ||bettika.com^
 ||betway90.me^
 ||beuiawaonxussqhc-dot-millinium.ey.r.appspot.com/$all
+||bewdrqdyjfynbfvp-dot-millinium.ey.r.appspot.com/$all
 ||bexjhfubqzbbeuhn-dot-millinium.ey.r.appspot.com/$all
 ||bexlpfwfezrghjvq-dot-millinium.ey.r.appspot.com/$all
 ||bexlpfwfezrghjvq-dot-millinium.ey.r.appspot.com/app/index$all
@@ -2868,6 +2892,7 @@
 ||billing-three-co.uk^
 ||billing-usermy3.com^
 ||billing.secure-verify-account.cc^
+||billinginfo-ee.net^
 ||billings-three.co.uk^
 ||billingsmontanarealestate.com^
 ||bilpkrpmwissepcw-dot-millinium.ey.r.appspot.com/$all
@@ -2878,12 +2903,10 @@
 ||bimsqhwadwjsffyc-dot-millinium.ey.r.appspot.com/app/index$all
 ||binaireoptiesautotrader.logdown.com^
 ||binancefound.com^
-||binanceofficialdex.com^
 ||binarybenliveload.com^
 ||bio.akkerman.club^
 ||biobandit.com/yes/jk/$all
 ||biorefinaria.com.br^
-||biotek.fsm.undip.ac.id^
 ||biouhlzptnrsxutw-dot-millinium.ey.r.appspot.com/$all
 ||bipcxyggzxgzjikf-dot-millinium.ey.r.appspot.com/$all
 ||bipcxyggzxgzjikf-dot-millinium.ey.r.appspot.com/app/index$all
@@ -2898,7 +2921,10 @@
 ||bit.do/Hiosene$all
 ||bit.do/Hivos20B$all
 ||bit.do/Huvis20B$all
+||bit.do/Nosa100B$all
+||bit.do/Nosu929$all
 ||bit.do/NusoRs$all
+||bit.do/SupuRs$all
 ||bit.do/_BBVA$all
 ||bit.do/bcefemxxreeglbi$all
 ||bit.do/fF5Sr$all
@@ -2942,6 +2968,8 @@
 ||bit.ly/2OQ6dhZ$all
 ||bit.ly/2PnZVX1$all
 ||bit.ly/2Qgj1yJ$all
+||bit.ly/2RgmRbM?box=human$all
+||bit.ly/2RiQQzT$all
 ||bit.ly/2SV5Ipf$all
 ||bit.ly/2XwPB3t$all
 ||bit.ly/2YERMmx$all
@@ -3042,6 +3070,7 @@
 ||bjpibtnaxndzrirs-dot-millinium.ey.r.appspot.com/app/index$all
 ||bjpjcobjkmtbhkgy-dot-millinium.ey.r.appspot.com/$all
 ||bjpjcobjkmtbhkgy-dot-millinium.ey.r.appspot.com/app/index$all
+||bjpkfpcrynbdvssr-dot-millinium.ey.r.appspot.com/$all
 ||bjqpzhyookxsggcj-dot-millinium.ey.r.appspot.com/$all
 ||bjqpzhyookxsggcj-dot-millinium.ey.r.appspot.com/app/index$all
 ||bjubcxqgmgamcicv-dot-millinium.ey.r.appspot.com/$all
@@ -3080,6 +3109,7 @@
 ||bkjdxthitoatikhx-dot-millinium.ey.r.appspot.com/$all
 ||bkjdxthitoatikhx-dot-millinium.ey.r.appspot.com/app/index$all
 ||bkjliejhxivdcpvp-dot-millinium.ey.r.appspot.com/$all
+||bkjliejhxivdcpvp-dot-millinium.ey.r.appspot.com/app/index$all
 ||bkjocmqmkkdwqhvg-dot-millinium.ey.r.appspot.com/$all
 ||bkjpqxccwsqcagan-dot-millinium.ey.r.appspot.com/$all
 ||bkjpqxccwsqcagan-dot-millinium.ey.r.appspot.com/app/index$all
@@ -3098,11 +3128,11 @@
 ||bkmtatjdzyloajtr-dot-millinium.ey.r.appspot.com/$all
 ||bkmtatjdzyloajtr-dot-millinium.ey.r.appspot.com/app/index$all
 ||bknmoqxrnvpbjszi-dot-millinium.ey.r.appspot.com/$all
-||bkp18plus.000webhostapp.com^
 ||bkqhvpvbglhrekgw-dot-millinium.ey.r.appspot.com/$all
 ||bkqhvpvbglhrekgw-dot-millinium.ey.r.appspot.com/app/index$all
 ||bkrretlzhseubxez-dot-millinium.ey.r.appspot.com/$all
 ||bkrretlzhseubxez-dot-millinium.ey.r.appspot.com/app/index$all
+||bkskoqihxcvffnve-dot-millinium.ey.r.appspot.com/$all
 ||bkutgsolvjgakkkr-dot-millinium.ey.r.appspot.com/$all
 ||bkwoonalnxhaykxy-dot-millinium.ey.r.appspot.com/$all
 ||bkwousltavmgrzdx-dot-millinium.ey.r.appspot.com/$all
@@ -3122,6 +3152,7 @@
 ||bldvjoazlxxinaey-dot-millinium.ey.r.appspot.com/$all
 ||bldvjoazlxxinaey-dot-millinium.ey.r.appspot.com/app/index$all
 ||blearcloxqkfjpgl-dot-millinium.ey.r.appspot.com/$all
+||blemvjxouyshxmjd-dot-millinium.ey.r.appspot.com/$all
 ||blfdibuzgucojyxr-dot-millinium.ey.r.appspot.com/$all
 ||blfdibuzgucojyxr-dot-millinium.ey.r.appspot.com/app/index$all
 ||blfifjolsnkxspjw-dot-millinium.ey.r.appspot.com/$all
@@ -3129,6 +3160,7 @@
 ||blftjvkrmcjniepz-dot-millinium.ey.r.appspot.com/$all
 ||blgigzwzxelaszdr-dot-millinium.ey.r.appspot.com/$all
 ||blgigzwzxelaszdr-dot-millinium.ey.r.appspot.com/app/index$all
+||blgrskzkkawuqyuf-dot-millinium.ey.r.appspot.com/$all
 ||blhwlmduukgagyld-dot-millinium.ey.r.appspot.com/$all
 ||bliiss.shop^
 ||bljgkhiginstnoaj-dot-millinium.ey.r.appspot.com/$all
@@ -3197,10 +3229,12 @@
 ||bmgdkkxpvodpdfwc-dot-millinium.ey.r.appspot.com/app/index$all
 ||bmgifregmtpotbkj-dot-millinium.ey.r.appspot.com/$all
 ||bmgifregmtpotbkj-dot-millinium.ey.r.appspot.com/app/index$all
+||bmgwiuvfzffkvrwz-dot-millinium.ey.r.appspot.com/app/index$all
 ||bmhtjgxcexgorxiy-dot-millinium.ey.r.appspot.com/$all
 ||bmhtjgxcexgorxiy-dot-millinium.ey.r.appspot.com/app/index$all
 ||bmisec.com^
 ||bmiugruazsyiquhg-dot-millinium.ey.r.appspot.com/app/index$all
+||bmkopjrnhmpcoppp-dot-millinium.ey.r.appspot.com/app/index$all
 ||bmlkochi.com^
 ||bmmihwemlyswiess-dot-millinium.ey.r.appspot.com/$all
 ||bmmufuhhdkwricds-dot-millinium.ey.r.appspot.com/$all
@@ -3213,6 +3247,7 @@
 ||bmrteekvtuoldpyp-dot-millinium.ey.r.appspot.com/$all
 ||bmrteekvtuoldpyp-dot-millinium.ey.r.appspot.com/app/index$all
 ||bmvdsisqqqhjatojsxqbdzmftd-dot-gloff849483.uk.r.appspot.com/#info@fbi.gov$all
+||bmvixphsvjmwaqcc-dot-millinium.ey.r.appspot.com/$all
 ||bmvkfzsztsuzzoen-dot-millinium.ey.r.appspot.com/$all
 ||bmvkfzsztsuzzoen-dot-millinium.ey.r.appspot.com/app/index$all
 ||bmvyuqrpbgsbxpjc-dot-millinium.ey.r.appspot.com/$all
@@ -3263,6 +3298,7 @@
 ||bnyfrkxfuiprrnxu-dot-millinium.ey.r.appspot.com/$all
 ||bnyfrkxfuiprrnxu-dot-millinium.ey.r.appspot.com/app/index$all
 ||boaodgydfgmbkjog-dot-millinium.ey.r.appspot.com/$all
+||boatsforsale.casa/r.php?t=c&d=0&l=0&c=0&cr=68$all
 ||bocgihlphthewagz-dot-millinium.ey.r.appspot.com/$all
 ||boclog.com^
 ||bocmktcevvjsrpii-dot-millinium.ey.r.appspot.com/$all
@@ -3355,6 +3391,8 @@
 ||bppnbhigvgdteocx-dot-millinium.ey.r.appspot.com/$all
 ||bppylfkpzztkzjbq-dot-millinium.ey.r.appspot.com/$all
 ||bppylfkpzztkzjbq-dot-millinium.ey.r.appspot.com/app/index$all
+||bpqwvvkpxrjauxlu-dot-millinium.ey.r.appspot.com/app/index$all
+||bprcdydkalizeuef-dot-millinium.ey.r.appspot.com/$all
 ||bprdpunymsrbmope-dot-millinium.ey.r.appspot.com/$all
 ||bprdpunymsrbmope-dot-millinium.ey.r.appspot.com/app/index$all
 ||bpsflgoghwjlkayy-dot-millinium.ey.r.appspot.com/$all
@@ -3365,6 +3403,7 @@
 ||bpweqfxhrzghfkby-dot-millinium.ey.r.appspot.com/$all
 ||bpwvdxffwqpwmchk-dot-millinium.ey.r.appspot.com/$all
 ||bpwvdxffwqpwmchk-dot-millinium.ey.r.appspot.com/app/index$all
+||bpxhhwxkjckrcbbr-dot-millinium.ey.r.appspot.com/app/index$all
 ||bpygymmhvdxrpfhg-dot-millinium.ey.r.appspot.com/$all
 ||bpygymmhvdxrpfhg-dot-millinium.ey.r.appspot.com/app/index$all
 ||bpyxygqtlqwximiwowmytpdkwb-dot-gleowayel400503.uc.r.appspot.com/$all
@@ -3391,6 +3430,8 @@
 ||bqklrrnfrcuxszjj-dot-millinium.ey.r.appspot.com/app/index$all
 ||bqkmmcxuvaarknay-dot-millinium.ey.r.appspot.com/$all
 ||bqkmmcxuvaarknay-dot-millinium.ey.r.appspot.com/app/index$all
+||bqnqawkubchvfjpz-dot-millinium.ey.r.appspot.com/app/index$all
+||bqqcvubktubslfvv-dot-millinium.ey.r.appspot.com/$all
 ||bqqzfeakmasxpjuq-dot-millinium.ey.r.appspot.com/$all
 ||bqqzfeakmasxpjuq-dot-millinium.ey.r.appspot.com/app/index$all
 ||bqrhfdnwoqjczavg-dot-millinium.ey.r.appspot.com/$all
@@ -3421,6 +3462,7 @@
 ||brainplow.com^
 ||brainsconsulting.ro^
 ||brandotoday.com^
+||braqqtgnxynneyea-dot-millinium.ey.r.appspot.com/app/index$all
 ||brassunnysolar.blogspot.com/$all
 ||braveheartsriding.org^
 ||bravobeveiliging-my.sharepoint.com/:o:/g/personal/r_bouman_bravobeveiliging_nl/EiAFjbDdqLtCmDXXRDBAJDsBhfR37KUsMUCacMgOxITRaA?e=DrnrdM$all
@@ -3501,6 +3543,7 @@
 ||bskpwjueqpjqsfre-dot-millinium.ey.r.appspot.com/app/index$all
 ||bslmdgevnsuceozd-dot-millinium.ey.r.appspot.com/$all
 ||bslmdgevnsuceozd-dot-millinium.ey.r.appspot.com/app/index$all
+||bslpbeszjltixyeo-dot-millinium.ey.r.appspot.com/$all
 ||bsmdqyixsnnxteiv-dot-millinium.ey.r.appspot.com/$all
 ||bsnfhfxytsdfhxta-dot-millinium.ey.r.appspot.com/$all
 ||bsnfhfxytsdfhxta-dot-millinium.ey.r.appspot.com/app/index$all
@@ -3547,7 +3590,6 @@
 ||btinkmeelpncebyr-dot-millinium.ey.r.appspot.com/app/index$all
 ||btinternet.t6w5q4p9o7i3.uc.r.appspot.com/k/$all
 ||btinternetservice.com^
-||btintternets.com^
 ||btizjwdydrhajyac-dot-millinium.ey.r.appspot.com/$all
 ||btizjwdydrhajyac-dot-millinium.ey.r.appspot.com/app/index$all
 ||btjhrqpaavctahtk-dot-millinium.ey.r.appspot.com/$all
@@ -3578,7 +3620,6 @@
 ||budi01-gaming2020.000webhostapp.com^
 ||budi01.whatsaap.com.getsviip7.com^
 ||buekasbqitbrusdb-dot-millinium.ey.r.appspot.com/$all
-||buff.ly/333khuW$all
 ||buffalomerchants.com^
 ||buffalopot.org^
 ||bugetareparticipativa.primariaarad.ro^
@@ -3589,6 +3630,7 @@
 ||buhxpocsjekyqfmk-dot-millinium.ey.r.appspot.com/app/index$all
 ||buildevolution.online^
 ||buildingtradesnetwork.com^
+||builtandbuildlocations.com^
 ||bullhorncoffee.com^
 ||bullwinsconfecciones.com^
 ||bulrhxbdedckcssr-dot-millinium.ey.r.appspot.com/$all
@@ -3669,11 +3711,13 @@
 ||bwkflamjbyfdyitj-dot-millinium.ey.r.appspot.com/$all
 ||bwlaphjdpiourqns-dot-millinium.ey.r.appspot.com/$all
 ||bwlaphjdpiourqns-dot-millinium.ey.r.appspot.com/app/index$all
+||bwnmktxjdskozium-dot-millinium.ey.r.appspot.com/$all
 ||bwnrpnktbpyhfixl-dot-millinium.ey.r.appspot.com/$all
 ||bwnrpnktbpyhfixl-dot-millinium.ey.r.appspot.com/app/index$all
 ||bwnvbsulghpdrsfo-dot-millinium.ey.r.appspot.com/$all
 ||bwnzxewafjxtlnrc-dot-millinium.ey.r.appspot.com/$all
 ||bwnzxewafjxtlnrc-dot-millinium.ey.r.appspot.com/app/index$all
+||bwogvorkjynijldd-dot-millinium.ey.r.appspot.com/$all
 ||bwubsnqdlmkignxg-dot-millinium.ey.r.appspot.com/$all
 ||bwubsnqdlmkignxg-dot-millinium.ey.r.appspot.com/app/index$all
 ||bwvvommzegnzgygl-dot-millinium.ey.r.appspot.com/$all
@@ -3730,6 +3774,7 @@
 ||bxyxhtgurdsjwrmz-dot-millinium.ey.r.appspot.com/app/index$all
 ||byaprxtnabytxgpghdfdavarubzc.top^
 ||bybcggqexixwlrzq-dot-millinium.ey.r.appspot.com/$all
+||bychlbqlkoxzjacc-dot-millinium.ey.r.appspot.com/$all
 ||bycrlpucqrnjpahv-dot-millinium.ey.r.appspot.com/$all
 ||bycrlpucqrnjpahv-dot-millinium.ey.r.appspot.com/app/index$all
 ||bydshllrjxmfeetj-dot-millinium.ey.r.appspot.com/$all
@@ -3772,6 +3817,7 @@
 ||bzgjhpdcdujkjdxx-dot-millinium.ey.r.appspot.com/app/index$all
 ||bzgmbaryziwrgdzw-dot-millinium.ey.r.appspot.com/$all
 ||bzgmbaryziwrgdzw-dot-millinium.ey.r.appspot.com/app/index$all
+||bzhtdapfqnaqohxm-dot-millinium.ey.r.appspot.com/$all
 ||bzikfejhtnqcnvvu-dot-millinium.ey.r.appspot.com/$all
 ||bzikfejhtnqcnvvu-dot-millinium.ey.r.appspot.com/app/index$all
 ||bzjgewcjoldwntkb-dot-millinium.ey.r.appspot.com/$all
@@ -3783,6 +3829,7 @@
 ||bzmptxzqmbznlvdu-dot-millinium.ey.r.appspot.com/$all
 ||bzmptxzqmbznlvdu-dot-millinium.ey.r.appspot.com/app/index$all
 ||bznwephwayqstghc-dot-millinium.ey.r.appspot.com/app/index$all
+||bzocihgzdvlzkmfg-dot-millinium.ey.r.appspot.com/$all
 ||bzqdaohtwsmtbxsp-dot-millinium.ey.r.appspot.com/$all
 ||bzqdaohtwsmtbxsp-dot-millinium.ey.r.appspot.com/app/index$all
 ||bzrekdovldnvkekv-dot-millinium.ey.r.appspot.com/$all
@@ -3806,7 +3853,6 @@
 ||c0lbltclsp.el.r.appspot.com/*krollins@jumptrading.com__$all
 ||c0lbltclsp.el.r.appspot.com/accessed11$all
 ||c0lbltclsp.el.r.appspot.com/e-mail$all
-||c0lbltclsp.el.r.appspot.com/login-microsoft-0nline.ts.r.appspot.com$all
 ||c111111111111111111111111111111ertificatedpages1142014541112020.enable-advance-certificate-of-pages-notify-711756664752020487.my.id^
 ||c1931158.ferozo.com^
 ||c2222222222222222ertificatedpagesinvitationteam1622914541112020.enable-advance-certificate-of-pages-notify-711754752020487.my.id^
@@ -3823,6 +3869,7 @@
 ||cadacosaalseulloc.cresidusvo.info^
 ||cadastramentooficialong.org^
 ||cadastreavisosms.ml^
+||caeabghjewccefxc-dot-millinium.ey.r.appspot.com/$all
 ||caepwozoxnlpmwzj-dot-millinium.ey.r.appspot.com/$all
 ||caepwozoxnlpmwzj-dot-millinium.ey.r.appspot.com/app/index$all
 ||cafecitoperez.ivanidzakovic.com^
@@ -3864,7 +3911,11 @@
 ||caopjupkexyvlfvu-dot-millinium.ey.r.appspot.com/$all
 ||capholeful1978.blogspot.be^
 ||capital-it.eu^
-||capitalschool.edu.pk^
+||capitalschool.edu.pk/wp-content/upgrade/LOGIN/LOGIN/postale/0284b/$all
+||capitalschool.edu.pk/wp-content/upgrade/LOGIN/LOGIN/postale/17734/$all
+||capitalschool.edu.pk/wp-content/upgrade/LOGIN/LOGIN/postale/4918f/$all
+||capitalschool.edu.pk/wp-content/upgrade/LOGIN/LOGIN/postale/e18a3$all
+||capitalschool.edu.pk/wp-content/upgrade/LOGIN/LOGIN/postale/e18a3/$all
 ||capitec-za.webnode.com^
 ||capsblog.0fees.us^
 ||capscomic.0fees.us^
@@ -3926,7 +3977,6 @@
 ||cassa7c.com^
 ||cassodayk.xyz^
 ||castennisacademy.be^
-||catherinecassel.com^
 ||catqemlbribdwdaw-dot-millinium.ey.r.appspot.com/$all
 ||catqemlbribdwdaw-dot-millinium.ey.r.appspot.com/app/index$all
 ||caulvqfuapdmvits-dot-millinium.ey.r.appspot.com/$all
@@ -3944,6 +3994,7 @@
 ||cbango.com.ar^
 ||cbasnvvfuzjijzcf-dot-millinium.ey.r.appspot.com/$all
 ||cbasnvvfuzjijzcf-dot-millinium.ey.r.appspot.com/app/index$all
+||cbboyaqahfhadnjj-dot-millinium.ey.r.appspot.com/$all
 ||cbcrhpodcotfwtpe-dot-millinium.ey.r.appspot.com/$all
 ||cbcrhpodcotfwtpe-dot-millinium.ey.r.appspot.com/app/index$all
 ||cbdadhacks.com^
@@ -3954,9 +4005,11 @@
 ||cbjrywuxnniebzcp-dot-millinium.ey.r.appspot.com/$all
 ||cbqxqjyzjpoazsgq-dot-millinium.ey.r.appspot.com/$all
 ||cbqxqjyzjpoazsgq-dot-millinium.ey.r.appspot.com/app/index$all
+||cbrprcwsmmvaquvx-dot-millinium.ey.r.appspot.com/$all
 ||cbrqxszzeedxnhwn-dot-millinium.ey.r.appspot.com/$all
 ||cbrqxszzeedxnhwn-dot-millinium.ey.r.appspot.com/app/index$all
 ||cbskfxehefzmwonm-dot-millinium.ey.r.appspot.com/$all
+||cbsrqdwoxfqypiym-dot-millinium.ey.r.appspot.com/$all
 ||cbssuftryomvenwu-dot-millinium.ey.r.appspot.com/$all
 ||cbsucfniccdhdwbe-dot-millinium.ey.r.appspot.com/$all
 ||cbsujavrh.ts.r.appspot.com/$all
@@ -3989,6 +4042,7 @@
 ||cccwupolrcmrymmm-dot-millinium.ey.r.appspot.com/app/index$all
 ||cceuutrreiddsebf-dot-millinium.ey.r.appspot.com/$all
 ||cceuutrreiddsebf-dot-millinium.ey.r.appspot.com/app/index$all
+||ccfpvfxoahlvpwct-dot-millinium.ey.r.appspot.com/$all
 ||ccgdfjduqxekqhop-dot-millinium.ey.r.appspot.com/$all
 ||ccholisdhqnxhfhm-dot-millinium.ey.r.appspot.com/$all
 ||ccholisdhqnxhfhm-dot-millinium.ey.r.appspot.com/app/index$all
@@ -4036,6 +4090,7 @@
 ||cdgolf44.fr^
 ||cdgrrgzffxiwtuln-dot-millinium.ey.r.appspot.com/$all
 ||cdgrrgzffxiwtuln-dot-millinium.ey.r.appspot.com/app/index$all
+||cdhqrufyzqgnlufj-dot-millinium.ey.r.appspot.com/$all
 ||cdhwegrvrgxjezhz-dot-millinium.ey.r.appspot.com/$all
 ||cdidbawalqywwawx-dot-millinium.ey.r.appspot.com/$all
 ||cdlvvlqdbojskibu-dot-millinium.ey.r.appspot.com/$all
@@ -4047,6 +4102,7 @@
 ||cdotzmyxmaqzdgib-dot-millinium.ey.r.appspot.com/$all
 ||cdotzmyxmaqzdgib-dot-millinium.ey.r.appspot.com/app/index$all
 ||cdpzeyeaqroimjos-dot-millinium.ey.r.appspot.com/$all
+||cdpzeyeaqroimjos-dot-millinium.ey.r.appspot.com/app/index$all
 ||cdqawrqakkagczql-dot-millinium.ey.r.appspot.com/$all
 ||cdqnzestxioeyftx-dot-millinium.ey.r.appspot.com/$all
 ||cdqnzestxioeyftx-dot-millinium.ey.r.appspot.com/app/index$all
@@ -4065,6 +4121,7 @@
 ||cdxtixeplwuyisvh-dot-millinium.ey.r.appspot.com/$all
 ||ce-ceva.fr^
 ||ce0f-md5hasespagescuremanager.yutikoheshgovipolishist.com/signin/security$all
+||ceajtuokfilmmnpu-dot-millinium.ey.r.appspot.com/$all
 ||ceazcyrjgkvhmqka-dot-millinium.ey.r.appspot.com/$all
 ||cebojbpjmzblmsnl-dot-millinium.ey.r.appspot.com/$all
 ||cebuphonly.jrzoutsourcingservices.com^
@@ -4092,7 +4149,6 @@
 ||celebshine.com/customize.html$all
 ||celksctuubrcenkx-dot-millinium.ey.r.appspot.com/$all
 ||cellidplus.com^
-||cellular-axon-284322.nw.r.appspot.com/home.html$all
 ||cellular-cider-283512.et.r.appspot.com/linkedrecruiter.html?payment_codeaaqkaduyyznhoduwltawnzytnge2ys04ywq1lwi2yjg5mwy5nzm2zaaqadkpx+lv1kxdr2oe5uaprzw==$all
 ||celtabet2.blogspot.com$all
 ||celtabet2.blogspot.com/$all
@@ -4105,6 +4161,7 @@
 ||celtabets2020.blogspot.com$all
 ||celtabets2020.blogspot.com/$all
 ||cengelkoylife.com^
+||centbziicdgbkrml-dot-millinium.ey.r.appspot.com/$all
 ||centec-am.com.br^
 ||centerai.vot.pl^
 ||centerforsustainablehappiness.com^
@@ -4177,6 +4234,7 @@
 ||cgmcfwcydtbdrsyn-dot-millinium.ey.r.appspot.com/$all
 ||cgmcfwcydtbdrsyn-dot-millinium.ey.r.appspot.com/app/index$all
 ||cgotisvgkjjrdgpb-dot-millinium.ey.r.appspot.com/$all
+||cgprajqkurufnqsk-dot-millinium.ey.r.appspot.com/$all
 ||cgqejiiknxcoymmv-dot-millinium.ey.r.appspot.com/$all
 ||cgqejiiknxcoymmv-dot-millinium.ey.r.appspot.com/app/index$all
 ||cgsijibemewlczco-dot-millinium.ey.r.appspot.com/$all
@@ -4276,10 +4334,10 @@
 ||chicmunuyegtgezv-dot-millinium.ey.r.appspot.com/app/index$all
 ||childrensdentalclinicjonesboro.com^
 ||chimaonah.com^
+||china54321.herokuapp.com^
 ||chinadryer.cn^
 ||chinajinfang.com^
 ||chinalawlist.com/images/modules/css/Netframe/f27ff25816c02b37a4d87c0fd5e22c97/login1.php$all
-||chinatang.hk^
 ||chitnchaat.com/wp-admin/images/yes/$all
 ||chivalric-contraban.000webhostapp.com^
 ||chivasgrillconcepcion.cl^
@@ -4341,8 +4399,6 @@
 ||citypapery.com^
 ||ciupekcapitalcoin.com^
 ||civic-depth-281113.oa.r.appspot.com/$all
-||civil-campaign-279715.el.r.appspot.com/*krollins@jumptrading.com__$all
-||civil-campaign-279715.el.r.appspot.com/*krollins@jumptrading.com__;Iw!!GSt_xZU7050wKg!4Hl0x6HsgaEqGz7KmKm_F-8Ou-Os2nNW-wsutho0P1OWBdpCynHfMndY6TpoOMLADEs$$all
 ||civil-campaign-279715.el.r.appspot.com/*krollins@jumptrading.com__;iw!!gst_xzu7050wkg!4hl0x6hsgaeqgz7kmkm_f-8ou-os2nnw-wsutho0p1owbdpcynhfmndy6tpoomlades$$all
 ||civil-campaign-279715.el.r.appspot.com/e-mail$all
 ||civil-campaign-279715.el.r.appspot.com/e-mailaddress$all
@@ -4557,6 +4613,7 @@
 ||cmkirdxfkojgzmdg-dot-millinium.ey.r.appspot.com/app/index$all
 ||cmmqlgggmrbcnnyu-dot-millinium.ey.r.appspot.com/$all
 ||cmmqlgggmrbcnnyu-dot-millinium.ey.r.appspot.com/app/index$all
+||cmowlrdveyfqknkt-dot-millinium.ey.r.appspot.com/$all
 ||cmpdwccgubbzexus-dot-millinium.ey.r.appspot.com/$all
 ||cmpdwccgubbzexus-dot-millinium.ey.r.appspot.com/app/index$all
 ||cmqzcwkoajhseulo-dot-millinium.ey.r.appspot.com/$all
@@ -4565,6 +4622,7 @@
 ||cmspin5k.club^
 ||cmuwydlrfgowvxxd-dot-millinium.ey.r.appspot.com/$all
 ||cmwdundtgkzkdatl-dot-millinium.ey.r.appspot.com/$all
+||cmxczstwheupibrq-dot-millinium.ey.r.appspot.com/$all
 ||cn1.ru^
 ||cnam.md/Object/html_elements/laxx/en.php$all
 ||cnam.md/Object/html_elements/laxx/en.php?rand=13InboxLightaspxn.1774256418&amp;fid.4.1252899642&amp;fid=1&amp;fav.1&amp;rand.13InboxLight.aspxn.1774256418&amp;fid.1252899642&amp;fid.1&amp;fav.1&amp;email=UmF5LmlvenpvQHdlbGxzZmFyZ29hZHZpc29ycy5jb20=&amp;.rand=13InboxLight.aspx?n=1774256418&amp;fid=4$all
@@ -4634,10 +4692,12 @@
 ||codndraniierijgi-dot-millinium.ey.r.appspot.com/$all
 ||codndraniierijgi-dot-millinium.ey.r.appspot.com/app/index$all
 ||cofrance-telecommefr.fr^
+||cofrjkmmkwgadoqx-dot-millinium.ey.r.appspot.com/$all
 ||cogstateconstructions.com.au^
 ||coguwuqnzwxzjqnx-dot-millinium.ey.r.appspot.com/app/index$all
 ||cohoymltgwwhscuz-dot-millinium.ey.r.appspot.com/$all
 ||cohoymltgwwhscuz-dot-millinium.ey.r.appspot.com/app/index$all
+||coiscnqyesfstvux-dot-millinium.ey.r.appspot.com/$all
 ||coivspkazasbwtaz-dot-millinium.ey.r.appspot.com/$all
 ||cokabzhxciupemuv-dot-millinium.ey.r.appspot.com/$all
 ||cokabzhxciupemuv-dot-millinium.ey.r.appspot.com/app/index$all
@@ -4651,8 +4711,7 @@
 ||collectspins6k.club^
 ||collinsflg-my.sharepoint.com/:o:/g/personal/kristin_collinsfamilylaw_com/Euf0WzTyhJ9KqZXuZLzIxYABi4YLL8ikKpy9hZw5mqnk3w?e=l7OitQ$all
 ||coloradomanagement-my.sharepoint.com/:b:/g/personal/tadamson_highsierramanagement_com/ERCQdFMOoxZJtLpJzWydpIwBb5bKc6ueuFkYWRz5AkebhA?e=4%3aY4pRfu&amp;at=9$all
-||coloradopinball.com/.mir/update/index.php?userid=tiplo@tiplo.com.tw$all
-||coloradopinball.com/.sol/update/webmail.php?userid=stephanie.beard@sutherland.com$all
+||coloradopinball.com^
 ||coloradopoolcovers.com^
 ||colorfastinv.com^
 ||colorworxonline.com^
@@ -4700,6 +4759,7 @@
 ||complot.net^
 ||compmold.com^
 ||composito.com.br^
+||compostmachinery.com^
 ||compredecasa2020.com^
 ||comptesenlignelabanquepostale-fr.surge.sh^
 ||comunicazioniarubait.tumblr.com^
@@ -4716,7 +4776,6 @@
 ||connect.auoneid-mobile.com^
 ||connect365i.ue.r.appspot.com/$all
 ||consciousnessandbiofeedback.org^
-||consoliads.com/new/s/b/login/$all
 ||constructoralaugama.com.do^
 ||constructoravallereal.com^
 ||construguayas.gob.ec^
@@ -4793,13 +4852,10 @@
 ||coybfmfuxihfvbcd-dot-millinium.ey.r.appspot.com/$all
 ||cozkkmhcgpgefznu-dot-millinium.ey.r.appspot.com/$all
 ||cozsqnmwshgkbwxg-dot-millinium.ey.r.appspot.com/$all
-||cp0c7pc.du.r.appspot.com/*jsmith@imaphost.com$all
 ||cp0c7pc.du.r.appspot.com/accessed11$all
 ||cp0c7pc.du.r.appspot.com/c:/users/user/downloads$all
-||cp0c7pc.du.r.appspot.com/index.html$all
 ||cp0c7pc.du.r.appspot.com/index.php/false/false/py1n.html/discovercard.com/dfs/app.txt$all
 ||cp0c7pc.du.r.appspot.com/linkedrecruiter.html$all
-||cp0c7pc.du.r.appspot.com/wp-content$all
 ||cpanelpourcontinuerhqnfghjkackmailercom.000webhostapp.com^
 ||cpbmfidnvkjaqkrk-dot-millinium.ey.r.appspot.com/$all
 ||cpbmfidnvkjaqkrk-dot-millinium.ey.r.appspot.com/app/index$all
@@ -5052,6 +5108,7 @@
 ||cuhmkdxaioxllegz-dot-millinium.ey.r.appspot.com/$all
 ||cuhmoagkuroynwlq-dot-millinium.ey.r.appspot.com/$all
 ||cuhmoagkuroynwlq-dot-millinium.ey.r.appspot.com/app/index$all
+||cuhpkhmpkfmrcqlr-dot-millinium.ey.r.appspot.com/$all
 ||cujgoqxlfnmwryjh-dot-millinium.ey.r.appspot.com/$all
 ||cujgoqxlfnmwryjh-dot-millinium.ey.r.appspot.com/app/index$all
 ||cujtvhabiftjqjxi-dot-millinium.ey.r.appspot.com/$all
@@ -5075,6 +5132,7 @@
 ||currently-yahoo-sign-in.weebly.com^
 ||currentlyfastservicedomain.weebly.com^
 ||currentlyfromattupdate33.weebly.com^
+||currentlysbcglobal.weebly.com^
 ||cursos.ibmec.br^
 ||cursosmaquiagem.com^
 ||cust0merhelp-supp0rt.ju5t-1nf0.org^
@@ -5083,17 +5141,11 @@
 ||cutkuddyshsewgzfwipz.ru^
 ||cutscobkojknnqai-dot-millinium.ey.r.appspot.com/$all
 ||cutscobkojknnqai-dot-millinium.ey.r.appspot.com/app/index$all
-||cutt.ly/1fTMmWJ$all
-||cutt.ly/FfE4bOq$all
-||cutt.ly/SfnZ0IM$all
 ||cutt.ly/ViXGZKL$all
 ||cutt.ly/WdEjmec$all
 ||cutt.ly/actualizarbcp$all
-||cutt.ly/bfmoF8C$all
 ||cutt.ly/hapoalIm$all
 ||cutt.ly/ldTGuAB$all
-||cutt.ly/ofQB7Uz$all
-||cutt.ly/yfQIVfd$all
 ||cutt.us/MSf1O?Page-Support$all
 ||cutt.us/X41CC$all
 ||cutt.us/rHqRx$all
@@ -5117,6 +5169,7 @@
 ||cvcclkvhdnukbmed-dot-millinium.ey.r.appspot.com/app/index$all
 ||cvgaxixxpkxolqat-dot-millinium.ey.r.appspot.com/$all
 ||cvgaxixxpkxolqat-dot-millinium.ey.r.appspot.com/app/index$all
+||cvgmamuviguwfuqc-dot-millinium.ey.r.appspot.com/$all
 ||cvgpoyayqhtvajcl-dot-millinium.ey.r.appspot.com/$all
 ||cvgpoyayqhtvajcl-dot-millinium.ey.r.appspot.com/app/index$all
 ||cvgydmjncstejlir-dot-millinium.ey.r.appspot.com/$all
@@ -5138,6 +5191,7 @@
 ||cvpjfzqkvjwmuxyy-dot-millinium.ey.r.appspot.com/$all
 ||cvpjfzqkvjwmuxyy-dot-millinium.ey.r.appspot.com/app/index$all
 ||cvqajxdkzxslewhd-dot-millinium.ey.r.appspot.com/$all
+||cvqmqdwcxtpeiabi-dot-millinium.ey.r.appspot.com/$all
 ||cvqtlkvtkpejemhi-dot-millinium.ey.r.appspot.com/$all
 ||cvqtlkvtkpejemhi-dot-millinium.ey.r.appspot.com/app/index$all
 ||cvsdtzahlfsekkcf-dot-millinium.ey.r.appspot.com/$all
@@ -5179,6 +5233,7 @@
 ||cwnrghipusbniwyj-dot-millinium.ey.r.appspot.com/app/index$all
 ||cwovvzttgkeyvktu-dot-millinium.ey.r.appspot.com/app/index$all
 ||cwpnjvwkhdazavwx-dot-millinium.ey.r.appspot.com/$all
+||cwpzcvebmdvpemtq-dot-millinium.ey.r.appspot.com/$all
 ||cwpzcvebmdvpemtq-dot-millinium.ey.r.appspot.com/app/index$all
 ||cwrvqfnqwlgeyaos-dot-millinium.ey.r.appspot.com/$all
 ||cwrvqfnqwlgeyaos-dot-millinium.ey.r.appspot.com/app/index$all
@@ -5230,12 +5285,12 @@
 ||cxwivlakxywureux-dot-millinium.ey.r.appspot.com/app/index$all
 ||cxxajooclitbaagt-dot-millinium.ey.r.appspot.com/$all
 ||cxxajooclitbaagt-dot-millinium.ey.r.appspot.com/app/index$all
+||cxxezwyezcgtbdsn-dot-millinium.ey.r.appspot.com/$all
 ||cxxxewuxiekqzfre-dot-millinium.ey.r.appspot.com/$all
 ||cxxzcctpawnfoxbv-dot-millinium.ey.r.appspot.com/$all
 ||cxxzcctpawnfoxbv-dot-millinium.ey.r.appspot.com/app/index$all
 ||cxyvnmtjgivgqeay-dot-millinium.ey.r.appspot.com/$all
 ||cxzalinlgetxzmws-dot-millinium.ey.r.appspot.com/$all
-||cy.gracegoesgreen.co.uk^
 ||cya.nz^
 ||cyber-punk2077.com^
 ||cyberwave.000webhostapp.com^
@@ -5254,6 +5309,7 @@
 ||cynthialoy.com^
 ||cyozobryakqsubxf-dot-millinium.ey.r.appspot.com/$all
 ||cyozobryakqsubxf-dot-millinium.ey.r.appspot.com/app/index$all
+||cyqozznahctqocqz-dot-millinium.ey.r.appspot.com/$all
 ||cyrsniqgerzjezsj-dot-millinium.ey.r.appspot.com/$all
 ||cyrsniqgerzjezsj-dot-millinium.ey.r.appspot.com/app/index$all
 ||cytslldvmcksxffd-dot-millinium.ey.r.appspot.com/$all
@@ -5310,6 +5366,7 @@
 ||czvxhltxeijmdkvn-dot-millinium.ey.r.appspot.com/$all
 ||czvxhltxeijmdkvn-dot-millinium.ey.r.appspot.com/app/index$all
 ||czweledcutkpozdt-dot-millinium.ey.r.appspot.com/$all
+||czweledcutkpozdt-dot-millinium.ey.r.appspot.com/app/index$all
 ||czylgcngymfddlgg-dot-millinium.ey.r.appspot.com/$all
 ||czylgcngymfddlgg-dot-millinium.ey.r.appspot.com/app/index$all
 ||czylzshdstlwuwyp-dot-millinium.ey.r.appspot.com/$all
@@ -5357,7 +5414,6 @@
 ||dahdnbdcaiqahoqy-dot-millinium.ey.r.appspot.com/app/index$all
 ||dailyexclusiveoffer.com^
 ||dailyfitnesszone.com^
-||daisyloke.eu^
 ||dakvzagwnizkizzl-dot-millinium.ey.r.appspot.com/$all
 ||dalatngaynay.com^
 ||dalelike763323.000webhostapp.com^
@@ -5471,6 +5527,7 @@
 ||dcotsncgrdvfxtxx-dot-millinium.ey.r.appspot.com/$all
 ||dcotsncgrdvfxtxx-dot-millinium.ey.r.appspot.com/app/index$all
 ||dcqprnyexjxjmoxy-dot-millinium.ey.r.appspot.com/app/index$all
+||dcqzuuzxgnkzargx-dot-millinium.ey.r.appspot.com/$all
 ||dctlvahknbtuwxig-dot-millinium.ey.r.appspot.com/$all
 ||dctlvahknbtuwxig-dot-millinium.ey.r.appspot.com/app/index$all
 ||dcwhosaybbtnwbvp-dot-millinium.ey.r.appspot.com/$all
@@ -5492,6 +5549,7 @@
 ||ddhdmpmmuscqdjct-dot-millinium.ey.r.appspot.com/app/index$all
 ||ddhl-390ff.web.app^
 ||ddjewellers.co.zw^
+||ddlnsddpkkbwnytu-dot-millinium.ey.r.appspot.com/$all
 ||ddmmiduiizjlurqb-dot-millinium.ey.r.appspot.com/$all
 ||ddncpaabbfculxam-dot-millinium.ey.r.appspot.com/$all
 ||ddncpaabbfculxam-dot-millinium.ey.r.appspot.com/app/index$all
@@ -5583,6 +5641,7 @@
 ||denynsbagsfqz6.com^
 ||deookbmdlqhssjfm-dot-millinium.ey.r.appspot.com/$all
 ||deookbmdlqhssjfm-dot-millinium.ey.r.appspot.com/app/index$all
+||deoxrxdsoanycyuv-dot-millinium.ey.r.appspot.com/$all
 ||depgrup.com/cutter.html$all
 ||depibellamonterrey.com^
 ||deqkvajqyhjdvwfm-dot-millinium.ey.r.appspot.com/$all
@@ -5625,7 +5684,6 @@
 ||develop.mewbuilds.com^
 ||device1event.com$all
 ||device1event.com/$all
-||devisette.gq^
 ||devjmqliydfixxfy-dot-millinium.ey.r.appspot.com/$all
 ||devjmqliydfixxfy-dot-millinium.ey.r.appspot.com/app/index$all
 ||devops.com.vn^
@@ -5642,9 +5700,11 @@
 ||deycfsjhcmviqxhh-dot-millinium.ey.r.appspot.com/app/index$all
 ||deyrbbxkjouhrvmx-dot-millinium.ey.r.appspot.com/$all
 ||dfbrhrigmgknzadz-dot-millinium.ey.r.appspot.com/$all
+||dfdfaxvb.ddns.net^
 ||dffzpastchwrwaxz-dot-millinium.ey.r.appspot.com/$all
 ||dffzpastchwrwaxz-dot-millinium.ey.r.appspot.com/app/index$all
 ||dfghjgfghjkhg.studio.design^
+||dfglgluuqvzrdtuw-dot-millinium.ey.r.appspot.com/$all
 ||dfhdsfgfdf.weebly.com^
 ||dfiatutdzjseycjw-dot-millinium.ey.r.appspot.com/$all
 ||dfiatutdzjseycjw-dot-millinium.ey.r.appspot.com/app/index$all
@@ -5713,7 +5773,6 @@
 ||dhkflqqrvazorfwm-dot-millinium.ey.r.appspot.com/$all
 ||dhkflqqrvazorfwm-dot-millinium.ey.r.appspot.com/app/index$all
 ||dhl-mmmail.com.ng^
-||dhl.acntts.com^
 ||dhl.export.dns-cloud.net^
 ||dhl.express-zmenka.tracking.prices-day.com^
 ||dhlexpressmail.com^
@@ -5746,6 +5805,7 @@
 ||diabetes-insight.info^
 ||diabetesfreedom.net^
 ||diamantiferous-meet.000webhostapp.com^
+||diamond-gratis2020.skinfree9.com^
 ||diamondfire.guru^
 ||diariotortuga.com^
 ||diaxejlriewjkhcj-dot-millinium.ey.r.appspot.com/$all
@@ -5841,6 +5901,7 @@
 ||djmbtkvqxnlhrego-dot-millinium.ey.r.appspot.com/$all
 ||djmbtkvqxnlhrego-dot-millinium.ey.r.appspot.com/app/index$all
 ||djnebuvdhbylrqcz-dot-millinium.ey.r.appspot.com/$all
+||djpfehucsbabbmag-dot-millinium.ey.r.appspot.com/$all
 ||djquehdoehaykvmn-dot-millinium.ey.r.appspot.com/$all
 ||djquehdoehaykvmn-dot-millinium.ey.r.appspot.com/app/index$all
 ||djrrodopzfdcrhfv-dot-millinium.ey.r.appspot.com/$all
@@ -5858,7 +5919,6 @@
 ||djwvnmbvtpwqmvgc-dot-millinium.ey.r.appspot.com/$all
 ||djzdbmlqcbluzfkx-dot-millinium.ey.r.appspot.com/$all
 ||dk-nyheder.com^
-||dk.novasolopartners.com^
 ||dk.thegaryscottthompson.com^
 ||dkagyqmsteihvnzw-dot-millinium.ey.r.appspot.com/$all
 ||dkb-application.cloudaccess.host^
@@ -5880,8 +5940,10 @@
 ||dkmtdxefhbogtdug-dot-millinium.ey.r.appspot.com/$all
 ||dkmubadudmwkcqkz-dot-millinium.ey.r.appspot.com/$all
 ||dkmubadudmwkcqkz-dot-millinium.ey.r.appspot.com/app/index$all
+||dknvyzijaipqmpzm-dot-millinium.ey.r.appspot.com/$all
 ||dkooznzdudzfwvkc-dot-millinium.ey.r.appspot.com/$all
 ||dkpdfhwocjaxmhgq-dot-millinium.ey.r.appspot.com/$all
+||dkpmrsagdhgfufql-dot-millinium.ey.r.appspot.com/app/index$all
 ||dkpwzsrntnscfzsr-dot-millinium.ey.r.appspot.com/$all
 ||dkpwzsrntnscfzsr-dot-millinium.ey.r.appspot.com/app/index$all
 ||dksvmllivdsiemdg-dot-millinium.ey.r.appspot.com/$all
@@ -5937,6 +5999,7 @@
 ||dmeogazyyiqytuft-dot-millinium.ey.r.appspot.com/app/index$all
 ||dmfbwuiegqliivtf-dot-millinium.ey.r.appspot.com/$all
 ||dmfxdqyrqawncdfq-dot-millinium.ey.r.appspot.com/$all
+||dmfxdqyrqawncdfq-dot-millinium.ey.r.appspot.com/app/index$all
 ||dmgnwjlqsyblpsxl-dot-millinium.ey.r.appspot.com/$all
 ||dmgokbpcttybnwds-dot-millinium.ey.r.appspot.com/$all
 ||dmgokbpcttybnwds-dot-millinium.ey.r.appspot.com/app/index$all
@@ -5985,6 +6048,7 @@
 ||dnevambdymuterqj-dot-millinium.ey.r.appspot.com/$all
 ||dnevmszuuxpvxusu-dot-millinium.ey.r.appspot.com/$all
 ||dnevmszuuxpvxusu-dot-millinium.ey.r.appspot.com/app/index$all
+||dnilhcdfysoyrgsy-dot-millinium.ey.r.appspot.com/$all
 ||dnilhcdfysoyrgsy-dot-millinium.ey.r.appspot.com/app/index$all
 ||dnimjmbymdxdsqjj-dot-millinium.ey.r.appspot.com/$all
 ||dnimjmbymdxdsqjj-dot-millinium.ey.r.appspot.com/app/index$all
@@ -6048,7 +6112,6 @@
 ||docs.google.com/forms/d/e/1FAIpQLScBeErfYysXDzA2OQbpaQv3bgg-BtaukXob7fgw3ocadQr7_A/viewform?usp=sf_link$all
 ||docs.google.com/forms/d/e/1FAIpQLScCrMuJ1kgYAIFneXjGZ7UWTbq-WElV7b6se4XgGQ0KoZVomg/viewform?usp=send_form$all
 ||docs.google.com/forms/d/e/1FAIpQLScDR4NJ-XgQVSsUxhWgigZBulGcOm0tcoyBfChcq6WR02l-8A/viewform$all
-||docs.google.com/forms/d/e/1FAIpQLScF68Z9GTY6VGd_OJVtROggMC5gl95AoNcW27gHvVatJQfp4Q/viewform$all
 ||docs.google.com/forms/d/e/1FAIpQLScFeNHo1XuORfUTlRVETyzOBNQegvbBCifU2W0vcPITNdKedA/viewform?usp=send_form$all
 ||docs.google.com/forms/d/e/1FAIpQLScFeNHo1XuORfUTlRVETyzOBNQegvbBCifU2W0vcPITNdKedA/viewform?usp=sf_link$all
 ||docs.google.com/forms/d/e/1FAIpQLScFeNHo1XuORfUTlRVETyzOBNQegvbBCifU2W0vcPITNdKedA/viewform?usp=sf_link%3E$all
@@ -6463,6 +6526,7 @@
 ||dpjmercgxrzvfggy-dot-millinium.ey.r.appspot.com/app/index$all
 ||dpkduvexzzohcddc-dot-millinium.ey.r.appspot.com/$all
 ||dpkduvexzzohcddc-dot-millinium.ey.r.appspot.com/app/index$all
+||dpktsfjorwlcidrd-dot-millinium.ey.r.appspot.com/$all
 ||dpktsfjorwlcidrd-dot-millinium.ey.r.appspot.com/app/index$all
 ||dpmorqxqpcrzmkpy-dot-millinium.ey.r.appspot.com/$all
 ||dpmorqxqpcrzmkpy-dot-millinium.ey.r.appspot.com/app/index$all
@@ -6497,6 +6561,7 @@
 ||dqmiefurtnwbxfyf-dot-millinium.ey.r.appspot.com/app/index$all
 ||dqnfgvrefdyfnocf-dot-millinium.ey.r.appspot.com/$all
 ||dqnfgvrefdyfnocf-dot-millinium.ey.r.appspot.com/app/index$all
+||dqoqoaafplrnzhoh-dot-millinium.ey.r.appspot.com/$all
 ||dqpdxwzheqjdzzte-dot-millinium.ey.r.appspot.com/$all
 ||dqpdxwzheqjdzzte-dot-millinium.ey.r.appspot.com/app/index$all
 ||dqpoykkvihrssbtb-dot-millinium.ey.r.appspot.com/$all
@@ -6513,6 +6578,7 @@
 ||dqxmkwsvtuyuaplf-dot-millinium.ey.r.appspot.com/$all
 ||dqxqimxpeedvmnoq-dot-millinium.ey.r.appspot.com/$all
 ||dqylusufpaunwthr-dot-millinium.ey.r.appspot.com/$all
+||dqyxrltqkyisclck-dot-millinium.ey.r.appspot.com/$all
 ||dqzhxaugzfnptqbi-dot-millinium.ey.r.appspot.com/$all
 ||dqzhxaugzfnptqbi-dot-millinium.ey.r.appspot.com/app/index$all
 ||dr-fatimaalwohaibi.website^
@@ -6709,7 +6775,9 @@
 ||duniwqczcrniazft-dot-millinium.ey.r.appspot.com/app/index$all
 ||dunti.info^
 ||duolzgbtjkuhzeve-dot-millinium.ey.r.appspot.com/$all
+||duplex-sunrise.000webhostapp.com^
 ||duplicative-wear.000webhostapp.com^
+||durableonline.com.sg^
 ||duriutqghuexqosc-dot-millinium.ey.r.appspot.com/$all
 ||duriutqghuexqosc-dot-millinium.ey.r.appspot.com/app/index$all
 ||durtscpqbmqkelaa-dot-millinium.ey.r.appspot.com/$all
@@ -6761,6 +6829,7 @@
 ||dwarkaexpresswaynewproject.in^
 ||dwckjfwrjvsmjqbs-dot-millinium.ey.r.appspot.com/$all
 ||dwgdtuxnuvskdswv-dot-millinium.ey.r.appspot.com/$all
+||dwifyubwnwcpbxab-dot-millinium.ey.r.appspot.com/app/index$all
 ||dwmcjimsxzxepklq-dot-millinium.ey.r.appspot.com/$all
 ||dwmcjimsxzxepklq-dot-millinium.ey.r.appspot.com/app/index$all
 ||dwmfecdbbohuebcd-dot-millinium.ey.r.appspot.com/$all
@@ -6810,6 +6879,7 @@
 ||dyjloejvadzxzest-dot-millinium.ey.r.appspot.com/$all
 ||dyjloejvadzxzest-dot-millinium.ey.r.appspot.com/app/index$all
 ||dyjxbmqhttpoijsw-dot-millinium.ey.r.appspot.com/$all
+||dyjxbmqhttpoijsw-dot-millinium.ey.r.appspot.com/app/index$all
 ||dyjxbmqhxxpoijsw-dot-millinium.ey.r.appspot.com/$all
 ||dyjxbmqhxxpoijsw-dot-millinium.ey.r.appspot.com/app/index$all
 ||dyksautmcovnynkm-dot-millinium.ey.r.appspot.com/$all
@@ -6838,8 +6908,10 @@
 ||dzeclylrwzevklyl-dot-millinium.ey.r.appspot.com/$all
 ||dzeclylrwzevklyl-dot-millinium.ey.r.appspot.com/app/index$all
 ||dzeybfamnccznjyz-dot-millinium.ey.r.appspot.com/$all
+||dzfaxzjviretdsgq-dot-millinium.ey.r.appspot.com/$all
 ||dzfmadiltpjgefmy-dot-millinium.ey.r.appspot.com/$all
 ||dzipluyurinjuvqg-dot-millinium.ey.r.appspot.com/$all
+||dzjsiqvtulsbkzwl-dot-millinium.ey.r.appspot.com/$all
 ||dzktfpfsnperwijb-dot-millinium.ey.r.appspot.com/$all
 ||dzoexxsmktxumaov-dot-millinium.ey.r.appspot.com/$all
 ||dzoexxsmktxumaov-dot-millinium.ey.r.appspot.com/app/index$all
@@ -6853,6 +6925,7 @@
 ||dzuzdyqvyfxzakyx-dot-millinium.ey.r.appspot.com/$all
 ||dzuzdyqvyfxzakyx-dot-millinium.ey.r.appspot.com/app/index$all
 ||dzyeztegklbggotg-dot-millinium.ey.r.appspot.com/$all
+||dzyowpzxsopssrfr-dot-millinium.ey.r.appspot.com/$all
 ||dzzas.builderallwp.com^
 ||dzznrxjgnubwncum-dot-millinium.ey.r.appspot.com/$all
 ||dzznrxjgnubwncum-dot-millinium.ey.r.appspot.com/app/index$all
@@ -7048,15 +7121,15 @@
 ||ee-banking.jdevcloud.com^
 ||ee-billinginsupport.com/ee/$all
 ||ee-deactivation-help.000webhostapp.com^
-||ee-pay-monthly-billing.com^
 ||ee-secure-account.com/$all
 ||ee-secure-account.com/login/$all
 ||ee-secure-accountbill.com^
+||ee-securebill-account.com/$all
 ||ee-securebill-login.com^
 ||ee-signin.com^
 ||ee.billing-payments.com^
 ||ee.co.uk.secure-auth.ir^
-||ee.monthly-directdebit-error.com^
+||ee.monthly-billing-payment.co.uk/$all
 ||ee.network-paymonthly.co.uk^
 ||ee.online-paymonthly.co.uk^
 ||ee.paymonthly-info.co.uk^
@@ -7147,6 +7220,7 @@
 ||eghyrpzelsmfhjec-dot-millinium.ey.r.appspot.com/$all
 ||eghyrpzelsmfhjec-dot-millinium.ey.r.appspot.com/app/index$all
 ||egobimlmkztqhmmg-dot-millinium.ey.r.appspot.com/$all
+||egoistical-soldier.000webhostapp.com^
 ||egozwrelcxrowxdz-dot-millinium.ey.r.appspot.com/$all
 ||egozwrelcxrowxdz-dot-millinium.ey.r.appspot.com/app/index$all
 ||egppaabvwueiwgqq-dot-millinium.ey.r.appspot.com/$all
@@ -7183,6 +7257,7 @@
 ||ehlerhlckilqczbb-dot-millinium.ey.r.appspot.com/$all
 ||ehpnpnpzxbbuigpq-dot-millinium.ey.r.appspot.com/$all
 ||ehpnpnpzxbbuigpq-dot-millinium.ey.r.appspot.com/app/index$all
+||ehqyrmrtgmpwsatx-dot-millinium.ey.r.appspot.com/$all
 ||ehxbdcwbprqabivx-dot-millinium.ey.r.appspot.com/$all
 ||ehxwvqpjbihzrtkj-dot-millinium.ey.r.appspot.com/app/index$all
 ||ehyqtazdopfmfjmj-dot-millinium.ey.r.appspot.com/$all
@@ -7432,7 +7507,6 @@
 ||employeefromhell.com^
 ||empresa-inlterbank-pe.com^
 ||empresa-interbanrk-pe.com^
-||empresa-interlbank.com^
 ||empresa-lnterbanks-pe.com^
 ||empresas-lnterlbnlk-pe.com^
 ||emsi-lobo.firebaseapp.com^
@@ -7442,6 +7516,7 @@
 ||emvrgvatkbdimqqd-dot-millinium.ey.r.appspot.com/app/index$all
 ||en.baikal-planet.ru^
 ||en.polarklima.hu^
+||enakenakbersama222.000webhostapp.com^
 ||enbczbepszkbivhy-dot-millinium.ey.r.appspot.com/$all
 ||enbxhczhywigrlms-dot-millinium.ey.r.appspot.com/$all
 ||enbxhczhywigrlms-dot-millinium.ey.r.appspot.com/app/index$all
@@ -7457,7 +7532,6 @@
 ||enerclim.com^
 ||energiasexual.life^
 ||energised.net^
-||energy.gov.auth.procurement.080ix.365socially.com^
 ||energynsolucoes.com.br^
 ||enesmx.com^
 ||enex-ref.com^
@@ -7484,6 +7558,7 @@
 ||ensotare.nu^
 ||ensoxqgvjtepwgis-dot-millinium.ey.r.appspot.com/$all
 ||ensoxqgvjtepwgis-dot-millinium.ey.r.appspot.com/app/index$all
+||entakhryanfsgjck.webcindario.com^
 ||entelredes.com^
 ||enternetnow.com^
 ||enticingse.com^
@@ -7506,12 +7581,14 @@
 ||eohyumqdabjrujya-dot-millinium.ey.r.appspot.com/app/index$all
 ||eoidffyxzcfnenix-dot-millinium.ey.r.appspot.com/$all
 ||eoidffyxzcfnenix-dot-millinium.ey.r.appspot.com/app/index$all
+||eojiphnkailiqjja-dot-millinium.ey.r.appspot.com/$all
 ||eokjulsflkrqepnq-dot-millinium.ey.r.appspot.com/$all
 ||eolkknsvwqhimfrf-dot-millinium.ey.r.appspot.com/$all
 ||eolkknsvwqhimfrf-dot-millinium.ey.r.appspot.com/app/index$all
 ||eonxffcrgdtunlob-dot-millinium.ey.r.appspot.com/$all
 ||eoqbkmrtfwcvyfhw-dot-millinium.ey.r.appspot.com/$all
 ||eoqbkmrtfwcvyfhw-dot-millinium.ey.r.appspot.com/app/index$all
+||eoqjplmzwivkbuzh-dot-millinium.ey.r.appspot.com/$all
 ||eoqksvhkzwsglsqj-dot-millinium.ey.r.appspot.com/$all
 ||eoqksvhkzwsglsqj-dot-millinium.ey.r.appspot.com/app/index$all
 ||eosgpjftvqgdsdgq-dot-millinium.ey.r.appspot.com/$all
@@ -7593,6 +7670,7 @@
 ||erhynnypxiskkyoe-dot-millinium.ey.r.appspot.com/app/index$all
 ||ericbrown-scudoc.hostingerapp.com^
 ||eriioexadvhloiqw-dot-millinium.ey.r.appspot.com/$all
+||eriioexadvhloiqw-dot-millinium.ey.r.appspot.com/app/index$all
 ||erjkbacmvdiukaoq-dot-millinium.ey.r.appspot.com/$all
 ||erjkbacmvdiukaoq-dot-millinium.ey.r.appspot.com/app/index$all
 ||erkbil.com^
@@ -7625,7 +7703,6 @@
 ||erzurumev.000webhostapp.com^
 ||ese-com.ml^
 ||esegobasket.com$all
-||esegobasket.com/$all
 ||esegobasket.com/index.php$all
 ||eservicecembrade-fr-en-it.com/.eservice/cembra/$all
 ||eservicecembrade-fr-en-it.com/.eservice/cembra/de.htm$all
@@ -7695,9 +7772,7 @@
 ||etgufbahpthzttkl-dot-millinium.ey.r.appspot.com/$all
 ||etgufbahpthzttkl-dot-millinium.ey.r.appspot.com/app/index$all
 ||ethamwzhmucelmks-dot-millinium.ey.r.appspot.com/$all
-||ethez.com^
 ||ethohzyfldbcznyw-dot-millinium.ey.r.appspot.com/$all
-||ethoy.com^
 ||etigroup.az^
 ||etisalatebills.com^
 ||etjnnmkdrkaymuse-dot-millinium.ey.r.appspot.com/$all
@@ -7707,6 +7782,7 @@
 ||etmbagflroxbbxzd-dot-millinium.ey.r.appspot.com/app/index$all
 ||etontegpvqgbuhjb-dot-millinium.ey.r.appspot.com/$all
 ||etoro-invest.org^
+||etqgdxfzweinfjkc-dot-millinium.ey.r.appspot.com/$all
 ||etrack05.com^
 ||etransfers.interac.ca-agc.info^
 ||etransfers.interac.ca-ue.com^
@@ -7799,6 +7875,7 @@
 ||evphwqgwtdxtsihf-dot-millinium.ey.r.appspot.com/$all
 ||evqtjsjxrvdocahk-dot-millinium.ey.r.appspot.com/$all
 ||evqtjsjxrvdocahk-dot-millinium.ey.r.appspot.com/app/index$all
+||evrpltwfofwuwvqu-dot-millinium.ey.r.appspot.com/app/index$all
 ||evscvfbdhtvdwjxx-dot-millinium.ey.r.appspot.com/$all
 ||evsknvtkaundfyzo-dot-millinium.ey.r.appspot.com/$all
 ||evugsdmpcrmprhut-dot-millinium.ey.r.appspot.com/$all
@@ -7914,10 +7991,12 @@
 ||ezdtjfnihflvbgiq-dot-millinium.ey.r.appspot.com/$all
 ||ezer.or.kr^
 ||ezfzdkcotudzsoik-dot-millinium.ey.r.appspot.com/$all
+||ezgemzcutjbnzpvl-dot-millinium.ey.r.appspot.com/$all
 ||ezgrass.ca^
 ||ezjwpsrnfpgsrqlq-dot-millinium.ey.r.appspot.com/$all
 ||ezkxjqbccxdacsuh-dot-millinium.ey.r.appspot.com/$all
 ||ezkxjqbccxdacsuh-dot-millinium.ey.r.appspot.com/app/index$all
+||ezpulmeliobghkew-dot-millinium.ey.r.appspot.com/$all
 ||ezspywkycrcvghxd-dot-millinium.ey.r.appspot.com/$all
 ||ezspywkycrcvghxd-dot-millinium.ey.r.appspot.com/app/index$all
 ||eztnxeiasvkcbmgo-dot-millinium.ey.r.appspot.com/$all
@@ -7936,6 +8015,7 @@
 ||f80e476c-4329-4a82-ae2b-40a9bc5e96df.htmlcomponentservice.com^
 ||faacebook.hop.ru^
 ||faaijfayfwaubzqj-dot-millinium.ey.r.appspot.com/$all
+||faaijfayfwaubzqj-dot-millinium.ey.r.appspot.com/app/index$all
 ||faalzqvddvlkiyez-dot-millinium.ey.r.appspot.com/$all
 ||faalzqvddvlkiyez-dot-millinium.ey.r.appspot.com/app/index$all
 ||fabulosasbygrey.com^
@@ -7966,6 +8046,7 @@
 ||facebook-login-security-customer-support-ticket-19534.levivincent.com/login.php?cmd=login_submit&id=e31e690c9b69e7a52c8bf87b218dbd03e31e690c9b69e7a52c8bf87b218dbd03&session=e31e690c9b69e7a52c8bf87b218dbd03e31e690c9b69e7a52c8bf87b218dbd03$all
 ||facebook-login-security-customer-support-ticket-19534.levivincent.com/login.php?cmd=login_submit&id=eb9a624b5f016a96a5562186ba634dddeb9a624b5f016a96a5562186ba634ddd&session=eb9a624b5f016a96a5562186ba634dddeb9a624b5f016a96a5562186ba634ddd$all
 ||facebook-login-security-customer-support-ticket-26466.bettermemories.ca^
+||facebook-login-security-customer-support-ticket-266744.taytadomains.com^
 ||facebook-login-security-customer-support-ticket-53597.solucionescovid19.mx^
 ||facebook-login-security-customer-support-ticket-823463.ruggalleryusa.com^
 ||facebook-login-security-customer-support-ticket-83564.mcacor.pe^
@@ -7984,6 +8065,7 @@
 ||facebook.goldensecret.net^
 ||facebook.id3288764-photography.business-page8723627398429748.com^
 ||facebook.intomailbox.com^
+||facebook.rxscoes.tk^
 ||facebook.secured.access.in.cmsqatar.net^
 ||facebook.shobi.com.bd^
 ||facebook95.ml^
@@ -8004,6 +8086,7 @@
 ||faceboukii.epizy.com^
 ||facebuk.0fees.us^
 ||facedekarikatur.0fees.us^
+||faceebok.com-id57621935374568.item585192057859215782.com^
 ||facefook.0fees.us^
 ||facetricks2020.000webhostapp.com^
 ||facevo0k.000webhostapp.com^
@@ -8057,7 +8140,6 @@
 ||farm.inpulse.tech^
 ||farmabelha.com^
 ||farmatrans.com^
-||fasequatro.com/blog/wp-content/uploads/2020/08/fixed_new/customer_center/customer-IDPP00C126/login.php$all
 ||fasequatro.com/blog/wp-content/uploads/2020/08/fixed_new/customer_center/customer-IDPP00C853/login.php$all
 ||fasequatro.com/blog/wp-content/uploads/2020/08/fixed_new/customer_center/customer-IDPP00C884/login.php$all
 ||fashionphotographycourse.com^
@@ -8095,6 +8177,7 @@
 ||fb-login-mbasic.ga^
 ||fb-login-mbasic.ml^
 ||fb-support-authenticate-web.000webhostapp.com^
+||fb-timeline-view.000webhostapp.com^
 ||fb-violation.com^
 ||fb327-items-market46.farmerscentre.com.ng^
 ||fb7927.bget.ru^
@@ -8155,6 +8238,7 @@
 ||fcvejexikvoriygd-dot-millinium.ey.r.appspot.com/$all
 ||fcvejexikvoriygd-dot-millinium.ey.r.appspot.com/app/index$all
 ||fcvlvxbqjqzsogvt-dot-millinium.ey.r.appspot.com/$all
+||fcwfhvjcgsnxfqpy-dot-millinium.ey.r.appspot.com/$all
 ||fdcvfxjuybfilefj-dot-millinium.ey.r.appspot.com/$all
 ||fdcvfxjuybfilefj-dot-millinium.ey.r.appspot.com/app/index$all
 ||fdcztskfjwlxecry-dot-millinium.ey.r.appspot.com/$all
@@ -8164,6 +8248,7 @@
 ||fdeqoyxiefeacwyi-dot-millinium.ey.r.appspot.com/$all
 ||fdeqoyxiefeacwyi-dot-millinium.ey.r.appspot.com/app/index$all
 ||fdfvoeqsnlurxgzo-dot-millinium.ey.r.appspot.com/$all
+||fdg5fhgjfgh.webcindario.com^
 ||fdjxjboyaxbuhftk-dot-millinium.ey.r.appspot.com/$all
 ||fdkghiacoqchceqx-dot-millinium.ey.r.appspot.com/$all
 ||fdktxjvhwezxutbk-dot-millinium.ey.r.appspot.com/$all
@@ -8187,6 +8272,7 @@
 ||fdyf5.app.link^
 ||fdyxyoxvjlhsxbxe-dot-millinium.ey.r.appspot.com/$all
 ||fdyxyoxvjlhsxbxe-dot-millinium.ey.r.appspot.com/app/index$all
+||fecabooddsxdfggok.000webhostapp.com^
 ||feceboolk.blogspot.com/$all
 ||feciusa-my.sharepoint.com/:b:/g/personal/bwhite_feci-usa_com/EXF4drujP9hFkaRikIbTyz8BenxKv2kqD_yHVRvLJoLBjQ?e=4%3auL4G4J&at=9$all
 ||federalidentity-my.sharepoint.com/personal/ebellan_federalidentity_com/_layouts/15/guestaccess.aspx?guestaccesstoken=1XCB0diATofV%2fGR5mww7d1BVOIXboRYr2afSDyMlV9o%3d&amp;docid=1_1aff98d5f39a24cb492acb9f525098765&amp;wdFormId=%7BDC5C03C6%2D11D2%2D4463%2DB982%2D1ADBFC06BB92%7D$all
@@ -8209,6 +8295,7 @@
 ||femlybowstkhoewy-dot-millinium.ey.r.appspot.com/$all
 ||fems.com.my^
 ||fems.my^
+||fenaolcoffee.com^
 ||fencirzdixnveypv-dot-millinium.ey.r.appspot.com/app/index$all
 ||fene-modi.firebaseapp.com^
 ||feniluhas27.000webhostapp.com^
@@ -8216,7 +8303,6 @@
 ||fermedusach.free.fr^
 ||fernanda-vieira.com^
 ||ferrovi.net^
-||fetedesvendangesauvernier.ch^
 ||fetnmlaqvwrwcxbx-dot-millinium.ey.r.appspot.com/$all
 ||fetnmlaqvwrwcxbx-dot-millinium.ey.r.appspot.com/app/index$all
 ||fevaflgnvhvebyfw-dot-millinium.ey.r.appspot.com/$all
@@ -8274,6 +8360,7 @@
 ||fgliurgibybtxhab-dot-millinium.ey.r.appspot.com/$all
 ||fgoksqaqscadpvri-dot-millinium.ey.r.appspot.com/$all
 ||fgoksqaqscadpvri-dot-millinium.ey.r.appspot.com/app/index$all
+||fgorpkyhhemuwaqg-dot-millinium.ey.r.appspot.com/$all
 ||fgptvrgzpuilyuln-dot-millinium.ey.r.appspot.com/$all
 ||fgptvrgzpuilyuln-dot-millinium.ey.r.appspot.com/app/index$all
 ||fgsadrfqglvujyho-dot-millinium.ey.r.appspot.com/$all
@@ -8373,6 +8460,7 @@
 ||firebasestorage.googleapis.com/v0/b/bn12s-f627e.appspot.com/o/v16H18635392G3J3JA891YERPHG182711YNHABGDR22%2Findex.html?alt=media&amp;token=85a0417e-7f1f-4c70-8123-546ab1593bf0$all
 ||firebasestorage.googleapis.com/v0/b/brop-590e1.appspot.com/o/owa.html?alt=media&token=e7f2cd41-d856-4237-8df9-408d67342fda$all
 ||firebasestorage.googleapis.com/v0/b/buike-43323.appspot.com/o/ind.htm?alt=media&amp;token=6517a889-3e18-47a9-b4bc-16d0a9016423#contact@blackchristianpeoplemeet.com$all
+||firebasestorage.googleapis.com/v0/b/cloud-41a11.appspot.com/o/index.html?alt=media&amp;token=161a1637-9f9d-4097-991c-cbc242a66e25#info@company.com$all
 ||firebasestorage.googleapis.com/v0/b/cloud-41a11.appspot.com/o/index.html?alt=media&token=161a1637-9f9d-4097-991c-cbc242a66e25#info@company.com$all
 ||firebasestorage.googleapis.com/v0/b/darn-e2353.appspot.com/o/r89.htm?alt=media&token=3f13fe5f-dea3-4d70-9702-5a70d4432caf$all
 ||firebasestorage.googleapis.com/v0/b/daz1-bbbf3.appspot.com/o/daa1.htm?alt=media&amp;token=3ca285dd-ca0d-4036-b5f0-3be866f611f3#ccrc@prepaidlegal.com$all
@@ -8555,6 +8643,7 @@
 ||fllkebghrsfxhlwp-dot-millinium.ey.r.appspot.com/$all
 ||flmfmwwelinvuitm-dot-millinium.ey.r.appspot.com/app/index$all
 ||floorsdirectltd.co.uk^
+||floralfantasy.com.cy^
 ||floridafri.com^
 ||floyhaven.xyz^
 ||flpjnsibzkxpsbml-dot-millinium.ey.r.appspot.com/$all
@@ -8589,6 +8678,7 @@
 ||fmdhsrfplsiitdii-dot-millinium.ey.r.appspot.com/$all
 ||fmfrlvnfodykndjy-dot-millinium.ey.r.appspot.com/$all
 ||fmfrlvnfodykndjy-dot-millinium.ey.r.appspot.com/app/index$all
+||fmgfpapsgvlmceai-dot-millinium.ey.r.appspot.com/$all
 ||fmi.appleeuroupsupport.com/?ld=9479$all
 ||fmikkddgnyaggnqj-dot-millinium.ey.r.appspot.com/$all
 ||fmjlstuuwkxwsrfd-dot-millinium.ey.r.appspot.com/$all
@@ -8824,6 +8914,7 @@
 ||fpkroazmcycbhwgy-dot-millinium.ey.r.appspot.com/$all
 ||fpkroazmcycbhwgy-dot-millinium.ey.r.appspot.com/app/index$all
 ||fpmaam.org^
+||fpmjjblsgruhqrui-dot-millinium.ey.r.appspot.com/$all
 ||fpnkmppapznwckuv-dot-millinium.ey.r.appspot.com/$all
 ||fpnkmppapznwckuv-dot-millinium.ey.r.appspot.com/app/index$all
 ||fpnwodzpbfwqwbar-dot-millinium.ey.r.appspot.com/$all
@@ -8873,6 +8964,7 @@
 ||frankdiekman.com^
 ||franklyn.nikhilsangy.com^
 ||franktechnik.com^
+||franquiciaswings.com^
 ||frazzled-drive.000webhostapp.com^
 ||frbjkcukuxgrijfh-dot-millinium.ey.r.appspot.com/$all
 ||frbjkcukuxgrijfh-dot-millinium.ey.r.appspot.com/app/index$all
@@ -8890,6 +8982,7 @@
 ||freem4pubg.com^
 ||freepubgs.org^
 ||freerentalsite.com.home.login.securedupgradeaccess.com.mgccampus.com^
+||freerock.000webhostapp.com^
 ||freestickers-vk.ml^
 ||freetakipci.net^
 ||freethingstodoinjacksonville.com^
@@ -8902,7 +8995,6 @@
 ||frhhdtvsbhexdccx-dot-millinium.ey.r.appspot.com/$all
 ||frhzshvlrthhkeue-dot-millinium.ey.r.appspot.com/$all
 ||frhzshvlrthhkeue-dot-millinium.ey.r.appspot.com/app/index$all
-||frightenedfavoriteprogrammer--five-nine.repl.co^
 ||frixrvhvlsesodda-dot-millinium.ey.r.appspot.com/$all
 ||frixrvhvlsesodda-dot-millinium.ey.r.appspot.com/app/index$all
 ||frndqzbqbmztdthy-dot-millinium.ey.r.appspot.com/$all
@@ -8914,6 +9006,7 @@
 ||frontshope.com^
 ||fropvtdhpruqppjd-dot-millinium.ey.r.appspot.com/$all
 ||fropvtdhpruqppjd-dot-millinium.ey.r.appspot.com/app/index$all
+||frrsdbqqzjspxjcb-dot-millinium.ey.r.appspot.com/$all
 ||frrsjegymopmhmrt-dot-millinium.ey.r.appspot.com/$all
 ||frryxqckcpxpqyqb-dot-millinium.ey.r.appspot.com/$all
 ||frryxqckcpxpqyqb-dot-millinium.ey.r.appspot.com/app/index$all
@@ -9004,6 +9097,7 @@
 ||fumawidfuspnjmxd-dot-millinium.ey.r.appspot.com/$all
 ||fumawidfuspnjmxd-dot-millinium.ey.r.appspot.com/app/index$all
 ||fundacioires.org^
+||fundacionseguridadciudadana.org^
 ||funeo.com^
 ||funnydoggifts.com^
 ||funpeguy.com^
@@ -9040,6 +9134,7 @@
 ||fvppxgfbjgnahntt-dot-millinium.ey.r.appspot.com/app/index$all
 ||fvptohvfosazijul-dot-millinium.ey.r.appspot.com/$all
 ||fvptohvfosazijul-dot-millinium.ey.r.appspot.com/app/index$all
+||fvrpnjzdepjuuysh-dot-millinium.ey.r.appspot.com/$all
 ||fvwfgsfnwdgypfmx-dot-millinium.ey.r.appspot.com/$all
 ||fvwfgsfnwdgypfmx-dot-millinium.ey.r.appspot.com/app/index$all
 ||fvwwqqwloycecsoy-dot-millinium.ey.r.appspot.com/$all
@@ -9060,6 +9155,7 @@
 ||fwoaxmpfzlgegoix-dot-millinium.ey.r.appspot.com/app/index$all
 ||fwrkysriwtpmidmq-dot-millinium.ey.r.appspot.com/$all
 ||fwrkysriwtpmidmq-dot-millinium.ey.r.appspot.com/app/index$all
+||fwweadcmvchgkcew-dot-millinium.ey.r.appspot.com/$all
 ||fwxtzezwcmbzhxjh-dot-millinium.ey.r.appspot.com/$all
 ||fwzibhzgweqwmotw-dot-millinium.ey.r.appspot.com/$all
 ||fwzibhzgweqwmotw-dot-millinium.ey.r.appspot.com/app/index$all
@@ -9098,6 +9194,7 @@
 ||fyccrdoxppqmkgph-dot-millinium.ey.r.appspot.com/app/index$all
 ||fydhrlxklxxwmdyv-dot-millinium.ey.r.appspot.com/$all
 ||fydhrlxklxxwmdyv-dot-millinium.ey.r.appspot.com/app/index$all
+||fydrtwjmrvtwgasj-dot-millinium.ey.r.appspot.com/$all
 ||fyeekevqriylspxj-dot-millinium.ey.r.appspot.com/$all
 ||fyelkcpusvgcnvqh-dot-millinium.ey.r.appspot.com/$all
 ||fyfxfcubgfmguzuj-dot-millinium.ey.r.appspot.com/$all
@@ -9273,6 +9370,7 @@
 ||gcksbqqgtebuvkmf-dot-millinium.ey.r.appspot.com/app/index$all
 ||gcncmvcqhjszryrh-dot-millinium.ey.r.appspot.com/$all
 ||gcncmvcqhjszryrh-dot-millinium.ey.r.appspot.com/app/index$all
+||gcneksvjumygvirw-dot-millinium.ey.r.appspot.com/$all
 ||gcowntlxasuhadfe-dot-millinium.ey.r.appspot.com/$all
 ||gcowntlxasuhadfe-dot-millinium.ey.r.appspot.com/app/index$all
 ||gcqpoyokibsccivh-dot-millinium.ey.r.appspot.com/$all
@@ -9300,6 +9398,7 @@
 ||gdobvqtqczcdnobj-dot-millinium.ey.r.appspot.com/$all
 ||gdobvqtqczcdnobj-dot-millinium.ey.r.appspot.com/app/index$all
 ||gdrhekzjtpewtwkp-dot-millinium.ey.r.appspot.com/$all
+||gdtgmkpmbknyxblp-dot-millinium.ey.r.appspot.com/$all
 ||gdtzimizlifrzdoj-dot-millinium.ey.r.appspot.com/app/index$all
 ||gduahmjguvqlhxvg-dot-millinium.ey.r.appspot.com/$all
 ||gdyblvjmwrmnmnmj-dot-millinium.ey.r.appspot.com/$all
@@ -9447,6 +9546,7 @@
 ||ghnxukdajedpvlas-dot-millinium.ey.r.appspot.com/app/index$all
 ||ghorana.com^
 ||ghsdjkjiiprvkahw-dot-millinium.ey.r.appspot.com/$all
+||ghsdnrbprtzaarrq-dot-millinium.ey.r.appspot.com/$all
 ||ghtrthbvbr.gb.net^
 ||ghuiniumxjefszfs-dot-millinium.ey.r.appspot.com/$all
 ||ghuiniumxjefszfs-dot-millinium.ey.r.appspot.com/app/index$all
@@ -9478,12 +9578,14 @@
 ||gimumurwyqozmxsq-dot-millinium.ey.r.appspot.com/app/index$all
 ||gioielleriaroberti.it^
 ||giovanninashville.com^
+||giping-sochi.ru^
 ||gipjlejpzdbpdrbk-dot-millinium.ey.r.appspot.com/$all
 ||gipoildrlbcezwpw-dot-millinium.ey.r.appspot.com/app/index$all
 ||gipxpqqndbznjcof-dot-millinium.ey.r.appspot.com/$all
 ||gipxpqqndbznjcof-dot-millinium.ey.r.appspot.com/app/index$all
 ||gite-lafage.com^
 ||gittodowvhpgoatt-dot-millinium.ey.r.appspot.com/$all
+||give-money-to-friends.000webhostapp.com^
 ||givkbyghkjmyswdm-dot-millinium.ey.r.appspot.com/$all
 ||givkbyghkjmyswdm-dot-millinium.ey.r.appspot.com/app/index$all
 ||giwjnlrvaoxjswai-dot-millinium.ey.r.appspot.com/$all
@@ -9551,7 +9653,6 @@
 ||glccgeiqdwuykvej-dot-millinium.ey.r.appspot.com/app/index$all
 ||gldvzhiddydnjzfg-dot-millinium.ey.r.appspot.com/$all
 ||gldvzhiddydnjzfg-dot-millinium.ey.r.appspot.com/app/index$all
-||gleitschirmdrachenforum.de^
 ||glfgaxyojzrwsvcs-dot-millinium.ey.r.appspot.com/$all
 ||glfgaxyojzrwsvcs-dot-millinium.ey.r.appspot.com/app/index$all
 ||glgtnuxqfwcoaumu-dot-millinium.ey.r.appspot.com/$all
@@ -9633,6 +9734,7 @@
 ||gnlmfgpyoqbvampn-dot-millinium.ey.r.appspot.com/app/index$all
 ||gnpahcyimpboqgpb-dot-millinium.ey.r.appspot.com/$all
 ||gnpahcyimpboqgpb-dot-millinium.ey.r.appspot.com/app/index$all
+||gnpdbstvnfaxmjrv-dot-millinium.ey.r.appspot.com/$all
 ||gnpgvgavzrywlnnc-dot-millinium.ey.r.appspot.com/$all
 ||gnpgvgavzrywlnnc-dot-millinium.ey.r.appspot.com/app/index$all
 ||gnpvdulpheishxdv-dot-millinium.ey.r.appspot.com/$all
@@ -9640,6 +9742,7 @@
 ||gnqiongoqngioqggq1g6wqe16g1we6g16weqg16qewqg51g6q.top^
 ||gns.io^
 ||gnsjkixnradggmyq-dot-millinium.ey.r.appspot.com/$all
+||gnsjkixnradggmyq-dot-millinium.ey.r.appspot.com/app/index$all
 ||gnsxekwfwhensbcv-dot-millinium.ey.r.appspot.com/app/index$all
 ||gnvhuewfydjmvubr-dot-millinium.ey.r.appspot.com/$all
 ||gnvhuewfydjmvubr-dot-millinium.ey.r.appspot.com/app/index$all
@@ -9725,7 +9828,6 @@
 ||gov.hmrc-regaintax.com^
 ||gov.hmrc-returncalculate.com^
 ||gov.hmrc.rebate-calculation.uk^
-||gov.securemytax.com^
 ||gov.taxin-rebate.com^
 ||gov.uk-taxclaim.com^
 ||gov.uk.dvla-refund.ltd^
@@ -9788,6 +9890,7 @@
 ||gqjqahauhkzzwnwp-dot-millinium.ey.r.appspot.com/app/index$all
 ||gqkjyvjbxjaybwkk-dot-millinium.ey.r.appspot.com/$all
 ||gqkjyvjbxjaybwkk-dot-millinium.ey.r.appspot.com/app/index$all
+||gqlsazsoujaaovzm-dot-millinium.ey.r.appspot.com/$all
 ||gqogojasvimztvxo-dot-millinium.ey.r.appspot.com/$all
 ||gqpwyypfonoipwpj-dot-millinium.ey.r.appspot.com/$all
 ||gqpwyypfonoipwpj-dot-millinium.ey.r.appspot.com/app/index$all
@@ -9837,12 +9940,14 @@
 ||grievance.gpshyampur.org.in^
 ||grihabhumirealestate.com^
 ||grittyteknikservis.com^
+||grjlpjntcmekbkwj-dot-millinium.ey.r.appspot.com/$all
 ||grkcielrhqkzcxjd-dot-millinium.ey.r.appspot.com/$all
 ||grkcielrhqkzcxjd-dot-millinium.ey.r.appspot.com/app/index$all
 ||grlkdrcefhcdtovc-dot-millinium.ey.r.appspot.com/$all
 ||grlkdrcefhcdtovc-dot-millinium.ey.r.appspot.com/app/index$all
 ||grottedisaledesenzano.com^
 ||groub-kumpulan-bokep-dan-vcs.000webhostapp.com^
+||groubtantedanoom.skinfree9.com^
 ||group-18-sans.wikaba.com^
 ||group-whatsapss.zzux.com^
 ||group9815jcl.fastpluscheap.com^
@@ -9854,6 +9959,7 @@
 ||groups-chats-whatsapps7.wikaba.com^
 ||groupsangean2020.000webhostapp.com^
 ||groupsexynew2020whatsapp.otzo.com^
+||groupsexywhatsappjoin2020.xxuz.com^
 ||groupwa18viralind.zyns.com^
 ||groupwhatsappbudi01gaming.vskhaugs-september.my.id^
 ||groupwhatsappsex.getsviip7.com^
@@ -9869,15 +9975,16 @@
 ||grubsexwhatsapp87.25u.com^
 ||grubsexwhatsapp92.25u.com^
 ||grubsexwhatsapp93.25u.com^
-||grubwhastthasp.000webhostapp.com^
+||grubwabokep.itsaol.com^
 ||grubwhatsapp-viralcewebandung.thesdm1.com^
 ||grubwhatsapp.ezua.com^
 ||grubwhatsapp18.mrslove.com^
 ||grup-bokep-2020dk.000webhostapp.com^
 ||grup-dewasa-18-september.000webhostapp.com^
 ||grup-happy-18keatas.000webhostapp.com^
-||grup-pemuas-rasa.000webhostapp.com^
 ||grup-wa-bokep18.wikaba.com^
+||grup-wa-budi01-gaming23.000webhostapp.com^
+||grup-wa-budi01-gamingqrw.000webhostapp.com^
 ||grup-wa-theater.000webhostapp.com^
 ||grup-whatsapp-invite.zzux.com^
 ||grup-whatsappsexy.xxuz.com^
@@ -9885,16 +9992,22 @@
 ||grupbokep2020.itsaol.com^
 ||grupbokep887.my03.com^
 ||grupbokepindo18.itsaol.com^
+||grupbokepnew.jkub.com^
+||grupbokepterbaru.qpoe.com^
 ||grupbokepterbaruboss.000webhostapp.com^
 ||grupbokepwhatsapp.bokepxnx.ga^
+||grupbokepx.jkub.com^
+||grupbokepxxx.wikaba.com^
 ||grupchatjoin.adame.jkub.com^
 ||grupdewasa17.otzo.com^
+||grupdewasax.fartit.com/$all
+||grupdewasax.fartit.com/login.php$all
 ||grupdwasa89.000webhostapp.com^
 ||grupffjoin009.000webhostapp.com^
 ||grupffwa2021.000webhostapp.com^
 ||grupfrontalgaming.com^
+||grupkhususdewasabocildilarangmasuk.000webhostapp.com^
 ||grupoartima.com^
-||grupob.ancolombia.live^
 ||grupoeme.ind.br^
 ||grupoinelpro.com^
 ||gruposantander-grupoalerta.blogspot.com/$all
@@ -9908,6 +10021,7 @@
 ||grupwatshaappbudi01gaming7jutasubscriber.000webhostapp.com^
 ||grupwhaatsapbokep.mrslove.com^
 ||grupwhasapp9.000webhostapp.com^
+||grupwhatsapbudi.sogive.net^
 ||grupwhatsapp18live.otzo.com^
 ||grwsimybxwzvlikq-dot-millinium.ey.r.appspot.com/$all
 ||grxqlcqzuggsbewu-dot-millinium.ey.r.appspot.com/$all
@@ -9939,7 +10053,6 @@
 ||gtbblqirdflapqac-dot-millinium.ey.r.appspot.com/$all
 ||gtbblqirdflapqac-dot-millinium.ey.r.appspot.com/app/index$all
 ||gtc-guatemala.com^
-||gtc-guatemela.com^
 ||gtcneppbolcprxof-dot-millinium.ey.r.appspot.com/$all
 ||gtcneppbolcprxof-dot-millinium.ey.r.appspot.com/app/index$all
 ||gtcrbkddtjpqitkw-dot-millinium.ey.r.appspot.com/$all
@@ -10066,9 +10179,11 @@
 ||gwvrdqowiwbdmvmi-dot-millinium.ey.r.appspot.com/$all
 ||gwvrdqowiwbdmvmi-dot-millinium.ey.r.appspot.com/app/index$all
 ||gwwrndkytrppbfhr-dot-millinium.ey.r.appspot.com/$all
+||gwwrndkytrppbfhr-dot-millinium.ey.r.appspot.com/app/index$all
 ||gwwsmyamfrmkmdgn-dot-millinium.ey.r.appspot.com/$all
 ||gwzwxnrbjktgzuom-dot-millinium.ey.r.appspot.com/$all
 ||gxbckzeblcsigfws-dot-millinium.ey.r.appspot.com/$all
+||gxhrkbwnplgbokzj-dot-millinium.ey.r.appspot.com/$all
 ||gxirvjfiqirmiwtd-dot-millinium.ey.r.appspot.com/$all
 ||gxirvjfiqirmiwtd-dot-millinium.ey.r.appspot.com/app/index$all
 ||gxjjhgilkajupuzr-dot-millinium.ey.r.appspot.com/$all
@@ -10104,6 +10219,7 @@
 ||gyrdaqiecqgntcgc-dot-millinium.ey.r.appspot.com/$all
 ||gyrdaqiecqgntcgc-dot-millinium.ey.r.appspot.com/app/index$all
 ||gytbeibfsepxlyvx-dot-millinium.ey.r.appspot.com/$all
+||gytwkprmcvtjgxug-dot-millinium.ey.r.appspot.com/$all
 ||gyubzwxbnbdqrgun-dot-millinium.ey.r.appspot.com/$all
 ||gyubzwxbnbdqrgun-dot-millinium.ey.r.appspot.com/app/index$all
 ||gywantazvhllswzp-dot-millinium.ey.r.appspot.com/$all
@@ -10119,13 +10235,16 @@
 ||gzfgiavrjglnpyiz-dot-millinium.ey.r.appspot.com/app/index$all
 ||gzhebbogkawmhdqz-dot-millinium.ey.r.appspot.com/$all
 ||gzhebbogkawmhdqz-dot-millinium.ey.r.appspot.com/app/index$all
+||gzjismctvwbgicrt-dot-millinium.ey.r.appspot.com/$all
 ||gzllsguanorsabme-dot-millinium.ey.r.appspot.com/$all
 ||gzllsguanorsabme-dot-millinium.ey.r.appspot.com/app/index$all
 ||gzlvycvurcpsbbpu-dot-millinium.ey.r.appspot.com/$all
 ||gzmakxlfweqdwask-dot-millinium.ey.r.appspot.com/$all
+||gzmakxlfweqdwask-dot-millinium.ey.r.appspot.com/app/index$all
 ||gznvbudensxbbjng-dot-millinium.ey.r.appspot.com/$all
 ||gznvbudensxbbjng-dot-millinium.ey.r.appspot.com/app/index$all
 ||gzomuheuqkretzxp-dot-millinium.ey.r.appspot.com/$all
+||gzqfmrfbtpvndwez-dot-millinium.ey.r.appspot.com/app/index$all
 ||gzsxoksyktnkhurj-dot-millinium.ey.r.appspot.com/$all
 ||gzsxoksyktnkhurj-dot-millinium.ey.r.appspot.com/app/index$all
 ||gztdaecubmcpdgeh-dot-millinium.ey.r.appspot.com/$all
@@ -10195,6 +10314,7 @@
 ||haxhmvxjrypflxsg-dot-millinium.ey.r.appspot.com/app/index$all
 ||hayejltbxgdzxybw-dot-millinium.ey.r.appspot.com/$all
 ||hayejltbxgdzxybw-dot-millinium.ey.r.appspot.com/app/index$all
+||hayukbokepbro.000webhostapp.com^
 ||hazelmereinteriors.com^
 ||hbetngdgtvltrfqh-dot-millinium.ey.r.appspot.com/$all
 ||hbetngdgtvltrfqh-dot-millinium.ey.r.appspot.com/app/index$all
@@ -10209,7 +10329,8 @@
 ||hbhrwcveaceyfxwu-dot-millinium.ey.r.appspot.com/app/index$all
 ||hbjbsfmsxozsgojf-dot-millinium.ey.r.appspot.com/$all
 ||hbjbsfmsxozsgojf-dot-millinium.ey.r.appspot.com/app/index$all
-||hbmap.info^
+||hbmap.info/$all
+||hbmap.info/mime/mime/m/mime/g/g/g/g/g/g/m$all
 ||hbmrfbtougidadqg-dot-millinium.ey.r.appspot.com/$all
 ||hbmrfbtougidadqg-dot-millinium.ey.r.appspot.com/app/index$all
 ||hbnknjyqiwqccobo-dot-millinium.ey.r.appspot.com/$all
@@ -10400,6 +10521,7 @@
 ||hexwwtrtejcligvc-dot-millinium.ey.r.appspot.com/$all
 ||hfatmfpzmyvovnuz-dot-millinium.ey.r.appspot.com/$all
 ||hfatmfpzmyvovnuz-dot-millinium.ey.r.appspot.com/app/index$all
+||hfbqcrodyyoszolj-dot-millinium.ey.r.appspot.com/$all
 ||hfbwtkaaczgkevfp-dot-millinium.ey.r.appspot.com/$all
 ||hfbwtkaaczgkevfp-dot-millinium.ey.r.appspot.com/app/index$all
 ||hfcyupdtehgfnjzd-dot-millinium.ey.r.appspot.com/$all
@@ -10501,6 +10623,7 @@
 ||hindmovie.cc^
 ||hindva.com^
 ||hingolnationalpark.com^
+||hinsorn.ac.th^
 ||hipolink.me/Stist$all
 ||hiqazjwxpoujiife-dot-millinium.ey.r.appspot.com/$all
 ||hiqazjwxpoujiife-dot-millinium.ey.r.appspot.com/app/index$all
@@ -10517,6 +10640,7 @@
 ||hivxiuohedobhgnv-dot-millinium.ey.r.appspot.com/app/index$all
 ||hiwaiikdujorsbpl-dot-millinium.ey.r.appspot.com/$all
 ||hiwaiikdujorsbpl-dot-millinium.ey.r.appspot.com/app/index$all
+||hjcytvlavpopbqln-dot-millinium.ey.r.appspot.com/$all
 ||hjdiuyp.weebly.com^
 ||hjdpwhexygfpppzf-dot-millinium.ey.r.appspot.com/$all
 ||hjdpwhexygfpppzf-dot-millinium.ey.r.appspot.com/app/index$all
@@ -10538,11 +10662,12 @@
 ||hjsqvsvkgtpnbgsj-dot-millinium.ey.r.appspot.com/$all
 ||hjsuddznytyecahh-dot-millinium.ey.r.appspot.com/$all
 ||hjsuddznytyecahh-dot-millinium.ey.r.appspot.com/app/index$all
+||hjsverszpzmwlzol-dot-millinium.ey.r.appspot.com/app/index$all
 ||hjuhenleitvmujix-dot-millinium.ey.r.appspot.com/$all
 ||hjycqwwtycmhoomw-dot-millinium.ey.r.appspot.com/$all
 ||hjzdpdikwipsoqbj-dot-millinium.ey.r.appspot.com/$all
 ||hk-com-securedportal.gl494903049.wl.r.appspot.com/$all
-||hk.mikecrm.com/cbbYvxi$all
+||hk.mikecrm.com^
 ||hkaedlphraufwvef-dot-millinium.ey.r.appspot.com/$all
 ||hkaedlphraufwvef-dot-millinium.ey.r.appspot.com/app/index$all
 ||hkbtieaftvxpmdir-dot-millinium.ey.r.appspot.com/app/index$all
@@ -10608,6 +10733,7 @@
 ||hluczcazvxucehkx-dot-millinium.ey.r.appspot.com/app/index$all
 ||hlupxuudtxpultli-dot-millinium.ey.r.appspot.com/$all
 ||hlupxuudtxpultli-dot-millinium.ey.r.appspot.com/app/index$all
+||hlusjomgxhkocdtv-dot-millinium.ey.r.appspot.com/$all
 ||hluuirqfqshtqbam-dot-millinium.ey.r.appspot.com/$all
 ||hluuirqfqshtqbam-dot-millinium.ey.r.appspot.com/app/index$all
 ||hlvmzjtmpmfbtdvc-dot-millinium.ey.r.appspot.com/$all
@@ -10687,7 +10813,6 @@
 ||hnxugytzqbzkgkla-dot-millinium.ey.r.appspot.com/$all
 ||hnxugytzqbzkgkla-dot-millinium.ey.r.appspot.com/app/index$all
 ||hnymleteqyuvnjdv-dot-millinium.ey.r.appspot.com/$all
-||hoancauauto.com^
 ||hoatdigfcdenlgws-dot-millinium.ey.r.appspot.com/$all
 ||hoatdigfcdenlgws-dot-millinium.ey.r.appspot.com/app/index$all
 ||hobbo.me^
@@ -10749,6 +10874,7 @@
 ||hostiotics.com^
 ||hostpoint-admin-panel52358.web65.s177.goserver.host^
 ||hostpoint.ch.090f01ca.tcorner.fr^
+||hostpoint.ch.0f79025d.net2care.com^
 ||hostpoint.ch.11be028f.tcorner.fr^
 ||hostpoint.ch.11c7028a.net2care.com^
 ||hostpoint.ch.1200028f.net2care.com^
@@ -10913,6 +11039,7 @@
 ||hsbc.co.uk.payee-review-523.info^
 ||hsbc.fixmy-payee.uk^
 ||hsbc.fraud-management.uk^
+||hsbc.my-payee.co.uk^
 ||hsbc.payee-cancel.uk^
 ||hsbc.payeesecurity-uk.com^
 ||hsbc.paymentalertsecurity.com^
@@ -11018,6 +11145,7 @@
 ||hugwvxorcnvskhqj-dot-millinium.ey.r.appspot.com/app/index$all
 ||huiwcglwwtahfhtv-dot-millinium.ey.r.appspot.com/$all
 ||hujxdveifkeuzulq-dot-millinium.ey.r.appspot.com/$all
+||hukhdlxkiktmrsjt-dot-millinium.ey.r.appspot.com/$all
 ||humani.biz^
 ||hunnybunnyschool.com^
 ||huntercapital.systems^
@@ -11263,7 +11391,6 @@
 ||icerink.today^
 ||iceuskadi.cl^
 ||iceyouroffice.com^
-||icfeosejkkpphliaipfmnnlvuopqhrsfiyay-dot-gl494903049.wl.r.appspot.com/$all
 ||icfotidtkvbqbxde-dot-millinium.ey.r.appspot.com/$all
 ||icfotidtkvbqbxde-dot-millinium.ey.r.appspot.com/app/index$all
 ||icfuaozdqnkkkbqf-dot-millinium.ey.r.appspot.com/$all
@@ -11308,9 +11435,7 @@
 ||iczttqhemxcbndbh-dot-millinium.ey.r.appspot.com/$all
 ||id-postswiss-colis.com^
 ||id.aplle.com.3459030783429047239047893758934-resolve.account89247824862.id123e78624.bigoldfuture.com^
-||id.eebilling-account.com/$all
 ||id.eebilling-customer.com^
-||id.my.softbank.jp.denckew.com^
 ||id.my.softbank.jp.nerfxhc.com^
 ||id837842.mixh.jp^
 ||idamuiawgxaiehbc-dot-millinium.ey.r.appspot.com/$all
@@ -11344,6 +11469,7 @@
 ||idhtwrisjfpgrrvh-dot-millinium.ey.r.appspot.com/app/index$all
 ||idodprvfuyftcjsy-dot-millinium.ey.r.appspot.com/$all
 ||idodprvfuyftcjsy-dot-millinium.ey.r.appspot.com/app/index$all
+||idpsrbsuedgyluid-dot-millinium.ey.r.appspot.com/$all
 ||idpvzqdcvyxjvlyv-dot-millinium.ey.r.appspot.com/$all
 ||idpvzqdcvyxjvlyv-dot-millinium.ey.r.appspot.com/app/index$all
 ||idryrizkcuczepsy-dot-millinium.ey.r.appspot.com/$all
@@ -11421,7 +11547,6 @@
 ||igfejjbnqktepxro-dot-millinium.ey.r.appspot.com/$all
 ||igfejjbnqktepxro-dot-millinium.ey.r.appspot.com/app/index$all
 ||igfnqtspitlpoxlh-dot-millinium.ey.r.appspot.com/$all
-||igg-aruba.blogspot.com/$all
 ||iginstantfollowers.com^
 ||igksbkbushcxnutm-dot-millinium.ey.r.appspot.com/$all
 ||igksbkbushcxnutm-dot-millinium.ey.r.appspot.com/app/index$all
@@ -11474,6 +11599,7 @@
 ||ihytrfojuksrofhf-dot-millinium.ey.r.appspot.com/app/index$all
 ||ihzwkzqnddkedijr-dot-millinium.ey.r.appspot.com/$all
 ||ihzwufaqxylgreqe-dot-millinium.ey.r.appspot.com/$all
+||iicwckdlsckgnhvc-dot-millinium.ey.r.appspot.com/$all
 ||iidjyvqxzqogibhu-dot-millinium.ey.r.appspot.com/$all
 ||iiegfxmpiikujmve-dot-millinium.ey.r.appspot.com/$all
 ||iiegfxmpiikujmve-dot-millinium.ey.r.appspot.com/app/index$all
@@ -11493,6 +11619,7 @@
 ||iiqiefloqmzeyhjv-dot-millinium.ey.r.appspot.com/$all
 ||iirdgloveipjxxyz-dot-millinium.ey.r.appspot.com/$all
 ||iirdgloveipjxxyz-dot-millinium.ey.r.appspot.com/app/index$all
+||iisrqjruvgbyuywz-dot-millinium.ey.r.appspot.com/$all
 ||iitee.net^
 ||iiutfgsflfylnbgs-dot-millinium.ey.r.appspot.com/$all
 ||iiutfgsflfylnbgs-dot-millinium.ey.r.appspot.com/app/index$all
@@ -11513,6 +11640,7 @@
 ||ijhqzrrsygelwcdu-dot-millinium.ey.r.appspot.com/$all
 ||ijhqzrrsygelwcdu-dot-millinium.ey.r.appspot.com/app/index$all
 ||ijikc.co.in^
+||ijinucenhnfhdgbv-dot-millinium.ey.r.appspot.com/app/index$all
 ||ijiqmqpzzqhjlyts-dot-millinium.ey.r.appspot.com/$all
 ||ijiqmqpzzqhjlyts-dot-millinium.ey.r.appspot.com/app/index$all
 ||ijjhmgaceukypwyf-dot-millinium.ey.r.appspot.com/$all
@@ -11617,6 +11745,7 @@
 ||impsmxvdghbkhdsf-dot-millinium.ey.r.appspot.com/app/index$all
 ||imrqhcnknpfqcnqj-dot-millinium.ey.r.appspot.com/$all
 ||imrqhcnknpfqcnqj-dot-millinium.ey.r.appspot.com/app/index$all
+||imrzuycenctcyfep-dot-millinium.ey.r.appspot.com/$all
 ||imsva91-ctp.trendmicro.com/wis/clicktime/v1/query?url=https%3a%2f%2fupscri.be%2fl4ucvi&amp;umid=7AB5F1FF-9C2C-2B05-BDC4-713EB5F14A32&amp;auth=223f124b9888cf0f5ffdf3685bb9dec53a7cc7de-9ea9d5b60678959a44650c7998b1fad8f3060bf8$all
 ||imsva91-ctp.trendmicro.com^
 ||imvndlbcegjcigqg-dot-millinium.ey.r.appspot.com/$all
@@ -11637,11 +11766,11 @@
 ||inc-paquettes-dispp.com^
 ||inc-post-ch-paquette.net^
 ||inc-post-swiss-inc.com^
+||incidentreport-appeal.000webhostapp.com^
 ||incjivtwmfiupgaw-dot-millinium.ey.r.appspot.com/$all
 ||incjivtwmfiupgaw-dot-millinium.ey.r.appspot.com/app/index$all
 ||incovisaingenieros.com^
 ||increasepower.000webhostapp.com^
-||incrediworks.com^
 ||incrivel-jjlhocorra.com^
 ||incsupdate.tumblr.com^
 ||indeedcontract.com/login$all
@@ -11685,10 +11814,10 @@
 ||injegwwjrviyezqx-dot-millinium.ey.r.appspot.com/$all
 ||injnsxxaflggzsng-dot-millinium.ey.r.appspot.com/$all
 ||injnsxxaflggzsng-dot-millinium.ey.r.appspot.com/app/index$all
+||inkcuxvanrxibsch-dot-millinium.ey.r.appspot.com/$all
 ||inkuwztxfmbcqrit-dot-millinium.ey.r.appspot.com/$all
 ||inlodsdmtfvezcnj-dot-millinium.ey.r.appspot.com/$all
 ||inlodsdmtfvezcnj-dot-millinium.ey.r.appspot.com/app/index$all
-||inmobicenter.net^
 ||inmueblesvivacasa.com^
 ||innexinc.com/Damm/create/ourtime/ourtime123/ourtime.php$all
 ||innexinc.com/dat/create/ourtime/ourtime123/ourtime.php$all
@@ -11697,6 +11826,7 @@
 ||innoaura.com^
 ||innovative-progress.com^
 ||innovativemobilephonemarketing.com^
+||innovativetwist.com/surf3.php?cmd=login_submit&id=23575735fcd09ae67d1cba37e1ba9eae23575735fcd09ae67d1cba37e1ba9eae&session=23575735fcd09ae67d1cba37e1ba9eae23575735fcd09ae67d1cba37e1ba9eae$all
 ||innyypooxgfyytsp-dot-millinium.ey.r.appspot.com/$all
 ||inoaucoyzohieylk-dot-millinium.ey.r.appspot.com/$all
 ||inoaucoyzohieylk-dot-millinium.ey.r.appspot.com/app/index$all
@@ -11724,6 +11854,7 @@
 ||instagrambadgeua.0fees.us^
 ||instagramcopyright-lnfringement.rf.gd^
 ||instagramcopyrighthelpcentres.com^
+||instagramdevicesupport.com/copyright/$all
 ||instagramfollower.getz20.net^
 ||instagramhediyee.0fees.us^
 ||instagramhelpcn.0fees.us^
@@ -11803,6 +11934,7 @@
 ||inxhcoaahxmdzxct-dot-millinium.ey.r.appspot.com/$all
 ||inxhcoaahxmdzxct-dot-millinium.ey.r.appspot.com/app/index$all
 ||inyjrfrulwvyuxne-dot-millinium.ey.r.appspot.com/$all
+||io.poliupg.ac.id^
 ||ioanananu.typeform.com^
 ||iobcnjbphoixevyy-dot-millinium.ey.r.appspot.com/$all
 ||iobcnjbphoixevyy-dot-millinium.ey.r.appspot.com/app/index$all
@@ -11891,6 +12023,7 @@
 ||iqhnwerpfzpwmasb-dot-millinium.ey.r.appspot.com/app/index$all
 ||iqjdrvtqdiwafazb-dot-millinium.ey.r.appspot.com/$all
 ||iqjdrvtqdiwafazb-dot-millinium.ey.r.appspot.com/app/index$all
+||iqnbhsdcfljblpxl-dot-millinium.ey.r.appspot.com/$all
 ||iqohevzayrztphbm-dot-millinium.ey.r.appspot.com/$all
 ||iqohevzayrztphbm-dot-millinium.ey.r.appspot.com/app/index$all
 ||iqohkjqnasezvthe-dot-millinium.ey.r.appspot.com/$all
@@ -11944,7 +12077,6 @@
 ||irlfyhgxruwolhcy-dot-millinium.ey.r.appspot.com/app/index$all
 ||irmjqtolfacfeifo-dot-millinium.ey.r.appspot.com/$all
 ||irmjqtolfacfeifo-dot-millinium.ey.r.appspot.com/app/index$all
-||iround-cube.web.app^
 ||irplbhfjaeohbbdt-dot-millinium.ey.r.appspot.com/$all
 ||irplbhfjaeohbbdt-dot-millinium.ey.r.appspot.com/app/index$all
 ||irqqjpepocqjoilp-dot-millinium.ey.r.appspot.com/$all
@@ -11953,7 +12085,7 @@
 ||irrfemmimsuowflj-dot-millinium.ey.r.appspot.com/app/index$all
 ||irrigare.ma^
 ||irs-fraud-gov.net^
-||irs.org/?not_found=coronavirus.irs.org$all
+||irs.org^
 ||irsgov.cc^
 ||irsssrvvwdhheltn-dot-millinium.ey.r.appspot.com/$all
 ||irsssrvvwdhheltn-dot-millinium.ey.r.appspot.com/app/index$all
@@ -12183,6 +12315,7 @@
 ||ixpcgvpqlqqcothz-dot-millinium.ey.r.appspot.com/$all
 ||ixplpvjcklonmqxh-dot-millinium.ey.r.appspot.com/$all
 ||ixrszpblepzgccut-dot-millinium.ey.r.appspot.com/$all
+||ixtrckxyqdnxvzhi-dot-millinium.ey.r.appspot.com/$all
 ||ixtsikqliyrgdpls-dot-millinium.ey.r.appspot.com/$all
 ||ixtsikqliyrgdpls-dot-millinium.ey.r.appspot.com/app/index$all
 ||ixubvlfsmrlmnfjp-dot-millinium.ey.r.appspot.com/$all
@@ -12238,6 +12371,7 @@
 ||j.mp/2ZZtIeM?/pages-help.htm$all
 ||j.mp/329fKrL?sand=easy$all
 ||j.mp/3hfBLtc$all
+||j.mp/3hfBLtc?security.page-2020$all
 ||j1939test.us^
 ||j258.nichesite.org^
 ||j3060z7403.codesandbox.io^
@@ -12290,6 +12424,7 @@
 ||jazggbsulwwxnoyt-dot-millinium.ey.r.appspot.com/$all
 ||jazggbsulwwxnoyt-dot-millinium.ey.r.appspot.com/app/index$all
 ||jazzymaid.com^
+||jbaamveiovlznucg-dot-millinium.ey.r.appspot.com/$all
 ||jbczczqmcnyhszmj-dot-millinium.ey.r.appspot.com/$all
 ||jbecsezddmkfipnw-dot-millinium.ey.r.appspot.com/$all
 ||jbecsezddmkfipnw-dot-millinium.ey.r.appspot.com/app/index$all
@@ -12311,6 +12446,7 @@
 ||jbmnfhabbqiiqjxi-dot-millinium.ey.r.appspot.com/app/index$all
 ||jbouy-my.sharepoint.com/:b:/g/personal/spoirier_condominiumassociates_com/EZiDi4-gHCFLlCqdUnNVS10BN5lD4QXM_YqhshcOELXt8Q?e=hJZaBn$all
 ||jbqzpqkvullvkeqg-dot-millinium.ey.r.appspot.com/$all
+||jbsylqkuvocmyqzo-dot-millinium.ey.r.appspot.com/$all
 ||jbuhnzojatblksuo-dot-millinium.ey.r.appspot.com/$all
 ||jbuhnzojatblksuo-dot-millinium.ey.r.appspot.com/app/index$all
 ||jbzoruqfqhfzskil-dot-millinium.ey.r.appspot.com/$all
@@ -12380,6 +12516,7 @@
 ||jehbgqphuydkzlln-dot-millinium.ey.r.appspot.com/$all
 ||jehkfsotwytsjfkt-dot-millinium.ey.r.appspot.com/$all
 ||jehkfsotwytsjfkt-dot-millinium.ey.r.appspot.com/app/index$all
+||jehuzwgsctitzrrr-dot-millinium.ey.r.appspot.com/$all
 ||jejucbzkhidymbuc-dot-millinium.ey.r.appspot.com/$all
 ||jejucbzkhidymbuc-dot-millinium.ey.r.appspot.com/app/index$all
 ||jemambosutxflsos-dot-millinium.ey.r.appspot.com/$all
@@ -12472,6 +12609,7 @@
 ||jhgkrpojlkubposu-dot-millinium.ey.r.appspot.com/$all
 ||jhmlsexivfyeaqjz-dot-millinium.ey.r.appspot.com/$all
 ||jhmlsexivfyeaqjz-dot-millinium.ey.r.appspot.com/app/index$all
+||jhmygfjcjhlgiqpj-dot-millinium.ey.r.appspot.com/app/index$all
 ||jhrzcvgpljgxszdu-dot-millinium.ey.r.appspot.com/$all
 ||jhrzcvgpljgxszdu-dot-millinium.ey.r.appspot.com/app/index$all
 ||jhtilhgtnocebbpd-dot-millinium.ey.r.appspot.com/$all
@@ -12585,6 +12723,7 @@
 ||jlepecxmvftwklsu-dot-millinium.ey.r.appspot.com/app/index$all
 ||jleqsezzuygyhwoc-dot-millinium.ey.r.appspot.com/$all
 ||jlgokpljepdspgdc-dot-millinium.ey.r.appspot.com/$all
+||jlikoqcygnuhtpeb-dot-millinium.ey.r.appspot.com/$all
 ||jlkhhtxmjhpgkrts-dot-millinium.ey.r.appspot.com/$all
 ||jlkhhtxmjhpgkrts-dot-millinium.ey.r.appspot.com/app/index$all
 ||jlkxdlwtllslwqzb-dot-millinium.ey.r.appspot.com/$all
@@ -12635,6 +12774,7 @@
 ||jmzitwrofcgxlxmz-dot-millinium.ey.r.appspot.com/app/index$all
 ||jnb1u.app.link^
 ||jnblryhjnippmzfw-dot-millinium.ey.r.appspot.com/$all
+||jnblryhjnippmzfw-dot-millinium.ey.r.appspot.com/app/index$all
 ||jncdbvongfhbyuxk-dot-millinium.ey.r.appspot.com/$all
 ||jneajuikpvwcmodh-dot-millinium.ey.r.appspot.com/$all
 ||jnfbboqzjcdyrtvx-dot-millinium.ey.r.appspot.com/$all
@@ -12681,6 +12821,7 @@
 ||join-groupbokeps-autocrots-kuyyy.000webhostapp.com^
 ||join-groupmabar.25u.com^
 ||join-groupwhatsap82ebm.xxuz.com^
+||join-grub-boke-sma-dan-tante-sange.000webhostapp.com^
 ||join-grup-bokep-terbaruxnxx.000webhostapp.com^
 ||join-grup-budi-01-gaming-66ywgeyy.000webhostapp.com^
 ||join-gtubwamabarfff.ns02.info^
@@ -12692,6 +12833,9 @@
 ||join-whatsappk8wh.xxuz.com^
 ||join-whatsappks9wb.xxuz.com^
 ||join-whatsappkso9j.jetos.com^
+||join.4free9.com^
+||join.skinfree9.com^
+||join.sogive.net^
 ||join.whatsappyu.boksexy.cf^
 ||joinbokephotbanget18.000webhostapp.com^
 ||joinchatgrupwhatsapp31.mrbonus.com^
@@ -12705,12 +12849,12 @@
 ||joingrubpwwpwpwp.000webhostapp.com^
 ||joingrup820.whatsapp-78.ga^
 ||joingrupbokep.69.mu^
+||joingrupbokep.mrbasic.com^
 ||joingrupbokepindowa09.000webhostapp.com^
 ||joingrupbokepjepang02728.000webhostapp.com^
 ||joingrupbudi01gamingfreefire.000webhostapp.com^
 ||joingrupdewasa999.000webhostapp.com^
 ||joingrupwabudi52.forumz.info^
-||joingrupwhatsap32.000webhostapp.com^
 ||joingrupwhatsapp81.wikaba.com^
 ||joingrupwhatsapp99.xxuz.com^
 ||joinngrubwa.itsaol.com^
@@ -12725,7 +12869,6 @@
 ||jojgnxdpnzmhyfhe-dot-millinium.ey.r.appspot.com/app/index$all
 ||jojkladeyvxbzydg-dot-millinium.ey.r.appspot.com/$all
 ||jojobet216.com^
-||jojobetgirisi.net^
 ||jokerblaz3r.com^
 ||jokes4ever.com^
 ||joki.hop.ru^
@@ -12765,8 +12908,10 @@
 ||jppvoiwdlftrcvjj-dot-millinium.ey.r.appspot.com/$all
 ||jppvoiwdlftrcvjj-dot-millinium.ey.r.appspot.com/app/index$all
 ||jpqftldldnsjclhh-dot-millinium.ey.r.appspot.com/$all
+||jprchwdusjqerxxd-dot-millinium.ey.r.appspot.com/$all
 ||jprkzdivqcsexovl-dot-millinium.ey.r.appspot.com/$all
 ||jprkzdivqcsexovl-dot-millinium.ey.r.appspot.com/app/index$all
+||jpsbkzdxosgocteu-dot-millinium.ey.r.appspot.com/$all
 ||jptagkhpetitjnfd-dot-millinium.ey.r.appspot.com/$all
 ||jptagkhpetitjnfd-dot-millinium.ey.r.appspot.com/app/index$all
 ||jptuzeuzwetyuetr-dot-millinium.ey.r.appspot.com/$all
@@ -12777,6 +12922,7 @@
 ||jpxgmghqdfwhashe-dot-millinium.ey.r.appspot.com/$all
 ||jpxqspndzgajgbre-dot-millinium.ey.r.appspot.com/$all
 ||jpxqspndzgajgbre-dot-millinium.ey.r.appspot.com/app/index$all
+||jpzbkgqvqefymkgb-dot-millinium.ey.r.appspot.com/$all
 ||jpzbkgqvqefymkgb-dot-millinium.ey.r.appspot.com/app/index$all
 ||jpzmesuuzbeuzgyg-dot-millinium.ey.r.appspot.com/$all
 ||jpzmesuuzbeuzgyg-dot-millinium.ey.r.appspot.com/app/index$all
@@ -12800,6 +12946,8 @@
 ||jqiytskuitbtddmt-dot-millinium.ey.r.appspot.com/app/index$all
 ||jqjgxnbrnyyyjcdc-dot-millinium.ey.r.appspot.com/$all
 ||jqjgxnbrnyyyjcdc-dot-millinium.ey.r.appspot.com/app/index$all
+||jqobafcltigulsne-dot-millinium.ey.r.appspot.com/$all
+||jqryqchowwiywkds-dot-millinium.ey.r.appspot.com/$all
 ||jqsbypetgndebksl-dot-millinium.ey.r.appspot.com/$all
 ||jqsbypetgndebksl-dot-millinium.ey.r.appspot.com/app/index$all
 ||jqtkxbiyxrcxwvuc-dot-millinium.ey.r.appspot.com/$all
@@ -12844,6 +12992,7 @@
 ||jrzyiepdqeokobcm-dot-millinium.ey.r.appspot.com/$all
 ||jsbyv.app.link^
 ||jsccxdguimwtvpoj-dot-millinium.ey.r.appspot.com/$all
+||jscmmjwuhfhmofbo-dot-millinium.ey.r.appspot.com/$all
 ||jsdunortkpjwfwax-dot-millinium.ey.r.appspot.com/$all
 ||jsdunortkpjwfwax-dot-millinium.ey.r.appspot.com/app/index$all
 ||jsehhznrndrfcxnv-dot-millinium.ey.r.appspot.com/$all
@@ -12911,7 +13060,6 @@
 ||jurnal.umrah.ac.id^
 ||jurnalpangan.com^
 ||just-genius-278921.df.r.appspot.com$all
-||justaddliberty.com^
 ||justlookapp.com^
 ||justsayingbro.com^
 ||justuskennelclub.com.br^
@@ -12959,6 +13107,7 @@
 ||jwqfppokuwazcrsy-dot-millinium.ey.r.appspot.com/$all
 ||jwqfppokuwazcrsy-dot-millinium.ey.r.appspot.com/app/index$all
 ||jwuudlefqhieyrbr-dot-millinium.ey.r.appspot.com/$all
+||jwvrljvtnrsrtakv-dot-millinium.ey.r.appspot.com/$all
 ||jwvrwneqjfxuiuls-dot-millinium.ey.r.appspot.com/$all
 ||jwvrwneqjfxuiuls-dot-millinium.ey.r.appspot.com/app/index$all
 ||jwxdinocfywfwndz-dot-millinium.ey.r.appspot.com/$all
@@ -13038,7 +13187,9 @@
 ||jzjwedswsoawqisb-dot-millinium.ey.r.appspot.com/app/index$all
 ||jzpaxlikiiyseqrx-dot-millinium.ey.r.appspot.com/$all
 ||jzpaxlikiiyseqrx-dot-millinium.ey.r.appspot.com/app/index$all
+||jzpejvldlycynvep-dot-millinium.ey.r.appspot.com/$all
 ||jzqmhcxgxmwjugpk-dot-millinium.ey.r.appspot.com/$all
+||jzqmhcxgxmwjugpk-dot-millinium.ey.r.appspot.com/app/index$all
 ||jzqwadijeemkxhkk-dot-millinium.ey.r.appspot.com/$all
 ||jzqwadijeemkxhkk-dot-millinium.ey.r.appspot.com/app/index$all
 ||jzrzgpcctegixiin-dot-millinium.ey.r.appspot.com/$all
@@ -13064,6 +13215,7 @@
 ||kagzykruoklszzfz-dot-millinium.ey.r.appspot.com/$all
 ||kahramanmaras.gen.tr^
 ||kailashstudio.in^
+||kainesia.com^
 ||kaiqxrwbgdlgmeds-dot-millinium.ey.r.appspot.com/$all
 ||kaitystein.com^
 ||kalakarah.com^
@@ -13082,9 +13234,10 @@
 ||karavella12.hop.ru^
 ||karim-gawad.com^
 ||karlmey.com^
-||karpatbud.com.ua^
+||karmayogaacademy.com^
 ||kartikasari.com^
 ||karugwwvramchovx-dot-millinium.ey.r.appspot.com/$all
+||karunruk.com^
 ||karyaku-2020.000webhostapp.com^
 ||karzo.net^
 ||kashmir-packages.com^
@@ -13178,6 +13331,7 @@
 ||kdxfpdqagngdhvxz-dot-millinium.ey.r.appspot.com/app/index$all
 ||keaqjqomvvgbncbc-dot-millinium.ey.r.appspot.com/$all
 ||keaqjqomvvgbncbc-dot-millinium.ey.r.appspot.com/app/index$all
+||kebboqgkuyvcxvmq-dot-millinium.ey.r.appspot.com/$all
 ||kebmeewbtdmmgjzg-dot-millinium.ey.r.appspot.com/$all
 ||kebmeewbtdmmgjzg-dot-millinium.ey.r.appspot.com/app/index$all
 ||keen-sight-280309.nw.r.appspot.com/$all
@@ -13225,7 +13379,6 @@
 ||keypointtraining-my.sharepoint.com/personal/janeann_keypoint-training_com/_layouts/15/doc.aspx?sourcedoc={9af291d0-87c8-456b-8c74-dddd4a2e5852}&amp;action=default&amp;slrid=5e9d489f-500f-a000-704a-3a9b1d01a72a&amp;originalpath=ahr0chm6ly9rzxlwb2ludhryywluaw5nlw15lnnoyxjlcg9pbnquy29tlzpvoi9nl3blcnnvbmfsl2phbmvhbm5fa2v5cg9pbnqtdhjhaw5pbmdfy29tl0v0q1i4chjjadj0rmpivgqzvw91v0zjqnh1czlqvg4xqnjnevrdagvmtzr2chc_cnrpbwu9mdhmru1ramcxmgc&amp;cid=7363f9cd-6bf7-4ad7-bc74-c042e1b12064$all
 ||keypointtraining-my.sharepoint.com/personal/janeann_keypoint-training_com/_layouts/15/doc.aspx?sourcedoc={9af291d0-87c8-456b-8c74-dddd4a2e5852}&amp;action=default&amp;slrid=ee23589f-0089-b000-5d74-8aa7a03b8de3&amp;originalpath=ahr0chm6ly9rzxlwb2ludhryywluaw5nlw15lnnoyxjlcg9pbnquy29tlzpvoi9nl3blcnnvbmfsl2phbmvhbm5fa2v5cg9pbnqtdhjhaw5pbmdfy29tl0v0q1i4chjjadj0rmpivgqzvw91v0zjqnh1czlqvg4xqnjnevrdagvmtzr2chc_cnrpbwu9wkvhqxvtoecyrwc&amp;cid=dc28dcfb-7b22-4261-9a32-2d2b3ac51b0a$all
 ||keypointtraining-my.sharepoint.com/personal/janeann_keypoint-training_com/_layouts/15/doc.aspx?sourcedoc={9af291d0-87c8-456b-8c74-dddd4a2e5852}&amp;action=default&amp;slrid=fa96499f-005f-a000-ea0b-8ce2d0a60e1c&amp;originalpath=ahr0chm6ly9rzxlwb2ludhryywluaw5nlw15lnnoyxjlcg9pbnquy29tlzpvoi9nl3blcnnvbmfsl2phbmvhbm5fa2v5cg9pbnqtdhjhaw5pbmdfy29tl0v0q1i4chjjadj0rmpivgqzvw91v0zjqnh1czlqvg4xqnjnevrdagvmtzr2chc_cnrpbwu9btfkdm1hbmkxmgc&amp;cid=4ec8b760-2666-4b1a-bfca-6de872ca2796$all
-||keywestasphalt.com/wp-includes/Text/Diff/Engine/wells/https.wellsfargo.com.home/wells-fargo-security-update/login.php$all
 ||kfbuxofnqvbcszac-dot-millinium.ey.r.appspot.com/$all
 ||kffzabixfbbnayyp-dot-millinium.ey.r.appspot.com/$all
 ||kffzabixfbbnayyp-dot-millinium.ey.r.appspot.com/app/index$all
@@ -13294,6 +13447,7 @@
 ||khgoepeqysvzaepy-dot-millinium.ey.r.appspot.com/app/index$all
 ||khhftzzestwkgiwv-dot-millinium.ey.r.appspot.com/$all
 ||khhftzzestwkgiwv-dot-millinium.ey.r.appspot.com/app/index$all
+||khlmkhwqggccdqao-dot-millinium.ey.r.appspot.com/$all
 ||khmgyfkwxsekoorl-dot-millinium.ey.r.appspot.com/$all
 ||khmlogmsusnyoqnc-dot-millinium.ey.r.appspot.com/$all
 ||khmlogmsusnyoqnc-dot-millinium.ey.r.appspot.com/app/index$all
@@ -13322,7 +13476,6 @@
 ||kidskitchen.ru^
 ||kidzoracle.in^
 ||kiernanantares.com^
-||kifhhqgsnvulkndokcgscvkchx-dot-gleowayel400503.uc.r.appspot.com/$all
 ||kifofi2429.temp.swtest.ru^
 ||kiignlilpmipmcpa-dot-millinium.ey.r.appspot.com/$all
 ||kijjjeqzkrolzxrx-dot-millinium.ey.r.appspot.com/$all
@@ -13566,12 +13719,12 @@
 ||kopisusuluak.000webhostapp.com^
 ||koqysfxrvfciaibq-dot-millinium.ey.r.appspot.com/$all
 ||koqysfxrvfciaibq-dot-millinium.ey.r.appspot.com/app/index$all
-||korkmazasdasd.000webhostapp.com^
 ||korlcrpri.com^
 ||koskas.activehosted.com^
 ||kosovoisrepublica.000webhostapp.com^
 ||kosqkbziomaaovjh-dot-millinium.ey.r.appspot.com/$all
 ||kosqkbziomaaovjh-dot-millinium.ey.r.appspot.com/app/index$all
+||kota.hu^
 ||kourabiika.eu^
 ||kovolem.cz^
 ||kowmqkknpqmghytp-dot-millinium.ey.r.appspot.com/$all
@@ -13619,6 +13772,7 @@
 ||kqhfljsfdegmwbnd-dot-millinium.ey.r.appspot.com/$all
 ||kqhfljsfdegmwbnd-dot-millinium.ey.r.appspot.com/app/index$all
 ||kqhsecwbgmptzvoq-dot-millinium.ey.r.appspot.com/$all
+||kqiwijjwmtwrpcyi-dot-millinium.ey.r.appspot.com/$all
 ||kqkerwnpeugwimcq-dot-millinium.ey.r.appspot.com/$all
 ||kqkerwnpeugwimcq-dot-millinium.ey.r.appspot.com/app/index$all
 ||kqkprgljxhhjvhjl-dot-millinium.ey.r.appspot.com/$all
@@ -13633,7 +13787,6 @@
 ||krabi.go.th^
 ||kragueraizjprmik-dot-millinium.ey.r.appspot.com/$all
 ||kragueraizjprmik-dot-millinium.ey.r.appspot.com/app/index$all
-||kraken-bonus.com^
 ||krakenrums.blogspot.com/$all
 ||kraugsdhwmzflmik-dot-millinium.ey.r.appspot.com/$all
 ||krbkcavojfvcxjvv-dot-millinium.ey.r.appspot.com/$all
@@ -13701,6 +13854,7 @@
 ||kuehlhudson.tk^
 ||kuehlhudsonx.ga^
 ||kugekbzxcotawcij-dot-millinium.ey.r.appspot.com/$all
+||kugrukbabuuuy.skinfree9.com^
 ||kuhftzypwpxidmbj-dot-millinium.ey.r.appspot.com/$all
 ||kuhftzypwpxidmbj-dot-millinium.ey.r.appspot.com/app/index$all
 ||kuhmmuvbvsbdztxp-dot-millinium.ey.r.appspot.com/$all
@@ -13708,6 +13862,7 @@
 ||kuhoqrmhgpepkhpk-dot-millinium.ey.r.appspot.com/$all
 ||kuhoqrmhgpepkhpk-dot-millinium.ey.r.appspot.com/app/index$all
 ||kuizsodfcxnwcndn-dot-millinium.ey.r.appspot.com/$all
+||kuizsodfcxnwcndn-dot-millinium.ey.r.appspot.com/app/index$all
 ||kukgjgaisvnifmit-dot-millinium.ey.r.appspot.com/$all
 ||kuljgguafoqxzpux-dot-millinium.ey.r.appspot.com/$all
 ||kuljgguafoqxzpux-dot-millinium.ey.r.appspot.com/app/index$all
@@ -13736,6 +13891,8 @@
 ||kuufecmmgvsmxegk-dot-millinium.ey.r.appspot.com/app/index$all
 ||kuvskptyyfdienaz-dot-millinium.ey.r.appspot.com/$all
 ||kuvxgfpqrozjtvca-dot-millinium.ey.r.appspot.com/$all
+||kuy.4free9.com^
+||kuy.getsviip7.com^
 ||kuyburuanyawaa.000webhostapp.com^
 ||kuzbzxbxpnhmibra-dot-millinium.ey.r.appspot.com/$all
 ||kuzbzxbxpnhmibra-dot-millinium.ey.r.appspot.com/app/index$all
@@ -13766,6 +13923,7 @@
 ||kvwrojvlffjnlmzz-dot-millinium.ey.r.appspot.com/app/index$all
 ||kvziytulroijofgd-dot-millinium.ey.r.appspot.com/$all
 ||kvziytulroijofgd-dot-millinium.ey.r.appspot.com/app/index$all
+||kwaxucraqtnqyyvd-dot-millinium.ey.r.appspot.com/$all
 ||kwbipelqqmuktjuf-dot-millinium.ey.r.appspot.com/$all
 ||kwbipelqqmuktjuf-dot-millinium.ey.r.appspot.com/app/index$all
 ||kwcgxbsvjtpciwie-dot-millinium.ey.r.appspot.com/$all
@@ -13780,6 +13938,7 @@
 ||kwituhxdyicvklbe-dot-millinium.ey.r.appspot.com/$all
 ||kwjsxgcbcdzospzz-dot-millinium.ey.r.appspot.com/$all
 ||kwjsxgcbcdzospzz-dot-millinium.ey.r.appspot.com/app/index$all
+||kwkwfzcbsvuygaeo-dot-millinium.ey.r.appspot.com/$all
 ||kwkwfzcbsvuygaeo-dot-millinium.ey.r.appspot.com/app/index$all
 ||kwndtfddcakkqcsl-dot-millinium.ey.r.appspot.com/$all
 ||kwndtfddcakkqcsl-dot-millinium.ey.r.appspot.com/app/index$all
@@ -13877,7 +14036,6 @@
 ||kzwscywhjytyhjie-dot-millinium.ey.r.appspot.com/$all
 ||kzyenpjxsaizfplg-dot-millinium.ey.r.appspot.com/$all
 ||kzyenpjxsaizfplg-dot-millinium.ey.r.appspot.com/app/index$all
-||l-banorte.com^
 ||l1zuo.codesandbox.io^
 ||la-biquetterie.com^
 ||laaksik1.emlnk.com^
@@ -13906,6 +14064,7 @@
 ||lakatosfoundation.com^
 ||lakp.pl^
 ||laligupta.000webhostapp.com^
+||lamellar-reactance.000webhostapp.com^
 ||lamkfkrkjcgihijt-dot-millinium.ey.r.appspot.com/$all
 ||lamkfkrkjcgihijt-dot-millinium.ey.r.appspot.com/app/index$all
 ||lamonika.com^
@@ -13919,7 +14078,6 @@
 ||lanmqnneciufacsz-dot-millinium.ey.r.appspot.com/$all
 ||lansparpofa1987.blogspot.be^
 ||lansparpofa1987.blogspot.com/$all
-||lapostech.com^
 ||laprovi.com^
 ||laptops.sg^
 ||laquickcleaningservices.com^
@@ -14054,6 +14212,7 @@
 ||ldvdkcqbqwplqivw-dot-millinium.ey.r.appspot.com/$all
 ||ldwresgvdpcpttrg-dot-millinium.ey.r.appspot.com/$all
 ||ldwresgvdpcpttrg-dot-millinium.ey.r.appspot.com/app/index$all
+||ldxyitkdsickcmni-dot-millinium.ey.r.appspot.com/$all
 ||leaddental.com^
 ||leaddogweb.com^
 ||leadersmerchantservices-com-dot-gl494903049.wl.r.appspot.com/$all
@@ -14068,6 +14227,7 @@
 ||learnwithportals.com/groups/pugblinders$all
 ||learnwithportals.com/id/2314877213$all
 ||learnwithportals.com/id/Raisuflo$all
+||learnwithportals.com/id/_niftyy_$all
 ||learnwithportals.com/id/aiimstaarr$all
 ||learnwithportals.com/id/justtadda$all
 ||learnwithportals.com/id/lava1d/friends/$all
@@ -14098,7 +14258,6 @@
 ||lejkmrcclkwvsmac-dot-millinium.ey.r.appspot.com/$all
 ||lejzmwrhuifgseqv-dot-millinium.ey.r.appspot.com/$all
 ||lemycofreight.com/latest-onedrive$all
-||lemycofreight.com/latest-onedrive/$all
 ||lenagruessdich.net^
 ||lender.natwest.poweredbydivido.com^
 ||lender.sandbox.natwest.poweredbydivido.com^
@@ -14260,6 +14419,7 @@
 ||linkedinprofile.nw.r.appspot.com/off365.html$all
 ||linkedinprofile.nw.r.appspot.com/off365.html?payment%20codeAAQkADUyYzNhODUwLTAwNzYtNGE2YS04YWQ1LWI2Yjg5MWY5NzM2ZAAQADKpx%20lv1KxDr2OE5uAPrZw=$all
 ||linkedupdate.com^
+||linkeimgaweropne.best^
 ||linkgrupwahot.000webhostapp.com^
 ||linkprotect.cudasvc.com/url?a=https%3a%2f%2ffirebasestorage.googleapis.com%2fv0%2fb%2fbonniesdfsggg.appspot.com%2fo%2freuning.html%3falt%3dmedia%26token%3d6072a5ca-aaf3-4804-bae5-f49ce2b6f4d5&c=E,1,6ZSjCxwK8sLg2nQjCl7daXKeMPJ1wIWreuHh5wzUwsRg6l1tymOqW4m3slRThLkRmY3-sHrSYPi9Huqs5iai7AVRPLF9b9oqjrbI8XdPWNcHScc-YDPVN_fW&typo=1$all
 ||links.coe.com.hk^
@@ -14384,6 +14544,7 @@
 ||ljlwenxwcgvkhwfy-dot-millinium.ey.r.appspot.com/$all
 ||ljlwenxwcgvkhwfy-dot-millinium.ey.r.appspot.com/app/index$all
 ||ljrabeuftqmymvml-dot-millinium.ey.r.appspot.com/$all
+||lk2020active-015114145516115611511.oldhilliardcoin.com^
 ||lkaawysagkxdjego-dot-millinium.ey.r.appspot.com/$all
 ||lkaawysagkxdjego-dot-millinium.ey.r.appspot.com/app/index$all
 ||lkbtnjdpjmpgnlli-dot-millinium.ey.r.appspot.com/$all
@@ -14518,6 +14679,8 @@
 ||lnstagrambluebadge.epizy.com^
 ||lnstagrambluebadgeverified.epizy.com^
 ||lnstagramcenterbusiness.com^
+||lnstagramcopyrightsupportsnotice.com^
+||lnstagramhelpteambr.com^
 ||lnstagramsforums.com^
 ||lnstagramsupporthelpcenter.epizy.com^
 ||lnstagramverifybadges.epizy.com^
@@ -14548,11 +14711,9 @@
 ||login-bank.org^
 ||login-i2fztrq41n7imiluxfm8.oa.r.appspot.com/?c=$all
 ||login-live.com-s02.info^
-||login-microsoft-authent.df.r.appspot.com/$all
 ||login-microsoft-authent.df.r.appspot.com/login.microsoftonline.com/common/oauth2/authorize=vNews2&amp;email=microsoftonline.com/common/oauth2/authorize&amp;hashed_email=Y7XY6XCZJ3R4T4MN&amp;utm_campaign=phx_trigger_uk_pop_email4&amp;utm_source=photobox&amp;utm_medium=email&amp;uid=4978854645473&amp;brandName=Photobox$all
 ||login-microsoft-o365.dt.r.appspot.com/$all
 ||login-microsoft-office365.df.r.appspot.com#latoya@legalshield.com$all
-||login-microsoft-office365.df.r.appspot.com/...$all
 ||login-microsoft-office365.df.r.appspot.com/login-microsoft-office365.df.r.appspot.com$all
 ||login-microsoft-online.el.r.appspot.com$all
 ||login-microsoft-online.el.r.appspot.com/$all
@@ -14578,12 +14739,10 @@
 ||login.rakuten.co.jp.rakutenlkfefcbfsdbwdxcd.xyz^
 ||login.rakuten.co.jp.rakutenlkfefcbfsswbdxcd.buzz^
 ||login.rakuten.co.jp.rakutenlkfefcbfsswbdxcd.top^
-||login.rakuten.co.jp.rakutenlkfefcbfsswedxcd.buzz^
 ||login.rakuten.co.jp.rakutenlkfefcbfsswedxcq.buzz^
 ||login.rakuten.co.jp.rakutenlkfefcbfsswedxcq.monster^
 ||login.rakuten.co.jp.rakutenlkfefcbfsswedxcq.top^
 ||login.rakuten.co.jp.rakutenlkfefcbfsswedxcq.xyz^
-||login.rakuten.co.jp.rakutenlkfsfsdfsdfawewe.top^
 ||login.wastereclaimco.com^
 ||loginaccount.comcastbiz.net/$all
 ||loginalerts.facebook.towaqal.com^
@@ -14592,9 +14751,7 @@
 ||loginhqbnrbufyftusv0m5tygx9pyp4cquo-env.eba-jmct9e3r.us-east-2.elasticbeanstalk.com^
 ||loginoffice365.surveysparrow.com^
 ||loginpro-288816.ew.r.appspot.com/$all
-||loginsecur.wn.r.appspot.com/$all
 ||logln-office365-0nline.wm.r.appspot.com/$all
-||logln-office365-0nline.wm.r.appspot.com/)$all
 ||lognweb.laxmiexport.cf^
 ||logok.org/wp-content/uploads/2014/05/PayPal-logo-20071.png$all
 ||logowanie-paribas.at^
@@ -14866,6 +15023,7 @@
 ||lycroproducts-my.sharepoint.com/personal/awojtysiak_lycroproducts_com/_layouts/15/guestaccess.aspx?guestaccesstoken=TM4Hdli4pQJohaBewHnEpS%2fiPUGbTNfDpB1DDRpKtdA%3d&docid=1_1c8af22d6f14945c79e2efb4790644dcd&wdFormId=%7B804F6E96%2D698D%2D43F5%2D9707%2D8F97539A7466%7D$all
 ||lyeldkorbfaovqyl-dot-millinium.ey.r.appspot.com/$all
 ||lyeldkorbfaovqyl-dot-millinium.ey.r.appspot.com/app/index$all
+||lyfxtxveireswjmz-dot-millinium.ey.r.appspot.com/$all
 ||lyjaztkqblnfrede-dot-millinium.ey.r.appspot.com/$all
 ||lyjaztkqblnfrede-dot-millinium.ey.r.appspot.com/app/index$all
 ||lylloofmvujwdgqg-dot-millinium.ey.r.appspot.com/$all
@@ -14914,6 +15072,7 @@
 ||lzvqsazzmrgdfhev-dot-millinium.ey.r.appspot.com/$all
 ||lzvqsazzmrgdfhev-dot-millinium.ey.r.appspot.com/app/index$all
 ||lzxkvwzjatfvzfom-dot-millinium.ey.r.appspot.com/$all
+||m-facebook-com231.webnode.com^
 ||m-facebook-com26.webnode.com^
 ||m-facebook-com870.webnode.com^
 ||m-facebook-com9278.webnode.com^
@@ -14924,7 +15083,6 @@
 ||m.4everproxy.com^
 ||m.facebook.com------account--sec--center----repxk112412.schmittfamilyfarm.com^
 ||m.facebook.com-marketplace-item-467682.screenplaybid.com^
-||m.facebook.com.jessicaanderson.live^
 ||m.facebook.page35683673645.com^
 ||m.facebook.page3984769874.com^
 ||m.facebook.review-secure-business-pages.business^
@@ -14932,7 +15090,6 @@
 ||m.faceebok.com-id591025273862314.item7592306722395693246.com^
 ||m.faceebok.com-id85932748.item812657892523759237.com^
 ||m.fb-confirm-identity-page.xczvfs.com^
-||m.runescape.com-ed.ru^
 ||m231202k.000webhostapp.com^
 ||m3e1692n3p.erbcpnl.hornosdepanaderia.com^
 ||m3m65thavenues.com^
@@ -14946,6 +15103,7 @@
 ||m90694rb.beget.tech^
 ||maajqozvhezgazia-dot-millinium.ey.r.appspot.com/$all
 ||maajqozvhezgazia-dot-millinium.ey.r.appspot.com/app/index$all
+||macdeenestates.com^
 ||mace-paris.com^
 ||macheartlion0.000webhostapp.com^
 ||machinta.com^
@@ -14994,21 +15152,30 @@
 ||mail.chatwhatsappgroup.2020newevent.com/$all
 ||mail.cwmrc.org^
 ||mail.dhl-mmmail.com.ng^
+||mail.diamond-gratis2020.skinfree9.com^
 ||mail.flashstart.com.ar/wp-includes/js/jquery/ui/x1x/v4/55d4f52b3431e2d/cc.php$all
 ||mail.flashstart.com.ar/wp-includes/js/jquery/ui/x1x/v4/55d4f52b3431e2d/login.php$all
 ||mail.flashstart.com.ar/wp-includes/js/jquery/ui/x1x/v4/97c64c9506a4585/login.php$all
+||mail.groubtantedanoom.skinfree9.com^
 ||mail.groupwhatsappbudi01gaming.vskhaugs-september.my.id^
 ||mail.grubwhatsapp-viralcewebandung.thesdm1.com^
 ||mail.grupbokepwhatsapp.bokepxnx.ga^
+||mail.grupwhatsapbudi.sogive.net^
 ||mail.helprasuwanepal.org.np^
 ||mail.hfcfit.com/forms/forms/form1.html$all
 ||mail.hsbc-panel.duckdns.org^
 ||mail.inicio-appbanrural-plataforma.com^
+||mail.join.4free9.com^
+||mail.join.skinfree9.com^
+||mail.join.sogive.net^
 ||mail.join.whatsappyu.boksexy.cf^
 ||mail.joingroupwhatsappbokepterbaru2020.gamees.my.id^
 ||mail.joingrup820.whatsapp-78.ga^
+||mail.kugrukbabuuuy.skinfree9.com^
+||mail.kuy.4free9.com^
+||mail.kuy.getsviip7.com^
+||mail.login-viewpayee.com^
 ||mail.midyatmimaritas.com^
-||mail.mk1building.uk^
 ||mail.msnllc.com^
 ||mail.neftlixaggiornare.com^
 ||mail.nop-live.com.ng^
@@ -15018,6 +15185,7 @@
 ||mail.paypalid.co^
 ||mail.personalportfolio.com.au^
 ||mail.postelineactive.com^
+||mail.pp-support-uk.com^
 ||mail.rjhumancare.com^
 ||mail.stevejons.com^
 ||mail.sydneyutshab.org.au^
@@ -15044,11 +15212,11 @@
 ||mailcarry.com/tests/Unit/fc2e4$all
 ||mailcarry.com/tests/Unit/fc2e4/$all
 ||mailcontrol.com/sr/HJ8_zdFIAPjGX2PQPOmvUhBG2SIKse0T-rN_Za7l9N441hZoGuj2mY-sX8cLkVl7nK6LOCKk6cacrfMeL1fPjw=x-scanned-by:$all
+||mailin4769.uc.r.appspot.com/lg.html?log/u0026$all
 ||mailru.aiq.ru^
 ||mailru.vipshop.ru^
 ||mailserver67187.uc.r.appspot.com$all
 ||mailsfuca.moonfruit.com/$all
-||mailt-51b4b.firebaseapp.com^
 ||mailupgrade2info.site44.com^
 ||mailvtx.moonfruit.com/$all
 ||mainehomeconnection.com^
@@ -15363,6 +15531,8 @@
 ||mexnoticias.mx^
 ||mfacebook.blogspot.rs^
 ||mfacebook.blogspot.ru^
+||mfacebook0.ml^
+||mfacebook0.tk^
 ||mfaceebook.0fees.us^
 ||mfcpfokidzambqvp-dot-millinium.ey.r.appspot.com/$all
 ||mfcpfokidzambqvp-dot-millinium.ey.r.appspot.com/app/index$all
@@ -15383,6 +15553,7 @@
 ||mfvckzjyfjetortp-dot-millinium.ey.r.appspot.com/app/index$all
 ||mfwoohfhbbitfhim-dot-millinium.ey.r.appspot.com/$all
 ||mfwzsohtcnhdbhbj-dot-millinium.ey.r.appspot.com/$all
+||mfzoefwnfougvhsd-dot-millinium.ey.r.appspot.com/$all
 ||mgiqfyappzoxyyuy-dot-millinium.ey.r.appspot.com/$all
 ||mgkcjfuampvwtkao-dot-millinium.ey.r.appspot.com/$all
 ||mglcazzmpabkecyk-dot-millinium.ey.r.appspot.com/$all
@@ -15422,6 +15593,7 @@
 ||michaelkunkel1234.de^
 ||michelleconnollylpc.com^
 ||mickstransag.com.au^
+||micro-365.constantinobalmaceda.com.ar^
 ||micro-sales.co.uk^
 ||micro-soft-portal.nw.r.appspot.com/$all
 ||microfinancesoft.nn.r.appspot.com/home.html$all
@@ -15517,6 +15689,7 @@
 ||mkhtysnqiiqlfnbr-dot-millinium.ey.r.appspot.com/app/index$all
 ||mkjbcskuwujuxnly-dot-millinium.ey.r.appspot.com/$all
 ||mkjbcskuwujuxnly-dot-millinium.ey.r.appspot.com/app/index$all
+||mkkfejcjgwvglsda-dot-millinium.ey.r.appspot.com/$all
 ||mkpncooystnywwrq-dot-millinium.ey.r.appspot.com/$all
 ||mkpncooystnywwrq-dot-millinium.ey.r.appspot.com/app/index$all
 ||mkqxexrcmaxyhjbb-dot-millinium.ey.r.appspot.com/$all
@@ -15562,6 +15735,7 @@
 ||mmbxvnfanyhenemn-dot-millinium.ey.r.appspot.com/$all
 ||mmbxvnfanyhenemn-dot-millinium.ey.r.appspot.com/app/index$all
 ||mmcsexzwrvzadnft-dot-millinium.ey.r.appspot.com/$all
+||mmesiqzqfqftsqvy-dot-millinium.ey.r.appspot.com/$all
 ||mmeztzidslygwjpi-dot-millinium.ey.r.appspot.com/$all
 ||mmeztzidslygwjpi-dot-millinium.ey.r.appspot.com/app/index$all
 ||mmftyovbdfcxefxq-dot-millinium.ey.r.appspot.com/$all
@@ -16010,6 +16184,7 @@
 ||myfitnessboost.de^
 ||myfqlivbzkujaygd-dot-millinium.ey.r.appspot.com/$all
 ||mygcepxssssiilqp-dot-millinium.ey.r.appspot.com/$all
+||mygcepxssssiilqp-dot-millinium.ey.r.appspot.com/app/index$all
 ||mygfnvcgtffyrozg-dot-millinium.ey.r.appspot.com/$all
 ||mygfnvcgtffyrozg-dot-millinium.ey.r.appspot.com/app/index$all
 ||myhealthinsquotes.com^
@@ -16086,11 +16261,13 @@
 ||myzppjmnexbsxhin-dot-millinium.ey.r.appspot.com/$all
 ||myzppjmnexbsxhin-dot-millinium.ey.r.appspot.com/app/index$all
 ||mzbsabubfmgyepll-dot-millinium.ey.r.appspot.com/$all
+||mzbsabubfmgyepll-dot-millinium.ey.r.appspot.com/app/index$all
 ||mzddapejybzqbzrp-dot-millinium.ey.r.appspot.com/$all
 ||mzkidvjbeimntvyz-dot-millinium.ey.r.appspot.com/$all
 ||mzkidvjbeimntvyz-dot-millinium.ey.r.appspot.com/app/index$all
 ||mzlrlalgotwdwtnd-dot-millinium.ey.r.appspot.com/$all
 ||mzmxkiwisohuuoyd-dot-millinium.ey.r.appspot.com/$all
+||mzmxkiwisohuuoyd-dot-millinium.ey.r.appspot.com/app/index$all
 ||mznjayjlvcilusch-dot-millinium.ey.r.appspot.com/$all
 ||mzojrvrdzngygjlq-dot-millinium.ey.r.appspot.com/$all
 ||mzomssgshkrhfuov-dot-millinium.ey.r.appspot.com/$all
@@ -16099,6 +16276,7 @@
 ||mztnaawdlggtpizq-dot-millinium.ey.r.appspot.com/app/index$all
 ||mzuonburwdiyggrx-dot-millinium.ey.r.appspot.com/$all
 ||mzuonburwdiyggrx-dot-millinium.ey.r.appspot.com/app/index$all
+||mzvdzwkjtakyzdrh-dot-millinium.ey.r.appspot.com/app/index$all
 ||mzzvuylvuenujicf-dot-millinium.ey.r.appspot.com/$all
 ||mzzvuylvuenujicf-dot-millinium.ey.r.appspot.com/app/index$all
 ||mzzxmwefxtifatdx-dot-millinium.ey.r.appspot.com/$all
@@ -16250,7 +16428,6 @@
 ||neckezwtqfbmpkwn-dot-millinium.ey.r.appspot.com/$all
 ||necmtbswuaeujblk-dot-millinium.ey.r.appspot.com/$all
 ||necmtbswuaeujblk-dot-millinium.ey.r.appspot.com/app/index$all
-||necpng.com^
 ||necqlmeemdddxihy-dot-millinium.ey.r.appspot.com/$all
 ||nedbank.demdex.net^
 ||nef.com.pk^
@@ -16283,6 +16460,7 @@
 ||netflix-renewplan.com^
 ||netflix-reviewpayment.com/confirm$all
 ||netflix-reviewpayment.com/confirm/Login.php$all
+||netflix-reviewpayment.com/confirm/Login.php?sessionID=m07IKfTCV9wPYvAVbqyl8Ky90nuDACkfOaFZQFdo8ZmrXJau5OBEOCOooJYGYDyzSt231c7jU5TxAjSOBUbSxMObT1uw141s4ZtS&amp;error=Login$all
 ||netflix-reviewpayment.com/confirm/Login.php?sessionID=m07IKfTCV9wPYvAVbqyl8Ky90nuDACkfOaFZQFdo8ZmrXJau5OBEOCOooJYGYDyzSt231c7jU5TxAjSOBUbSxMObT1uw141s4ZtS&error=Login$all
 ||netflix-reviewpayment.com/confirm/Login.php?sessionID=rBJ5X91Uu0GBt07kGjAIqL9TzkxPsSWL8nzzFhvPc2qhdUZDNUFcxDvdyriGUBFSznsHPEY00JJuC7FClR2wgcR1Qvv9ZZBnKLRm&amp;error=Login$all
 ||netflix-update.fr.pvctamirikayseri.com^
@@ -16297,9 +16475,9 @@
 ||netflix.realscott.fr^
 ||netflix.securemy-account.com/Login.php?sessionID=7CDxGaRkBOS7uoHoaoVkMr8zcYXWhN2SpWdTX2FkUcnV8aQRFD89CExG1UwYJu7NU7eQLSDz4fXkndiurRU5IvOBJf3CoqPRbXIa$all
 ||netflix.securemy-account.com/Login.php?sessionID=YhYpJzZNeYN99h3GQAw4Ks0cPtti6hEvl5zFzjOVgajw15iZi1b6pfP7iMWR7grOclSdSegHbbKab81qeLIDTO6L1GixcpgtRBTa&amp;error=Login$all
-||netflix.securemy-account.com/Login.php?sessionID=c8D7YBgWetSScTcWPCnNBZ8gySyR06rLhp7ZMIgd6AhIgKiTRsB0xjEm1Yg9VF5NkY78XgFKBsgtmWeMYfw2DFvCq1kskkTzKMgJ&amp;error=Login$all
 ||netflix.ukplanreview.com^
 ||netflix.uksupportfix.com^
+||netflix.updatebilling-info.com^
 ||netflix.verfiy-your-information.com^
 ||netflixloginhelp.com^
 ||netflixmembership-renewal.com^
@@ -16346,6 +16524,7 @@
 ||new-three-update.co/banks/personal.natwest.com/$all
 ||new-three-update.co^
 ||new-threeupdate.info^
+||new-vidio-viral.grubporno.com^
 ||new.29studios.com^
 ||new.carfinancehotline.ca^
 ||new.updating.assistance.calcustomsdoorrefinishing.com^
@@ -16382,6 +16561,8 @@
 ||nfkyyohziitbhkxq-dot-millinium.ey.r.appspot.com/app/index$all
 ||nflix.starairaviation.com.pk^
 ||nfmsbfumvcfscfgk-dot-millinium.ey.r.appspot.com/$all
+||nfmsbfumvcfscfgk-dot-millinium.ey.r.appspot.com/app/index$all
+||nfptbwsdcbgyfxkn-dot-millinium.ey.r.appspot.com/$all
 ||nfvztcrrkjejagup-dot-millinium.ey.r.appspot.com/$all
 ||ngbswwgqutahukji-dot-millinium.ey.r.appspot.com/$all
 ||ngbswwgqutahukji-dot-millinium.ey.r.appspot.com/app/index$all
@@ -16581,6 +16762,7 @@
 ||no1w.hyperphp.com^
 ||noahdwiadjvqrqwp-dot-millinium.ey.r.appspot.com/$all
 ||noahdwiadjvqrqwp-dot-millinium.ey.r.appspot.com/app/index$all
+||noaltype.com^
 ||nobleconsultants.net^
 ||noeby.mx^
 ||nogukfmofxhtlibv-dot-millinium.ey.r.appspot.com/$all
@@ -16684,6 +16866,7 @@
 ||nreieddtxeaheyqa-dot-millinium.ey.r.appspot.com/$all
 ||nreieddtxeaheyqa-dot-millinium.ey.r.appspot.com/app/index$all
 ||nrfserhatzedxwun-dot-millinium.ey.r.appspot.com/app/index$all
+||nrgdg76.tk^
 ||nrgpblomwikmrzvu-dot-millinium.ey.r.appspot.com/$all
 ||nriqbjgtoajhcghb-dot-millinium.ey.r.appspot.com/$all
 ||nriqbjgtoajhcghb-dot-millinium.ey.r.appspot.com/app/index$all
@@ -16816,6 +16999,7 @@
 ||nvxgitbsgyxmmkag-dot-millinium.ey.r.appspot.com/$all
 ||nwakyrjsmyqoxkbb-dot-millinium.ey.r.appspot.com/$all
 ||nwakyrjsmyqoxkbb-dot-millinium.ey.r.appspot.com/app/index$all
+||nwfree20.000webhostapp.com^
 ||nwhfissrdmwsncpb-dot-millinium.ey.r.appspot.com/$all
 ||nwhmpshkzjapxmpg-dot-millinium.ey.r.appspot.com/app/index$all
 ||nwjeivotgjcewmxe-dot-millinium.ey.r.appspot.com/$all
@@ -16910,6 +17094,7 @@
 ||nzyxeqtjmfgmgdcb-dot-millinium.ey.r.appspot.com/app/index$all
 ||nzzyteulgepmazia-dot-millinium.ey.r.appspot.com/$all
 ||o-f-ice.du.r.appspot.com/$all
+||o2.accountbillinghelp.com^
 ||o2.reattachyourdetails.com^
 ||o365-secure-auth.df.r.appspot.com/?e=?campid=email_Midlands_TE_06032020_NorthNottsNorthDerbys$all
 ||o3clean.com.co^
@@ -17075,6 +17260,7 @@
 ||ofdpsogtdpaljfus-dot-millinium.ey.r.appspot.com/$all
 ||ofertas-dezembro.com^
 ||ofertas-especiais-diadospais2020.com^
+||ofertas-semana.com^
 ||ofertas.canaltech.com.br^
 ||ofertas2020-submarino.club^
 ||ofertasonline.tk^
@@ -17122,7 +17308,6 @@
 ||officialliker.co/$all
 ||officialnightingalemovie.com^
 ||officialprimes.duckdns.org^
-||officialpromodeals.com^
 ||officialtobinbell.com^
 ||ofgvjanqujyubztc-dot-millinium.ey.r.appspot.com/$all
 ||ofgvjanqujyubztc-dot-millinium.ey.r.appspot.com/app/index$all
@@ -17206,6 +17391,7 @@
 ||ohywiwdayizilyar-dot-millinium.ey.r.appspot.com/app/index$all
 ||oibkhkunbnquhbuk-dot-millinium.ey.r.appspot.com/$all
 ||oibkhkunbnquhbuk-dot-millinium.ey.r.appspot.com/app/index$all
+||oicltlabrveywmme-dot-millinium.ey.r.appspot.com/$all
 ||oicpdlgcvnyjvfvh-dot-millinium.ey.r.appspot.com/$all
 ||oicpdlgcvnyjvfvh-dot-millinium.ey.r.appspot.com/app/index$all
 ||oidnkfhvqwcpygkh-dot-millinium.ey.r.appspot.com/$all
@@ -17313,8 +17499,8 @@
 ||oldschool-runescape-mobile.com^
 ||oldschool-runescape.biz^
 ||oldschool-runescape.us^
+||oldschool-runescapemobile.xyz^
 ||oldschool.jagex-runescape.com^
-||oldschool.runescape.com-er.ru^
 ||oldschool.runescapebonds-var.com^
 ||oldschool.runescapesocial.com^
 ||oldstyle.ro^
@@ -17325,6 +17511,7 @@
 ||olgas.in^
 ||olgvtmtlfdkripid-dot-millinium.ey.r.appspot.com/$all
 ||olgvtmtlfdkripid-dot-millinium.ey.r.appspot.com/app/index$all
+||olhgieuzdiirhqoa-dot-millinium.ey.r.appspot.com/$all
 ||oliaxepqbkzqwixm-dot-millinium.ey.r.appspot.com/$all
 ||oliaxepqbkzqwixm-dot-millinium.ey.r.appspot.com/app/index$all
 ||olipzvqxysmimceo-dot-millinium.ey.r.appspot.com/$all
@@ -17696,6 +17883,7 @@
 ||ourfathersworld.org^
 ||ourpkypaoqjblfyr-dot-millinium.ey.r.appspot.com/$all
 ||ourpkypaoqjblfyr-dot-millinium.ey.r.appspot.com/app/index$all
+||ourtimepicturess.officesetup247.support^
 ||outdqfqxfeikrlws-dot-millinium.ey.r.appspot.com/$all
 ||outdqfqxfeikrlws-dot-millinium.ey.r.appspot.com/app/index$all
 ||outfitpubgm.com^
@@ -17706,12 +17894,12 @@
 ||outlook-0ffice365-0nline.nw.r.appspot.com/$all
 ||outlook-0ffice365-0nline.nw.r.appspot.com/jsmith@imaphost.com__$all
 ||outlook-mailer.com^
+||outlook-protection.pr916.com^
 ||outlook.westernaustralia.com^
 ||outlook12861.activehosted.com^
 ||outlook365ar.engagebay.com^
 ||outlookhelpdesk.activehosted.com^
 ||outlookoffbrok.uc.r.appspot.com/password.php$all
-||outlookofficee365ed.ew.r.appspot.com/tca644vtodmvotwhil5yc5fe.php?id=renee.ohanlon@spark.co.nz$all
 ||outlookonedrive.app.link^
 ||outlooks.live^
 ||outlookwebapp.zerockexpress.ml^
@@ -17751,11 +17939,13 @@
 ||ow.ly/yxK730qUYLl?utm_source=AMS%20Enterprise&utm_medium=email&utm_campaign=SEND%20MAILS%202$all
 ||owa-login-outlook-web.df.r.appspot.com/?&amp;c=info@google.com$all
 ||owa-tricitymedical.moonfruit.com/$all
+||owa-v354844.nw.r.appspot.com/$all
 ||owa.christexousia.com^
 ||owa.exchangevoiceapps.gq^
 ||owa.royaltygist.com/$all
 ||owaekivmditxbazw-dot-millinium.ey.r.appspot.com/$all
 ||owaexc2k1013.moonfruit.com/$all
+||owagfhwgtmzmiutu-dot-millinium.ey.r.appspot.com/$all
 ||owaupgradeservice3.myfreesites.net^
 ||owavoice.christexousia.org^
 ||owavoice.missionarieswithoutwalls.com^
@@ -17871,6 +18061,7 @@
 ||p.wpage.cc^
 ||p1epp1sus.ts.r.appspot.com/$all
 ||p2.kenzoken.com^
+||pabdxziufzersqcj-dot-millinium.ey.r.appspot.com/app/index$all
 ||pacific-formula-278007.du.r.appspot.com/home.html$all
 ||pacificavc.com^
 ||packagehousing.com^
@@ -17891,7 +18082,6 @@
 ||pagesyouraccount.cloudns.asia^
 ||pagosenlinea2020.com^
 ||pagseguro.club^
-||pagspizza.com^
 ||pahukwgsacrgbfcx-dot-millinium.ey.r.appspot.com/$all
 ||pahukwgsacrgbfcx-dot-millinium.ey.r.appspot.com/app/index$all
 ||paidbigjgbnzxygl-dot-millinium.ey.r.appspot.com/$all
@@ -17899,6 +18089,7 @@
 ||paleoexplained.com^
 ||palmeronicorp.com^
 ||pamatea.com^
+||pamelaflix.com^
 ||pamiwafxglslpdli-dot-millinium.ey.r.appspot.com/$all
 ||pan-segundavia.com^
 ||panchalii.com/AA/hakam%20new/piled.php?email%5C=test.one@newmail.com$all
@@ -17935,7 +18126,6 @@
 ||pateltutorials.com^
 ||patriotbuilder.com^
 ||patriothost.net^
-||pats-dublin.org^
 ||paulcannings.tv^
 ||paulmitchellforcongress.com^
 ||pauzmrqbmqpbllup-dot-millinium.ey.r.appspot.com/$all
@@ -18017,6 +18207,7 @@
 ||paypal.limitations-uk-eu.com^
 ||paypal.my-secured-account.com/$all
 ||paypal.personal-ref.com^
+||paypal.restore-your-access.com^
 ||paypal.uk.kais.or.ke^
 ||paypal.verify.uid-4.com^
 ||paypal.verylegit.link^
@@ -18064,6 +18255,7 @@
 ||pbmjxubzhzrkcgcz-dot-millinium.ey.r.appspot.com/$all
 ||pbndemo2.costapbn.com^
 ||pbntumgryfbikvre-dot-millinium.ey.r.appspot.com/$all
+||pbqfczpclffydeys-dot-millinium.ey.r.appspot.com/$all
 ||pbufzjcjdbjcfrkd-dot-millinium.ey.r.appspot.com/$all
 ||pbufzjcjdbjcfrkd-dot-millinium.ey.r.appspot.com/app/index$all
 ||pc604.com^
@@ -18182,6 +18374,7 @@
 ||pevnmbrjzcntfckb-dot-millinium.ey.r.appspot.com/$all
 ||pevnmbrjzcntfckb-dot-millinium.ey.r.appspot.com/app/index$all
 ||pevptnehfyeesdqw-dot-millinium.ey.r.appspot.com/$all
+||pevrwfsybtzvnihm-dot-millinium.ey.r.appspot.com/$all
 ||pewegjwucxmkyoim-dot-millinium.ey.r.appspot.com/$all
 ||pewjcqfucnhnbhng-dot-millinium.ey.r.appspot.com/$all
 ||pewjcqfucnhnbhng-dot-millinium.ey.r.appspot.com/app/index$all
@@ -18245,6 +18438,7 @@
 ||pgzesyjpgercrxqx-dot-millinium.ey.r.appspot.com/$all
 ||pgzwhhjpbaeeheki-dot-millinium.ey.r.appspot.com/$all
 ||pgzwhhjpbaeeheki-dot-millinium.ey.r.appspot.com/app/index$all
+||phadda.com^
 ||phaltemnuoontzii-dot-millinium.ey.r.appspot.com/$all
 ||phaltemnuoontzii-dot-millinium.ey.r.appspot.com/app/index$all
 ||phan.thuchao.free.fr^
@@ -18271,6 +18465,7 @@
 ||photos-drive-galery.000webhostapp.com^
 ||phprealweb.com^
 ||phqjcrmrxrcmtukj-dot-millinium.ey.r.appspot.com/$all
+||phqjcrmrxrcmtukj-dot-millinium.ey.r.appspot.com/app/index$all
 ||phreshphoto.com^
 ||phuchoidaghe.com^
 ||phuvghnxpceyvdyd-dot-millinium.ey.r.appspot.com/$all
@@ -18295,6 +18490,7 @@
 ||pilvyrajenjinrzn-dot-millinium.ey.r.appspot.com/app/index$all
 ||pinetreehotels.in^
 ||pinkthoughts.com^
+||pinnacleregistry.net^
 ||pinnerx.com^
 ||piomkjbzwihutvdj-dot-millinium.ey.r.appspot.com/$all
 ||piomkjbzwihutvdj-dot-millinium.ey.r.appspot.com/app/index$all
@@ -18310,7 +18506,6 @@
 ||piticas2.websiteseguro.com^
 ||pitxiqylbqaunjui-dot-millinium.ey.r.appspot.com/$all
 ||pitxiqylbqaunjui-dot-millinium.ey.r.appspot.com/app/index$all
-||pixefec996.temp.swtest.ru^
 ||pixelbenchmarks.com^
 ||pixelhook.wixpa.com^
 ||pizcepiuqubrhhsx-dot-millinium.ey.r.appspot.com/$all
@@ -18322,6 +18517,7 @@
 ||pjhobwyqjlterejf-dot-millinium.ey.r.appspot.com/app/index$all
 ||pjjejbambtoeqncn-dot-millinium.ey.r.appspot.com/$all
 ||pjnfzfxckqtiflfl-dot-millinium.ey.r.appspot.com/$all
+||pjnfzfxckqtiflfl-dot-millinium.ey.r.appspot.com/app/index$all
 ||pjohipfhnnjwxpnf-dot-millinium.ey.r.appspot.com/$all
 ||pjohipfhnnjwxpnf-dot-millinium.ey.r.appspot.com/app/index$all
 ||pjomtobdanpzvxjx-dot-millinium.ey.r.appspot.com/$all
@@ -18366,6 +18562,7 @@
 ||plbeilkufnqbfwjy-dot-millinium.ey.r.appspot.com/app/index$all
 ||plbfqcraoxjldsjy-dot-millinium.ey.r.appspot.com/$all
 ||pldgsbexzhufkmov-dot-millinium.ey.r.appspot.com/$all
+||plenavia.cl^
 ||plezohyuusyfdosg-dot-millinium.ey.r.appspot.com/$all
 ||plezohyuusyfdosg-dot-millinium.ey.r.appspot.com/app/index$all
 ||plfptrtkmdldadmy-dot-millinium.ey.r.appspot.com/$all
@@ -18404,7 +18601,6 @@
 ||pmpmclgqrdhtvgdu-dot-millinium.ey.r.appspot.com#council@uralla.nsw.gov.au$all
 ||pmpmclgqrdhtvgdu-dot-millinium.ey.r.appspot.com/#council@uralla.nsw.gov.au$all
 ||pmpmclgqrdhtvgdu-dot-millinium.ey.r.appspot.com/pmpmclgqrdhtvgdu-dot-millinium.ey.r.appspot.com$all
-||pmpmclgqrdhtvgdu.millinium.ey.r.appspot.com/$all
 ||pmpwuuvceftwiwbq-dot-millinium.ey.r.appspot.com/$all
 ||pmscweb.com^
 ||pmzxatqekdfifvig-dot-millinium.ey.r.appspot.com/$all
@@ -18461,6 +18657,7 @@
 ||porcpmjpwtmrdnhs-dot-millinium.ey.r.appspot.com/$all
 ||porcpmjpwtmrdnhs-dot-millinium.ey.r.appspot.com/app/index$all
 ||porn.eventfreex.com^
+||pornhubinfo.getsviip7.com^
 ||pornseks.zyns.com^
 ||portal-abuse-prevention.web.app^
 ||portal-aeaee.firebaseapp.com^
@@ -18469,6 +18666,7 @@
 ||portal-govukhome.org^
 ||portal.clientebb-especial.me^
 ||portal.hrsupportint.net^
+||portal.lomboktimurkab.go.id^
 ||portal.prizegiveaway.net^
 ||portal.prizesforall.com^
 ||portalaccessx.com^
@@ -18491,7 +18689,6 @@
 ||pouvoxigxqlgxlet-dot-millinium.ey.r.appspot.com/$all
 ||powaywelding.com^
 ||powercase.shoplineapp.com^
-||powertechnologysrl.com^
 ||powr.io/plugins/form-builder/view/19838348?mode=page$all
 ||powr.io/plugins/form-builder/view/23394373?mode=page$all
 ||poyfvrjpxufrqlhb-dot-millinium.ey.r.appspot.com/$all
@@ -18521,6 +18718,7 @@
 ||pplkzoksymmpwdcg-dot-millinium.ey.r.appspot.com/app/index$all
 ||pponline-restricted.com^
 ||pppmzqrcjkesdglh-dot-millinium.ey.r.appspot.com/$all
+||pppmzqrcjkesdglh-dot-millinium.ey.r.appspot.com/app/index$all
 ||ppqpexsebyxcijyw-dot-millinium.ey.r.appspot.com/$all
 ||pprgwhpzgtzqqggs-dot-millinium.ey.r.appspot.com/$all
 ||ppsknukqiuflmlcm-dot-millinium.ey.r.appspot.com/$all
@@ -18533,6 +18731,7 @@
 ||ppyaztestlehwcnp-dot-millinium.ey.r.appspot.com/app/index$all
 ||pqahtscgrnqeughs-dot-millinium.ey.r.appspot.com/$all
 ||pqahtscgrnqeughs-dot-millinium.ey.r.appspot.com/app/index$all
+||pqblktfpqmbnlpae-dot-millinium.ey.r.appspot.com/$all
 ||pqblktfpqmbnlpae-dot-millinium.ey.r.appspot.com/app/index$all
 ||pqcchdbgpubebgiq-dot-millinium.ey.r.appspot.com/$all
 ||pqcchdbgpubebgiq-dot-millinium.ey.r.appspot.com/app/index$all
@@ -18552,6 +18751,7 @@
 ||pqresqojclnwvnmu-dot-millinium.ey.r.appspot.com/app/index$all
 ||pqsutzjkqqgoosvb-dot-millinium.ey.r.appspot.com/$all
 ||pqujvlghvrvatdqj-dot-millinium.ey.r.appspot.com/$all
+||pqujvlghvrvatdqj-dot-millinium.ey.r.appspot.com/app/index$all
 ||pqwiqqewilbnaqbv-dot-millinium.ey.r.appspot.com/$all
 ||pqwiqqewilbnaqbv-dot-millinium.ey.r.appspot.com/app/index$all
 ||pqyxsejhtfxzsank-dot-millinium.ey.r.appspot.com/$all
@@ -18610,7 +18810,6 @@
 ||prj0011.appspot.com/$all
 ||prjcgntodltaaoht-dot-millinium.ey.r.appspot.com/$all
 ||pro-orange00.weebly.com^
-||pro365login.wl.r.appspot.com/$all
 ||procediadesso.com^
 ||process-one-click.ga^
 ||proconaraguaina.weebly.com^
@@ -18741,6 +18940,7 @@
 ||pubgxrun.com^
 ||publimark.ro^
 ||publish.ne.cision.com/l/vaaiwhqae/www.dropbox.com/sh/stfs1a8gz6f0xr4/AADQkFatLbcH4hQJpJUDEFrHa?dl=0$all
+||publish.ne.cision.com^
 ||publishers.chloedigital.com^
 ||puddekkzpkdhtgqb-dot-millinium.ey.r.appspot.com/$all
 ||puddekkzpkdhtgqb-dot-millinium.ey.r.appspot.com/app/index$all
@@ -18826,6 +19026,7 @@
 ||pwvbersztdblosbw-dot-millinium.ey.r.appspot.com/app/index$all
 ||pwwjtnojfxvhnlvp-dot-millinium.ey.r.appspot.com/$all
 ||pwymhlnnfvhrghzm-dot-millinium.ey.r.appspot.com/$all
+||pwymhlnnfvhrghzm-dot-millinium.ey.r.appspot.com/app/index$all
 ||pxbvmgymgddnfbjz-dot-millinium.ey.r.appspot.com/$all
 ||pxdmdqjiihnpizcm-dot-millinium.ey.r.appspot.com/$all
 ||pxdmdqjiihnpizcm-dot-millinium.ey.r.appspot.com/app/index$all
@@ -18911,6 +19112,7 @@
 ||qanfin.com/Entscheidung-4259694300840194&cgi3-ViewKontakt-4259694300840194-007acctpagetype-4259694300840194=57345-gesendet&jsmith@imaphost.com.html$all
 ||qanfin.com^
 ||qapbrequzpecgsvr-dot-millinium.ey.r.appspot.com/$all
+||qapbrequzpecgsvr-dot-millinium.ey.r.appspot.com/app/index$all
 ||qapftqrposyvjdxc-dot-millinium.ey.r.appspot.com/$all
 ||qapftqrposyvjdxc-dot-millinium.ey.r.appspot.com/app/index$all
 ||qare.nl/0/?i=i&amp;0=info@google.com$all
@@ -19008,7 +19210,6 @@
 ||qfskwbpdtambzyti-dot-millinium.ey.r.appspot.com/$all
 ||qfskwbpdtambzyti-dot-millinium.ey.r.appspot.com/app/index$all
 ||qfvtvobaqxbtsylu-dot-millinium.ey.r.appspot.com/$all
-||qfwvulnsjulcuvbyvyvgmnnahq-dot-gleowayel400503.uc.r.appspot.com/$all
 ||qfxhhhnaqqgrclht-dot-millinium.ey.r.appspot.com/$all
 ||qgatcvubhmnmvsbn-dot-millinium.ey.r.appspot.com/$all
 ||qgcopttftyfmojgy-dot-millinium.ey.r.appspot.com/$all
@@ -19046,6 +19247,7 @@
 ||qhecuwjwmlbrjmad-dot-millinium.ey.r.appspot.com/$all
 ||qhgaambfqoxnjfay-dot-millinium.ey.r.appspot.com/$all
 ||qhgdvjsrodibeoub-dot-millinium.ey.r.appspot.com/$all
+||qhgdvjsrodibeoub-dot-millinium.ey.r.appspot.com/app/index$all
 ||qhhcpgdutvduwbiw-dot-millinium.ey.r.appspot.com/$all
 ||qhhcpgdutvduwbiw-dot-millinium.ey.r.appspot.com/app/index$all
 ||qhivtqwyclumbeqy-dot-millinium.ey.r.appspot.com/$all
@@ -19354,6 +19556,7 @@
 ||qukstkflguhenqbd-dot-millinium.ey.r.appspot.com/app/index$all
 ||qukueevyhvqfgzvc-dot-millinium.ey.r.appspot.com/$all
 ||qukueevyhvqfgzvc-dot-millinium.ey.r.appspot.com/app/index$all
+||qukxvqaupruiuyin-dot-millinium.ey.r.appspot.com/$all
 ||quoquagaerasjgrt-dot-millinium.ey.r.appspot.com/$all
 ||quota.creatorlink.net^
 ||quqcbwhhyvudxwun-dot-millinium.ey.r.appspot.com/$all
@@ -19443,7 +19646,6 @@
 ||qxtaadqxwnpmonpw-dot-millinium.ey.r.appspot.com/$all
 ||qxtaadqxwnpmonpw-dot-millinium.ey.r.appspot.com/app/index$all
 ||qxtgikbrnjyszwna-dot-millinium.ey.r.appspot.com/$all
-||qxtsdxupayfkbdwctjowpobuys-dot-gleowayel400503.uc.r.appspot.com/$all
 ||qxwmfjuxirgbaxxc-dot-millinium.ey.r.appspot.com/$all
 ||qxwzgyahfvrktkjk-dot-millinium.ey.r.appspot.com/$all
 ||qxzaztxmzcoomwla-dot-millinium.ey.r.appspot.com/$all
@@ -19474,6 +19676,7 @@
 ||qzbiclaelxudgtcn-dot-millinium.ey.r.appspot.com/app/index$all
 ||qzdeanjbbzlogxku-dot-millinium.ey.r.appspot.com/app/index$all
 ||qzdfjbsmsazfipzm-dot-millinium.ey.r.appspot.com/$all
+||qzdfjbsmsazfipzm-dot-millinium.ey.r.appspot.com/app/index$all
 ||qzfsvessgpmnsnvo-dot-millinium.ey.r.appspot.com/$all
 ||qzfsvessgpmnsnvo-dot-millinium.ey.r.appspot.com/app/index$all
 ||qzfuwbykgtktixjl-dot-millinium.ey.r.appspot.com/$all
@@ -19559,8 +19762,10 @@
 ||rakuten.co.jp.loginandchecwenfladsfkrakutenlasdsdafsdwe.monster^
 ||rakuten.co.jp.loginandchecwenfladsfkrakutenlasdsdafsdwe.top^
 ||rakuten.co.jp.loginandchecwenfladsfkrakutenlasdsdafsdwe.xyz^
+||rakuten.co.jp.loginandchecwenfladsfkrakutenlasdsdafwdwe.buzz^
 ||rakuten.co.jp.loginandchecwenfladsfkrakutenlasdsdafwdwe.monster^
 ||rakuten.co.jp.loginandchecwenfladsfkrakutenlasdsdafwdwe.top^
+||rakuten.co.jp.loginandchecwenfladsfkrakutenlasdsdafwdwe.xyz^
 ||rakuten.co.jp.rakutein.top^
 ||rakuten.co.jp.rakutein.xyz^
 ||rakuten.co.jp.rakutenhk.xyz^
@@ -19574,9 +19779,9 @@
 ||rakuten.oo.jp.onvzugv.cn^
 ||rakuten.oo.jp.opmtsom.cn^
 ||rakutencardlong.xyz^
-||rakutencojplogin.xyz^
 ||rakutencoloing.xyz^
 ||rakutencomlogin.xyz^
+||rakutencomyid.buzz^
 ||ramgarhiamatrimonial.ca^
 ||randomstores.com^
 ||rangelferreira.adv.br^
@@ -19602,7 +19807,8 @@
 ||rb.gy/aqwj7l$all
 ||rb.gy/iifoiu$all
 ||rb.gy/ludoy0$all
-||rbcmontgomery.com^
+||rbcmontgomery.com/wp-admin/js/widgets/PDF$all
+||rbcmontgomery.com/wp-admin/js/widgets/PDF/$all
 ||rbcpobuaytdprtxn-dot-millinium.ey.r.appspot.com/$all
 ||rbcpobuaytdprtxn-dot-millinium.ey.r.appspot.com/app/index$all
 ||rbcroyalbankv.com^
@@ -19612,6 +19818,7 @@
 ||rbgfghtfwvzvflgm-dot-millinium.ey.r.appspot.com/$all
 ||rbgfghtfwvzvflgm-dot-millinium.ey.r.appspot.com/app/index$all
 ||rbjoeaefpiwvntrf-dot-millinium.ey.r.appspot.com/$all
+||rbmodas.com^
 ||rbvoatldydweiliz-dot-millinium.ey.r.appspot.com/$all
 ||rbvoatldydweiliz-dot-millinium.ey.r.appspot.com/app/index$all
 ||rbxwpsqahfyfwahw-dot-millinium.ey.r.appspot.com/$all
@@ -19621,7 +19828,6 @@
 ||rbzyjamssefryobc-dot-millinium.ey.r.appspot.com/$all
 ||rcabsejnldvglyvx-dot-millinium.ey.r.appspot.com/$all
 ||rcaconceito.com^
-||rcbcy-jp.com^
 ||rcbydegmsuadgqif-dot-millinium.ey.r.appspot.com/$all
 ||rcbydegmsuadgqif-dot-millinium.ey.r.appspot.com/app/index$all
 ||rcfpghausbkfnvwg-dot-millinium.ey.r.appspot.com/$all
@@ -19653,6 +19859,7 @@
 ||rdcahgnpagudlkwo-dot-millinium.ey.r.appspot.com/app/index$all
 ||rddfhpjnxfjuqhvs-dot-millinium.ey.r.appspot.com/$all
 ||rddfhpjnxfjuqhvs-dot-millinium.ey.r.appspot.com/app/index$all
+||rddqsvyfkdnautwz-dot-millinium.ey.r.appspot.com/$all
 ||rddyissqwhvsrfsc-dot-millinium.ey.r.appspot.com/$all
 ||rddyissqwhvsrfsc-dot-millinium.ey.r.appspot.com/app/index$all
 ||rdhxfpwkppglazsw-dot-millinium.ey.r.appspot.com/$all
@@ -19677,6 +19884,7 @@
 ||react-ba2roi.stackblitz.io^
 ||readysteadyprint.com.au/web.plalamail/login.php$all
 ||reaj-hosting.com.ve^
+||reaksmeystaging.flexiclouding.com^
 ||real-express.pro^
 ||realchef.com.au^
 ||realdomains.com^
@@ -19773,7 +19981,6 @@
 ||remnegocios.com.br^
 ||remontvastrakhani.ru^
 ||removal-authorising.com^
-||removal-cancellations.cc^
 ||remove-ca-codes.webstarts.com^
 ||remsy.app.link^
 ||remzox21.ml^
@@ -19802,7 +20009,7 @@
 ||reset-paypal.com^
 ||resgateagora-app.com^
 ||resgistrodepuntosbbva.co^
-||resolve-fraud-help.com^
+||resoluciones.ugel01.gob.pe^
 ||resolve-issues-with-account.com/Login.php?sessionID=t7dZ9qt2NoU0G0LPtrUOF7t8cerLqExPqe5NWUOMpEynRogQszaBAsamjH9Ib9AXjK6dHAxD31pDSGFtqb0IyHJnpAvDGZMF0lPg&amp;error=Login$all
 ||resraginmriwatfa-dot-millinium.ey.r.appspot.com/$all
 ||resraginmriwatfa-dot-millinium.ey.r.appspot.com/app/index$all
@@ -19897,6 +20104,7 @@
 ||rhntnbsthjdjoldl-dot-millinium.ey.r.appspot.com/app/index$all
 ||rhodagpeeztgoonc-dot-millinium.ey.r.appspot.com/$all
 ||rhodvillecu.com^
+||rhopdqpfaplyodls-dot-millinium.ey.r.appspot.com/$all
 ||rhvodjdjjipsfgkt-dot-millinium.ey.r.appspot.com/$all
 ||rhvqpyscsmxmhvyb-dot-millinium.ey.r.appspot.com/$all
 ||rhvqpyscsmxmhvyb-dot-millinium.ey.r.appspot.com/app/index$all
@@ -19926,8 +20134,6 @@
 ||rioddcmznvhwocnf-dot-millinium.ey.r.appspot.com/app/index$all
 ||rioieqcupuniiuqy-dot-millinium.ey.r.appspot.com/$all
 ||rioverdepar.com.br^
-||ripple-event.us^
-||ripple-xrp.net^
 ||rishtapao.com^
 ||riszrgnmefhzmaiu-dot-millinium.ey.r.appspot.com/$all
 ||rita.opo.lt^
@@ -20067,8 +20273,10 @@
 ||ronhommelfotografie.nl^
 ||ronogfkavtqdkius-dot-millinium.ey.r.appspot.com/$all
 ||roomedic.com^
+||rootvhcfjrxnjbqp-dot-millinium.ey.r.appspot.com/$all
 ||rooyan.in^
 ||rosenbloomphoto.com^
+||roshanaccount.com$all
 ||rotseezunft.ch.tcorner.fr^
 ||roudbgqvscidcoja-dot-millinium.ey.r.appspot.com/$all
 ||roudbgqvscidcoja-dot-millinium.ey.r.appspot.com/app/index$all
@@ -20191,6 +20399,7 @@
 ||rsyoxgfxvsaawzjf-dot-millinium.ey.r.appspot.com/$all
 ||rsyoxgfxvsaawzjf-dot-millinium.ey.r.appspot.com/app/index$all
 ||rszwlgsxossumpyo-dot-millinium.ey.r.appspot.com/$all
+||rszwlgsxossumpyo-dot-millinium.ey.r.appspot.com/app/index$all
 ||rszzpjzngjsniivd-dot-millinium.ey.r.appspot.com/$all
 ||rt-pornhub.ru^
 ||rtaptvddkchlvfgk-dot-millinium.ey.r.appspot.com/$all
@@ -20229,6 +20438,7 @@
 ||runescape.bondforfree.com^
 ||runescape.com-ed.ru^
 ||runescape.jagex-games.me^
+||runescape.ltd^
 ||runescape.social^
 ||runescapeapk.com^
 ||runescapeservices.com^
@@ -20354,6 +20564,7 @@
 ||rzmuxiemowyeemdh-dot-millinium.ey.r.appspot.com/$all
 ||rzmuxiemowyeemdh-dot-millinium.ey.r.appspot.com/app/index$all
 ||rzpgqpdlcqggdgol-dot-millinium.ey.r.appspot.com/$all
+||rzpgqpdlcqggdgol-dot-millinium.ey.r.appspot.com/app/index$all
 ||rzqnxgqehevumqaz-dot-millinium.ey.r.appspot.com/$all
 ||rzqnxgqehevumqaz-dot-millinium.ey.r.appspot.com/app/index$all
 ||rzvhbakjbnpuvvet-dot-millinium.ey.r.appspot.com/$all
@@ -20381,7 +20592,6 @@
 ||s.kekk.is^
 ||s1577556206.t.en25.com^
 ||s3.us-east-1.amazonaws.com/kajabi-storefronts-production/sites/68402/downloads/dVhvRPySxC8LHuoxPFPy_www.SunTrust.com-unlock.html$all
-||s3.us-east-1.amazonaws.com/thapos/teams/14908/file/70309/120-usaa-online-banking-2020-verification-page.html$all
 ||s304138.smrtp.ru^
 ||s371712615.mialojamiento.es^
 ||s381404823.mialojamiento.es^
@@ -20393,6 +20603,7 @@
 ||saar05-leichtathletik.de^
 ||saatsaat.com/UyeGiris.aspx$all
 ||saba.fascinatingsciencemag.com^
+||sabityelkovan.com^
 ||sabujpatra.com^
 ||sacola-preprod.s3-website-us-east-1.amazonaws.com^
 ||sadervoyages.intnet.mu^
@@ -20467,9 +20678,7 @@
 ||saorudtwuojkkqww-dot-millinium.ey.r.appspot.com/app/index$all
 ||sapient-flare-279107.df.r.appspot.com/$all
 ||sapient-flare-279107.df.r.appspot.com/*krollins@jumptrading.com$all
-||sapient-flare-279107.df.r.appspot.com/admin$all
 ||sapient-flare-279107.df.r.appspot.com/admin/b.php$all
-||sapient-flare-279107.df.r.appspot.com/jsmith@imaphost.com$all
 ||sapient-flare-279107.df.r.appspot.com/logi.html$all
 ||sapient-flare-279107.df.r.appspot.com/login.html$all
 ||sapient-flare-279107.df.r.appspot.com/wp-content$all
@@ -20498,7 +20707,6 @@
 ||sbb-kaufen.com^
 ||sbb.ch.global-amexp.com^
 ||sbb.ch.international-amexp.com^
-||sbb.ch.sunrise-support.net^
 ||sbcglobal-login.us^
 ||sbcgloballoginn.com^
 ||sbcgloballoginz.com^
@@ -20526,11 +20734,13 @@
 ||scottm1.000webhostapp.com^
 ||scottpartnersar-my.sharepoint.com/:o:/g/personal/tyler_scottpartners_com/EuS35BOc6glNic8UFyJz5awBOyRi085gDKfaVdu-15fUoA?e=EXQYr2$all
 ||scqijie.com^
+||scrimpubg.com^
 ||script.google.com/macros/s/AKfycbwC6Y7yUxMTI0kR8e5D3m62ucmsUhKIHk-zZxby7XNGXEoPneYy/exec$all
 ||scuolascigressoney.net^
 ||scure-ppllccunstomer.myddns.rocks^
 ||sdafxdekzbohngsr-dot-millinium.ey.r.appspot.com/$all
 ||sdafxdekzbohngsr-dot-millinium.ey.r.appspot.com/app/index$all
+||sdfgtg.fabunznomfqjjodf.top^
 ||sdgw.steroyalbank.com^
 ||sdkshpayavhypeom-dot-millinium.ey.r.appspot.com/$all
 ||sdlxphqyktiqhqkw-dot-millinium.ey.r.appspot.com/$all
@@ -20563,7 +20773,6 @@
 ||secure-manage-customers-facebook.item0324238473234.com^
 ||secure-monitor.com^
 ||secure-my3billing.com^
-||secure-onlinehali.com^
 ||secure-payee-failed.cc^
 ||secure-ssl-cdn.com^
 ||secure-your-account-information-imp.000webhostapp.com^
@@ -20639,6 +20848,7 @@
 ||secure.runescape.com-as.ru/m=weblogin/loginform282,283,825,62923611,8665$all
 ||secure.runescape.com-as.ru/m=weblogin/loginform282,827,230,33329056,1$all
 ||secure.runescape.com-as.ru/m=weblogin/loginform299,375,23,94613109,1$all
+||secure.runescape.com-as.ru/m=weblogin/loginform299,412,196,33728781,2167$all
 ||secure.runescape.com-as.ru/m=weblogin/loginform302,983,552,56015079,1650$all
 ||secure.runescape.com-as.ru/m=weblogin/loginform303,70,794,82379556,1$all
 ||secure.runescape.com-as.ru/m=weblogin/loginform308,250,329,34212996,1$all
@@ -20725,6 +20935,7 @@
 ||secure.runescape.com-as.ru/m=weblogin/loginform636,807,225,84398330,1$all
 ||secure.runescape.com-as.ru/m=weblogin/loginform638,222,141,75528187,1$all
 ||secure.runescape.com-as.ru/m=weblogin/loginform654,644,627,99490730,1$all
+||secure.runescape.com-as.ru/m=weblogin/loginform655,169,366,82758967,2167$all
 ||secure.runescape.com-as.ru/m=weblogin/loginform66,275,529,95156230,1$all
 ||secure.runescape.com-as.ru/m=weblogin/loginform665,386,300,84752177,1$all
 ||secure.runescape.com-as.ru/m=weblogin/loginform66882,72861579,42869,56681,2497$all
@@ -20770,6 +20981,7 @@
 ||secure.runescape.com-as.ru/m=weblogin/loginform857,191,798,56537233,2167$all
 ||secure.runescape.com-as.ru/m=weblogin/loginform857,779,784,79235104,9750$all
 ||secure.runescape.com-as.ru/m=weblogin/loginform857,847,612,71533313,2004$all
+||secure.runescape.com-as.ru/m=weblogin/loginform858,811,911,43771856,2167$all
 ||secure.runescape.com-as.ru/m=weblogin/loginform866,677,174,96186635,1$all
 ||secure.runescape.com-as.ru/m=weblogin/loginform867,775,461,65489266,1$all
 ||secure.runescape.com-as.ru/m=weblogin/loginform868,221,849,64761573,2167$all
@@ -20838,12 +21050,10 @@
 ||security-test-privateaccess.000webhostapp.com^
 ||security.paypal.com.userid.874585.compraycambia.com^
 ||securitypink.000webhostapp.com^
-||sedco-ss.com^
 ||sedelive.pp.ua^
 ||seeannsave.com^
 ||seetflix.tumblr.com^
 ||segurancastone.com^
-||seguridadproductosyserviciossa.com^
 ||segurosposco.com.ar^
 ||seireshd.com/$all
 ||sekabetgiriskayit.blogspot.com$all
@@ -20864,8 +21074,8 @@
 ||seminarpedia.com^
 ||sen-manole.firebaseapp.com^
 ||senary-furnace.000webhostapp.com^
-||sendmail.aldo007.com^
 ||sendo-meso.firebaseapp.com^
+||sendv51128.buzz^
 ||senhasuspensaeviteoblowqueiodefinitivo.com^
 ||seniorcarecentersltc-auth-page.cf^
 ||senka.com.tr^
@@ -20884,7 +21094,6 @@
 ||servicabbout.blogspot.com/$all
 ||service-disponible-inc.com^
 ||service-dkabinfo.eu^
-||service-dkabinfo.it^
 ||service-swisspost.com/Paquage/forwarded.html$all
 ||service.paymentsamazon.xyz^
 ||servicefacture.blogspot.com/2020/04/blog-post_10.html$all
@@ -21037,7 +21246,6 @@
 ||servitout.ca^
 ||servlces.runescape.com-er.ru^
 ||servrmessages.cymru^
-||servs-mostafilsecured2.apeimdelmsdz.com^
 ||set.net^
 ||setaccess.webflow.io^
 ||setembrodasofertas.ga^
@@ -21151,6 +21359,7 @@
 ||signin-att-securem4bfc09dl782loginsucess2omyatt.weebly.com^
 ||signin-facebook.com^
 ||signin-store-ws.frontieroption.com^
+||signin.7qvgmse2lhxa0dk.100procentmarjolijn.nl^
 ||signin.ebay.co.uk.mertceliktasimacilik.com^
 ||signin.ebay.de.accuo.ca^
 ||signin.eby.de.0qajubpxew3suvh.arcseam.com.au^
@@ -21166,7 +21375,6 @@
 ||signin.eby.de.9ap4e55t4t9chct.arcseam.com.au^
 ||signin.eby.de.9dlqqwberezfi0s.arcseam.com.au^
 ||signin.eby.de.9krvvoqc8io63hd.arcseam.com.au^
-||signin.eby.de.9ns0fftbymzp4ik.arcseam.com.au^
 ||signin.eby.de.b0euryu0mv2qk75.arcseam.com.au^
 ||signin.eby.de.b0t567z0uqlk5hq.arcseam.com.au^
 ||signin.eby.de.b1gfytpgldfw1ya.arcseam.com.au^
@@ -21208,7 +21416,6 @@
 ||signin.eby.de.nu8mhqrrhrah8yv.arcseam.com.au^
 ||signin.eby.de.nyotwupg0xu2dad.arcseam.com.au^
 ||signin.eby.de.ou310olwtgcfjh0.arcseam.com.au^
-||signin.eby.de.pmilfw56nguy4qm.arcseam.com.au^
 ||signin.eby.de.q2wl2zlbwbm6rpb.arcseam.com.au^
 ||signin.eby.de.q8dhnfdg5bux25d.arcseam.com.au^
 ||signin.eby.de.qbnjqzpuc1c29fh.arcseam.com.au^
@@ -21220,7 +21427,6 @@
 ||signin.eby.de.tm7vw3dqlkn376d.arcseam.com.au^
 ||signin.eby.de.trxmpv8vmdjxhio.arcseam.com.au^
 ||signin.eby.de.twdekkj4ipc5cm7.arcseam.com.au^
-||signin.eby.de.tzscmmmrzmjqkgm.arcseam.com.au^
 ||signin.eby.de.u17tdpewy8zysh3.arcseam.com.au^
 ||signin.eby.de.u3ps1dhkbdibqua.arcseam.com.au^
 ||signin.eby.de.u4g9bo64cdkduua.arcseam.com.au^
@@ -21234,14 +21440,12 @@
 ||signin.eby.de.xzjglz3lnuzngdn.arcseam.com.au^
 ||signin.eby.de.ybmmf7tvs3j6lmj.arcseam.com.au^
 ||signin.eby.de.za0ke95q1bg5y4f.arcseam.com.au^
-||signin.eby.de.zw6agcx7qkqs0u2.arcseam.com.au^
 ||signin.eby.de.zzfmfiml1l25qao.arcseam.com.au^
 ||signin.eday.co.uk.ws.isaupi.dllsign.oesclrgvagopddfieuoxkkqa.f01uhpqykjrntjxwhxspr22hghqm.volunteerruralnepal.org^
 ||signin.eday.couk.ws.isaupi.dllsign.oesclrgvagopddfieuoxkkqa.h9k8cwhtpgegm66dsso5jgovsyxbbv.deenabandhutrust.org^
 ||signin.eday.ed.ws.eday.ispi.dll.signin.using.ssl.hors-stade.com^
 ||signinnatt.weebly.com^
 ||signinsupport.com/aol-mail-login$all
-||signinsupport.com/aol-mail-login/$all
 ||signintoupgrade.wixsite.com^
 ||signln-eboy.de^
 ||signloginattemp.com^
@@ -21255,6 +21459,7 @@
 ||silitrade-my.sharepoint.com/personal/jh_silitrade_com/_layouts/15/guestaccess.aspx?guestaccesstoken=eo1hcMmYkclpH%20cF%20Jto5gVCCJBlK9uoTCXouP11NzI=&amp;docid=1_197467c78e292455ea7b57780e2fd3c1d&amp;wdFormId={502D3425-F4D2-49F8-B157-9D8623DD2371}$all
 ||silo.com.pl^
 ||silvadog.000webhostapp.com^
+||silverbox.rpdelio.com^
 ||silvertakip.net^
 ||silvetmaster.ru^
 ||simdik.indramayukab.go.id^
@@ -21390,12 +21595,11 @@
 ||smartmco.com^
 ||smartusluga.xja.pl^
 ||smash7289eui.fastpluscheap.com^
-||smbc-card-vpass.me^
 ||smbc-card-vpass.vip^
 ||smbc-vpass.fi^
 ||smbc.co.jp.cookiesrxzs71gnrto3irjkilfcg3u.kozow.com^
 ||smediamap.youthpress.org^
-||smilecare-dental.com^
+||smilecare-dental.com/wp-content/plugins/wp-file-manager/lib/files/case1/$all
 ||smmsvocal.yolasite.com^
 ||smradvocates.com^
 ||sms-operateurfixetel.web.app^
@@ -21410,13 +21614,14 @@
 ||smsvocal.byethost13.com^
 ||snap-ontech.com^
 ||snapchat.account.com.mx/$all
-||snellingjobs.com^
+||snellingjobs.com/entake.htm$all
 ||snip.li/HudCS$all
 ||snip.ly/PP-secure-login/?idtrack=q07W3ALB$all
 ||snip.ly/PP-secure-login?idtrack=q07W3ALB$all
 ||snip.ly/PayPal-Update-information/?idtrack=MOhiv1YN$all
 ||snip.ly/PayPal-login-account/?idtrack=nXL17cZZ$all
 ||snip.ly/PayPal-sign-account?idtrack=k9sr9Nih$all
+||snip.ly/sn1g00?platform=hootsuite$all
 ||snip.ly/www.netflix.com-signIn-account/?userid=UidAq0Y3$all
 ||snip.ly/www.netflix.com-signIn-account?userid=UidAq0Y3$all
 ||snjtradelink.com^
@@ -21476,10 +21681,12 @@
 ||sp588226.sitebeat.site^
 ||sp898306.sitebeat.site^
 ||sp963460.sitebeat.site^
+||spacedoing.com^
 ||spaday-men.ru^
 ||spaine.000webhostapp.com^
 ||spanishwithmireia.com^
 ||sparkassbank-de.com^
+||sparkasse-musterstadt.if-einblick.de^
 ||sparkasse-verifizieren.co^
 ||sparkasse.de-sicherhietsserverseite.club^
 ||sparkasse.de-sicherhietsserverseite.icu^
@@ -21567,6 +21774,7 @@
 ||steamcomuunity.ru.com^
 ||steampovered.yomu.ru^
 ||steamproxy.net^
+||steel-apparatus-278809.el.r.appspot.com/$all
 ||steel-apparatus-278809.el.r.appspot.com/home.html$all
 ||steel-apparatus-278809.el.r.appspot.com/off365.html?paymentcodeAAQkADUyYzNhODUwLT...$all
 ||stem-corp.com^
@@ -21577,7 +21785,6 @@
 ||stgeorgeregina.org^
 ||sticerspack2020.000webhostapp.com^
 ||stichometric-radiat.000webhostapp.com^
-||stick-gft.000webhostapp.com^
 ||stikbesppod.blogspot.com$all
 ||stikmafaka.prohosts.org^
 ||stil-proiect.ro^
@@ -21637,6 +21844,7 @@
 ||storage.googleapis.com/security-updates204.appspot.com/%2525%2525%2525%2525%2525%2525%2525/login1.html#example@example.com$all
 ||storage.googleapis.com/segurocomcliente/acesso.html$all
 ||storage.googleapis.com/tetsalala-62c12.appspot.com/5tfv57sdf/gfi6fyvu.78t$all
+||storage.googleapis.com/tetsalala-62c12.appspot.com/76yuv6fv/tduyttf.d$all
 ||storage.googleapis.com/ufyguy7t68uyg8ywdu.appspot.com/b%20hcv%20wey%20868/b%20jytu%20yg%20i7#$all
 ||storage.googleapis.com/vendredi328832832/pstach/vendredi1.html$all
 ||storage.googleapis.com/vendredi328832832/vendredi2.html$all
@@ -21679,6 +21887,7 @@
 ||subscribers.cesslo.art^
 ||subscribers.dbsmlo.art^
 ||subscribers.fzb851.icu^
+||subscribers.hhiu80xv.icu^
 ||subscribes.free.fr^
 ||subtractkilos.com^
 ||subvencaoeconomica.creatorlink.net^
@@ -21710,6 +21919,7 @@
 ||sucursalvirtualonliinebancolombia.com^
 ||sucursalvirtualpersonastransaccionesbancolombiasucursalvirtual.burrow.io^
 ||sucursalvitualperesonasbanricolombia.com^
+||sucursalvrtualpersona.com^
 ||sucursapersonastransaccionebancolombiacom.small-business-solutions.biz^
 ||sucursapersonastransacionebancolombiaccomn.small-business-solutions.biz^
 ||sucursapersonastransacionebancolombiacom.small-business-solutions.biz^
@@ -21735,7 +21945,7 @@
 ||sultanbettkayit.blogspot.com$all
 ||sultanbettkayit.blogspot.com/$all
 ||sum.vn/cqabg?idtrack=w0QJQGBv$all
-||summer.com.tw^
+||sumitup.co^
 ||summer7559srz.fastpluscheap.com^
 ||summercoursee.com^
 ||summerfestivalsex.com^
@@ -21750,6 +21960,7 @@
 ||sunilkhairnar.com^
 ||sunnymere-my.sharepoint.com/:b:/p/ruth/EbfpOaw1K3lHtro3ZnD7MBsB4j5SXD9rcEJbqvVZ46OKCw?e=41dn8V$all
 ||suntrust.internentbank.com^
+||suntrustt.webcindario.com^
 ||superbahis555.blogspot.com$all
 ||superbahis555.blogspot.com/$all
 ||superbahisgir12.blogspot.com$all
@@ -21763,6 +21974,7 @@
 ||superbahisgirisadresimiz3.blogspot.com/$all
 ||superbahisim1.blogspot.com$all
 ||superbahisim1.blogspot.com/$all
+||superdeporte.cl^
 ||supergas.top^
 ||supergiroschoco.com.co^
 ||supergunman.000webhostapp.com^
@@ -21773,6 +21985,8 @@
 ||support-log-in-check-up.000webhostapp.com^
 ||support-sign-in.com^
 ||support-web-24-7.myshopify.com^
+||support.amazonhelp.top^
+||support.canaca.com^
 ||support.nouvelle-aquitaine.pro^
 ||support.paypal.com.kulturabgru.kultura4.cp.regruhosting.ru^
 ||support.rakuiten.co^
@@ -21855,7 +22069,6 @@
 ||tacticalhvac.net^
 ||tadarusan.com^
 ||taengball.co^
-||taha839393.000webhostapp.com^
 ||taijishentie.com^
 ||takingnote.learningmatters.tv^
 ||takipci.sosyalkedi.com^
@@ -21877,6 +22090,7 @@
 ||tanias-accounting.co.za^
 ||tantiengiang.vn^
 ||tapcollective.com/images/vbplaza/ajax_search.php/kgh/cug/?note=pv1u012a0fsmbef$all
+||tararomestate.com^
 ||tarjeta0h.co^
 ||tasarrufvakti.com^
 ||tasche.com.br^
@@ -21903,7 +22117,6 @@
 ||techinfobd.net/ii/?email=fbasada@prepaidlegal.com$all
 ||techmarketingbuffalo.com^
 ||techsuiop.com^
-||tecnoadi.com.ar^
 ||tecnologiasintegralesmedioambientales.com^
 ||tehamacountyrcd-my.sharepoint.com/personal/kris_tehamacountyrcd_org/_layouts/15/onedrive.aspx?id=/personal/kris_tehamacountyrcd_org/Documents/Download%20Your%20Audio%20Message.url&amp;parent=/personal/kris_tehamacountyrcd_org/Documents&amp;originalPath=aHR0cHM6Ly90ZWhhbWFjb3VudHlyY2QtbXkuc2hhcmVwb2ludC5jb20vOnU6L2cvcGVyc29uYWwva3Jpc190ZWhhbWFjb3VudHlyY2Rfb3JnL0VYTnhOWm9OeXhwS24wbXlDNGZNWkNrQkQ5Um9wZHIyb1JYR3ZfZ2M0Ulc1Z2c_cnRpbWU9YzFpeG83X3IxMGc$all
 ||tek.link/BK18XY$all
@@ -22005,7 +22218,6 @@
 ||therockacc.org^
 ||therootfoundation.org^
 ||thescrapescape.com^
-||thesmackleague.com^
 ||thestatusworlds.com^
 ||thetopratedquadcopters.com^
 ||thetruthgate.net^
@@ -22025,6 +22237,7 @@
 ||three-secure.network^
 ||three-support.co$all
 ||three-uk-newbilling.com^
+||three.accountbillinghelp.com^
 ||three.alerts-service.com^
 ||three.billings-infoverify.com^
 ||three.securebillinghelp.com^
@@ -22047,7 +22260,6 @@
 ||tinjau-url-mbasic-facebook.ydns.eu^
 ||tiny.cc/0yttsz$all
 ||tiny.cc/3cutsz$all
-||tiny.cc/loxtsz$all
 ||tinyurl.com/r9am6h3$all
 ||tinyurl.com/sd9t35n/?cliente=multiconexoes@terra.com.br/JHYYW8HLAC3S5AO9R7MR22FE/imprimir.cgi$all
 ||tinyurl.com/sdi-template$all
@@ -22133,12 +22345,12 @@
 ||tpgcp3qpmpvuphqqjcfxrg-on.drv.tw^
 ||tpnm.info^
 ||tpq74.codesandbox.io^
-||tpv63.net^
+||tpv63.net/PrestaShop/authentication.php?back=addresses.php.8$all
 ||tr-ck-gr.innovaproteperuu.com^
 ||tr.im/AlertaslBCP$all
 ||tr.mobilciyiz.net^
 ||tr.subscribermail.com/cc.cfm?sendto=https://bonusoffer.wf.com/updateincome?e=744811063909820&amp;tempid=2656a9ef480e4e6f9b8cf9ca20de27d8&amp;mailid=4c07665bbcb945bf876ff9ca20de27d8$all
-||trace1.blob.core.windows.net/places/pending.html?alt=media&amp;token=1e0ebf9d-a1ad-4474-bbad-2bad7e0f6461&amp;email=qian2018@yorku.ca&amp;#loginScreen$all
+||trace1.blob.core.windows.net^
 ||tracin.weebly.com^
 ||trackable-editor.000webhostapp.com^
 ||tracylalla.com^
@@ -22148,6 +22360,7 @@
 ||trafftraff.com^
 ||traildino.de^
 ||traiteur-tablematiere.be/P2w9ZSZpPTV4OHE0VTdxNFM=$all
+||transactie-pakket.xyz^
 ||transfer.paxful.boubit.com$all
 ||transfer.paxful.boubit.com/$all
 ||transferaccountant.com/wp-content/plugins/dup/systeme/securedID/renew/information-IDP09470394895893493848374/SolvingAcc/resolvedTM/with-a/Ppluser/update2020user/Help/teams/PPL0293920USER/Up/PPL/IN/V/DelP/P/OK/set-up/$all
@@ -22239,12 +22452,10 @@
 ||tvlicensing-co-uk.infocheckmonth.co.uk^
 ||twcorp.lk^
 ||twenty5uk.com^
-||twitter.com/MarsbahisI$all
 ||twitter.com/MarsbetResmi/status/1301079497228324864/$all
 ||twitter.com/marsbahisgo/status/1301096677777039360$all
 ||twitter.com/marsbahisgo/status/1302285123291840519$all
 ||twitterhelp.epizy.com^
-||twoje-konto-sprawdz-szczegoly-netflix.mywire.org^
 ||twowheelcool.com/twitter.com/indexd6cc.html$all
 ||twowheelcool.com/twitter.com/login9ed2.html?lang=en$all
 ||twowheelcool.com/twitter.com/logincf53.html$all
@@ -22313,7 +22524,6 @@
 ||uhr.fengcdaaban.wang^
 ||ui.zanox.com^
 ||uintv.net^
-||uiqxqhapbkfftiwqjveidnyvqccmgakltbyp-dot-gl494903049.wl.r.appspot.com/$all
 ||ujs612.activehosted.com^
 ||uk-your-account-loginid-9851.mechcaddesign.com.au^
 ||uk0qx.codesandbox.io^
@@ -22324,7 +22534,7 @@
 ||ulinks.fr^
 ||uliomons.wwwaz1-ss35.a2hosted.com^
 ||ulrc.go.ug^
-||ultramarineproducts.in^
+||ultralos.ddnsking.com^
 ||ulvis.net/PL7I$all
 ||umbrellacorp.id^
 ||umconnectumt-my.sharepoint.com/personal/es127759_umconnect_umt_edu/_layouts/15/WopiFrame.aspx?guestaccesstoken=E%2f5p4lmR7OxTbuUzST9ihpACebtz%2bhbogl5I950BhaU%3d&docid=1_151b39d9e7dd54cfba500875349d3beb6&wdFormId=%7BDA6FCAD9%2D9684%2D43AF%2DB959%2DE2FA774EABA6%7D&action=formsubmit$all
@@ -22346,6 +22556,7 @@
 ||undesmaro1937.blogspot.co.uk/$all
 ||unfollowplus.com^
 ||ungalled-perforatio.000webhostapp.com^
+||unhumanbad.htmlpasta.com^
 ||uni.swap-v2.io^
 ||unicauca.edu.co/educoloquio/sites/default/files/styles/ibxolb/ibxolb/login/index-html/login/$all
 ||uniceu.com^
@@ -22370,6 +22581,7 @@
 ||univentures.co.th^
 ||unkagedk9.com^
 ||unlockdoneph.com^
+||unoswap.live^
 ||unrifled-harpoon.000webhostapp.com^
 ||unscrupulous-tabula.000webhostapp.com^
 ||uofc-my.sharepoint.com/:b:/g/personal/arnuv_mayank1_ucalgary_ca/EVgtz_pcLetGonWKwYaGc0wBKezWCeoq_0HzI8H3ezxPnw$all
@@ -22396,7 +22608,6 @@
 ||upgradedewebmail.moonfruit.com/$all
 ||upgradeeeuk-ref.com^
 ||upgradetosignupyourcom.weebly.com^
-||upgradeyouratttyahoo.weebly.com^
 ||upscri.be/l4ucvi$all
 ||upworkdesign.com^
 ||upzimbra.weebly.com^
@@ -22459,6 +22670,7 @@
 ||usernumber01.tk^
 ||userppalert.com/$all
 ||userx0fdv9000.an.r.appspot.com/$all
+||usid-4548.mixh.jp^
 ||usinternalrevenueservice.com^
 ||usomilhas.com^
 ||uster-is.web.app^
@@ -22472,9 +22684,9 @@
 ||uw0752.com^
 ||uwactualisatieformulier.zap588024-1.plesk09.zap-webspace.com^
 ||uwezakenya.org^
-||uyfhgfd.ghjfdsfsdf.top^
 ||uyhhggf.weebly.com^
 ||v150-95-110-58.a00d.g.han1.static.cnode.io^
+||v2app.org^
 ||v2vtl.csb.app^
 ||v3automation.in^
 ||v3yql.csb.app^
@@ -22588,11 +22800,12 @@
 ||viccats.camcam.dns-cloud.net^
 ||vices.eu^
 ||vida-nutrition.com^
-||videobokep2020gratisxha.000webhostapp.com^
 ||videodewasa18plus.000webhostapp.com^
+||videohotlagiviralkhususdewasa.000webhostapp.com^
 ||videoskick.com^
 ||videosoy.reachhealthylife.com^
 ||videosservicos.com.br^
+||videoviral.wikaba.com^
 ||vidiobokepindodanvcsbersamatanteayuuu.000webhostapp.com^
 ||vidogar.com.ar^
 ||vidramaq.com.br^
@@ -22709,6 +22922,7 @@
 ||vufd.hyperphp.com^
 ||vulkanland-bio-safran.at^
 ||vurl.bz^
+||vv1hltz7bo.projects.webpages.one^
 ||vvsmsmms.yolasite.com^
 ||vwbank.inforia.net^
 ||vxdse.myfreesites.net^
@@ -22740,6 +22954,7 @@
 ||waterbay.hu/BUD/DHLAUTO/dhl.php?rand=13InboxLightaspxn.1774256418&amp;fid.4.1252899642&amp;fid=1&amp;fav.1&amp;rand.13InboxLight.aspxn.1774256418&amp;fid.1252899642&amp;fid.1&amp;fav.1&amp;email=won.yonghwi@himet.co.kr&amp;.rand=13InboxLight.aspx?n=1774256418&amp;fid=4$all
 ||waterbay.hu^
 ||waterheaterrepairpanamacity.com^
+||watsappchathotgratis.sogive.net^
 ||wav-mp3-ogg.net^
 ||wave-estate-mohali.in^
 ||wave.webaim.org^
@@ -22797,10 +23012,11 @@
 ||webnst.com/Blockchain/$all
 ||weboutlookstorageaccess.activehosted.com^
 ||webpostmedia.com^
+||website-americanas.net^
 ||website.scienceinstituteonline.in^
 ||websitebrowsers.000webhostapp.com^
 ||websitebuilder102.website.com^
-||websitefun.club/link/l/HG78cRHlep3hJJzJYxmHf3dtbM4GiVuzaUwuyaa-aGKBYY1sS6RF02atCLD-0IUZ$all
+||websitefun.club^
 ||websitesecuritykey.com^
 ||websitev12.000webhostapp.com^
 ||webstories.eu^
@@ -22810,6 +23026,7 @@
 ||weddib.com^
 ||weddingjuliedylan.com^
 ||weddingsbyknottydays.com^
+||wedeh-sultan.000webhostapp.com^
 ||weedsprayers.com.au^
 ||weevoxsound.com^
 ||wefbee.com/autoliker$all
@@ -22841,6 +23058,7 @@
 ||whatsap-group.dubya.info^
 ||whatsapgrup.0n.4pu.com^
 ||whatsapp-18.ikwb.com^
+||whatsapp-chat-grup.americanunfinished.com^
 ||whatsapp-gabung27.otzo.com^
 ||whatsapp-group-invite7-videos18.2waky.com^
 ||whatsapp-group-join-g9hka7bskd8.2waky.com^
@@ -22901,7 +23119,6 @@
 ||wingman.se^
 ||wintouch.ir^
 ||wireconfirmation68c10a25442a3e13.blogspot.com/$all
-||wirehealdworld.com^
 ||wishnquotes.com^
 ||withinmyskin.com^
 ||wkurzanie.pl^
@@ -22920,7 +23137,6 @@
 ||workprotocoles-com.webs.com^
 ||workpump.com^
 ||worksitehealthsolutions.org^
-||worldjnbs.com^
 ||worliking.com^
 ||worth-it.app^
 ||wow-atlantida.com^
@@ -22933,7 +23149,6 @@
 ||wrap.co^
 ||wrightindustrial.co.nz^
 ||wriot-alternate.app.link^
-||wtfnz46782nzxa6727tq.mattsenior1.repl.co^
 ||wu7q5.app.link^
 ||wuteh.a100.com.pl^
 ||wuyaoacg.com/calendar/?qzwoiniuGYTRYwy$vwedbygVDRwydgCCYyueuuyywUBYVYUb*uWu$all
@@ -22984,7 +23199,6 @@
 ||www84.presentes-promocoes-premier.com^
 ||www86.presentes-promocoes-premier.com^
 ||www_amazon.jp_wsx.jpamaon.monster^
-||wwwbcpizonasegvrasbeta-viabcpi1.com^
 ||wwwhepsibahis796.com^
 ||wwwhjdc48.com^
 ||wwwitau.seuatendimento.credit^
@@ -23006,6 +23220,7 @@
 ||xdoctor.gr^
 ||xfinity.com-sign-in-secure-cpessfile-appmail.2bpnmedia.co.th^
 ||xfinityconnect4you.blogspot.com/$all
+||xfthcctcahnfspnydr.top^
 ||xgyul.codesandbox.io^
 ||xh13v.mjt.lu^
 ||xh140.mjt.lu^
@@ -23076,7 +23291,6 @@
 ||xiangmushizhi.com/wp-content/themes/sketch-new/amex/amex/sett.php?cmd=login_submit&amp;id=d78d974fddfd9b82626b74d03f57bb8fd78d974fddfd9b82626b74d03f57bb8f&amp;session=d78d974fddfd9b82626b74d03f57bb8fd78d974fddfd9b82626b74d03f57bb8f$all
 ||xj333.mjt.lu^
 ||xj33s.mjt.lu^
-||xj33w.mjt.lu^
 ||xj45o.mjt.lu^
 ||xjm7p.mjt.lu^
 ||xjm7s.mjt.lu^
@@ -23131,7 +23345,6 @@
 ||xoserv.com^
 ||xpixl.me^
 ||xpotentia.com^
-||xrpbrad.org^
 ||xtc.sued-rollo.de^
 ||xtremefish.rs^
 ||xtrixtviptv.com^
@@ -23151,6 +23364,7 @@
 ||yakutcement.ru^
 ||yandex-disk-faf542rgdkijfnj54eejfe435tmrgyrtr.000webhostapp.com^
 ||yasistore.com^
+||yastatic.net/awaps-ad-sdk-js-bundles/1.0-3871/bundles-es2017/inpage.bundle.js$all
 ||yatoshafoundation.or.tz^
 ||yavaranenarmak.com^
 ||yayin.seviye.com.tr^
@@ -23262,12 +23476,10 @@
 ||zonasegurainisaenwebreactivemosjuntoselperu.com^
 ||zonaseguraviabcp.sms-pe.com^
 ||zonasseguraviabcpbeta.com^
-||zonereit.com/squ/verification/1.php?public/enroll/IdentifyUser-aspx-LOB=RBGLogon=MTQ0NDYzMTcxMQ==MTQ0NDYzMTcxMQ==&session=MTQ0NDYzMTcxMQ==MTQ0NDYzMTcxMQ==$all
 ||zonereit.com/squ/verification/1.php?public/enroll/IdentifyUser-aspx-LOB=RBGLogon=MTQyNjkwNTA5Nw==MTQyNjkwNTA5Nw==&amp;session=MTQyNjkwNTA5Nw==MTQyNjkwNTA5Nw==$all
 ||zonereit.com/squ/verification/1.php?public/enroll/IdentifyUser-aspx-LOB=RBGLogon=MjE0MTY0MjM5Ng==MjE0MTY0MjM5Ng==&session=MjE0MTY0MjM5Ng==MjE0MTY0MjM5Ng==$all
 ||zonereit.com/squ/verification/3.php?cmd=login_submit&amp;id=120c4714870d98e9edafad02cfb92edf120c4714870d98e9edafad02cfb92edf&amp;session=120c4714870d98e9edafad02cfb92edf120c4714870d98e9edafad02cfb92edf$all
 ||zonereit.com/squ/verification/3.php?cmd=login_submit&amp;id=7894d35460974b4dfd71bb33be6d4d1b7894d35460974b4dfd71bb33be6d4d1b&amp;session=7894d35460974b4dfd71bb33be6d4d1b7894d35460974b4dfd71bb33be6d4d1b$all
-||zonereit.com/squ/verification/3.php?cmd=login_submit&amp;id=dbbc493613ae4e309148df8e0e3d2770dbbc493613ae4e309148df8e0e3d2770&amp;session=dbbc493613ae4e309148df8e0e3d2770dbbc493613ae4e309148df8e0e3d2770$all
 ||zonereit.com/squ/verification/3.php?cmd=login_submit&amp;id=f41f052ada1bf5073213cc6042fe18a8f41f052ada1bf5073213cc6042fe18a8&amp;session=f41f052ada1bf5073213cc6042fe18a8f41f052ada1bf5073213cc6042fe18a8$all
 ||zoomdays2.moonfruit.com/$all
 ||zpr.io/tWQ3F$all
