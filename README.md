@@ -8,6 +8,7 @@ There are multiple formats available, refer to the appropriate section according
 - Pi-hole -> [Domain-based](#domain-based) or [Hosts-based](#hosts-based) section
 - AdGuard Home -> [Domain-based (AdGuard Home)](#domain-based-adguard-home) or [Hosts-based](#hosts-based) section
 - AdGuard browser extension -> [URL-based (AdGuard)](#url-based-adguard)
+- Vivaldi -> [URL-based (Vivaldi)](#url-based-vivaldi)
 - [Hosts](#hosts-based)
 - [Dnsmasq](#dnsmasq)
 - [BIND](#bind)
@@ -50,6 +51,26 @@ Import the following URL into AdGuard browser extension to subscribe:
 - https://cdn.statically.io/gh/curbengh/phishing-filter/master/dist/phishing-filter-ag.txt
 - https://gitcdn.xyz/repo/curbengh/phishing-filter/master/dist/phishing-filter-ag.txt
 - https://cdn.jsdelivr.net/gh/curbengh/phishing-filter/dist/phishing-filter-ag.txt
+
+</details>
+
+## URL-based (Vivaldi)
+
+_Requires Vivaldi Desktop/Android 3.3+, blocking level must be at least "Block Trackers"_
+
+Import the following URL into Vivaldi's **Tracker Blocking Sources** to subscribe:
+
+- https://gitlab.com/curben/phishing-filter/raw/master/dist/phishing-filter-vivaldi.txt
+
+<details>
+<summary>Mirrors</summary>
+
+- https://cdn.statically.io/gl/curben/phishing-filter/master/dist/phishing-filter-vivaldi.txt
+- https://glcdn.githack.com/curben/phishing-filter/raw/master/dist/phishing-filter-vivaldi.txt
+- https://raw.githubusercontent.com/curbengh/phishing-filter/master/dist/phishing-filter-vivaldi.txt
+- https://cdn.statically.io/gh/curbengh/phishing-filter/master/dist/phishing-filter-vivaldi.txt
+- https://gitcdn.xyz/repo/curbengh/phishing-filter/master/dist/phishing-filter-vivaldi.txt
+- https://cdn.jsdelivr.net/gh/curbengh/phishing-filter/dist/phishing-filter-vivaldi.txt
 
 </details>
 
