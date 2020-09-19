@@ -122,6 +122,7 @@ sed "1s/Blocklist/Blocklist (AdGuard Home)/" > "../dist/phishing-filter-agh.txt"
 
 cat "phishing-domains-adguard-home.txt" "phishing-url-top-domains.txt" | \
 sort | \
+sed '1 i\'"\n! BREAKING CHANGE (1 Oct 2020): AdGuard Home should use this blocklist https://gitlab.com/curben/phishing-filter#domain-based-adguard-home\n"'' | \
 sed '1 i\'"$COMMENT_UBO"'' > "../dist/phishing-filter.txt"
 
 
