@@ -110,6 +110,12 @@ FIFTH_LINE="! License: https://creativecommons.org/licenses/by-sa/4.0/"
 SIXTH_LINE="! Source: https://www.phishtank.com/ & https://openphish.com/"
 COMMENT_UBO="$FIRST_LINE\n$SECOND_LINE\n$THIRD_LINE\n$FOURTH_LINE\n$FIFTH_LINE\n$SIXTH_LINE"
 
+
+cat "phishing-notop-domains.txt" "phishing-url-top-domains.txt" | \
+sort | \
+sed '1 i\'"$COMMENT_UBO"'' > "../dist/phishing-filter.txt"
+
+
 # Adguard Home
 cat "phishing-notop-domains.txt" | \
 sed "s/^/||/g" | \
@@ -119,10 +125,6 @@ cat "phishing-domains-adguard-home.txt" | \
 sort | \
 sed '1 i\'"$COMMENT_UBO"'' | \
 sed "1s/Blocklist/Blocklist (AdGuard Home)/" > "../dist/phishing-filter-agh.txt"
-
-cat "phishing-notop-domains.txt" "phishing-url-top-domains.txt" | \
-sort | \
-sed '1 i\'"$COMMENT_UBO"'' > "../dist/phishing-filter.txt"
 
 
 # Adguard browser extension
@@ -142,7 +144,6 @@ sed "s/^/||/g" | \
 sed "s/$/\$document/g" > "phishing-domains-vivaldi.txt"
 
 cat "phishing-domains-vivaldi.txt" "phishing-url-top-domains.txt" | \
-## to be removed
 sed "s/\$all$/\$document/g" | \
 sort | \
 sed '1 i\'"$COMMENT_UBO"'' | \
