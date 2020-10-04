@@ -34,7 +34,7 @@ Import the following URL into uBO to subscribe:
 
 </details>
 
-**AdGuard Home** users should use [this blocklist](#domain-based-adguard-home), compatibility with URL-based blocklist is retained temporarily until in 30 Sep 2020 (UTC).
+**AdGuard Home** users should use [this blocklist](#domain-based-adguard-home).
 
 ## URL-based (AdGuard)
 
