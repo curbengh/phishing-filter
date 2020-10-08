@@ -20,7 +20,7 @@ Not sure which format to choose? See [Compatibility](https://gitlab.com/curben/u
 
 Import the following URL into uBO to subscribe:
 
-- https://gitlab.com/curben/phishing-filter/raw/master/dist/phishing-filter.txt
+- https://curben.gitlab.io/phishing-filter-mirror/phishing-filter.txt
 
 <details>
 <summary>Mirrors</summary>
@@ -40,7 +40,7 @@ Import the following URL into uBO to subscribe:
 
 Import the following URL into AdGuard browser extension to subscribe:
 
-- https://gitlab.com/curben/phishing-filter/raw/master/dist/phishing-filter-ag.txt
+- https://curben.gitlab.io/phishing-filter-mirror/phishing-filter-ag.txt
 
 <details>
 <summary>Mirrors</summary>
@@ -60,7 +60,7 @@ _Requires Vivaldi Desktop/Android 3.3+, blocking level must be at least "Block T
 
 Import the following URL into Vivaldi's **Tracker Blocking Sources** to subscribe:
 
-- https://gitlab.com/curben/phishing-filter/raw/master/dist/phishing-filter-vivaldi.txt
+- https://curben.gitlab.io/phishing-filter-mirror/phishing-filter-vivaldi.txt
 
 <details>
 <summary>Mirrors</summary>
@@ -78,7 +78,7 @@ Import the following URL into Vivaldi's **Tracker Blocking Sources** to subscrib
 
 This blocklist includes domains and IP addresses.
 
-- https://gitlab.com/curben/phishing-filter/raw/master/dist/phishing-filter-domains.txt
+- https://curben.gitlab.io/phishing-filter-mirror/phishing-filter-domains.txt
 
 <details>
 <summary>Mirrors</summary>
@@ -96,7 +96,7 @@ This blocklist includes domains and IP addresses.
 
 This AdGuard Home-compatible blocklist includes domains and IP addresses.
 
-- https://gitlab.com/curben/phishing-filter/raw/master/dist/phishing-filter-agh.txt
+- https://curben.gitlab.io/phishing-filter-mirror/phishing-filter-agh.txt
 
 <details>
 <summary>Mirrors</summary>
@@ -114,7 +114,7 @@ This AdGuard Home-compatible blocklist includes domains and IP addresses.
 
 This blocklist includes domains only.
 
-- https://gitlab.com/curben/phishing-filter/raw/master/dist/phishing-filter-hosts.txt
+- https://curben.gitlab.io/phishing-filter-mirror/phishing-filter-hosts.txt
 
 <details>
 <summary>Mirrors</summary>
@@ -139,7 +139,7 @@ This blocklist includes domains only.
 mkdir -p /usr/local/etc/dnsmasq/
 
 # Create a new cron job for daily update
-printf '#!/bin/sh\ncurl -L "https://gitlab.com/curben/phishing-filter/raw/master/dist/phishing-filter-dnsmasq.conf" -o "/usr/local/etc/dnsmasq/phishing-filter-dnsmasq.conf"\n' > /etc/cron.daily/phishing-filter
+printf '#!/bin/sh\ncurl -L "https://curben.gitlab.io/phishing-filter-mirror/phishing-filter-dnsmasq.conf" -o "/usr/local/etc/dnsmasq/phishing-filter-dnsmasq.conf"\n' > /etc/cron.daily/phishing-filter
 
 # cron job requires execution permission
 chmod 755 /etc/cron.daily/phishing-filter
@@ -148,7 +148,7 @@ chmod 755 /etc/cron.daily/phishing-filter
 printf "\nconf-file=/usr/local/etc/dnsmasq/phishing-filter-dnsmasq.conf\n" >> /etc/dnsmasq.conf
 ```
 
-- https://gitlab.com/curben/phishing-filter/raw/master/dist/phishing-filter-dnsmasq.conf
+- https://curben.gitlab.io/phishing-filter-mirror/phishing-filter-dnsmasq.conf
 
 <details>
 <summary>Mirrors</summary>
@@ -173,7 +173,7 @@ This blocklist includes domains only.
 mkdir -p /usr/local/etc/bind/
 
 # Create a new cron job for daily update
-printf '#!/bin/sh\ncurl -L "https://gitlab.com/curben/phishing-filter/raw/master/dist/phishing-filter-bind.conf" -o "/usr/local/etc/bind/phishing-filter-bind.conf"\n' > /etc/cron.daily/phishing-filter
+printf '#!/bin/sh\ncurl -L "https://curben.gitlab.io/phishing-filter-mirror/phishing-filter-bind.conf" -o "/usr/local/etc/bind/phishing-filter-bind.conf"\n' > /etc/cron.daily/phishing-filter
 
 # cron job requires execution permission
 chmod 755 /etc/cron.daily/phishing-filter
@@ -200,7 +200,7 @@ $TTL    86400   ; one day
 
 Zone file is derived from [here](https://github.com/tomzuu/blacklist-named/blob/master/null.zone.file).
 
-- https://gitlab.com/curben/phishing-filter/raw/master/dist/phishing-filter-bind.conf
+- https://curben.gitlab.io/phishing-filter-mirror/phishing-filter-bind.conf
 
 <details>
 <summary>Mirrors</summary>
@@ -225,7 +225,7 @@ This blocklist includes domains only.
 mkdir -p /usr/local/etc/unbound/
 
 # Create a new cron job for daily update
-printf '#!/bin/sh\ncurl -L "https://gitlab.com/curben/phishing-filter/raw/master/dist/phishing-filter-unbound.conf" -o "/usr/local/etc/unbound/phishing-filter-unbound.conf"\n' > /etc/cron.daily/phishing-filter
+printf '#!/bin/sh\ncurl -L "https://curben.gitlab.io/phishing-filter-mirror/phishing-filter-unbound.conf" -o "/usr/local/etc/unbound/phishing-filter-unbound.conf"\n' > /etc/cron.daily/phishing-filter
 
 # cron job requires execution permission
 chmod 755 /etc/cron.daily/phishing-filter
@@ -234,7 +234,7 @@ chmod 755 /etc/cron.daily/phishing-filter
 printf '\n  include: "/usr/local/etc/unbound/phishing-filter-unbound.conf"\n' >> /etc/unbound/unbound.conf
 ```
 
-- https://gitlab.com/curben/phishing-filter/raw/master/dist/phishing-filter-unbound.conf
+- https://curben.gitlab.io/phishing-filter-mirror/phishing-filter-unbound.conf
 
 <details>
 <summary>Mirrors</summary>
