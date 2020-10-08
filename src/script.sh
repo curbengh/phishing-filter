@@ -53,6 +53,8 @@ sort -u > "phishing.txt"
 cat "phishing.txt" | \
 cut -f 1 -d "/" | \
 cut -f 1 -d ":" | \
+# #2
+cut -f 1 -d "?" | \
 sort -u > "phishing-domains.txt"
 
 
