@@ -200,6 +200,16 @@ sed '1 i\'"$COMMENT"'' | \
 sed "1s/Blocklist/Unbound Blocklist/" > "../dist/phishing-filter-unbound.conf"
 
 
+## IE blocklist
+COMMENT_IE="msFilterList\n$COMMENT\n: Expires=1\n#"
+
+cat "../dist/phishing-filter-hosts.txt" | \
+grep -vE "^#" | \
+sed "s/^0\.0\.0\.0/-d/g" | \
+sed '1 i\'"$COMMENT_IE"'' | \
+sed "2s/Domains Blocklist/Hosts Blocklist (IE)/" > "../dist/phishing-filter.tpl"
+
+
 ## Clean up artifacts
 rm "phishtank.csv" "top-1m-umbrella.zip" "top-1m-umbrella.txt" "top-1m-tranco.txt" "openphish-raw.txt"
 

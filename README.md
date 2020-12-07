@@ -13,6 +13,7 @@ There are multiple formats available, refer to the appropriate section according
 - [Dnsmasq](#dnsmasq)
 - [BIND](#bind)
 - [Unbound](#unbound)
+- Internet Explorer -> [Tracking Protection List (IE)](#tracking-protection-list-ie)
 
 Not sure which format to choose? See [Compatibility](https://gitlab.com/curben/urlhaus-filter/wikis/compatibility) page.
 
@@ -245,6 +246,24 @@ printf '\n  include: "/usr/local/etc/unbound/phishing-filter-unbound.conf"\n' >>
 - https://cdn.statically.io/gh/curbengh/phishing-filter/master/dist/phishing-filter-unbound.conf
 - https://gitcdn.xyz/repo/curbengh/phishing-filter/master/dist/phishing-filter-unbound.conf
 - https://cdn.jsdelivr.net/gh/curbengh/phishing-filter/dist/phishing-filter-unbound.conf
+
+</details>
+
+## Tracking Protection List (IE)
+
+This blocklist includes domains only.
+
+- https://curben.gitlab.io/phishing-filter-mirror/phishing-filter.tpl
+
+<details>
+<summary>Mirrors</summary>
+
+- https://cdn.statically.io/gl/curben/phishing-filter/master/dist/phishing-filter.tpl
+- https://glcdn.githack.com/curben/phishing-filter/raw/master/dist/phishing-filter.tpl
+- https://raw.githubusercontent.com/curbengh/phishing-filter/master/dist/phishing-filter.tpl
+- https://cdn.statically.io/gh/curbengh/phishing-filter/master/dist/phishing-filter.tpl
+- https://gitcdn.xyz/repo/curbengh/phishing-filter/master/dist/phishing-filter.tpl
+- https://cdn.jsdelivr.net/gh/curbengh/phishing-filter/dist/phishing-filter.tpl
 
 </details>
 
