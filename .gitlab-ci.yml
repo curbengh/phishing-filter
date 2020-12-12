@@ -1,11 +1,12 @@
 stages:
-  - deploy_stage
+  - build
+  - deploy
   - failed_stage
 
 image: alpine:latest # Use the latest version of Alpine Linux docker image
 
-deploy_job:
-  stage: deploy_stage
+build_job:
+  stage: build
 
   before_script:
     - 'which ssh-agent || (apk update && apk add curl openssh-client git grep)'
@@ -38,17 +39,24 @@ deploy_job:
     - git push origin master
 
   rules:
-    # Only trigger through schedule job in master branch
-    - if: '$CI_COMMIT_REF_NAME == "master" && $CI_PIPELINE_SOURCE == "schedule"'
-      when: always
-    # Only trigger through "Run pipeline" in master branch
-    - if: '$CI_COMMIT_REF_NAME == "master" && $CI_PIPELINE_SOURCE == "web"'
+    # Only trigger through schedule job and "Run pipeline" in master branch
+    - if: '$CI_COMMIT_REF_NAME == "master" && ($CI_PIPELINE_SOURCE == "schedule" || $CI_PIPELINE_SOURCE == "web")'
       when: always
 
   # Upload working folder as a job artifact
   artifacts:
     paths:
       - tmp/
+
+deploy_job: # Trigger deploy job on curben/phishing-filter-mirror
+  stage: deploy
+  trigger:
+    project: curben/phishing-filter-mirror
+    branch: master
+    strategy: depend
+  rules:
+    - if: '$CI_COMMIT_REF_NAME == "master" && ($CI_PIPELINE_SOURCE == "schedule" || $CI_PIPELINE_SOURCE == "web")'
+      when: always
 
 failed_job:
   stage: failed_stage
@@ -76,8 +84,6 @@ failed_job:
     - git push origin master
 
   rules:
-    - if: '$CI_COMMIT_REF_NAME == "master" && $CI_PIPELINE_SOURCE == "schedule"'
+    - if: '$CI_COMMIT_REF_NAME == "master" && ($CI_PIPELINE_SOURCE == "schedule" || $CI_PIPELINE_SOURCE == "web")'
       # Run this job only when deploy_job failed
-      when: on_failure
-    - if: '$CI_COMMIT_REF_NAME == "master" && $CI_PIPELINE_SOURCE == "web"'
       when: on_failure
