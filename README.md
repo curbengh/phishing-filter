@@ -17,6 +17,8 @@ There are multiple formats available, refer to the appropriate section according
 
 Not sure which format to choose? See [Compatibility](https://gitlab.com/curben/urlhaus-filter/wikis/compatibility) page.
 
+Use [urlhaus-filter](https://gitlab.com/curben/urlhaus-filter) to block malware websites.
+
 ## URL-based
 
 Import the following URL into uBO to subscribe:
