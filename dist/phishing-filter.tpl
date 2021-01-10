@@ -1,6 +1,6 @@
 msFilterList
 # Title: Phishing Hosts Blocklist (IE)
-# Updated: Sun, 10 Jan 2021 00:06:51 UTC
+# Updated: Sun, 10 Jan 2021 12:06:38 UTC
 # Expires: 1 day (update frequency)
 # Homepage: https://gitlab.com/curben/phishing-filter
 # License: https://creativecommons.org/licenses/by-sa/4.0/
@@ -8,7 +8,9 @@ msFilterList
 : Expires=1
 #
 -d 00jmtol5tlmgpaxz4douvgbsnvj6v4eygpaxz4douvg-com.cf
+-d 02-resolve.net
 -d 02-verify-billing.com
+-d 02billing-error.net
 -d 02support.dev
 -d 031698396172331.us-south.cf.appdomain.cloud
 -d 05.my03.com
@@ -16,8 +18,6 @@ msFilterList
 -d 0820-2020.com
 -d 0865eszu78643.wixsite.com
 -d 0931tangfc.com
--d 09783676re4.wixsite.com
--d 098754esrdc.wixsite.com
 -d 098765432123456789.000webhostapp.com
 -d 0c584d61-0ba8-48fe-8709-44323bfc47c1.htmlcomponentservice.com
 -d 0d08c5a62c3637892.temporary.link
@@ -27,8 +27,6 @@ msFilterList
 -d 0s.ozvs4y3pnu.nblz.ru
 -d 10gbhediye.club
 -d 11infopaypal-update05.duckdns.org
--d 123654789.byethost7.com
--d 136710.txtplug.com
 -d 14tokens.com
 -d 153284594738391.statictab.com
 -d 163.mailcn.org
@@ -55,6 +53,7 @@ msFilterList
 -d 2step-authentication.com
 -d 3-uk-help.com
 -d 3-uk-pay.com
+-d 3-verify-ref237.com
 -d 30suports.com
 -d 30yearsred.com
 -d 30ywc.codesandbox.io
@@ -63,6 +62,7 @@ msFilterList
 -d 37i-33012085598885.us-south.cf.appdomain.cloud
 -d 3deya6i.blob.core.windows.net
 -d 3ff7c459-86b2-4f6d-b6b0-ba6402ef6cb0.htmlcomponentservice.com
+-d 3ishhayatk.com
 -d 3mvirugambakkam.com
 -d 3no.ro
 -d 3taw1axhzpzgihrd7pec.us-south.cf.appdomain.cloud
@@ -84,6 +84,7 @@ msFilterList
 -d 51atweb.com
 -d 51jianli.cn
 -d 51zhaojiao.com
+-d 53-secu.3utilities.com
 -d 53rd-authy.myvnc.com
 -d 53secure.serveirc.com
 -d 55bgf.csb.app
@@ -96,7 +97,6 @@ msFilterList
 -d 5x726-alternate.app.link
 -d 60minutesoffame.com
 -d 612smmwu4yhn.wixsite.com
--d 623112j4j3.codesandbox.io
 -d 638ca12d-ba2f-451c-8418-faf56b7de7ff.htmlcomponentservice.com
 -d 63b0ba7d.ithemeshosting.com.php73-39.lan3-1.websitetestlink.com
 -d 6408tse28cdss.wixsite.com
@@ -156,14 +156,12 @@ msFilterList
 -d abcexpresslogistics.com
 -d abcsofia.com
 -d abdarya.ir
--d abigailjgerber.com
 -d abiola.dz
 -d ablerefrigeration.com
 -d abodoleads-rvk2mzx8uz51.com
 -d about-fbsupport.ml
 -d abreai.com
 -d abris-chevaux.com
--d absa.ent.box.com
 -d absaonline2021.website2.me
 -d absolutefacility.com
 -d absolutepleasure.com.my
@@ -185,9 +183,9 @@ msFilterList
 -d account-locked-case-id-pp-330-443-754.nrbabl.com
 -d account-peringatan.weebly.com
 -d account-update-services-live.g9fd8y.cn
+-d account-update-services-live.g9fl9l.cn
 -d account-update-services-live.tyapl9.cn
 -d account-update-services-live.zeu26myr.cn
--d account-update.amazon.co.jp.hoppoapykalfeeeq261.top
 -d account.new-cancelpayee.com
 -d account.paxful.com.wallet-account-upgrade.com
 -d account.secure-hali.com
@@ -195,7 +193,6 @@ msFilterList
 -d accounteeupdate.com
 -d accountflippa.com
 -d accountpayee-secure.com
--d accounts-update-info.main-user-co-jp.tk
 -d accountsecurity-issue.com
 -d accountsecurity.org.uk
 -d accountsecurityprotectionuk.com
@@ -229,7 +226,6 @@ msFilterList
 -d adalbertobrito.weebly.com
 -d added-payee-hali.com
 -d addedpayee-help.com
--d addictingchores.com
 -d ademsa.com
 -d adexten.com
 -d adfloralstudio.ca
@@ -239,11 +235,11 @@ msFilterList
 -d administrativos.cl
 -d adminivericentrics.wapka.website
 -d adnet8.com
--d adobe-maxhealth-auths.ga
 -d adobe-maxhealth-auths.ml
 -d adobe-maxhealth-auths.tk
 -d adobecloudpdf.wixsite.com
 -d adsbusinessaccountcreditcoupons.com
+-d adsbusinessaccountcreditscoupons.com
 -d adsbusinesscouponscampaignaccounts.com
 -d adshomeservicesmovinghelp.com
 -d adtekz.com
@@ -260,7 +256,9 @@ msFilterList
 -d afinephotographer.com
 -d afriquelemou.free.fr
 -d aged-term-f2ba.makringcalrs.workers.dev
+-d agendacitavirtual.com
 -d agendatebancofalabella.com
+-d aggiorna-psd2-isp.com
 -d agighana.org
 -d aglimmer-laundry.000webhostapp.com
 -d agri72.fr
@@ -297,6 +295,7 @@ msFilterList
 -d albatron.com
 -d albcp.com
 -d albel.intnet.mu
+-d albinoominoskirme.000webhostapp.com
 -d alburjrealestate.com
 -d alealtaseguros.com
 -d alergiaalpolen.com
@@ -316,9 +315,7 @@ msFilterList
 -d alinhador3d.com.br
 -d aliorbank.io
 -d alively.de
--d alkalizingwaters.com
 -d alkawaterdiy.com
--d alkhyberia.ru
 -d allaboutchris.com
 -d alldomainmailagentupdate.web.app
 -d allendzines.com
@@ -345,42 +342,33 @@ msFilterList
 -d amaozn.top.kfxwpw.cn
 -d amazan.mhcmmm.vip
 -d amazan.qixm.top
--d amazan.tzcong.top
 -d amazingunbeatabledeals.com
 -d amaznde-com.webs.com
 -d amazno.cn.jp1.aomzno00.xyz
 -d amazom.jp-serives.info
 -d amazomn.c0.jp06.amazonm00.xyz
--d amazomn.c0.jpo2.pccomsotp.xyz
--d amazon-check-co-jp.13x.top
 -d amazon-check-co-jp.2021107.top
 -d amazon-check-co-jp.2021141.top
 -d amazon-check-co-jp.2021187.top
 -d amazon-check-co-jp.202181148370.top
--d amazon-check-co-jp.202181214187.top
 -d amazon-check-co-jp.202181551600.top
 -d amazon-check-co-jp.202181886876.top
--d amazon-check-co-jp.21q.top
--d amazon-check-co-jp.25v.top
--d amazon-check-co-jp.2d6.top
 -d amazon-check-co-jp.42a.top
 -d amazon-check-co-jp.87i.top
 -d amazon-check-co-jp.b6p.top
 -d amazon-check-co-jp.j15.top
 -d amazon-check-co-jp.l1y.top
 -d amazon-check-co-jp.n1b.top
--d amazon-check-co-jp.r1t.top
 -d amazon-check-co-jp.r7m.top
--d amazon-check-co-jp.s1q.top
 -d amazon-check-co-jp.u1o.top
 -d amazon-check-co-jp.x6o.top
--d amazon-check-co-jp.yv0.top
 -d amazon-co-jp-d13f1fed4d24d232f3c591.co
 -d amazon-co.cloud
 -d amazon-cvq.top
 -d amazon-suport-storejpouaskmeduiosaiuasaoukcom001.tk
--d amazon.co.jp.nc2h4hghgerrsdertreweq.xyz
+-d amazon.co.jp.jpay.buzz
 -d amazon.co.jp.paysafe.buzz
+-d amazon.co.jpay.buzz
 -d amazon.counational.xyz
 -d amazon.de.signin.verification.openid.5935156.globthirsgare.cf
 -d amazon.server.k813jhf8936df638asdf68gw6teb96wgwy53.xyz
@@ -392,6 +380,7 @@ msFilterList
 -d amb.co.mz
 -d ambientaris.com
 -d ambienteprotegido.foregon.com
+-d ambyah-gaming1.gq
 -d ameriavnexpress.top
 -d amexprescd.com
 -d amguevara.com
@@ -400,6 +389,7 @@ msFilterList
 -d amidabuli.com
 -d amkama.com
 -d ammzon-ac.xyz
+-d amnocjp.amatfgd.xyz
 -d amoozin.com
 -d amosleh.com
 -d amozanm-rrbrb.cc
@@ -488,6 +478,8 @@ msFilterList
 -d appupdatesecurehalifaxonlineappupdate-verification.titansgamestudio.ir
 -d apreciapharma.in
 -d aproveitetudocomvoce.club
+-d aproveitevocetudoconosco.club
+-d apsews.000webhostapp.com
 -d apuwa.com
 -d aqnr43e6h6a4y3n3wte55vl5sy-adwhj77lcyoafdy-accounts-google-com.translate.goog
 -d aqtv.tv
@@ -495,7 +487,6 @@ msFilterList
 -d archiwum.allegro.secfence.lesavik.net
 -d arcomindia.com
 -d arcromdiamonds.ro
--d ardenhomehealthcare.co.in
 -d area53.com.br
 -d areaofficeonaging.tk
 -d argus-garage-doors-repair.com
@@ -550,6 +541,7 @@ msFilterList
 -d asting.cz
 -d astrahomebuyers.com
 -d astrofat.it
+-d at-impex.com
 -d at3tmp.weebly.com
 -d atbpro.com
 -d atccn3.it
@@ -557,18 +549,17 @@ msFilterList
 -d ateliermiel.com
 -d atencaoit.cf
 -d atendimento.rnp.br
--d atiview.web.app
 -d atmaeco.com.br
 -d atoca.cl
 -d atomicool.com
 -d att-db.com
 -d att-secure-access.weebly.com
--d att.taleo.net
 -d attde0000dndoooo000oooo.weebly.com
 -d attdomainsaveserice.weebly.com
 -d attemplate.com
 -d attlinstantresponse.weebly.com
 -d attmai.weebly.com
+-d attmailsse.weebly.com
 -d attmailsserv.weebly.com
 -d attnc.site.bm
 -d attne.com
@@ -589,6 +580,8 @@ msFilterList
 -d aurickhotels.com
 -d auth-chaseuserservice.ssmailer.com
 -d auth-infopayee.com
+-d auth-td-online.link
+-d auth-td-online.xyz
 -d auth-tdeasywb.link
 -d auth-tdeasywb.org
 -d authenticatenewpayment.link
@@ -608,13 +601,11 @@ msFilterList
 -d authorise-myonlinebankingdetails.com
 -d authorise-mytransactions.com
 -d authorise-newtransaction.com
--d authorise-nwolb.com
 -d authorise-paymentid.com
 -d authorised-devices.com
 -d authorisemypayee.com
 -d authorisepayee-remove.com
 -d authormacchaz.com
--d authrp8r1aaqe1rirqni8aa1er1a.s3.eu-north-1.amazonaws.com
 -d authservicepage.web.app
 -d auto-atendimento.com
 -d auto-suchen-mobile.de
@@ -696,6 +687,7 @@ msFilterList
 -d bank-project.surge.sh
 -d bankaccountsecurity-uk.com
 -d bankcampuscareers.tal.net
+-d bankimseed.com
 -d bankingloginonline.com
 -d bankingonlineregister.co.uk
 -d bankloginonline.com
@@ -708,6 +700,7 @@ msFilterList
 -d bappeda.ketapangkab.go.id
 -d baqala.me
 -d baradua.it
+-d barracuda.royal-eng.ps
 -d basvrmerkezgriskaytol.com
 -d bathwaresanitary.com
 -d batterybazaaronline.com
@@ -720,6 +713,7 @@ msFilterList
 -d bbgeeks.com
 -d bbqgrillsgalore.com
 -d bbsuporteacesso24horas.com
+-d bcgeneralaprende.com
 -d bcolomb.com
 -d bcp.futbolfinanciero.com.pe
 -d bcpsonasegurabeta-viabcp.ml
@@ -760,6 +754,7 @@ msFilterList
 -d betterbacktogether.com
 -d betterbodynet.acemlnc.com
 -d bettyloupaints.com
+-d bevgimotea.tk
 -d bexmailcenter.weebly.com
 -d bexupsggaexcc.weebly.com
 -d bexwebmailupdate.web.app
@@ -800,6 +795,7 @@ msFilterList
 -d bizydev.com
 -d bizzlogin.com
 -d blackonblacklove.info
+-d blackwealthrenaissance.com
 -d bladetv.top
 -d blauzac.com
 -d bliiss.shop
@@ -822,6 +818,7 @@ msFilterList
 -d blog4passion.com
 -d bloomb2b.com
 -d bloquenegro.cl
+-d blowgers.com
 -d blubrown.com
 -d blueaxisshipping.com
 -d bluefish-digital.com
@@ -829,6 +826,7 @@ msFilterList
 -d blueribbons.org
 -d blueseainstitute.com
 -d bluestone-creations.com
+-d bluetargetmarketing.com
 -d blueteak.0fees.us
 -d blusyne.lt
 -d bmbhartischool.com
@@ -859,7 +857,6 @@ msFilterList
 -d bonusdominohiggs-dominoisland.weebly.com
 -d bony-descriptive-objective.glitch.me
 -d bookmyhousemaids.com
--d boradental.com.tr
 -d botaoff-cupom1203.com
 -d botforbyks.blogspot.ru
 -d boutique.ferme-des-campagnes.com
@@ -899,6 +896,7 @@ msFilterList
 -d buorne.ch
 -d busanopen.org
 -d businesslifecoachingcanada.com
+-d bustabit.vip
 -d buyelectronicsnyc.com
 -d buyxtrixtviptv.com
 -d buzzgraphics.net
@@ -917,6 +915,7 @@ msFilterList
 -d cabinetekobo.cm
 -d cadacosaalseulloc.cresidusvo.info
 -d cafeh.ie
+-d cahsbcalerts.com
 -d cahyanirynn.wikaba.com
 -d cakedesignroma.it
 -d cakesbyannemotha.com
@@ -943,7 +942,6 @@ msFilterList
 -d cancel-paymentonline.com
 -d cancel-unauthorised-payee.com
 -d canceldevice-login.com
--d cancellation-alert-update.com
 -d cancellation-payee-update.com
 -d cancellation-secure-device.com
 -d cancellationpayeedevice.com
@@ -975,6 +973,7 @@ msFilterList
 -d carpetcleaning-rosevilleca.com
 -d carrefour.googIe.casa
 -d carrierlaw.uptreedev.com
+-d carrozzeriadepierro.it
 -d carryco.com
 -d carrytheskull.com
 -d cartoriovendanova.net.br
@@ -995,12 +994,12 @@ msFilterList
 -d cb-yb-secure-deregister.com
 -d cb1c6eae2d.wixsite.com
 -d cbango.com.ar
--d cbasecure.com.au
 -d cbbc.banksacc.com
 -d cbdhealthreviews.org
 -d cbh.rn86.ru
 -d cbhmob.rn86.ru
 -d cbjets.com
+-d cbrxeigmgk.web.app
 -d cdek-pay.ru.com
 -d cdgolf44.fr
 -d ce-ceva.fr
@@ -1008,6 +1007,7 @@ msFilterList
 -d cecafieirl.com
 -d cecmultiservice.it
 -d cefwebchat.chatbsservices.com.br
+-d cekilistime.xyz
 -d celebyeah.com
 -d celestialauto.com
 -d celiamay.com
@@ -1027,7 +1027,6 @@ msFilterList
 -d cevem.com.mx
 -d cew.safewallet.replayattack.us
 -d cf50l.csb.app
--d cfe-recibos.com.mx
 -d cg-oe.snprobbx.pbz.r.de.a2ip.ru
 -d ch.net2care.com
 -d ch.prunauneau.fr
@@ -1053,8 +1052,11 @@ msFilterList
 -d chatgrupwhatsappjoinkanyuk.wikaba.com
 -d chatwa105.dns05.com
 -d chatwa112.dns05.com
+-d chatwa113.dns05.com
 -d chatwa114.dns05.com
+-d chatwa121.dns05.com
 -d chatwa124.dns05.com
+-d chatwa142.dns05.com
 -d chatwa143.dns05.com
 -d chatwa146.dns05.com
 -d chatwa190.dns05.com
@@ -1062,21 +1064,24 @@ msFilterList
 -d chatwa199.dns05.com
 -d chatwa218.dns05.com
 -d chatwa228.dns05.com
+-d chatwa233.dns05.com
 -d chatwa267.dns05.com
--d chatwa276.dns05.com
+-d chatwa287.dns05.com
+-d chatwa304.dns05.com
 -d chatwa319.dns05.com
 -d chatwa321.dns05.com
+-d chatwa330.dns05.com
 -d chatwa433.dns05.com
 -d chatwa98.dns05.com
 -d chatwa99.dns05.com
 -d chatwabudi01ge.forumz.info
+-d chatwhasapagrub.wikaba.com
 -d chatwhatsapp-sahur2020.otzo.com
 -d chatwhatsapp571.my03.com
 -d chatwhatsapps.ezua.com
 -d check-a-payee.com
 -d check-payee.net
 -d checkatrade.cc
--d checkid-newpay.com
 -d checkid-queries.com
 -d checkmynewphotos.com
 -d checkrebate-online.co.uk
@@ -1088,6 +1093,7 @@ msFilterList
 -d chhotumaharaj.com
 -d chiarabernardi.it
 -d chiaracremonesi.com
+-d chicagowaterandfirerestorations.com
 -d chileanylgroup.cl
 -d chinafanpu.com
 -d chinajinfang.com
@@ -1153,6 +1159,7 @@ msFilterList
 -d cocobays.vn
 -d cocovip.net
 -d codashop-event-mlbb-229.zyns.com
+-d codashop-event-mobilelegend01.zyns.com
 -d codashop-ph2020.ezua.com
 -d codashop-phmlbb.ezua.com
 -d codeblue.ch.net2care.com
@@ -1181,6 +1188,7 @@ msFilterList
 -d completedentalcare.co.in
 -d compliance-central.com
 -d composito.com.br
+-d comprensivomarrosso.edu.it
 -d computershoys.net
 -d comune.gioiadeimarsi.aq.it
 -d comunicazioniarubait.tumblr.com
@@ -1190,6 +1198,7 @@ msFilterList
 -d configuration-infos.firebaseapp.com
 -d confineurgency.com
 -d confirm-fbi-523168713.tk
+-d confirm-my-newpayments.com
 -d confirm-mynewpayments.com
 -d confirm-mynewtransfer.com
 -d confirm-mynewtransfers.com
@@ -1217,7 +1226,6 @@ msFilterList
 -d content43532522.texservis.su
 -d conteudoprodaisystringer.com
 -d contractcomplianceservices.com
--d contractorinsurancequeen.com
 -d control.pw
 -d convocatoriasactualizadas.com
 -d cook.shortest-route.com
@@ -1226,8 +1234,10 @@ msFilterList
 -d copyfuti.hu
 -d coquicalderon.com
 -d coral-candle-atrociraptor.glitch.me
+-d corazonvenezolano.com
 -d corinnakegel.com
 -d cornia.in
+-d cornlnq.com
 -d corporacionplaneta.com
 -d correos.chile.cl.u1258545.cp.regruhosting.ru
 -d correoweu.internetbasedfamily.com
@@ -1255,6 +1265,7 @@ msFilterList
 -d cpc.cx
 -d cpcamera.com
 -d cr.lnet.org.il
+-d cr.mufg.jp.zgzksl.com
 -d cr.mufj.jp.zksfx.com
 -d crackaworld.com
 -d craniorolloos.nl
@@ -1281,11 +1292,9 @@ msFilterList
 -d cssnf-auth.ml
 -d cssnf.gq
 -d ctr.saatrva.com
--d ctsbi.org
 -d ctwazerbaijan.com
 -d cubecz.webeden.co.uk
 -d cuddl.id
--d cuhirabe.temp.swtest.ru
 -d cuisineenville.fr
 -d cuntabuse.za.net
 -d cup0p.app.link
@@ -1297,6 +1306,7 @@ msFilterList
 -d customer-transfer-reference1723.com
 -d customer-transfer-reference55263.com
 -d customer.paypal.restored.cemaco.vn
+-d customerhomealertmainsupportalrts09jiomk.000webhostapp.com
 -d customnursingpapers.com
 -d cut.ci
 -d cvd-grant-securegovuk.com
@@ -1307,7 +1317,6 @@ msFilterList
 -d cxauthdispositivo.com
 -d cxmx2020atualizacao.com
 -d cxnaturals.com
--d cxonlineseg.com
 -d cynthialoy.com
 -d cz0centrum.com
 -d cz84.webeden.co.uk
@@ -1320,7 +1329,6 @@ msFilterList
 -d da822325-313f-4f85-b334-d9b00a2d64da.htmlcomponentservice.com
 -d dachdeckermeister-steffenoehler.de
 -d daclando.ml
--d dadada.byethost15.com
 -d dag-mot-lan.firebaseapp.com
 -d dailyexclusiveoffer.com
 -d dailymart.org
@@ -1337,12 +1345,14 @@ msFilterList
 -d darktoxicity.com
 -d darlingmike.com
 -d darrellrussell.net
+-d darrintoddlittlephotography.com
 -d dasqwea.khjiusdga.top
 -d data.nico.digital
 -d dataforce.co.uk
 -d dataupdaterequired.site44.com
 -d datelsolutions.co.uk
 -d datos.pueblacapital.gob.mx
+-d datzdem.com
 -d davitherbal.com
 -d davivienda.enlinea-personas.co
 -d dawnprince.com
@@ -1363,12 +1373,10 @@ msFilterList
 -d de-spk3432765.xyz
 -d de-veri-fizierung.xyz
 -d de.gethuman.com
--d de.pineappleeventagency.com
 -d deafgeeksdns.com
 -d dealerzone.greatnortherncabinetry.com
 -d decaturilbgc.com
 -d decline-activity.com
--d decline-payee-online.com
 -d decline-payee-security.com
 -d declinenewpayee.link
 -d decreto-obbligatorio.com
@@ -1392,11 +1400,11 @@ msFilterList
 -d demo.asc925.com
 -d demo.kinomilenium.mk
 -d demo.samretpechfinance.com
+-d demo.teknolobi.cf
 -d demo.teleconsegno.it
 -d den.eysel.net
 -d denartcc.org
 -d denuihuongson.com.vn
--d deny-access-online.com
 -d departmen-advant-pages.my.id
 -d depibellamonterrey.com
 -d deregister-device-info.com
@@ -1408,7 +1416,6 @@ msFilterList
 -d deregister-info.com
 -d deregister-lloyd-unauthorisedaccess.com
 -d deregister-new-device.co.uk
--d deregister-new-mobile.co.uk
 -d deregister-new-paired-device.com
 -d deregister-new-payee.co.uk
 -d deregister-newdevice-securelloyd.com
@@ -1466,7 +1473,6 @@ msFilterList
 -d device-conformation-uk.com
 -d device-deregistered-new.com
 -d device-deregistered-online.com
--d device-help-for-lloyds-bank.com
 -d device-identification.com
 -d device-issues-halifax.com
 -d device-online-payee.com
@@ -1498,6 +1504,7 @@ msFilterList
 -d dhakajournals.com
 -d dhakarnews24.com
 -d dhhfhdf.club
+-d dhl-livraison-express-colis.com
 -d dhlesgmarketing.com
 -d dhlgpi.com
 -d dhlpakket.live
@@ -1512,7 +1519,6 @@ msFilterList
 -d digitalbanking-info-activity.com
 -d digitalbanking-info-update.com
 -d digitalbanking-mobile-signin.com
--d digitalbanking-online-accounts.com
 -d digitalbanking-secure-signin.com
 -d digitalbanking-signin-accounts.com
 -d digitalbanking-signin-auth.com
@@ -1535,7 +1541,6 @@ msFilterList
 -d divano.cl
 -d diversepropertysolutions.com
 -d dixdomains.com
--d djhebhvbdhfhdhf.com
 -d dkb1231ag.site44.com
 -d dl-tornj.ir
 -d dlakupujacych.allegro.secfence.lesavik.net
@@ -1551,7 +1556,6 @@ msFilterList
 -d doc.google.share.pressurecookerindia.com
 -d doc.microsofttoolkit.org
 -d doclab-console-auth.firebaseapp.com
--d docsharex-authorize.firebaseapp.com
 -d documentos.sfo2.digitaloceanspaces.com
 -d dofus-eventoffi.com
 -d dofus-koloriox.com
@@ -1588,7 +1592,6 @@ msFilterList
 -d dpttrwmc37wji.cloudfront.net
 -d dranathaliamatos.com.br
 -d drcarmenmora.com
--d dreammakerscruises.icu
 -d drivetransfer.co
 -d drivetransfer.org
 -d drsamuelzorrilaslives.com
@@ -1597,7 +1600,6 @@ msFilterList
 -d dsastars.org
 -d dsgcbeonline.com
 -d dtvweb.org
--d duartedasilval62.000webhostapp.com
 -d duboisdubois2016.wixsite.com
 -d duffelbagadventures.com
 -d duffywholesalers.com
@@ -1654,9 +1656,11 @@ msFilterList
 -d ebay.payments-support-center.com
 -d ebay.uk-seller-issues.com
 -d ebayitm.com.buyitnowpage.com
+-d ebooks12.sharon-davis-online.com
 -d ebsarksa.org
 -d ebuddynews.com
 -d ec-polus.ru
+-d ecmall.vip
 -d ecngx279.inmotionhosting.com
 -d ecolinklogistics.co.ke
 -d ecomcrew.staging.wpengine.com
@@ -1672,25 +1676,20 @@ msFilterList
 -d educadoracanina.com.br
 -d eduinfo.co.rs
 -d edutechoverseas.com
--d ee-account.org
 -d ee-bill-notice.co.uk
 -d ee-bill-unsuccessful-please-try-again.com
 -d ee-billing-info-uk.com
+-d ee-billing-limited.co.uk
 -d ee-billingauth-updates.com
 -d ee-billinginfo-update.com
 -d ee-billingpaymentupdate.com
--d ee-billingsecure-auth.com
 -d ee-billingsecure-update.com
--d ee-billingupdatesecure.com
 -d ee-billpayee.com
 -d ee-confirm-billingupdate.com
 -d ee-confirmationbilling.com
+-d ee-details-updates.com
 -d ee-failedbilling.com
--d ee-help-billing.com
--d ee-helpbilling.com
 -d ee-information.com
--d ee-mysupportpage.com
--d ee-paymentupdates-secured.com
 -d ee-processauthbilling-update.com
 -d ee-rebilling.com
 -d ee-resolve-billing.com
@@ -1698,13 +1697,13 @@ msFilterList
 -d ee-resolvebills.com
 -d ee-securebilling-uk.com
 -d ee-secureuk.com
--d ee-service-uk.com
 -d ee-serviceuk.com
 -d ee-uk-secure.com
 -d ee-uksecure.com
 -d ee-upatebilling.com
 -d ee-updateauth-update.com
 -d ee-updatebilling-information.com
+-d ee-updatebilling-payments.com
 -d ee-updatebilling-update.com
 -d ee-updatebilling.co
 -d ee-updateuk-billing.com
@@ -1712,6 +1711,7 @@ msFilterList
 -d ee5gbills.com
 -d eebilling-renew.com
 -d eebilling-support.xyz
+-d eebillingsaccount.live
 -d eebillingsecure.com
 -d eed9c99e4d3669214.temporary.link
 -d eehelp.co.uk
@@ -1720,6 +1720,7 @@ msFilterList
 -d eenetworkservicing.co.uk
 -d eeproblem.com
 -d eescrow.com
+-d eesecure-servicesuk.com
 -d eesecurebilling.com
 -d eesecureservice.com
 -d eeuk-updatebilling.com
@@ -1735,24 +1736,20 @@ msFilterList
 -d eislueqr.livedrive.com
 -d ekotienda.com.mx
 -d eladios.com.mx
--d elavution-cek-point-ck-85621373513674843247.tk
 -d elavution-cek-point-ck-85621373513674843776.tk
 -d elavution-cek-point-ck-856213735136748437770.tk
 -d elavution-cek-point-ck-856213735136748437771.tk
 -d elavution-cek-point-ck-856213735136748437773.tk
--d elavution-cek-point-ck-856213735136748438340.tk
 -d elavution-cek-point-ck-8562137351367484385551.tk
 -d elavution-cek-point-ck-8562137351367484385552.tk
 -d elavution-cek-point-ck-8562137351367484385554.tk
 -d elavution-cek-point-ck-8562137351367484385555.tk
 -d elavution-cek-point-ck-8562137351367484385558.tk
 -d elavution-cek-point-ck-8562137351367484385561.tk
--d elavution-cek-point-ck-8562137351367484385752.tk
 -d elavution-cek-point-ck-8562137351367484385753.tk
 -d elavution-cek-point-ck-8562137351367484385754.tk
 -d elavution-cek-point-ck-8562137351367484385755.tk
 -d elavution-cek-point-ck-8562137351367484385756.tk
--d elavution-cek-point-ck-8562137351367484385758.tk
 -d elavution-cek-point-ck-8562137351367484385759.tk
 -d elavution-cek-point-ck-85621373513674843915.tk
 -d elavution-cek-point-ck-8562137351367484472491.tk
@@ -1773,6 +1770,7 @@ msFilterList
 -d ellenronaldskeene.com
 -d eloginonnecteplus.wixsite.com
 -d elomo.ro
+-d eloquent-cori-1331af.netlify.app
 -d elsiriri.com.ar
 -d em2l.com
 -d email.2020cycling.cc
@@ -1786,14 +1784,13 @@ msFilterList
 -d emasresources.com
 -d embdestech.co.in
 -d emebfsasampaio.creatorlink.net
--d emeducation.com.my
 -d emergenceconseils.net
 -d emf-central.com
 -d emigratingtothesun.com
+-d emiratespost.ae.parcel.migproperties.ae
 -d empirejewelers.us
 -d employee-portal.buildingandearth.com
 -d empoweredskills.co.uk
--d empresas-intrerbamkpe.com
 -d empresas-lnterbankperu.com
 -d empresas-lnterbanlkpe.com
 -d empresas-lnterlbank-pe.com
@@ -1815,12 +1812,12 @@ msFilterList
 -d eng.tni.ac.th
 -d engcamp.org
 -d englishstudio.ir
--d enjaz-systems.com
 -d enlinea-pe.com
 -d enorma.is
 -d ensemblearsmundi.com
 -d enternetnow.com
 -d entreriostotal.com.ar
+-d envision3d.mysite.web.za
 -d enyumusic.com
 -d eostechnologies.net
 -d epgpianos.com.au
@@ -1842,7 +1839,6 @@ msFilterList
 -d erp.oriontravels.com.bd
 -d errictandalex.kenaidanceta.com
 -d error-removal-ibeneficiary.com
--d ert.earthresourcetechnology.com
 -d ertu.streamlink.to
 -d ervices.runescape.com-er.ru
 -d esafetech-bd.com
@@ -1877,6 +1873,7 @@ msFilterList
 -d eusa-lombo.firebaseapp.com
 -d eveningfeedfun.com
 -d eventosvallarta.com.mx
+-d eventpmgcpubg.25u.com
 -d events-dofus.fr
 -d events.af
 -d eventskingratisresmimoonton.000webhostapp.com
@@ -1884,7 +1881,6 @@ msFilterList
 -d eventxmetro.com
 -d everdry.com
 -d evidaac.com
--d evolque2020.lon.wafaicloud.com
 -d ewi.my.salesforce.com
 -d exchangedictionary.com
 -d excited-rhinestone-tuba.glitch.me
@@ -1924,8 +1920,6 @@ msFilterList
 -d facebook.anasaounalsoud.eu
 -d facebook.com-marketplace-93839.mediaryte.co
 -d facebook.com.jamunatech.com
--d facebook.cybersquadpeshawar.com
--d facebook.getsz8.gq
 -d facebook.hrbureaugh.com
 -d facebook.marketplace-item-93248.scheff.com
 -d facebook.my-domino.pl
@@ -1933,7 +1927,9 @@ msFilterList
 -d facebook.tyx9.ga
 -d facebooklogiin.ga
 -d facebooks-vn.tk
+-d facebooksverificationns.tk
 -d facebookteste.comunidades.net
+-d faceebok-id9275-manage.listing-item5893293757283.com
 -d faceebok-page1752245.manage-item5215012765238.com
 -d facsell.com
 -d factursicoobtopnacionalvoc.com
@@ -1941,7 +1937,6 @@ msFilterList
 -d fafutoa7h.xyz
 -d fairauditors.com
 -d fairmarttrading.com
--d faketela2021.000webhostapp.com
 -d faktypolska7.b-cdn.net
 -d faleupas.kissr.com
 -d famenator.in
@@ -1963,9 +1958,6 @@ msFilterList
 -d fb-improve-1000008704832184603.tk
 -d fb-improve-1000008704832184604.tk
 -d fb-improve-1000008704832184605.tk
--d fb-improve-1000008704832184606.tk
--d fb-improve-1000008704832184607.tk
--d fb-improve-1000008704832184608.tk
 -d fb-improve-1000008704832184609.tk
 -d fb-improve-1000008704832184610.tk
 -d fb-realestate.com
@@ -2002,6 +1994,7 @@ msFilterList
 -d fiestanube.com.ar
 -d figoodies.com
 -d filedotard.yolasite.com
+-d filmbaru56.my03.com
 -d filmbaru57.xxuz.com
 -d filmbaru68.xxuz.com
 -d financiallifecoaching.builderallwp.com
@@ -2037,7 +2030,6 @@ msFilterList
 -d foamnflow.com
 -d focusphotography.co.vu
 -d foliar.pl
--d followersgratisinstagram.unaux.com
 -d foma-ura-lote.firebaseapp.com
 -d foodforthepoorest.net
 -d football-stre.com
@@ -2045,6 +2037,7 @@ msFilterList
 -d foresta-mod.firebaseapp.com
 -d foreverfly.co.uk
 -d forgesmithvr.com
+-d form-verification-protections-and-community-standards-updates.us
 -d form.elementform.com
 -d formbuddy.com
 -d formreclami.com
@@ -2066,8 +2059,8 @@ msFilterList
 -d fr.imsly.com
 -d fr.proxy.al
 -d franchisedealer.in
--d franckboniface60.wixsite.com
 -d franckdupont1991.wixsite.com
+-d francohook.com
 -d francprince581.website2.me
 -d frankdiekman.com
 -d franktechnik.com
@@ -2118,7 +2111,6 @@ msFilterList
 -d galen.co.ke
 -d game.climatechgroup.com.au
 -d gamecenterxpubgm.com
--d gameplaylabs.com
 -d gammanu1947.com
 -d ganasshotel.com
 -d gangnam.wooridul.co.kr
@@ -2153,15 +2145,12 @@ msFilterList
 -d gets.binal.my.id
 -d getway-securite20c9a821.motionsoul.it
 -d gfxx.creatorlink.net
--d ggarrido.com
 -d ggl.ac
 -d ghorana.com
 -d giftexs.xyz
 -d giftraaga.com
--d giftscartitansterbaruspesialtahunbaru.000webhostapp.com
 -d gilstrap-sneed.com
 -d gim-par.com
--d gimmemp.com
 -d gioielleriaroberti.it
 -d giovanninashville.com
 -d girlgotfaith.com
@@ -2179,7 +2168,6 @@ msFilterList
 -d globaleventpubgm.com
 -d globalworks.main.jp
 -d glosowanie-krakow.3i3.eu
--d glosvfredyr.web.app
 -d glowtrk7.com
 -d glsword.com
 -d gmcraig.com
@@ -2188,7 +2176,6 @@ msFilterList
 -d gmxmail.yolasite.com
 -d gndrive.org
 -d gns.io
--d go2l.ink
 -d goal.com.pe
 -d goalatogames.play-minigames.com
 -d godeaug.org
@@ -2201,8 +2188,12 @@ msFilterList
 -d goldtimexgroup.com
 -d golfballsonline.com
 -d goliathbusinesscapital.com
+-d golimo1.com
+-d golkvten.tenketu.cyou
 -d gonzalofaccastonelli.com
+-d goodbyerealty.com
 -d goodmarkindia.com
+-d google-services.com.devland.cl
 -d google.projectseries.co.in
 -d google.verifyaccount.live
 -d googletest.jontzeng.com
@@ -2212,6 +2203,7 @@ msFilterList
 -d gorsgtrogbq-ghqrafq.monster
 -d gosarthi.in
 -d gostos.co.uk
+-d goto4.page.link
 -d gouv-impot.cemerbas.com
 -d gov.financial-assist.org
 -d gov.lockdown-updates.org
@@ -2222,6 +2214,7 @@ msFilterList
 -d graficabueno.com.br
 -d grandiose-luxurious-avocado.glitch.me
 -d grandmarketltd.co.uk
+-d granhongo.com
 -d granjafico.com
 -d gratiscovid19.mrbonus.com
 -d greatervalleyschool.com
@@ -2245,12 +2238,16 @@ msFilterList
 -d group-18-sans.wikaba.com
 -d group-bokep-wa.zzux.com
 -d group-whatsapp-viip40.gq
+-d group-whatsapp-viip49.cf
+-d group-whatsapp-viip49.ga
+-d group-whatsapp-viip49.tk
 -d group-whatsapss.zzux.com
 -d group9815jcl.fastpluscheap.com
 -d groupbokepwhatsapp09.ezua.com
 -d groups-chats-whatsapps7.wikaba.com
 -d groupwhatsappbokpjojn.jetos.com
 -d groupwhattsap.jkub.com
+-d grsecuri.cf
 -d grt.thenews-today.info
 -d grubbokep22.mrbonus.com
 -d grubevent.000webhostapp.com
@@ -2267,6 +2264,7 @@ msFilterList
 -d grupbokepx.jkub.com
 -d grupchatjoin.adame.jkub.com
 -d grupdewasa17.otzo.com
+-d grupmabaricayoutuber.free-event-xu77.tk
 -d grupo-ing.giorgianavarra.it
 -d grupoabi.cl
 -d gruposcherman.com.br
@@ -2276,6 +2274,7 @@ msFilterList
 -d grupwa18-tys.wikaba.com
 -d grupwa18plus.onedumb.com
 -d grupwhaatsapbokep.mrslove.com
+-d grupwhatsap.ezua.com
 -d grupwhatsapp18live.otzo.com
 -d grupwhatsapphotdewasa18plusplus.4dq.com
 -d grupwhatsappparaseleb.join-viip.com
@@ -2289,9 +2288,7 @@ msFilterList
 -d gxsb8.csb.app
 -d gymn2slv.ru
 -d h5brzd.webwave.dev
--d habateen.com
 -d habitatsiliconvalley.org
--d hackgroup.byethost3.com
 -d hacktodo.com
 -d hahdaeupdate.es.tl
 -d haiifax-app.com
@@ -2361,7 +2358,6 @@ msFilterList
 -d hannetjiefaurie1.creatorlink.net
 -d haogege.52yjh.top
 -d happygifting.net
--d harcomputer.com
 -d haroldhazard1-wixsite-com.filesusr.com
 -d haromaain.com
 -d hasahisd.org
@@ -2392,7 +2388,6 @@ msFilterList
 -d heppler.ch.net2care.com
 -d herbaasma.com.my
 -d hetershaven.net
--d hfax-bos-payeeid.com
 -d hgfathyeuld.weebly.com
 -d hgn2t.app.link
 -d hh-networks.com
@@ -2409,7 +2404,6 @@ msFilterList
 -d hitsem.com
 -d hitze.hu
 -d hjdiuyp.weebly.com
--d hjg.yj7ckov.cn
 -d hkagc.com
 -d hklee.hk
 -d hl7.org.ar
@@ -2418,10 +2412,11 @@ msFilterList
 -d hm.ru
 -d hmlkl.codesandbox.io
 -d hmp.me
+-d hmrc-claimrefund.info
 -d hmrc-rebates1.ru
 -d hmrc-rebates2.ru
+-d hmrc-refund-claimuk.com
 -d hmrc-uk.online-refund-claims.com
--d hmrc.health
 -d hmzcarrentalcom.dotster.com
 -d hnfnllzg.cn
 -d hoantrungdanang.com
@@ -2526,7 +2521,6 @@ msFilterList
 -d id-38904256-login-made-in-china.pantheonsite.io
 -d id-ee-signin.com
 -d id-orange-fo.wixsite.com
--d ideal-platform.me
 -d idealcaisse.fr
 -d identifiez-orange404.weebly.com
 -d identifiez-vous-avec-votre-compte.yolasite.com
@@ -2549,8 +2543,8 @@ msFilterList
 -d ilaj.whitemelontech.com
 -d ilardo.com
 -d imaybank.com
--d imed2309.com
 -d img.maplejournal.co.in
+-d immediate-diary.000webhostapp.com
 -d immig.click
 -d imob-ibeneficiary-iremove.com
 -d impotspublicservice.com
@@ -2590,7 +2584,6 @@ msFilterList
 -d ingersolmusic.com
 -d ingresosucursalpersonasbancolombia.com.co
 -d innerwesttyresale.com.au
--d innexinc.com
 -d innoaura.com
 -d innovative-progress.com
 -d inscreditos.com
@@ -2600,12 +2593,16 @@ msFilterList
 -d instagram-facebook.cf
 -d instagram-login.in
 -d instagram-report.ml
+-d instagram-team.gq
+-d instagram.com.daftarinsta.ir
 -d instagram.hop.ru
 -d instagram.xn--ehitaileleredestekvakf-7ld59h.xyz
+-d instagramcopyrightnotice-fc.gq
 -d instagramediaservice.ml
 -d instagramforbusinessoffice.tk
 -d instagramglobalcopyrightconsultancy.com
 -d instagramhelpp.agency
+-d instagramportalservers.com
 -d instagramru.com
 -d instagramtakipcikas.com
 -d instagramverifybadgest.ml
@@ -2628,11 +2625,11 @@ msFilterList
 -d intesamobile.com
 -d intexagency.com
 -d intranet.fepem.org
+-d intranet.prorim.org.br
 -d intrrnekbakkngdbs.com
 -d intserviy.it
 -d investliberia.gov.lr
 -d invitegroupwhatsapp-berbagikeasikan18.onedumb.com
--d invitegroupwhatsapp-berbagionline18.onedumb.com
 -d invitegroupwhatsapp-berbagivideosyurr.onedumb.com
 -d invitegroupwhatsapp-malammingguan.zzux.com
 -d invitegroupwhatsapp-temengabuts.onedumb.com
@@ -2657,7 +2654,6 @@ msFilterList
 -d irenterprises.in
 -d irisdigi-labs.com
 -d irstds.com
--d isabellacano.com
 -d ise.blob.core.windows.net
 -d isecret.blob.core.windows.net
 -d isecure-unauthorised-access.com
@@ -2683,10 +2679,8 @@ msFilterList
 -d itechcircle.com
 -d itemfrostclaim16.ocry.com
 -d itisrighi.fg.it
--d itsao.edu.mx
 -d itsssl.com
 -d itunes-signup.performancehorizon.com
--d itunesgenerator.com
 -d ity2v7.webwave.dev
 -d iun.saatrva.com
 -d iverify-isecurity-cancel.com
@@ -2772,6 +2766,7 @@ msFilterList
 -d joinngrubwa.itsaol.com
 -d joins-grubwhatsapp.xxxy.biz
 -d joinwhatsap5.zyns.com
+-d joinz-grub-whatsappid01.ga
 -d joipods.ca
 -d jokes4ever.com
 -d joki.hop.ru
@@ -2789,13 +2784,9 @@ msFilterList
 -d jp-morgan.team
 -d jp-rakuten.1l6.top
 -d jp-rakuten.202181463851.top
--d jp-rakuten.32f.top
--d jp-rakuten.4ce.top
--d jp-rakuten.4uk.top
 -d jp-rakuten.c0k.top
 -d jp-rakuten.d1l.top
 -d jp-rakuten.e1m.top
--d jp-rakuten.j15.top
 -d jp-rakuten.p31.top
 -d jpmc4ance3dance.duckdns.org
 -d jrnljen.ru
@@ -2816,7 +2807,6 @@ msFilterList
 -d jvkj-ru.1gb.ru
 -d jyotsacademy.co
 -d k934743878737.web.app
--d kaayamo.com
 -d kadityhs.com
 -d kadugollamatrimony.com
 -d kaeuferschutz-ebay.de
@@ -2827,6 +2817,7 @@ msFilterList
 -d kama.hop.ru
 -d kamillcosmetic.com
 -d kankakeetankwash.com
+-d kapanakumati.000webhostapp.com
 -d karaokepay.lemonktv.com
 -d karate-haguenau.com
 -d karavella12.hop.ru
@@ -2858,7 +2849,6 @@ msFilterList
 -d khoddami-group.com
 -d khoobsuratfabrics.co.uk
 -d khost.smbfundraising.com
--d khujo.com
 -d kiacops.com
 -d kidsruscenter.com
 -d kiemtienkts.com
@@ -2902,6 +2892,7 @@ msFilterList
 -d kristenpoborsky.com
 -d krplas.com
 -d krplas.net
+-d ksemiklowsea.com
 -d kshconsultingllc.com
 -d ktplasmachinery.com
 -d ktpn.kalisz.pl
@@ -2911,7 +2902,6 @@ msFilterList
 -d kuberavc.com
 -d kuchkuchnights.com
 -d kuconline.com
--d kumpulan-bokep-terbaru-indo-japan.000webhostapp.com
 -d kundenlogin-ebeay.de
 -d kunpulanvidiobokep.mymom.info
 -d kunstpris.dk
@@ -2950,11 +2940,11 @@ msFilterList
 -d latmasoud.persiangig.com
 -d latos.co.kr
 -d laurierleweb.com
--d lausellv.com
 -d lavidasegundanny.com
 -d lavienailscorp.com
 -d lazeezcatering.com
 -d lb-lloydauthid.services
+-d lb.mypayee-reg.com
 -d lbcpzonasegurabeta.rf.gd
 -d lboindustrial.com.mx
 -d lbpayee-verify.com
@@ -3014,7 +3004,6 @@ msFilterList
 -d lioyds-app.co.uk
 -d lioydsonline.co.uk
 -d liquidacaoame.app
--d listingcambodia.com
 -d lithiumtolashes.com
 -d littleelmapartments.com
 -d littlefoots.ru
@@ -3035,7 +3024,6 @@ msFilterList
 -d lloyd-securedservice.com
 -d lloyd-securityservices.com
 -d lloyd-servicesecurity.com
--d lloyd-userbanking.com
 -d lloyd-useronline.com
 -d lloyd-userservice.com
 -d lloyd.authorisedpayees.com
@@ -3059,6 +3047,7 @@ msFilterList
 -d lloyds-payeeconfirmation.com
 -d lloyds-secure-online.com
 -d lloyds-secure.uk
+-d lloyds-uk-bank.com
 -d lloyds.payee.management
 -d lloyds.secureaccountuk.com
 -d lloydsalert-payee-confirmation.com
@@ -3076,7 +3065,6 @@ msFilterList
 -d lloydsbank.online-personal-secure-payee.com
 -d lloydsbank.online-secure-payee-advanced-security.com
 -d lloydsbank.online-securedata-personal.com
--d lloydsbank.online-verify-secure-auth.com
 -d lloydsbank.online-verify-security-auth.com
 -d lloydsbank.personal-auth-device.com
 -d lloydsbank.personal-device-auth-security.com
@@ -3097,14 +3085,13 @@ msFilterList
 -d lloydsbank.secure-payee-authenticate.com
 -d lloydsbank.secure-personal-device-login.com
 -d lloydsbank.secure-personal-device.com
+-d lloydsbank.secure-the-bread-online.com
 -d lloydsbank.secure-unrecognised-device-check.com
 -d lloydsbank.secure-unreg-dev-authorisation.com
--d lloydsbank.secure-unreg-dev-check.com
 -d lloydsbank.secured-auth-payees-authorisation.com
 -d lloydsbank.secured-unregistered-device-authentication.com
 -d lloydsbank.security-payee-request-login.com
 -d lloydsbank.user-online-device-personal.com
--d lloydsbank.userprotect-onlinelogin.com
 -d lloydsbank.verify-online-security.com
 -d lloydsbankplc.online-banking-new-dev-auth.com
 -d lloydsbankplc.personal-verify-online.com
@@ -3128,9 +3115,9 @@ msFilterList
 -d lnstagram-media-center.cf
 -d lnstagram-verifybadgehelp.ml
 -d lnstagramcenteroffice.com
+-d lnstgram-verify-badges.ml
 -d localbeani.myshopify.com
 -d localbintcoinis.com
--d localgaybusiness.com
 -d localizacao-apple.com
 -d locategories.com
 -d locationimagery.com
@@ -3159,6 +3146,7 @@ msFilterList
 -d loginmillas-pe1.com
 -d loginonlinehalifax-secure.com
 -d loginsvocals8.webnode.be
+-d loginto-amazon.serveirc.com
 -d logintojoingroup.mydad.info
 -d logintojoingroupps.mymom.info
 -d logits.ml
@@ -3174,6 +3162,7 @@ msFilterList
 -d londonshortstays.com
 -d long.af
 -d lookdigital.co
+-d lookitisseeyour.computerisbadlooksiseeyouare.top
 -d lopezobrador.shop
 -d lordthewitcher.tumblr.com
 -d loreal.oh-wear.com
@@ -3182,6 +3171,7 @@ msFilterList
 -d louisville.edu.parallelinvestmentstore.com
 -d louvreonline.in
 -d lovedone3ww.weebly.com
+-d loverewardgiver.com
 -d lovsit.mara20.ru
 -d loyalvending.com
 -d lp2m.umsu.ac.id
@@ -3189,6 +3179,7 @@ msFilterList
 -d lqw9r6y8q.codesandbox.io
 -d lsrc.org.ls
 -d ltwvdb.webwave.dev
+-d lucid-murdock-62acba.netlify.app
 -d luckyelephantthai.com
 -d luckyspin01.com
 -d luckyspinpubgmobilemetro.com
@@ -3198,6 +3189,7 @@ msFilterList
 -d lucy-walker.com
 -d ludiequip.es
 -d luigitavanti.com
+-d lunchzoo.com
 -d lust-auf-urlaub.net
 -d luxrepaircenter.com
 -d lvk.hop.ru
@@ -3207,12 +3199,15 @@ msFilterList
 -d m-facebook.ct8.pl
 -d m-faceboookcom.weebly.com
 -d m-pa.it
+-d m-suchen-mobile.de
 -d m.4everproxy.com
 -d m.facebook-market-item-7523412.rosesjewelrybox.com
 -d m.facebook.com------account--sec--center----repxk112412.schmittfamilyfarm.com
 -d m.facebook.tsinbei.cn
+-d m.hf652.com
 -d m.internet-b.com
 -d m.visa.com-req-8337744284.gulab.com.tr
+-d m.visa.com-req-9420173318.gulab.com.tr
 -d m42club.com
 -d m4midasbuy.com
 -d m54af8.webwave.dev
@@ -3247,12 +3242,12 @@ msFilterList
 -d mail.authorise-mynewpayees.com
 -d mail.authorise-mynewtransactions.com
 -d mail.bafiw.com
+-d mail.cbc.sh.cn
 -d mail.ccbcmd.edu
 -d mail.charperimagedesign.com
 -d mail.chtcauto.com
 -d mail.cura360.in
 -d mail.deregister-device.org
--d mail.deregister-new-mobile.co.uk
 -d mail.deregister-payee-online.com
 -d mail.deregisterdevice-manage.com
 -d mail.device-unauthorizedpayee.com
@@ -3263,6 +3258,7 @@ msFilterList
 -d mail.flacland.ir
 -d mail.garlico-eg.com
 -d mail.golfmaj.com
+-d mail.grupmabaricayoutuber.free-event-xu77.tk
 -d mail.grupwhatsappparaseleb.join-viip.com
 -d mail.harmonmedical.net
 -d mail.helprasuwanepal.org.np
@@ -3308,6 +3304,7 @@ msFilterList
 -d mail.secure-registered-device.com
 -d mail.secured-security.com
 -d mail.security-newmobile.com
+-d mail.simpower.com.cn
 -d mail.soccerth.com
 -d mail.solojoyas.cl
 -d mail.stanmoresandstone.com.au
@@ -3318,6 +3315,7 @@ msFilterList
 -d mail.updatenewpayee.com
 -d mail.webrankingsolutions.com
 -d mail01.tinyletterapp.com
+-d mail1414sdderew.000webhostapp.com
 -d mail2.mclink.it
 -d mailatt-001-site1.itempurl.com
 -d mailbuckeye-expressapp.weebly.com
@@ -3325,12 +3323,13 @@ msFilterList
 -d mailorangemail.wixsite.com
 -d mailpointer.dkgrup-com.tk
 -d mailservicegfhbgsergirguuruirrgw.weebly.com
--d mailtoupdate.confirmrakuten.xyz
+-d mailtoupdate.updateplusamazon.buzz
 -d mailupgrade2info.site44.com
 -d mainehomeconnection.com
 -d maitrepperret.wixsite.com
 -d majoritybitter.com
 -d makamdabiusss.azurewebsites.net
+-d makemoneyreport.org
 -d makkalpathai.org
 -d mala-riba.com
 -d malcolmlfox.com
@@ -3338,8 +3337,6 @@ msFilterList
 -d maltadeliveries.com
 -d mambaotr.com
 -d man1bantul.sch.id
--d manage-fb-7624724204.tk
--d manage-fb-7624724206.tk
 -d manage-fb-7624724207.tk
 -d manage-fb-7624724210.tk
 -d manage-payees-payments.com
@@ -3353,13 +3350,14 @@ msFilterList
 -d mani.documantal.cc
 -d manidhara.com
 -d manuscript.ge
+-d maoengengafud9fekjg.nibuodadsgocongmeingdgas.top
 -d mapadamente.com.br
 -d mapleaiongroup.co.uk
 -d maplgroup.com
 -d maquinasdecartaosemaluguel.com.br
 -d marantoptions.com.au
 -d marcbitoye.wixsite.com
--d marchearningstatment.ontrapages.com
+-d marchand-payne-secure-pp.000webhostapp.com
 -d marciaantunes.com
 -d marcodenova.com.mx
 -d marcosavila.com.ar
@@ -3371,6 +3369,7 @@ msFilterList
 -d marjonhomes.com
 -d mark3.com
 -d markaindo.co.id
+-d markelogies.ga
 -d marketing-sense.co.uk
 -d marketplace-65985214.com
 -d marketvit.by
@@ -3391,6 +3390,7 @@ msFilterList
 -d masteringtriggers.com
 -d mastermindesolutions.com
 -d masteroffchess.com
+-d match.hk
 -d match.lookatmynewphotos.com
 -d matchcom.js-freedom.com
 -d materialspinpubgm.com
@@ -3401,9 +3401,7 @@ msFilterList
 -d maxhealth-adobe-auth.ga
 -d maxhealth-adobe-auth.gq
 -d maxhealth-conm.ml
--d maxhealth-doc.tk
 -d maxhealth-fh.cf
--d maxhealth-org.gq
 -d maxhealth-orlg.cf
 -d maxhealth-orlg.gq
 -d maxhealth-orlg.ml
@@ -3417,9 +3415,9 @@ msFilterList
 -d mcelman.com
 -d mdtec.com.ar
 -d meat.uniandes.edu.co
+-d meatball1215.club
 -d medamiaudette.getenjoyment.net
 -d media-interface.net
--d mediadf.be
 -d medicalbi.it
 -d medicalmary.com
 -d medicvanphuc.vn
@@ -3431,7 +3429,6 @@ msFilterList
 -d meeting-23900123090123.bitbucket.io
 -d meetme.run
 -d megacredi.com
--d meghanboone.com
 -d meimeifuli.co
 -d mekasu.de
 -d melaninpeopleshop.com
@@ -3441,6 +3438,7 @@ msFilterList
 -d memorialpetroniopinheiro.com.br
 -d menterio.com
 -d mentoring.beautyforashes.org
+-d mercadolibre-com-br-escolha-jogo-ps4.000webhostapp.com
 -d mercadotecniaic.com
 -d merecemosalemdetudo.club
 -d merecemostudoealem.club
@@ -3449,14 +3447,14 @@ msFilterList
 -d meritroyalbetgiris20.com
 -d merveyilmazericmimarlik.com
 -d mesquecamping.es
--d mesquite-towering-ferry.glitch.me
 -d messagealertsupportmailalertconnecthomenslbnhj.000webhostapp.com
 -d messageriepro0.weebly.com
 -d messagerievocale0p.wixsite.com
 -d messagerievocale3.wixsite.com
 -d messelive.tv
--d metalcentar.com
+-d metabansc.ru
 -d metaltubos.com.br
+-d metroroyale.org
 -d metroroyaleexodus.com
 -d metrorp16.com
 -d metrovip3.com
@@ -3481,7 +3479,6 @@ msFilterList
 -d midasbuyinfocenter.com
 -d midnightluna1.typeform.com
 -d midshopping.ro
--d midwestfords.org
 -d midyatmimaritas.com
 -d miecompany.8b.io
 -d miennamland.vn
@@ -3540,6 +3537,7 @@ msFilterList
 -d mobile14.net
 -d mobileappupdatehalifaonlinesecure.app
 -d mobiledevicehelp-hplc.com
+-d mobilelegends-newyear.ml
 -d mobilemovieproduction.com
 -d mobilereceivenow.com
 -d mobilesupport-payee.com
@@ -3553,6 +3551,7 @@ msFilterList
 -d modsecpaststudents.com
 -d moelter-film.de
 -d moi.gov.ly
+-d moina-tre.work
 -d moj-nkbm.web.app
 -d moj.aktiv.rs
 -d mokpkovaj-kok.xyz
@@ -3578,6 +3577,7 @@ msFilterList
 -d movil-scotiabank.com
 -d moviles01-zonasegvraperuactiv19.com
 -d movilliberbizum.com
+-d movingcompanies.top
 -d mp3tomato.com
 -d mpaciv.com
 -d mphusky.com
@@ -3595,6 +3595,7 @@ msFilterList
 -d mtcc.unmuha.ac.id
 -d mudanzassuarez.com
 -d mufgpro.xyz
+-d mukor1.typeform.com
 -d mulangilnidhi.com
 -d multbancos.webnode.com.br
 -d multived.com
@@ -3603,10 +3604,8 @@ msFilterList
 -d musicisit.de
 -d mutatio.cl
 -d mux.refurbishments-london.co.uk
--d muz.so
 -d mv.efetr65.scxw34.wdw2xz.wr35gr.5657tht.vdv.dwr3.clearpointsupplies.com
 -d mvhp.com.br
--d mvkoptfree.byethost5.com
 -d mx0.arqsys.srv.br
 -d mxrr.com
 -d mxva33-com.xyz
@@ -3619,28 +3618,27 @@ msFilterList
 -d my-site219.yolasite.com
 -d my-three.app
 -d my.jcb.co.hhwfx.com
+-d my.jcb.co.hrbfmd.com
 -d my.jcb.co.jp.aiafi.com
 -d my.jcb.co.skyead.com
 -d my.nativeforms.com
 -d my02billing.dev
 -d my3-billingservice.com
 -d my3.billing.recentpage.com
+-d my3.uk-auth-d10.com
 -d mybigfatlistbuilder.com
 -d mybill-mythree.com
 -d mybillverify-ee.com
 -d mybpos.net
 -d myckck.in
 -d mycoerver.es
--d mydevwebsites.com
 -d mydigiads.com
--d myee-paymentmethod.com
 -d myee-paymentupdate.com
 -d myee-resubmitbill.com
 -d myee-support.uk
 -d myeeaccountupdate.com
 -d myeebilling-accounts.com
 -d myeebilling-manage.com
--d myeeplan-updates.com
 -d myetherwallet.keynasty.com
 -d myflagstaffpainter.com
 -d mygoddon3me.space
@@ -3674,7 +3672,7 @@ msFilterList
 -d myshop-bgx61.myinsales.ru
 -d mysite.plexusworldwide.com
 -d mytheamsauthecent.wapgem.com
--d mytoolsbd.osstradezone.com
+-d myufg.cc
 -d myunicredit.it
 -d myupdates-mynetflix.com
 -d myvirginmedia-billing.com
@@ -3703,7 +3701,6 @@ msFilterList
 -d naszlombard.pl
 -d national-updates.org
 -d nationalleather.in
--d nationwide-com.com
 -d natwest-newpayment.net
 -d natwest-secure-payee.com
 -d natwest-secure.live
@@ -3736,7 +3733,6 @@ msFilterList
 -d netflix-appl.com
 -d netflix-billing-problem.com
 -d netflix-com.com
--d netflix-jp-myaccounts01-verification0106-updates.dynssl.com
 -d netflix-log.com
 -d netflix-notfification.com
 -d netflix-pre.com
@@ -3779,7 +3775,6 @@ msFilterList
 -d newdevice-deregister-secured-uk.com
 -d newdevice-icancel-register.com
 -d newdevice-notice.cc
--d newdevice-paired-cancellation-secure.com
 -d newdevice-registration-isecure.com
 -d newdevice-remove.co.uk
 -d newdevicederegistration-online.com
@@ -3827,6 +3822,7 @@ msFilterList
 -d nicegroupofcompanies.com
 -d nichtantworten.nl
 -d nicolacirilli.it
+-d nicolaipaul12-6118d.gr8.com
 -d niedzwiedz.co.uk
 -d nient2018.com
 -d nightvision.tech
@@ -3845,6 +3841,7 @@ msFilterList
 -d nobrecidadania.com.br
 -d nocontent-algwofjz.velocityhub.com
 -d nocontent-ctiezzsv.velocityhub.com
+-d nocontent-dfcrlajk.velocityhub.com
 -d nocontent-dwpmcmyu.velocityhub.com
 -d nocontent-eptvezyg.velocityhub.com
 -d nocontent-fltzkpdk.velocityhub.com
@@ -3931,7 +3928,6 @@ msFilterList
 -d notifiication-identiti-officer-recovry-suport.my.id
 -d notifiication-identiti-officer-recovry-suports.my.id
 -d notifiicaton-recovry-identitys.my.id
--d notiziehot.it
 -d nouki-sell.com
 -d noutbookofff.ru
 -d novacantu.pr.gov.br
@@ -3942,6 +3938,7 @@ msFilterList
 -d nowupdate.confirmamazon.buzz
 -d nozed-uname.firebaseapp.com
 -d nrc.codeweaver.ca
+-d ns2.royal-eng.ps
 -d ns3pssionntngoal.app.link
 -d numotion-auth.cf
 -d numotion-auth.ml
@@ -3950,11 +3947,11 @@ msFilterList
 -d nuru0147.website2.me
 -d nutribiocorp.com
 -d nutriti-on.com
--d nuvemexim.com
 -d nuvuneu.com
 -d nv.snprobbx.pbz.r.de.a2ip.ru
 -d nw-isecure-cancelpayee.com
 -d nw-secure-icancel.com
+-d nw-securelogin.com
 -d nw-secureolb.com
 -d nwest-authme.com
 -d nwest-authpaym.net
@@ -3969,6 +3966,7 @@ msFilterList
 -d o2-accountservice.com
 -d o2-authbill-secure.com
 -d o2-authprocess-billing.com
+-d o2-billing-0211.co.uk
 -d o2-billingauth-secure.com
 -d o2-billingissue.net
 -d o2-billingsupport-update.com
@@ -4016,6 +4014,7 @@ msFilterList
 -d ojs.akamigasbalongan.ac.id
 -d ojs.budimulia.ac.id
 -d okeyciyiz.com
+-d oki.accesscam.org
 -d okland.savannahisland.com
 -d oklopama.mybigcommerce.com
 -d old.ecolifebio.ru
@@ -4119,7 +4118,6 @@ msFilterList
 -d osh11.labour.go.th
 -d osh2.labour.go.th
 -d osmaslo.ru
--d ostoratalmamlka.com
 -d otmhbuyabrick.org
 -d otomati-srl.com
 -d otomoto-h229.net
@@ -4143,6 +4141,7 @@ msFilterList
 -d owaa-messaging.web.app
 -d owaupgradeservice3.myfreesites.net
 -d oxrqasabzy.web.app
+-d oyuncuya-ucretsiz.tk
 -d ozdistributor.com.au
 -d p.wpage.cc
 -d p2.kenzoken.com
@@ -4158,10 +4157,9 @@ msFilterList
 -d palmiye.web.tr
 -d palomas-entrenamiento24-7.myshopify.com
 -d pampered.surveysparrow.com
--d panda1gfds.byethost4.com
 -d pandemic-taxreturn.com
+-d panxiyanqp.52doweb.cn
 -d papara-mobil.com
--d paparasube.com
 -d paper-architecture.com
 -d paperboatmedia.com
 -d papertradelinks.com
@@ -4189,7 +4187,6 @@ msFilterList
 -d paybill-ee.com
 -d payee-alert-online.com
 -d payee-cancellation-procedure.com
--d payee-cancellation.uk
 -d payee-cancelupdate.com
 -d payee-isecure-iremove.com
 -d payee-issue-cancellation.com
@@ -4216,6 +4213,7 @@ msFilterList
 -d payeesecure-hali.com
 -d payeesecurityissue.com
 -d payeesecurityissue.services
+-d payeeverify.link
 -d payment.waytomyanmar.com
 -d payment35.wixsite.com
 -d paymentcancel.com
@@ -4223,6 +4221,7 @@ msFilterList
 -d paymentsus.uk
 -d paypai-confirmation.com
 -d paypaiuk.pi2a.top
+-d paypal-cardstop.com
 -d paypal-checkout-app.com
 -d paypal-merchantloyalty.com
 -d paypal-restrictions32.com
@@ -4240,15 +4239,13 @@ msFilterList
 -d paypal.com.05925924b730bb369f87ad369fde0ffbf74a3c2.33s3.smoz.us
 -d paypal.com.11111111111111111111111111.com
 -d paypal.com.fr.cgi.bin.webscr.cmd.flow.session.ycwnzphbcryskgq9zzetmzxi8zg51bfu4zhgnlq2wntjgx8jlj7gdispatch.c70bbe4152786147242b0tb71efa252acz.waterdamagerestorationhouston.com
--d paypal.com.locked.amaaonaws.com
--d paypal.com.security.amaaonaws.com
 -d paypal.com.service.id999.sorttheweb.com
--d paypal.com.update.service.verify.freeget.net
 -d paypal.direct-alerts.com
 -d paypal.login-sevice.eu
 -d paypal.me.jeansebastian.com
 -d paypal.securitylogin.cc
 -d paypal.smarthelp-115.com
+-d paypal.sslph.com
 -d paypal.ugcs24.com
 -d paypal.user-terms274.com
 -d paypal.verylegit.link
@@ -4268,7 +4265,6 @@ msFilterList
 -d payusianseo.com
 -d pbmjx.youroffer.company
 -d pbndemo2.costapbn.com
--d pc604.com
 -d pcsvet.si
 -d pdcox.csb.app
 -d peacockproductions.com
@@ -4326,7 +4322,6 @@ msFilterList
 -d phogovip.vn
 -d photographybyallen.com
 -d photoshopgraphic.com
--d phphrunescape.com-de.ru
 -d phphwww.runescape.com-de.ru
 -d phreshphoto.com
 -d phwww.phphrunescape.com-de.ru
@@ -4343,9 +4338,7 @@ msFilterList
 -d pileji4498.wixsite.com
 -d pilouazert.go.yj.fr
 -d pinellashousing-net.ga
--d pinkdive.com.br
 -d pinnate-marble-gerbil.glitch.me
--d piponi.com
 -d pistolclothing.com.au
 -d pitonikaz.flywheelsites.com
 -d pixelbenchmarks.com
@@ -4356,6 +4349,7 @@ msFilterList
 -d pl-bankinvest.surge.sh
 -d plaboixo.com
 -d placejadelle.net
+-d planet-olivine-beechnut.glitch.me
 -d planeta12.minobr63.ru
 -d plataformaeducativa.se.jalisco.gob.mx
 -d play2win.buzz
@@ -4365,13 +4359,12 @@ msFilterList
 -d pmco2020-official.jkub.com
 -d pmco2020new.zzux.com
 -d pmgc20.com
+-d poczta.royal-eng.ps
 -d pokercllub88.com
 -d police-security-system-update.my.id
 -d policyplanner.com
 -d poligrafiapias.com
--d polosantitanbro.000webhostapp.com
 -d polpi4.wixsite.com
--d polycenter.co.jp
 -d polyureauygulamafirmasi.com.tr
 -d polyzoic-tracker.000webhostapp.com
 -d pomoc.o2.pl
@@ -4393,7 +4386,6 @@ msFilterList
 -d post-ff.top
 -d postchtrackingorder.com
 -d posteitalianeapp.kinsta.cloud
--d pot-d.top
 -d pot-n.top
 -d pourcontinueridauthenserweuronlineworking.000webhostapp.com
 -d powaywelding.com
@@ -4408,6 +4400,7 @@ msFilterList
 -d ppuk-support-auth.com
 -d pqtkcil.leapingbunny.co.uk
 -d pracadarepublicaembeja.net
+-d prairie-desert-act.glitch.me
 -d pramahikvision-mail.net
 -d pramlee.com.my
 -d prassel.nu
@@ -4447,16 +4440,15 @@ msFilterList
 -d professorgizzi.org
 -d profilvoyages.gr
 -d profinishmi.com
--d profmetal.by
 -d profuse-lightning-gateway.glitch.me
 -d programmasviluppo.com
 -d projectiqengineering.in
+-d promchimservice.ru
 -d promcuscotravel.com
 -d promehedinti.ro
 -d promo.ruhelios.ru
 -d promogifts.es
 -d proporcionandoalemdetudoisso.club
--d proporcionandomuitoalemdetudoisso.club
 -d propspark.com
 -d prorenoinc.com
 -d prosignum.sk
@@ -4486,6 +4478,7 @@ msFilterList
 -d pubgmevent.net
 -d pubgmexovip.com
 -d pubgmobile.com.xxucpubg.com
+-d pubgmobilebattleground.com
 -d pubgmobilecz.com
 -d pubgmobilenewera.com
 -d pubgmobilesgifts.com
@@ -4513,15 +4506,15 @@ msFilterList
 -d qbees.tech
 -d qiangyiqiang.biz
 -d qnbfinzb.com
+-d qq.xingzuoyizu.com
 -d quad-as.de
 -d quadfabrik.de
 -d qualitesites.com
--d quantgbo.lviv.ua
 -d quantuminvestmentbank.com
 -d qubectravel.com
--d queries-checkid.com
 -d quinaroja.com
 -d quiz.takingfive.com
+-d quizzical-mclean-c4ee2d.netlify.app
 -d quota.creatorlink.net
 -d qwinhappiness.com
 -d qwrsmsxiauzhdzsxos66fq-on.drv.tw
@@ -4536,8 +4529,8 @@ msFilterList
 -d radiosouvenirs.be
 -d radiostereo100.com
 -d raehareh.kissticketsjacksonville.com
+-d raekutenda.rekuadtenda.top
 -d raeluteka.lahateken.top
--d rainbow-walker.com
 -d rajarakgondola.com
 -d rajengineers.net
 -d rajthemes.com
@@ -4556,15 +4549,18 @@ msFilterList
 -d raketenm-zq5et.cc
 -d rakulatenma.busdxgsaqes.top
 -d rakutama.yarakutenge.top
+-d rakutan-co-jp.com
 -d rakuten.co.jp.rakueen.xyz
 -d rakuten.co.jp.rakupln.xyz
 -d rakuten.co.jp.rakutiaen.xyz
 -d rakuten.co.jp.rakutuo.xyz
 -d rakutenjpvip.rakutenjp.fun
+-d rakutenni.nrtw.xyz
 -d rakutie.top
 -d ralakutran.yapoten.top
 -d ralatenmu.latatenha.top
 -d raletapoku.relakutaten.top
+-d ralitendada.radakutendazd.top
 -d ralutaken.rottenta.top
 -d rameezjano.com
 -d ramgarhcity.com
@@ -4576,8 +4572,6 @@ msFilterList
 -d raportcsr.allegro.secfence.lesavik.net
 -d rapsbrag.weebly.com
 -d rasdaxdasd.lafdasdwq.top
--d rashetfustuk.com
--d rastreomoderno.com
 -d ratekuten.ratakaten.top
 -d rattkuten.rektaten.top
 -d ratuukenrantuken.xyz
@@ -4607,12 +4601,25 @@ msFilterList
 -d realtimebiometrics.com
 -d recadastramento-itaucard.cf
 -d recargastelcelaire.com
+-d recent1i-2fa.serveftp.com
+-d recent2i-2fa.serveftp.com
+-d recent2p-2fa.serveftp.com
+-d recent3i-2fa.serveftp.com
 -d recent3p-2fa.serveftp.com
--d receptfritt-cialis.com
+-d recent4i-2fa.serveftp.com
+-d recent4p-2fa.serveftp.com
+-d recent5i-2fa.serveftp.com
+-d recent5p-2fa.serveftp.com
+-d recent6i-2fa.serveftp.com
+-d recent6p-2fa.serveftp.com
+-d recent7i-2fa.serveftp.com
+-d recent7p-2fa.serveftp.com
+-d recent8i-2fa.serveftp.com
+-d recent8p-2fa.serveftp.com
+-d recent9i-2fa.serveftp.com
 -d reconnectmtb.bounceme.net
 -d redacao.euestudo.com.br
 -d redcleaning.com.au
--d redcloakmusic.com.br
 -d reddotarms.com
 -d redellharrisracing.icu
 -d redireccionar-serv.xyz
@@ -4642,19 +4649,22 @@ msFilterList
 -d registration-payee-onlinedevice.com
 -d rejdikutem-marke.ooo
 -d rejhikutem-marke.ooo
--d rejvikutem-marke.ooo
+-d rekanten.renhugol.top
+-d rekanten.renhugoln.top
 -d reklama.allegro.secfence.lesavik.net
 -d rekutalu.macamulere.xyz
 -d rekutetenda.ralitentakuen.top
 -d rekvtan-yj22o6.net
--d rekvtem-4jrr3a.net
 -d rekvtem-deoe53.net
 -d rekvtem-h1fdns.net
 -d rekvtem-t1vyi3.net
 -d rekvtem-y6meps.net
+-d relay.posthope.org
+-d relay2.royal-eng.ps
 -d relianceimperialpharmacy.com
 -d relieffund.freeinternetz.com
 -d relitechinfosys.com
+-d relttundad.rapokutenda.top
 -d remavon.typeform.com
 -d remontoknadveri.su
 -d remote.royal-eng.ps
@@ -4668,6 +4678,7 @@ msFilterList
 -d removepayees.link
 -d remsy.app.link
 -d rencon.ch.net2care.com
+-d renkaten.goltankue.top
 -d rentyouracc.ru
 -d renwaiqingshan001.top
 -d repl-mess.myfreesites.net
@@ -4683,6 +4694,7 @@ msFilterList
 -d resolution-center-updateshub.xyz
 -d resort-manzanet-hotel.myshopify.com
 -d respond.revinterns.co.uk
+-d restaurantebarluismario.com
 -d restre.restrepohenao.com.co
 -d restrepohenao.com.co
 -d restrict-online-payee.com
@@ -4699,6 +4711,7 @@ msFilterList
 -d review-billingdetails.com
 -d review-corportion-term-of-service-pages.my.id
 -d review-corportion-term-service-of-pages.my.id
+-d review-corportions-term-service-of-pages.my.id
 -d review-mynewpayees.com
 -d review-newpayees.com
 -d review-online-payments.com
@@ -4709,9 +4722,9 @@ msFilterList
 -d revolution-admin-19376482583.tk
 -d revolution-admin-19376482584.tk
 -d revolution-admin-19376482585.tk
+-d revucora.com
 -d revulotion-119736452831.tk
 -d revulotion-119736452832.tk
--d revulotion-119736452833.tk
 -d revulotion-119736452835.tk
 -d rewardxuc.com
 -d rextraening.dk
@@ -4723,6 +4736,7 @@ msFilterList
 -d rienewala-ameozn-chasihpjp.buzz
 -d rigoniemedeiros.com.br
 -d ringer-norbert.de
+-d rinnova-il-dominio-arb.com
 -d rioverdepar.com.br
 -d rip-rapservices.com
 -d rishikapil.com
@@ -4752,19 +4766,19 @@ msFilterList
 -d ronaldjamesgroup.co
 -d rondelbarrilito.com
 -d rongbachkim.tv
+-d root.pt.yourstudyway.com
 -d rooyan.in
 -d rosajaikaran1.typeform.com
 -d rosalinas-initial-project-30ac52.webflow.io
 -d rose9.vn
--d rosyad.web.id
 -d rotarysnehaveedu.com
 -d rotseezunft.ch.tcorner.fr
 -d rover-ebay.byethost9.com
 -d royalesc.ru
 -d royalpass16.com
 -d royalpostcards.be
--d rrakuten.buzz
 -d rreeufffsaussaa3.app.link
+-d rrhhgruporosario.com
 -d rrthulasi.unaux.com
 -d rsmultibox.com
 -d rstools.club
@@ -4840,6 +4854,7 @@ msFilterList
 -d santansupport-device.com
 -d santiagoferreira.com.br
 -d santshelp-mydevice.com
+-d sapapics.000webhostapp.com
 -d sapsan.onetwotrip.com
 -d saskplumbingheating.com
 -d sassosassino420.000webhostapp.com
@@ -4875,7 +4890,6 @@ msFilterList
 -d sctrlgin.com
 -d sdayhaneql.tastypriceo.su
 -d sdeidoon.org
--d se-connecter.net
 -d seahoss.com
 -d sealitsealcoating.com
 -d seams-trio.co
@@ -4909,6 +4923,7 @@ msFilterList
 -d secure.bankofamerica.com-login-sign-in-signonv2screen.go.suzukihaiphong.com.vn
 -d secure.captisa.com
 -d secure.caykurrizespor.tk
+-d secure.growviralmedia.com
 -d secure.legalmetric.com
 -d secure.login.aliexpress.com.coin-balance.com
 -d secure.mwwi.pl
@@ -4916,7 +4931,7 @@ msFilterList
 -d secure.oldschool.com-ty.ru
 -d secure.runascape.com-ro.ru
 -d secure.runascape.com-vc.ru
--d secure.runcscape.com
+-d secure.runascape.com-vzla.ru
 -d secure.runescape.com-accountsecurity.cz
 -d secure.runescape.com-ad.ru
 -d secure.runescape.com-gf.ru
@@ -4924,6 +4939,7 @@ msFilterList
 -d secure.runescape.com-rf.cz
 -d secure01d-chasecom526b7ak.com
 -d secure02us-cox.webcindario.com
+-d secure03b.chase.com.orthohelp.org
 -d secure05b-chaseonline-verification.translogbooster.com
 -d secure08us-cox.webcindario.com
 -d secure0a.live
@@ -4948,10 +4964,8 @@ msFilterList
 -d secure55us-cox.webcindario.com
 -d secure57us-cox.webcindario.com
 -d secure70e-login.x24hr.com
--d secure75.securewebsession.com
 -d secureadd-on-ee.com
 -d secureadd.goshly.com
--d securebanking-online.com
 -d securecancel-payee.me
 -d securecba.com.au
 -d secured-devicealerts.com
@@ -4967,9 +4981,9 @@ msFilterList
 -d securedlloyd-onlinedata.com
 -d securelloyd-dataprotection.com
 -d securelloyd-deregisterpayee.com
--d securelloyd-internetbanking.com
 -d securelloyd-network.com
 -d securelloyd-securityservice.com
+-d securemail.wallprg.com
 -d securemobileapp-verificationhalifaonline.app
 -d securemy-details.com
 -d securemy-onlinebankingdetails.com
@@ -4996,7 +5010,6 @@ msFilterList
 -d seeyouamazon.confirmamazoncard.monster
 -d segura-zonadatox.com
 -d seha2all.com
--d seireshd.com
 -d seivino.it
 -d sellercentral.amazon.de.p39329.com
 -d semana-ofertas.com
@@ -5012,6 +5025,7 @@ msFilterList
 -d sertyxese.myfreesites.net
 -d serv-secured-1.com
 -d servckd001.weebly.com
+-d server2.royal-eng.ps
 -d serverjpwebmail.weebly.com
 -d servernuovaintesa.com
 -d serverupdate.getforge.io
@@ -5021,10 +5035,8 @@ msFilterList
 -d service-login.sso.bluewin.ch.tlfplc.fr
 -d service-management-centre.com
 -d service-uk-netflix.com
--d service-update1000000005674565288144-bg.tk
 -d service-update1000000005674565288175-bg.tk
 -d service-update1000000005674565288176-bg.tk
--d service-update1000000005674565288178-bg.tk
 -d service16772.wixsite.com
 -d service8481.wixsite.com
 -d serviceclient.site44.com
@@ -5065,7 +5077,6 @@ msFilterList
 -d sh007.whb.tempwebhost.net
 -d sh199811.website.pl
 -d shadowed-peppered-postage.glitch.me
--d shalom.it
 -d shalomgroup.in
 -d shalompennington.com
 -d shannonebeling.com
@@ -5079,6 +5090,7 @@ msFilterList
 -d sharesbyte.com
 -d sharespins6k.club
 -d sharif-pharmacy.com
+-d sharon-davis-online.com
 -d sharonturner.net
 -d shelterless-checkpo.000webhostapp.com
 -d shifawll1.ae
@@ -5106,7 +5118,6 @@ msFilterList
 -d sieck-kuehlsysteme.de
 -d signin-eday-de.edayisapidll.de
 -d signin-halibanking.com
--d signin.ebay.de.accuo.ca
 -d signin.ebay.de.ws.ebayisapi.appcheck.com.au
 -d signin.eday.co.uk.ws.ayisapi.dllsigninusingssl1puserid.kzbzd9n59c7tggswrvcvewuihebw7.menara-anugrah.co.id
 -d signin.eday.co.uk.ws.eayisapi.dllsigninusingssl.x3kv5ih4eztuygpnik3rbojeqzos2c.portondeguadarrama.com
@@ -5147,13 +5158,13 @@ msFilterList
 -d skinmetroroyale.com
 -d skinxxmlbb.com
 -d skribbl-io.org
--d skvartremont.ru
 -d sky-secure-billing.com
 -d skyrexmedia.com
 -d skyscaner.cc
 -d skyscaner.link
 -d skyscanner.shop
 -d skytvporassinatura.com.br
+-d sledzenie-paczki.in.net
 -d sleepmaskz.com
 -d slngln-eboy-usr.de
 -d sloaneandhyde.com
@@ -5165,6 +5176,7 @@ msFilterList
 -d smartubemedia.com
 -d smartusluga.xja.pl
 -d smash7289eui.fastpluscheap.com
+-d smba-cardn.top.gmmgbds.cn
 -d smba-cardn.top.ubmrfmx.cn
 -d smbc-card-co-jp.smbc-cardl.net
 -d smbc-card.cnszxjd.com
@@ -5178,7 +5190,6 @@ msFilterList
 -d smbc.today
 -d smbcadmin.ytrertlaskfjmxkadd3dfgfg1sdfsasdxzv.xyz
 -d smbcscard.com
--d smbuc-vpasscard.top
 -d smdc-cacb.com
 -d smediamap.youthpress.org
 -d smiles-bb.com
@@ -5195,6 +5206,7 @@ msFilterList
 -d smwam.coms.cso.gov.tt
 -d sn.trapemf.net
 -d snackendorse.com
+-d snap.chartex.net
 -d snarlpumpions.com
 -d sneedengineering.com
 -d snehealthassociation.com
@@ -5207,6 +5219,7 @@ msFilterList
 -d sode-mape.web.app
 -d sof.edu.vn
 -d sofe-firma.firebaseapp.com
+-d solicituddigital.co
 -d solobuenasideas.com
 -d solojoyas.cl
 -d solutions-acoustiques.com
@@ -5215,6 +5228,7 @@ msFilterList
 -d soneyamks.com
 -d sonne-medoon.firebaseapp.com
 -d sonofabridge.com.net2care.com
+-d soporteydetalles.000webhostapp.com
 -d sore-modabe.web.app
 -d sorinandronic.com
 -d sothebysrealtysales2r92332z3.com
@@ -5335,6 +5349,7 @@ msFilterList
 -d sucursalvrtualpersona.com
 -d sucursapersonastransacionebancolombiaccomn.small-business-solutions.biz
 -d suelunn.com
+-d suelutionbrowsandbeauty.com
 -d suesses-online.com
 -d suits4u.ie
 -d sulemankhelqabail.com
@@ -5350,7 +5365,6 @@ msFilterList
 -d sunge-ode.firebaseapp.com
 -d superchief.org
 -d supernova.edu.rs
--d suporte2021.com
 -d suportecxacesso2020.com
 -d support-attcorp.com
 -d support-natwestverifypayee.com
@@ -5374,8 +5388,8 @@ msFilterList
 -d surpriseplanner.com.bd
 -d surroundhope.com
 -d surveyol.com
--d surveyrock.com
 -d sushigamers.com
+-d suspicious-rosalind-f7c8fd.netlify.app
 -d susupubg.com
 -d sv.mikecrm.com
 -d svca.info
@@ -5383,6 +5397,7 @@ msFilterList
 -d svmms.yolasite.com
 -d swamcorrecter.com
 -d swat.cam
+-d swiss-post-service.com
 -d swisscom.myfreesites.net
 -d swordex.kz
 -d syriagaleri.com
@@ -5396,6 +5411,7 @@ msFilterList
 -d t994853.wixsite.com
 -d taalim.ma
 -d tacazgmly12.zzux.com
+-d tadbeerquality.com
 -d taengball.co
 -d tahiti-magic-show.com
 -d taijishentie.com
@@ -5420,6 +5436,7 @@ msFilterList
 -d taumiq.com
 -d tawreedss.com
 -d tax-rebatenew.com
+-d tax-service-refundagreement-gov.fund
 -d taxapplications-ukgov.com
 -d taxesin-usa.com
 -d taxpark.com
@@ -5447,6 +5464,7 @@ msFilterList
 -d termerosapepe.it
 -d terminate-ee.com
 -d teseesays.com
+-d teslafit.stg.thebrain4web.com
 -d test.arintek.ru
 -d test.bayoucitybadges.org
 -d test.d4ngroup.ru
@@ -5495,7 +5513,6 @@ msFilterList
 -d thescrapescape.com
 -d thesofarepair.com
 -d thesolitarywoman.com
--d thethunderbrand.com
 -d theumashow.com
 -d theuniversityoftomorrow.org
 -d thevoice.actor
@@ -5533,6 +5550,7 @@ msFilterList
 -d timeline-wqnvpqtkt.mstransport.ae
 -d timeline-zmsmnxnun.mstransport.ae
 -d timeorganizasyon.com.tr
+-d timesoffood.com
 -d timetradingbd.com
 -d timp.com.br
 -d tinavegaphotography.com
@@ -5549,6 +5567,7 @@ msFilterList
 -d to-ken.biz
 -d toancaupumps.com
 -d toanhoc247.edu.vn
+-d tocitixep.xyz
 -d todayif.com
 -d toddler-town.com
 -d todosprodutos.com.br
@@ -5571,8 +5590,8 @@ msFilterList
 -d tounyou11.com
 -d touristpeople.com.bd
 -d tow1.photoclub-ebroicien.fr
+-d toysbtoys.com
 -d tpgcp3qpmpvuphqqjcfxrg-on.drv.tw
--d tpnm.info
 -d tpq74.codesandbox.io
 -d tpsfu.org.tw
 -d tpv63.net
@@ -5643,6 +5662,7 @@ msFilterList
 -d u2382462.ct.sendgrid.net
 -d u3699884.ct.sendgrid.net
 -d u966905asm.ha005.t.justns.ru
+-d u979545did.ha005.t.justns.ru
 -d u984465ecc.ha005.t.justns.ru
 -d u984685edf.ha005.t.justns.ru
 -d u985945ek7.ha004.t.justns.ru
@@ -5701,8 +5721,6 @@ msFilterList
 -d universalliving.net
 -d univswap.top
 -d unjsurgicals.com
--d unkagedk9.com
--d unknowndevice-cancel-pairing.com
 -d unknownpaired-device-cancellation.com
 -d unpairing-newdevice.cc
 -d unrecognised-device-cancel-pairing.com
@@ -5749,7 +5767,6 @@ msFilterList
 -d usedcopiersaustin.com
 -d user-Rakuten.y1a.top
 -d user-restore.com
--d userbanking-lloyd.com
 -d users.tpg.com.au
 -d usomilhas.com
 -d utahwin.com
@@ -5777,6 +5794,7 @@ msFilterList
 -d vbse.co.in
 -d vbuckstop.club
 -d vcv-custom.cl
+-d vdidjdaoswjwws.tk
 -d ve4erka.com
 -d veerifikasiih-facebooks.cf
 -d vehicle-sales-ebay.parkertom.com
@@ -5807,7 +5825,6 @@ msFilterList
 -d verifikasi-2020-account.weebly.com
 -d verifikasi-pemblokiranfbn.ml
 -d verifikasi-pemblokiranfbn.tk
--d verifikasi.new20sx.ml
 -d verifikasi2020-account.weebly.com
 -d verifikasiaccount02.weebly.com
 -d verifikasiaccount2.weebly.com
@@ -5818,7 +5835,6 @@ msFilterList
 -d verify-eeacc.net
 -d verify-here.co.uk
 -d verify-my-newpayees.com
--d verify-my-santan.com
 -d verify-my-transfers.com
 -d verify-mymobilebankingdetails.com
 -d verify-mynewdevices.com
@@ -5836,6 +5852,7 @@ msFilterList
 -d verify-yourdevice.com
 -d verify.chase.billing.info.igualdad.cl
 -d verifybillings-ee.com
+-d verifying-mydevice.com
 -d verifying-mysantan.com
 -d verifymy-onlinebankingdetails.com
 -d verifymytransfer.com
@@ -5849,11 +5866,9 @@ msFilterList
 -d versionprowebss.myfreesites.net
 -d vertis.eurokreator.eu
 -d verzeichnisse.creatorlink.net
--d veteransid.com
 -d vhs.link
 -d via.hypothes.is
 -d viabccp.com
--d viana.imoveis.expert
 -d viatgesestudiants.com
 -d vices.eu
 -d vichyteen.com
@@ -5877,12 +5892,12 @@ msFilterList
 -d virgin-billing-help.com
 -d virgin-billing-support-help.com
 -d virgin-help-billing-uk.com
+-d virgin-media.org
 -d virgin-personal-update.com
 -d virtual-banco.webcindario.com
 -d visa.com-vmore-6376467209.imagelinetech.com
 -d visione.co.id
 -d vistsite20.000webhostapp.com
--d visualizar.recptsclientes.com
 -d visvitee.com
 -d vitcomm.net
 -d vivesinpsoriasis.com
@@ -5892,8 +5907,6 @@ msFilterList
 -d vkaktivations23.bos.ru
 -d vkalathur.in
 -d vki.vipcentr.ru
--d vkontaktee.byethost4.com
--d vkregistor123.byethost5.com
 -d vkvotes.com
 -d vkvzlomid.viptop.ru
 -d vn.ukrstat.gov.ua
@@ -5951,17 +5964,16 @@ msFilterList
 -d waynedalenews.com
 -d wazzpromo.com
 -d wbstormer.com
+-d wcarver.freehostia.com
 -d we2zimbra.weebly.com
 -d wearabletechtogo.com
 -d weathergroup.com.parallelinvestmentstore.com
--d web-app.at.ua
 -d web-halifax.com
 -d web-rechungbetrag-domain.de
 -d web-whatsapp.checkyourprofile.com
 -d web-whatsappjoin.itsaol.com
 -d web1577.webbox444.server-home.org
 -d webaholics.ca
--d webappsusersaction.com
 -d webbase-upgrade-activation.glitch.me
 -d webbbb.yolasite.com
 -d webdatamltrainingdiag842.blob.core.windows.net
@@ -5970,7 +5982,6 @@ msFilterList
 -d webfiddle.net
 -d webindextesting.pro
 -d webkamal.com
--d webmail-cloudsasl423.web.app
 -d webmail.accenter.answerivecovid19.com
 -d webmail.bakari.com.pl
 -d webmail.fermedemagne.fr
@@ -5992,6 +6003,7 @@ msFilterList
 -d webuyitback.co.za
 -d webxmetro.com
 -d weddingsbyknottydays.com
+-d weebxmetropubg.com
 -d weevoxsound.com
 -d wein-peeknxid.whi8r4o.top
 -d wejgj234jg234.com
@@ -6028,7 +6040,6 @@ msFilterList
 -d whatsapps.lflinkup.com
 -d whatsapps.mrslove.com
 -d whatsapps.myz.info
--d whatsappsex2021.ddns.net
 -d whatsappsexyadultgroup18.mrslove.com
 -d whatssapp.faqserv.com
 -d whattsapp2020.qpoe.com
@@ -6073,13 +6084,11 @@ msFilterList
 -d worldatt.weebly.com
 -d worldofplushtoys.com
 -d worldwidemigrationpartners.com
--d wow-atlantida.com
 -d wowmybusiness.com.au
 -d wp-doxy.themeix.com
 -d wp-login.azurewebsites.net
 -d wp.renausa.com
 -d wp1.j1115229.m9r2m.spectrum.myjino.ru
--d wpischedbend.pifighter.com
 -d wrap.co
 -d wriot-alternate.app.link
 -d wsl.bm
@@ -6091,9 +6100,9 @@ msFilterList
 -d ww17.login-appleid.apple.com.alert-wode.com
 -d ww17.paypal.com-us.cgi-bin-webscr-cmd.login-submit-dispatch.74fghghs68g484iky4mn86we8r46d4h38df4b83m48hg3ui4ty82s83f4xcb83.themariettabilliardclub.com
 -d ww17.paypal.com.05925924b730bb369f87ad369fde0ffbf74a3c2.33s3.smoz.us
--d ww3.aplicativocef.com
 -d ww38.xieziet.do22.co
 -d wwbcpezonassegurabetas-viabcpe0o.com
+-d www-boxberry-trackcode.ru
 -d www-cursosdigitalesmx-com.filesusr.com
 -d www-degelyehuda-org-il.filesusr.com
 -d www-europe564598-com.filesusr.com
@@ -6103,8 +6112,6 @@ msFilterList
 -d www-paypal-com-login.menlosec.com
 -d www.m.runescape.com-ed.ru
 -d www.servlces.runescape.com-er.ru
--d www15.ecomece-2021-brastempnew.com.br
--d www1cx24horas.ddnsgeek.com
 -d www2.vuelos-madrid-santander.tropicalfish.pl
 -d www3.funcate.org.br
 -d www35.coisasquevocesoencontraqui.com
@@ -6154,6 +6161,7 @@ msFilterList
 -d xjupq.mjt.lu
 -d xjupr.mjt.lu
 -d xjupu.mjt.lu
+-d xkjcgnaosrtmna0weiozmxdpaosdfwsm-effcb90edrdesfgvdws.toh.info
 -d xmetroexodus.net
 -d xmley.codesandbox.io
 -d xn----7sbadrebbaedsi7dgj2acg6a2a2g.xn--p1ai
@@ -6174,7 +6182,6 @@ msFilterList
 -d xn--nckd7a7hnc8b8bd.net
 -d xn--pacincia-xl-qbb.com
 -d xn--privnot-z8a.com
--d xn--privnte-p0a.com
 -d xn--saldo-casasbahia-maio-m1b.com
 -d xn--ugbd1cbxo23egh.com
 -d xn.yychd.com
@@ -6184,6 +6191,7 @@ msFilterList
 -d xpixl.me
 -d xpressimpresores.com
 -d xpubgmmetro16.com
+-d xqglu.mjt.lu
 -d xqr3i.mjt.lu
 -d xqr3u.mjt.lu
 -d xrx6r.mjt.lu
@@ -6199,6 +6207,7 @@ msFilterList
 -d xvfrw.csb.app
 -d xweb.io
 -d y-yahhooaccount.weebly.com
+-d y2gcthdriqxe76u9-com.filesusr.com
 -d y3s2ye.webwave.dev
 -d y9o5m.codesandbox.io
 -d yaadinc.com
@@ -6224,6 +6233,7 @@ msFilterList
 -d yuuu6.codesandbox.io
 -d yxirlwizz.tastypriceo.su
 -d zacoindus.com
+-d zareblog.xyz
 -d zaudrenduvent.fr
 -d zaxn.blondfinish.link
 -d zaytouzo.buyonlined.su
@@ -6233,6 +6243,7 @@ msFilterList
 -d zekkafreitas-vando-magazine.cheetah.builderall.com
 -d zemeho.rs
 -d zhangjiwen.com
+-d zhkrc.com
 -d zi-3-gporange1.free.builderall.com
 -d zimbrawebmasterdesk.000webhostapp.com
 -d zimmb.com
