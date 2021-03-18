@@ -29,6 +29,7 @@ bunzip2 -kc "phishtank.bz2" > "phishtank.csv"
 
 ## Parse URLs
 cat "phishtank.csv" | \
+tr "[:upper:]" "[:lower:]" | \
 ## Workaround for column with double quotes
 "./$CSVQUOTE" | \
 cut -f 2 -d "," | \
@@ -41,6 +42,7 @@ sed "s/^www\.//g" > "phishtank.txt"
 
 cat "openphish-raw.txt" | \
 dos2unix | \
+tr "[:upper:]" "[:lower:]" | \
 cut -f 3- -d "/" | \
 grep -F "." | \
 sed "s/^www\.//g" > "openphish.txt"
@@ -63,6 +65,7 @@ cp "../src/exclude.txt" "."
 ## Parse the Umbrella 1 Million
 unzip -p "top-1m-umbrella.zip" | \
 dos2unix | \
+tr "[:upper:]" "[:lower:]" | \
 # Parse domains only
 cut -f 2 -d "," | \
 grep -F "." | \
@@ -73,6 +76,7 @@ sort -u > "top-1m-umbrella.txt"
 ## Parse the Tranco 1 Million
 unzip -p "top-1m-tranco.zip" | \
 dos2unix | \
+tr "[:upper:]" "[:lower:]" | \
 # Parse domains only
 cut -f 2 -d "," | \
 grep -F "." | \
@@ -95,11 +99,31 @@ grep -Fx -f "top-1m-well-known.txt" > "phishing-top-domains.txt"
 cat "phishing-domains.txt" | \
 grep -F -vf "phishing-top-domains.txt" > "phishing-notop-domains.txt"
 
-## Parse phishing URLs from popular domains
 cat "phishing.txt" | \
-grep -F -f "phishing-top-domains.txt" | \
-sed "s/^/||/g" | \
-sed "s/$/\$all/g" > "phishing-url-top-domains.txt"
+grep -F -f "phishing-top-domains.txt" > "phishing-url-top-domains-temp.txt"
+
+rm -f "phishing-url-top-domains.txt" "phishing-url-top-domains-raw.txt"
+
+## Temporarily disable command print
+set +x
+
+while read URL; do
+  HOST=$(echo "$URL" | cut -d"/" -f1)
+  URI=$(echo "$URL" | sed "s/^$HOST//")
+
+  ## Separate host-only URL
+  if [ -z "$URI" ] || [ "$URI" = "/" ]; then
+    echo "$HOST" >> "phishing-notop-domains.txt"
+  else
+    ## Parse phishing URLs from popular domains
+    echo "$URL" | \
+    sed -e "s/^/||/g" -e "s/$/\$all/g" >> "phishing-url-top-domains.txt"
+    echo "$URL" >> "phishing-url-top-domains-raw.txt"
+  fi
+done < "phishing-url-top-domains-temp.txt"
+
+## Re-enable command print
+set -x
 
 
 ## Merge malware domains and URLs
@@ -198,6 +222,50 @@ sed 's/^0.0.0.0 /local-zone: "/g' | \
 sed 's/$/" always_nxdomain/g' | \
 sed '1 i\'"$COMMENT"'' | \
 sed "1s/Blocklist/Unbound Blocklist/" > "../dist/phishing-filter-unbound.conf"
+
+
+set +x
+
+## Snort & Suricata rulesets
+rm -f "../dist/phishing-filter-snort2.rules" "../dist/phishing-filter-suricata.rules"
+
+SID="100000001"
+while read DOMAIN; do
+  SN_RULE="alert tcp \$HOME_NET any -> \$EXTERNAL_NET [80,443] (msg:\"phishing-filter phishing website detected\"; flow:established,from_client; content:\"GET\"; http_method; content:\"$DOMAIN\"; content:\"Host\"; http_header; classtype:attempted-recon; sid:$SID; rev:1;)"
+
+  SR_RULE="alert http \$HOME_NET any -> \$EXTERNAL_NET any (msg:\"phishing-filter phishing website detected\"; flow:established,from_client; http.method; content:\"GET\"; http.host; content:\"$DOMAIN\"; classtype:attempted-recon; sid:$SID; rev:1;)"
+
+  echo "$SN_RULE" >> "../dist/phishing-filter-snort2.rules"
+  echo "$SR_RULE" >> "../dist/phishing-filter-suricata.rules"
+
+  SID=$(( $SID + 1 ))
+done < "phishing-notop-domains.txt"
+
+while read URL; do
+  HOST=$(echo "$URL" | cut -d"/" -f1)
+  URI=$(echo "$URL" | sed "s/^$HOST//")
+
+  SN_RULE="alert tcp \$HOME_NET any -> \$EXTERNAL_NET [80,443] (msg:\"phishing-filter phishing website detected\"; flow:established,from_client; content:\"GET\"; http_method; content:\"$URI\"; http_uri; nocase; content:\"$HOST\"; content:\"Host\"; http_header; classtype:attempted-recon; sid:$SID; rev:1;)"
+
+  SR_RULE="alert http \$HOME_NET any -> \$EXTERNAL_NET any (msg:\"phishing-filter phishing website detected\"; flow:established,from_client; http.method; content:\"GET\"; http.uri; content:\"$URI\"; endswith; nocase; http.host; content:\"$HOST\"; classtype:attempted-recon; sid:$SID; rev:1;)"
+
+  echo "$SN_RULE" >> "../dist/phishing-filter-snort2.rules"
+  echo "$SR_RULE" >> "../dist/phishing-filter-suricata.rules"
+
+  SID=$(( $SID + 1 ))
+done < "phishing-url-top-domains-raw.txt"
+
+set -x
+
+cat "../dist/phishing-filter-snort2.rules" | \
+sed '1 i\'"$COMMENT"'' | \
+sed "1s/Domains Blocklist/URL Snort2 Ruleset/" > "../dist/phishing-filter-snort2.rules.temp"
+mv "../dist/phishing-filter-snort2.rules.temp" "../dist/phishing-filter-snort2.rules"
+
+cat "../dist/phishing-filter-suricata.rules" | \
+sed '1 i\'"$COMMENT"'' | \
+sed "1s/Domains Blocklist/URL Suricata Ruleset/" > "../dist/phishing-filter-suricata.rules.temp"
+mv "../dist/phishing-filter-suricata.rules.temp" "../dist/phishing-filter-suricata.rules"
 
 
 ## IE blocklist

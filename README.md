@@ -14,6 +14,8 @@ There are multiple formats available, refer to the appropriate section according
 - [BIND](#bind)
 - [Unbound](#unbound)
 - Internet Explorer -> [Tracking Protection List (IE)](#tracking-protection-list-ie)
+- [Snort2](#snort2)
+- [Suricata](#suricata)
 
 Not sure which format to choose? See [Compatibility](https://gitlab.com/curben/urlhaus-filter/wikis/compatibility) page.
 
@@ -266,6 +268,80 @@ This blocklist includes domains only.
 - https://cdn.statically.io/gh/curbengh/phishing-filter/master/dist/phishing-filter.tpl
 - https://gitcdn.xyz/repo/curbengh/phishing-filter/master/dist/phishing-filter.tpl
 - https://cdn.jsdelivr.net/gh/curbengh/phishing-filter/dist/phishing-filter.tpl
+
+</details>
+
+## Snort2
+
+This ruleset includes online URLs only. Not compatible with Snort3.
+
+### Install
+
+```
+# Download ruleset
+curl -L "https://curben.gitlab.io/phishing-filter-mirror/phishing-filter-snort2.rules" -o "/etc/snort/rules/phishing-filter-snort2.rules"
+
+# Create a new cron job for daily update
+printf '#!/bin/sh\ncurl -L "https://curben.gitlab.io/phishing-filter-mirror/phishing-filter-snort2.rules" -o "/etc/snort/rules/phishing-filter-snort2.rules"\n' > /etc/cron.daily/phishing-filter
+
+# cron job requires execution permission
+chmod 755 /etc/cron.daily/phishing-filter
+
+# Configure Snort to use the ruleset
+printf "\ninclude \$RULE_PATH/phishing-filter-snort2.rules\n" >> /etc/snort/snort.conf
+```
+
+- https://curben.gitlab.io/phishing-filter-mirror/phishing-filter-snort2.rules
+
+<details>
+<summary>Mirrors</summary>
+
+- https://cdn.statically.io/gl/curben/phishing-filter/master/dist/phishing-filter-snort2.rules
+- https://glcdn.githack.com/curben/phishing-filter/raw/master/dist/phishing-filter-snort2.rules
+- https://raw.githubusercontent.com/curbengh/phishing-filter/master/dist/phishing-filter-snort2.rules
+- https://cdn.statically.io/gh/curbengh/phishing-filter/master/dist/phishing-filter-snort2.rules
+- https://gitcdn.xyz/repo/curbengh/phishing-filter/master/dist/phishing-filter-snort2.rules
+- https://cdn.jsdelivr.net/gh/curbengh/phishing-filter/dist/phishing-filter-snort2.rules
+
+</details>
+
+## Suricata
+
+This ruleset includes online URLs only.
+
+### Install
+
+```
+# Download ruleset
+curl -L "https://curben.gitlab.io/phishing-filter-mirror/phishing-filter-suricata.rules" -o "/etc/suricata/rules/phishing-filter-suricata.rules"
+
+# Create a new cron job for daily update
+printf '#!/bin/sh\ncurl -L "https://curben.gitlab.io/phishing-filter-mirror/phishing-filter-suricata.rules" -o "/etc/suricata/rules/phishing-filter-suricata.rules"\n' > /etc/cron.daily/phishing-filter
+
+# cron job requires execution permission
+chmod 755 /etc/cron.daily/phishing-filter
+```
+
+Configure Suricata to use the ruleset:
+
+``` diff
+# /etc/suricata/suricata.yaml
+rule-files:
+  - local.rules
++  - phishing-filter-suricata.rules
+```
+
+- https://curben.gitlab.io/phishing-filter-mirror/phishing-filter-suricata.rules
+
+<details>
+<summary>Mirrors</summary>
+
+- https://cdn.statically.io/gl/curben/phishing-filter/master/dist/phishing-filter-suricata.rules
+- https://glcdn.githack.com/curben/phishing-filter/raw/master/dist/phishing-filter-suricata.rules
+- https://raw.githubusercontent.com/curbengh/phishing-filter/master/dist/phishing-filter-suricata.rules
+- https://cdn.statically.io/gh/curbengh/phishing-filter/master/dist/phishing-filter-suricata.rules
+- https://gitcdn.xyz/repo/curbengh/phishing-filter/master/dist/phishing-filter-suricata.rules
+- https://cdn.jsdelivr.net/gh/curbengh/phishing-filter/dist/phishing-filter-suricata.rules
 
 </details>
 
