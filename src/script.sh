@@ -19,12 +19,12 @@ mkdir -p "tmp/"
 cd "tmp/"
 
 ## Prepare datasets
-curl -L "https://data.phishtank.com/data/$PHISHTANK_API/online-valid.csv.bz2" -o "phishtank.bz2"
-curl -L "https://openphish.com/feed.txt" -o "openphish-raw.txt"
-curl -L "https://s3-us-west-1.amazonaws.com/umbrella-static/top-1m.csv.zip" -o "top-1m-umbrella.zip"
-curl -L "https://tranco-list.eu/top-1m.csv.zip" -o "top-1m-tranco.zip"
+# curl -L "https://data.phishtank.com/data/$PHISHTANK_API/online-valid.csv.bz2" -o "phishtank.bz2"
+# curl -L "https://openphish.com/feed.txt" -o "openphish-raw.txt"
+# curl -L "https://s3-us-west-1.amazonaws.com/umbrella-static/top-1m.csv.zip" -o "top-1m-umbrella.zip"
+# curl -L "https://tranco-list.eu/top-1m.csv.zip" -o "top-1m-tranco.zip"
 
-bunzip2 -kc "phishtank.bz2" > "phishtank.csv"
+# bunzip2 -kc "phishtank.bz2" > "phishtank.csv"
 
 
 ## Parse URLs
@@ -243,9 +243,9 @@ done < "phishing-notop-domains.txt"
 
 while read URL; do
   HOST=$(echo "$URL" | cut -d"/" -f1)
-  URI=$(echo "$URL" | sed "s/^$HOST//")
+  URI=$(echo "$URL" | sed -e "s/^$HOST//" -e "s/;/\\\;/g")
 
-  SN_RULE="alert tcp \$HOME_NET any -> \$EXTERNAL_NET [80,443] (msg:\"phishing-filter phishing website detected\"; flow:established,from_client; content:\"GET\"; http_method; content:\"$URI\"; http_uri; nocase; content:\"$HOST\"; content:\"Host\"; http_header; classtype:attempted-recon; sid:$SID; rev:1;)"
+  SN_RULE="alert tcp \$HOME_NET any -> \$EXTERNAL_NET [80,443] (msg:\"phishing-filter phishing website detected\"; flow:established,from_client; content:\"GET\"; http_method; content:\"$(echo $URI | cut -c -2047)\"; http_uri; nocase; content:\"$HOST\"; content:\"Host\"; http_header; classtype:attempted-recon; sid:$SID; rev:1;)"
 
   SR_RULE="alert http \$HOME_NET any -> \$EXTERNAL_NET any (msg:\"phishing-filter phishing website detected\"; flow:established,from_client; http.method; content:\"GET\"; http.uri; content:\"$URI\"; endswith; nocase; http.host; content:\"$HOST\"; classtype:attempted-recon; sid:$SID; rev:1;)"
 
@@ -279,7 +279,7 @@ sed "2s/Domains Blocklist/Hosts Blocklist (IE)/" > "../dist/phishing-filter.tpl"
 
 
 ## Clean up artifacts
-rm "phishtank.csv" "top-1m-umbrella.zip" "top-1m-umbrella.txt" "top-1m-tranco.txt" "openphish-raw.txt"
+# rm "phishtank.csv" "top-1m-umbrella.zip" "top-1m-umbrella.txt" "top-1m-tranco.txt" "openphish-raw.txt"
 
 
 cd ../
