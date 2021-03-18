@@ -19,12 +19,12 @@ mkdir -p "tmp/"
 cd "tmp/"
 
 ## Prepare datasets
-# curl -L "https://data.phishtank.com/data/$PHISHTANK_API/online-valid.csv.bz2" -o "phishtank.bz2"
-# curl -L "https://openphish.com/feed.txt" -o "openphish-raw.txt"
-# curl -L "https://s3-us-west-1.amazonaws.com/umbrella-static/top-1m.csv.zip" -o "top-1m-umbrella.zip"
-# curl -L "https://tranco-list.eu/top-1m.csv.zip" -o "top-1m-tranco.zip"
+curl -L "https://data.phishtank.com/data/$PHISHTANK_API/online-valid.csv.bz2" -o "phishtank.bz2"
+curl -L "https://openphish.com/feed.txt" -o "openphish-raw.txt"
+curl -L "https://s3-us-west-1.amazonaws.com/umbrella-static/top-1m.csv.zip" -o "top-1m-umbrella.zip"
+curl -L "https://tranco-list.eu/top-1m.csv.zip" -o "top-1m-tranco.zip"
 
-# bunzip2 -kc "phishtank.bz2" > "phishtank.csv"
+bunzip2 -kc "phishtank.bz2" > "phishtank.csv"
 
 
 ## Parse URLs
@@ -279,7 +279,7 @@ sed "2s/Domains Blocklist/Hosts Blocklist (IE)/" > "../dist/phishing-filter.tpl"
 
 
 ## Clean up artifacts
-# rm "phishtank.csv" "top-1m-umbrella.zip" "top-1m-umbrella.txt" "top-1m-tranco.txt" "openphish-raw.txt"
+rm "phishtank.csv" "top-1m-umbrella.zip" "top-1m-umbrella.txt" "top-1m-tranco.txt" "openphish-raw.txt"
 
 
 cd ../
