@@ -132,7 +132,7 @@ FIRST_LINE="! Title: Phishing URL Blocklist"
 SECOND_LINE="! Updated: $CURRENT_TIME"
 THIRD_LINE="! Expires: 1 day (update frequency)"
 FOURTH_LINE="! Homepage: https://gitlab.com/curben/phishing-filter"
-FIFTH_LINE="! License: https://creativecommons.org/licenses/by-sa/4.0/"
+FIFTH_LINE="! License: https://gitlab.com/curben/phishing-filter#license"
 SIXTH_LINE="! Source: https://www.phishtank.com/ & https://openphish.com/"
 COMMENT_UBO="$FIRST_LINE\n$SECOND_LINE\n$THIRD_LINE\n$FOURTH_LINE\n$FIFTH_LINE\n$SIXTH_LINE"
 
