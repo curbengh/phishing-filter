@@ -227,15 +227,20 @@ sed "1s/Blocklist/Unbound Blocklist/" > "../dist/phishing-filter-unbound.conf"
 set +x
 
 ## Snort & Suricata rulesets
-rm -f "../dist/phishing-filter-snort2.rules" "../dist/phishing-filter-suricata.rules"
+rm -f "../dist/phishing-filter-snort2.rules" \
+  "../dist/phishing-filter-snort3.rules" \
+  "../dist/phishing-filter-suricata.rules"
 
 SID="100000001"
 while read DOMAIN; do
   SN_RULE="alert tcp \$HOME_NET any -> \$EXTERNAL_NET [80,443] (msg:\"phishing-filter phishing website detected\"; flow:established,from_client; content:\"GET\"; http_method; content:\"$DOMAIN\"; content:\"Host\"; http_header; classtype:attempted-recon; sid:$SID; rev:1;)"
 
+  SN3_RULE="alert http \$HOME_NET any -> \$EXTERNAL_NET any (msg:\"phishing-filter phishing website detected\"; http_header:field host; content:\"$DOMAIN\",nocase; classtype:attempted-recon; sid:$SID; rev:1;)"
+
   SR_RULE="alert http \$HOME_NET any -> \$EXTERNAL_NET any (msg:\"phishing-filter phishing website detected\"; flow:established,from_client; http.method; content:\"GET\"; http.host; content:\"$DOMAIN\"; classtype:attempted-recon; sid:$SID; rev:1;)"
 
   echo "$SN_RULE" >> "../dist/phishing-filter-snort2.rules"
+  echo "$SN3_RULE" >> "../dist/phishing-filter-snort3.rules"
   echo "$SR_RULE" >> "../dist/phishing-filter-suricata.rules"
 
   SID=$(( $SID + 1 ))
@@ -247,9 +252,12 @@ while read URL; do
 
   SN_RULE="alert tcp \$HOME_NET any -> \$EXTERNAL_NET [80,443] (msg:\"phishing-filter phishing website detected\"; flow:established,from_client; content:\"GET\"; http_method; content:\"$(echo $URI | cut -c -2047)\"; http_uri; nocase; content:\"$HOST\"; content:\"Host\"; http_header; classtype:attempted-recon; sid:$SID; rev:1;)"
 
+  SN3_RULE="alert http \$HOME_NET any -> \$EXTERNAL_NET any (msg:\"phishing-filter phishing website detected\"; http_header:field host; content:\"$HOST\",nocase; http_uri; content:\"$URI\",nocase; classtype:attempted-recon; sid:$SID; rev:1;)"
+
   SR_RULE="alert http \$HOME_NET any -> \$EXTERNAL_NET any (msg:\"phishing-filter phishing website detected\"; flow:established,from_client; http.method; content:\"GET\"; http.uri; content:\"$URI\"; endswith; nocase; http.host; content:\"$HOST\"; classtype:attempted-recon; sid:$SID; rev:1;)"
 
   echo "$SN_RULE" >> "../dist/phishing-filter-snort2.rules"
+  echo "$SN3_RULE" >> "../dist/phishing-filter-snort3.rules"
   echo "$SR_RULE" >> "../dist/phishing-filter-suricata.rules"
 
   SID=$(( $SID + 1 ))
@@ -261,6 +269,11 @@ cat "../dist/phishing-filter-snort2.rules" | \
 sed '1 i\'"$COMMENT"'' | \
 sed "1s/Domains Blocklist/URL Snort2 Ruleset/" > "../dist/phishing-filter-snort2.rules.temp"
 mv "../dist/phishing-filter-snort2.rules.temp" "../dist/phishing-filter-snort2.rules"
+
+cat "../dist/phishing-filter-snort3.rules" | \
+sed '1 i\'"$COMMENT"'' | \
+sed "1s/Domains Blocklist/URL Snort3 Ruleset/" > "../dist/phishing-filter-snort3.rules.temp"
+mv "../dist/phishing-filter-snort3.rules.temp" "../dist/phishing-filter-snort3.rules"
 
 cat "../dist/phishing-filter-suricata.rules" | \
 sed '1 i\'"$COMMENT"'' | \
