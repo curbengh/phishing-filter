@@ -265,20 +265,14 @@ done < "phishing-url-top-domains-raw.txt"
 
 set -x
 
-cat "../dist/phishing-filter-snort2.rules" | \
-sed '1 i\'"$COMMENT"'' | \
-sed "1s/Domains Blocklist/URL Snort2 Ruleset/" > "../dist/phishing-filter-snort2.rules.temp"
-mv "../dist/phishing-filter-snort2.rules.temp" "../dist/phishing-filter-snort2.rules"
+sed -i '1 i\'"$COMMENT"'' "../dist/phishing-filter-snort2.rules"
+sed -i "1s/Domains Blocklist/URL Snort2 Ruleset/" "../dist/phishing-filter-snort2.rules"
 
-cat "../dist/phishing-filter-snort3.rules" | \
-sed '1 i\'"$COMMENT"'' | \
-sed "1s/Domains Blocklist/URL Snort3 Ruleset/" > "../dist/phishing-filter-snort3.rules.temp"
-mv "../dist/phishing-filter-snort3.rules.temp" "../dist/phishing-filter-snort3.rules"
+sed -i '1 i\'"$COMMENT"'' "../dist/phishing-filter-snort3.rules"
+sed -i "1s/Domains Blocklist/URL Snort3 Ruleset/" "../dist/phishing-filter-snort3.rules"
 
-cat "../dist/phishing-filter-suricata.rules" | \
-sed '1 i\'"$COMMENT"'' | \
-sed "1s/Domains Blocklist/URL Suricata Ruleset/" > "../dist/phishing-filter-suricata.rules.temp"
-mv "../dist/phishing-filter-suricata.rules.temp" "../dist/phishing-filter-suricata.rules"
+sed -i '1 i\'"$COMMENT"'' "../dist/phishing-filter-suricata.rules"
+sed -i "1s/Domains Blocklist/URL Suricata Ruleset/" "../dist/phishing-filter-suricata.rules"
 
 
 ## IE blocklist
