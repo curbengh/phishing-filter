@@ -250,6 +250,7 @@ while read URL; do
   HOST=$(echo "$URL" | cut -d"/" -f1)
   URI=$(echo "$URL" | sed -e "s/^$HOST//" -e "s/;/\\\;/g")
 
+  # Snort2 only supports <=2047 characters of `content`
   SN_RULE="alert tcp \$HOME_NET any -> \$EXTERNAL_NET [80,443] (msg:\"phishing-filter phishing website detected\"; flow:established,from_client; content:\"GET\"; http_method; content:\"$(echo $URI | cut -c -2047)\"; http_uri; nocase; content:\"$HOST\"; content:\"Host\"; http_header; classtype:attempted-recon; sid:$SID; rev:1;)"
 
   SN3_RULE="alert http \$HOME_NET any -> \$EXTERNAL_NET any (msg:\"phishing-filter phishing website detected\"; http_header:field host; content:\"$HOST\",nocase; http_uri; content:\"$URI\",nocase; classtype:attempted-recon; sid:$SID; rev:1;)"
