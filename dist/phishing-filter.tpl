@@ -1,6 +1,6 @@
 msFilterList
 # Title: Phishing Hosts Blocklist (IE)
-# Updated: Sat, 20 Mar 2021 00:06:24 UTC
+# Updated: Sat, 20 Mar 2021 01:08:50 UTC
 # Expires: 1 day (update frequency)
 # Homepage: https://gitlab.com/curben/phishing-filter
 # License: https://gitlab.com/curben/phishing-filter#license
@@ -187,7 +187,6 @@ msFilterList
 -d abvncdlfpfxbsxfohvagcgbjox-dot-gle39404049.rj.r.appspot.com
 -d ac-bastion.ru
 -d acampsrqnvicyctjutoznqjawv-dot-gle39404049.rj.r.appspot.com
--d acc-recover-help.mainhajar-terus.xyz
 -d acc-recover-police.langsung-barbar.xyz
 -d accareindia.com
 -d accept-77i54o9gj6x8.ima.mx
@@ -576,7 +575,6 @@ msFilterList
 -d amidabuli.com
 -d ammaer.amazzom.icu
 -d ammri1.ga
--d ammzer.amaccmon.icu
 -d amoeam.cu-jp.top
 -d amoem-rn.com.ar
 -d amoozin.com
@@ -685,6 +683,7 @@ msFilterList
 -d apps.pagedontactivefb.xyz
 -d appupdatesecurehalifaxonlineappupdate-verification.empastesanabalon.cl
 -d appupdatesecurehalifaxonlineappupdate-verification.titansgamestudio.ir
+-d appzonasequra-bcp.com
 -d apreciapharma.in
 -d aqtv.tv
 -d arcomindia.com
@@ -767,7 +766,6 @@ msFilterList
 -d attonlineserviceverificationadmin.weebly.com
 -d attsurpport.weebly.com
 -d attt-bell-s0uth-ma1n-course-ma.godaddysites.com
--d atttatttt2021.weebly.com
 -d attttfilessss.weebly.com
 -d attusupdate.weebly.com
 -d attverificationemailservicesupgrade.weebly.com
@@ -2159,7 +2157,6 @@ msFilterList
 -d fixertawa.blogspot.com
 -d fixitestore.com
 -d fjflhvzfilaugutplitswzhxux-dot-gl099898987fhkl.uk.r.appspot.com
--d fjkvlfvjkflchvjlfvfcvllsugdhdw.weebly.com
 -d fktevfabinwwgxvcqcvwmexjpe-dot-gle39404049.rj.r.appspot.com
 -d flag-19436048.royal-eng.ps
 -d flag-24167805.royal-eng.ps
@@ -2771,7 +2768,6 @@ msFilterList
 -d instagram2login.ml.newdoonchemist.com
 -d instagramcopyright-service.ml
 -d instagramhelpp.agency
--d instagramloginphotopost.herokuapp.com
 -d instagramprikolu.ru
 -d instagromn.com
 -d institutoaxioma.com.ar
@@ -3089,7 +3085,6 @@ msFilterList
 -d lbkofnlwyhbocpshekhxulqvzi-dot-gle39404049.rj.r.appspot.com
 -d lboindustrial.com.mx
 -d lbonsecurecoin.000webhostapp.com
--d lclmoncompte-servicesclients-sslwwh.info
 -d lctafrica.net
 -d ldsplanettt.yolasite.com
 -d le-diablotin-rouen.com
@@ -3438,7 +3433,6 @@ msFilterList
 -d malukutenggarakab.go.id
 -d mamounezzidi.ml
 -d man1bantul.sch.id
--d manage-app-apply.com
 -d manage-bankpayees.com
 -d manage.fanshuyou.com
 -d managegallon.com
@@ -3544,7 +3538,6 @@ msFilterList
 -d mgtsystems.ir
 -d mhlllp.com
 -d mhllpp.com
--d mhllps.com
 -d mhmrntddrnnzuqtizixmyxbirz-dot-gle39404049.rj.r.appspot.com
 -d mi-air-onedrive.com
 -d micard.co.jp.rkfcw.com
@@ -3725,6 +3718,7 @@ msFilterList
 -d myentnherballet.com
 -d myetherrwalliet.com
 -d myetherwallet.ink
+-d myetherwalletm.cc
 -d myetherwalletn.vip
 -d myethrewallet.ink
 -d myetncrenwallper.com
@@ -4047,7 +4041,6 @@ msFilterList
 -d olx-rent.id23814.su
 -d olx-sell.info
 -d olx-seller.pl
--d olx-uzyskiwaniie.pl
 -d olx-visa.info
 -d olx.3ds-paymenting.pl
 -d olx.bolxgift.online
@@ -4358,7 +4351,6 @@ msFilterList
 -d pemblokiran-fb8.starsbers8.gq
 -d pemblokiran.logindatafacebok.ml
 -d pemblokiran2021.starsbers8.gq
--d pemblokiranfacebok.gq
 -d pemblokiranfb-2021.duckdns.org
 -d pendingdelivery77m6g9.s3.us-south.cloud-object-storage.appdomain.cloud
 -d perabetgirs.blogspot.com
@@ -6065,8 +6057,6 @@ msFilterList
 -d verifikasi-akun-2021.weebly.com
 -d verifikasi-akun-anda2021.weebly.com
 -d verifikasi-blockeds8.forumz.info
--d verifikasi-data99.cf
--d verifikasi-data99.tk
 -d verifikasi-facebook.wixsite.com
 -d verifikasi-fb1.zaixy99.ml
 -d verifikasi2020.weebly.com
