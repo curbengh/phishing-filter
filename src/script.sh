@@ -231,7 +231,7 @@ rm -f "../dist/phishing-filter-snort2.rules" \
   "../dist/phishing-filter-snort3.rules" \
   "../dist/phishing-filter-suricata.rules"
 
-SID="100000001"
+SID="200000001"
 while read DOMAIN; do
   SN_RULE="alert tcp \$HOME_NET any -> \$EXTERNAL_NET [80,443] (msg:\"phishing-filter phishing website detected\"; flow:established,from_client; content:\"GET\"; http_method; content:\"$DOMAIN\"; content:\"Host\"; http_header; classtype:attempted-recon; sid:$SID; rev:1;)"
 
