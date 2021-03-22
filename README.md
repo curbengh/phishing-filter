@@ -330,7 +330,7 @@ Configure Snort to use the ruleset:
 ips =
 {
   variables = default_variables,
-+  include = 'rules/phishing-filter-snort3-online.rules'
++  include = 'rules/phishing-filter-snort3.rules'
 }
 ```
 
