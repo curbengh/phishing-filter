@@ -184,13 +184,11 @@ cat "phishing-notop-domains.txt" | \
 sort | \
 sed '1 i\'"$COMMENT"'' > "../dist/phishing-filter-domains.txt"
 
+cat "phishing-notop-domains.txt" | \
+grep -vE "([0-9]{1,3}[\.]){3}[0-9]{1,3}" > "phishing-notop-hosts.txt"
 
 ## Hosts file blocklist
-cat "../dist/phishing-filter-domains.txt" | \
-# Exclude comment with #
-grep -vE "^#" | \
-# Remove IPv4 address
-grep -vE "([0-9]{1,3}[\.]){3}[0-9]{1,3}" | \
+cat "phishing-notop-hosts.txt" | \
 sed "s/^/0.0.0.0 /g" | \
 # Re-insert comment
 sed '1 i\'"$COMMENT"'' | \
@@ -198,27 +196,24 @@ sed "1s/Domains/Hosts/" > "../dist/phishing-filter-hosts.txt"
 
 
 ## Dnsmasq-compatible blocklist
-cat "../dist/phishing-filter-hosts.txt" | \
-grep -vE "^#" | \
-sed "s/^0.0.0.0 /address=\//g" | \
+cat "phishing-notop-hosts.txt" | \
+sed "s/^/address=\//g" | \
 sed "s/$/\/0.0.0.0/g" | \
 sed '1 i\'"$COMMENT"'' | \
 sed "1s/Blocklist/dnsmasq Blocklist/" > "../dist/phishing-filter-dnsmasq.conf"
 
 
 ## BIND-compatible blocklist
-cat "../dist/phishing-filter-hosts.txt" | \
-grep -vE "^#" | \
-sed 's/^0.0.0.0 /zone "/g' | \
+cat "phishing-notop-hosts.txt" | \
+sed 's/^/zone "/g' | \
 sed 's/$/" { type master; notify no; file "null.zone.file"; };/g' | \
 sed '1 i\'"$COMMENT"'' | \
 sed "1s/Blocklist/BIND Blocklist/" > "../dist/phishing-filter-bind.conf"
 
 
 ## Unbound-compatible blocklist
-cat "../dist/phishing-filter-hosts.txt" | \
-grep -vE "^#" | \
-sed 's/^0.0.0.0 /local-zone: "/g' | \
+cat "phishing-notop-hosts.txt" | \
+sed 's/^/local-zone: "/g' | \
 sed 's/$/" always_nxdomain/g' | \
 sed '1 i\'"$COMMENT"'' | \
 sed "1s/Blocklist/Unbound Blocklist/" > "../dist/phishing-filter-unbound.conf"
@@ -279,9 +274,8 @@ sed -i "1s/Domains Blocklist/URL Suricata Ruleset/" "../dist/phishing-filter-sur
 ## IE blocklist
 COMMENT_IE="msFilterList\n$COMMENT\n: Expires=1\n#"
 
-cat "../dist/phishing-filter-hosts.txt" | \
-grep -vE "^#" | \
-sed "s/^0\.0\.0\.0/-d/g" | \
+cat "phishing-notop-hosts.txt" | \
+sed "s/^/-d /g" | \
 sed '1 i\'"$COMMENT_IE"'' | \
 sed "2s/Domains Blocklist/Hosts Blocklist (IE)/" > "../dist/phishing-filter.tpl"
 
