@@ -11,7 +11,7 @@ There are multiple formats available, refer to the appropriate section according
 - Vivaldi -> [URL-based (Vivaldi)](#url-based-vivaldi)
 - [Hosts](#hosts-based)
 - [Dnsmasq](#dnsmasq)
-- [BIND](#bind)
+- BIND -> BIND [zone](#bind) or [RPZ](#response-policy-zone)
 - [Unbound](#unbound)
 - Internet Explorer -> [Tracking Protection List (IE)](#tracking-protection-list-ie)
 - [Snort2](#snort2)
@@ -217,6 +217,24 @@ Zone file is derived from [here](https://github.com/tomzuu/blacklist-named/blob/
 - https://cdn.statically.io/gh/curbengh/phishing-filter/master/dist/phishing-filter-bind.conf
 - https://gitcdn.xyz/repo/curbengh/phishing-filter/master/dist/phishing-filter-bind.conf
 - https://cdn.jsdelivr.net/gh/curbengh/phishing-filter/dist/phishing-filter-bind.conf
+
+</details>
+
+## Response Policy Zone
+
+This blocklist includes domains only.
+
+- https://curben.gitlab.io/malware-filter/phishing-filter-rpz.conf
+
+<details>
+<summary>Mirrors</summary>
+
+- https://cdn.statically.io/gl/curben/phishing-filter/master/dist/phishing-filter-rpz.conf
+- https://glcdn.githack.com/curben/phishing-filter/raw/master/dist/phishing-filter-rpz.conf
+- https://raw.githubusercontent.com/curbengh/phishing-filter/master/dist/phishing-filter-rpz.conf
+- https://cdn.statically.io/gh/curbengh/phishing-filter/master/dist/phishing-filter-rpz.conf
+- https://gitcdn.xyz/repo/curbengh/phishing-filter/master/dist/phishing-filter-rpz.conf
+- https://cdn.jsdelivr.net/gh/curbengh/phishing-filter/dist/phishing-filter-rpz.conf
 
 </details>
 
