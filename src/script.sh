@@ -134,7 +134,8 @@ THIRD_LINE="! Expires: 1 day (update frequency)"
 FOURTH_LINE="! Homepage: https://gitlab.com/curben/phishing-filter"
 FIFTH_LINE="! License: https://gitlab.com/curben/phishing-filter#license"
 SIXTH_LINE="! Source: https://www.phishtank.com/ & https://openphish.com/"
-COMMENT_UBO="$FIRST_LINE\n$SECOND_LINE\n$THIRD_LINE\n$FOURTH_LINE\n$FIFTH_LINE\n$SIXTH_LINE"
+NOTICE="\n! Notice: https://curben.gitlab.io/phishing-filter-mirror is moved to https://curben.gitlab.io/malware-filter\n"
+COMMENT_UBO="$FIRST_LINE\n$SECOND_LINE\n$THIRD_LINE\n$FOURTH_LINE\n$FIFTH_LINE\n$SIXTH_LINE\n$NOTICE"
 
 
 cat "phishing-notop-domains.txt" "phishing-url-top-domains.txt" | \
