@@ -106,7 +106,7 @@ grep -Fx -f "top-1m-well-known.txt" > "phishing-top-domains.txt"
 
 ## Exclude popular domains
 cat "phishing-domains.txt" | \
-grep -F -vf "phishing-top-domains.txt" > "phishing-notop-domains.txt"
+grep -F -vf "phishing-top-domains.txt" > "phishing-notop-domains-temp.txt"
 
 cat "phishing.txt" | \
 grep -F -f "phishing-top-domains.txt" > "phishing-url-top-domains-temp.txt"
@@ -122,7 +122,8 @@ while read URL; do
 
   ## Separate host-only URL
   if [ -z "$URI" ] || [ "$URI" = "/" ]; then
-    echo "$HOST" >> "phishing-notop-domains.txt"
+    echo "$HOST" | \
+    cut -f 1 -d ":" >> "phishing-notop-domains-temp.txt"
   else
     ## Parse phishing URLs from popular domains
     echo "$URL" | \
@@ -133,6 +134,9 @@ done < "phishing-url-top-domains-temp.txt"
 
 ## Re-enable command print
 set -x
+
+## "phishing-url-top-domains-temp.txt" may add duplicate entries
+sort -u "phishing-notop-domains-temp.txt" > "phishing-notop-domains.txt"
 
 
 ## Merge malware domains and URLs
