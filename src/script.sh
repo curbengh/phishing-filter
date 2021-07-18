@@ -199,7 +199,7 @@ sort | \
 sed '1 i\'"$COMMENT"'' > "../dist/phishing-filter-domains.txt"
 
 cat "phishing-notop-domains.txt" | \
-grep -vE "([0-9]{1,3}[\.]){3}[0-9]{1,3}" > "phishing-notop-hosts.txt"
+grep -vE "^([0-9]{1,3}[\.]){3}[0-9]{1,3}$" > "phishing-notop-hosts.txt"
 
 ## Hosts file blocklist
 cat "phishing-notop-hosts.txt" | \
