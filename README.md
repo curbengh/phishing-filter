@@ -13,6 +13,7 @@ There are multiple formats available, refer to the appropriate section according
 - [Dnsmasq](#dnsmasq)
 - BIND -> BIND [zone](#bind) or [RPZ](#response-policy-zone)
 - [Unbound](#unbound)
+- [dnscrypt-proxy](#dnscrypt-proxy)
 - Internet Explorer -> [Tracking Protection List (IE)](#tracking-protection-list-ie)
 - [Snort2](#snort2)
 - [Snort3](#snort3)
@@ -274,6 +275,53 @@ printf '\n  include: "/usr/local/etc/unbound/phishing-filter-unbound.conf"\n' >>
 - https://gitcdn.xyz/repo/curbengh/phishing-filter/master/dist/phishing-filter-unbound.conf
 - https://cdn.jsdelivr.net/gh/curbengh/phishing-filter/dist/phishing-filter-unbound.conf
 
+</details>
+
+## dnscrypt-proxy
+
+### Install
+
+```
+# Create a new folder to store the blocklist
+mkdir -p /etc/dnscrypt-proxy/
+
+# Create a new cron job for daily update
+printf '#!/bin/sh\ncurl -L "https://curben.gitlab.io/malware-filter/phishing-filter-dnscrypt-blocked-names.txt" -o "/etc/dnscrypt-proxy/phishing-filter-dnscrypt-blocked-names.txt"\n' > /etc/cron.daily/phishing-filter
+printf '\ncurl -L "https://curben.gitlab.io/malware-filter/phishing-filter-dnscrypt-blocked-ips.txt" -o "/etc/dnscrypt-proxy/phishing-filter-dnscrypt-blocked-ips.txt"\n' >> /etc/cron.daily/phishing-filter
+
+# cron job requires execution permission
+chmod 755 /etc/cron.daily/phishing-filter
+```
+
+Configure dnscrypt-proxy to use the blocklist:
+
+``` diff
+[blocked_names]
++  blocked_names_file = '/etc/dnscrypt-proxy/phishing-filter-dnscrypt-blocked-names.txt'
+
+[blocked_ips]
++  blocked_ips_file = '/etc/dnscrypt-proxy/phishing-filter-dnscrypt-blocked-ips.txt'
+```
+
+- https://curben.gitlab.io/malware-filter/phishing-filter-dnscrypt-blocked-names.txt
+- https://curben.gitlab.io/malware-filter/phishing-filter-dnscrypt-blocked-ips.txt
+
+<details>
+<summary>Mirrors</summary>
+
+- https://cdn.statically.io/gl/curben/phishing-filter/master/dist/phishing-filter-dnscrypt-blocked-names.txt
+- https://glcdn.githack.com/curben/phishing-filter/raw/master/dist/phishing-filter-dnscrypt-blocked-names.txt
+- https://raw.githubusercontent.com/curbengh/phishing-filter/master/dist/phishing-filter-dnscrypt-blocked-names.txt
+- https://cdn.statically.io/gh/curbengh/phishing-filter/master/dist/phishing-filter-dnscrypt-blocked-names.txt
+- https://gitcdn.xyz/repo/curbengh/phishing-filter/master/dist/phishing-filter-dnscrypt-blocked-names.txt
+- https://cdn.jsdelivr.net/gh/curbengh/phishing-filter/dist/phishing-filter-dnscrypt-blocked-names.txt
+
+- https://cdn.statically.io/gl/curben/phishing-filter/master/dist/phishing-filter-dnscrypt-blocked-ips.txt
+- https://glcdn.githack.com/curben/phishing-filter/raw/master/dist/phishing-filter-dnscrypt-blocked-ips.txt
+- https://raw.githubusercontent.com/curbengh/phishing-filter/master/dist/phishing-filter-dnscrypt-blocked-ips.txt
+- https://cdn.statically.io/gh/curbengh/phishing-filter/master/dist/phishing-filter-dnscrypt-blocked-ips.txt
+- https://gitcdn.xyz/repo/curbengh/phishing-filter/master/dist/phishing-filter-dnscrypt-blocked-ips.txt
+- https://cdn.jsdelivr.net/gh/curbengh/phishing-filter/dist/phishing-filter-dnscrypt-blocked-ips.txt
 </details>
 
 ## Tracking Protection List (IE)

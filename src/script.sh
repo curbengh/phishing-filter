@@ -245,6 +245,20 @@ sed '1 i\'"$COMMENT"'' | \
 sed "1s/Blocklist/Unbound Blocklist/" > "../dist/phishing-filter-unbound.conf"
 
 
+## dnscrypt-proxy blocklists
+# name-based
+cat "phishing-notop-hosts.txt" | \
+sed '1 i\'"$COMMENT"'' | \
+sed "1s/Domains/Names/" > "../dist/phishing-filter-dnscrypt-blocked-names.txt"
+
+# IPv4-based
+cat "phishing-notop-domains.txt" | \
+sort | \
+grep -E "^([0-9]{1,3}[\.]){3}[0-9]{1,3}$" | \
+sed '1 i\'"$COMMENT"'' | \
+sed "1s/Domains/IPs/" > "../dist/phishing-filter-dnscrypt-blocked-ips.txt"
+
+
 set +x
 
 ## Snort & Suricata rulesets
