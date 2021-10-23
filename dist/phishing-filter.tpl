@@ -1,6 +1,6 @@
 msFilterList
 # Title: Phishing Hosts Blocklist (IE)
-# Updated: Sat, 23 Oct 2021 00:01:39 +0000
+# Updated: Sat, 23 Oct 2021 12:01:31 +0000
 # Expires: 1 day (update frequency)
 # Homepage: https://gitlab.com/curben/phishing-filter
 # License: https://gitlab.com/curben/phishing-filter#license
@@ -50,7 +50,6 @@ msFilterList
 -d 12mo7.trk.elasticemail.com
 -d 12oei.trk.elasticemail.com
 -d 12xg1.trk.elasticemail.com
--d 13-210-64-11.cprapid.com
 -d 13-68-239-79.cprapid.com
 -d 132artisan.lavanup.com
 -d 13721372.32304ey.ninishop.org
@@ -67,8 +66,8 @@ msFilterList
 -d 1artemisbet.blogspot.com
 -d 1c5r2g.cn
 -d 1dom.club
--d 1inch.community-rewards-program.com
 -d 1inich.exchange
+-d 1jp.mceircarei.com
 -d 1jp.mecrecarii.com
 -d 1m5yp.csb.app
 -d 1millionnfts.art
@@ -103,6 +102,7 @@ msFilterList
 -d 2fa.bthei.com
 -d 2ffth.csb.app
 -d 2h6ms1t.cn
+-d 2jp.mceircarei.com
 -d 2jp.mecrecarii.com
 -d 2jp.menrecarii.com
 -d 2nger.cn
@@ -126,6 +126,7 @@ msFilterList
 -d 386f9e87.ithemeshosting.com.php73-39.lan3-1.websitetestlink.com
 -d 3873365.com
 -d 3a10a178.s6t6sj4s46tu4sys54y5.pages.dev
+-d 3ck.me
 -d 3e.ralmakesta.workers.dev
 -d 3ff7c459-86b2-4f6d-b6b0-ba6402ef6cb0.htmlcomponentservice.com
 -d 3glite.wapka.co
@@ -243,7 +244,6 @@ msFilterList
 -d 77511d60.xqccft.cn
 -d 779zt.csb.app
 -d 7882f06d.xqccft.cn
--d 788emailcelates.weebly.com
 -d 7a4298b9.sso-mail-secure234ds23d23wd1.pages.dev
 -d 7absskala.servehttp.com
 -d 7ctizej.cn
@@ -274,6 +274,7 @@ msFilterList
 -d 8s07w.cn
 -d 90a6903b-75ff-445e-893e-c69d2807dd96.htmlcomponentservice.com
 -d 90scds.b-cdn.net
+-d 9303npw.weebly.com
 -d 934354637282-343432.com
 -d 9557peter.voorhoeve.acusticocr.com
 -d 95izxt6.cn
@@ -286,8 +287,6 @@ msFilterList
 -d 98635.ihostfull.com
 -d 99000.ihostfull.com
 -d 99999999999999999999.weebly.com
--d 99ggyytt.weebly.com
--d 9c9855c9c198acd14ca8c88da20e8ad5-dot-goff039302032323.rj.r.appspot.com
 -d 9d62cfee-59b3-42a8-9542-4b3a32692792.htmlcomponentservice.com
 -d 9eccy7y.cn
 -d 9hsf62v.cn
@@ -331,7 +330,6 @@ msFilterList
 -d accountliveout.freecluster.eu
 -d accounts-autoscout24.de
 -d accounts.filcoln.io
--d accountsecure.moonfruit.com
 -d accountverifisv.hostfree.pw
 -d accountverifisv1.hostfree.pw
 -d accoutcoxmanagement.weebly.com
@@ -370,13 +368,13 @@ msFilterList
 -d adjoresshonlamsf.com
 -d adlxkw.covidharsh.com
 -d admin-formserviceupdates.weeblysite.com
+-d admin-foundation-100000123459867320383.gq
 -d admin-rebelutions-10000012345986958174273.ga
 -d admin.baragor.se
 -d admin.dreamploy.com
 -d admin.indramayukab.go.id
 -d admin.sitesumo.com
 -d adminpostalessl.zyrosite.com
--d admlnlogln.casalog.xyz
 -d adpunemploymentclaims.sharefile.com
 -d ads-google-think.blogspot.com
 -d adsaccountbusinesscampaigncreditcoupon.com
@@ -386,10 +384,9 @@ msFilterList
 -d adscouponsbusinessaccount.com
 -d advent.ist
 -d adx-exchancesegu2bn-gibcx.com
--d aebezbradebsaeb.pelangimobile.com
 -d aebksvvbiatxhxsykhucgpmtid-dot-gowa11111111.rj.r.appspot.com
--d aeecom.ceacrob.com
--d aeocm.ceacrob.com
+-d aemwnzx.000webhostapp.com
+-d aeoncarnd.no-repluajp.com
 -d aepwfh.covidharsh.com
 -d aerflofans.com
 -d aermnzsa.000webhostapp.com
@@ -399,12 +396,7 @@ msFilterList
 -d afwzpsylof.duckdns.org
 -d afxdns.covidharsh.com
 -d ag-hukuk.com
--d agdkbporsche.com
--d agdkbschon.com
--d agdkbstatus.com
 -d agewzdw.procreattive.com
--d aggiornamento-psd2-txs.000webhostapp.com
--d aggiornamento-strewazxcv.000webhostapp.com
 -d agrardkbag.com
 -d agri72.fr
 -d agribisnis.faperta.ulm.ac.id
@@ -468,10 +460,11 @@ msFilterList
 -d allegro-ger.id-info67.me
 -d allegro.pl-id18841898.xyz
 -d allegro.qumucloud.com
+-d allegrolokalnie-pl.149663.space
 -d allegrolokalnie-pl.627492.space
 -d allegrolokalnie-pl.645108.space
 -d allegrolokalnie-pl.835472.space
--d allegrolokalnie-pl.id-47293.pw
+-d allegrolokalnie-pl.93848.space
 -d allegrolokalnie-pl.id-62875.space
 -d allegrolokalnie-pl.pasertenepay.site
 -d allegrolokalnie-pl.translate.goog
@@ -491,6 +484,7 @@ msFilterList
 -d alumdecor.ru
 -d alumnimkn.ulm.ac.id
 -d amacon.co.jp.amzocco.shop
+-d amaeou.iorh7mg.top
 -d amaezom.bxqaula.cn
 -d amaezom.cbhlbtd.cn
 -d amaezom.cxwsfzl.cn
@@ -534,10 +528,9 @@ msFilterList
 -d amanzon.co.ip.whhmcyy.com.cn
 -d amanzon.co.ip.xqllaser.com.cn
 -d amaoeu.uoe6fdg.top
--d amaonc.opsd2b.top
 -d amaose.pgd4gjt.xyz
--d amaoun.frkpn8gh.xyz
--d amarillovision.net
+-d amaoun.lisf4um.top
+-d amaoxe.pfgy15gf.xyz
 -d amaume.tyj3gffg.xyz
 -d amaure.sdfgh7fe.top
 -d amaxcarrentals.com.au
@@ -550,8 +543,10 @@ msFilterList
 -d amaznon.co.ip.jnpszjp.cn
 -d amaznon.co.ip.jp0pdh.cn
 -d amaznon.co.ip.jpdflrz.cn
+-d amaznon.co.ip.jpkjhkj.cn
 -d amaznon.co.jp.edico.cn
 -d amaznon.co.jppl3m.cn
+-d amazom.co.jp.88dcfw.cn
 -d amazom.coolbabybj.cn
 -d amazom.cysmkw.cn
 -d amazom.designz.cn
@@ -563,6 +558,7 @@ msFilterList
 -d amazom.tvovbfb.cn
 -d amazom.ufhrlq.cn
 -d amazom.wrhtnd.cn
+-d amazon-co-jp.oa1t.top
 -d amazon-co-jp.ot2n.top
 -d amazon-co-jp.wzq997.top
 -d amazon-co-jp.youtian8332.vip
@@ -580,7 +576,6 @@ msFilterList
 -d amazonn.servehttp.com
 -d amazonoe.baolz.cn
 -d amazonoe.cglouck.cn
--d amazonrueiixcngy.xyz
 -d amazonvxcuexbzp.xyz
 -d amazzon-co.com
 -d ambienteprotegido.foregon.com
@@ -596,7 +591,6 @@ msFilterList
 -d amozanm-rrbrb.cc
 -d amozanm-rrere.cc
 -d amprojanitorial.com
--d amrazon.shop
 -d ams-eg.com
 -d amtodnshi63.aonmthis.top
 -d amuezom.6s01nui.cn
@@ -605,14 +599,10 @@ msFilterList
 -d amuezom.abaigirls.cn
 -d amuezom.abaihardware.cn
 -d amuezom.abaiinformation.cn
--d amuezom.abaijapan.cn
--d amuezom.abaimp3.cn
 -d amuezom.abaipro.cn
--d amuezom.apaqay.cn
 -d amuezom.bowvnx.cn
 -d amuezom.cmwbjx.cn
 -d amuezom.cwdcgk.cn
--d amuezom.dhg1w.cn
 -d amuezom.djyjah.cn
 -d amuezom.fnz173.cn
 -d amuezom.ghymwh.cn
@@ -620,17 +610,13 @@ msFilterList
 -d amuezom.iqhybp.cn
 -d amuezom.mwhmnw.cn
 -d amuezom.n9f8t.cn
--d amuezom.nzmyen.cn
--d amuezom.qfzaef.cn
 -d amuezom.rfbydn.cn
 -d amuezom.rrxpcd.cn
 -d amuezom.sdef34.cn
--d amuezom.skufqme.cn
 -d amuezom.yssfzk.cn
 -d amuezom.zrkquj.cn
 -d amybwt.covidharsh.com
 -d amzaomaz.co.jp.wearepletouhatyorremirputdnupandisoperational.ml
--d amzcon.co.jp.amazesilo.shop
 -d amznoui.jp.ip.29733.net.cn
 -d amzona.co.jp.amozno.top
 -d amzzon.co.jp.gll01a.website
@@ -640,6 +626,8 @@ msFilterList
 -d anandsr-dev.github.io
 -d anarchitecturestudio.com
 -d anazno.co.ip.6.cn
+-d anazon.co.ip.gll05a.shop
+-d anazon.co.ip.r5bvnxo.cn
 -d anazon.co.ip.uigqwse.cn
 -d anazon.co.ip.xi3bqi8.cn
 -d anazon.co.ip.xvmtcpq.cn
@@ -676,7 +664,6 @@ msFilterList
 -d aoazmna.ip.jp.hccf.com.cn
 -d aoecn.carcob.com
 -d aoemsn.corceb.com
--d aolwebmail55233.weebly.com
 -d aolzjfxaup.duckdns.org
 -d aoqhuischf.duckdns.org
 -d apbxkc.covidharsh.com
@@ -684,6 +671,7 @@ msFilterList
 -d apicola.eu
 -d apikesbandung.ac.id
 -d apkily.com
+-d aplus.co.jp.guzuta.com
 -d app-dec-access.com
 -d app-novobanco.com
 -d app-royalmail.com
@@ -721,11 +709,12 @@ msFilterList
 -d arcomindia.com
 -d arcxdqxedx.temp.swtest.ru
 -d area-verifica-clienti-com.preview-domain.com
+-d aremnzvc.000webhostapp.com
+-d arenxcx.000webhostapp.com
 -d areueaom.bvn8yu.cn
 -d areueaom.ff29uj.cn
 -d areueaom.k5dkko.cn
 -d areueaom.kadongyang.cn
--d areueaom.zhagov.cn
 -d areyourobotornot.blogspot.com
 -d argenahomebanqbe.com
 -d argus-garage-doors-repair.com
@@ -787,9 +776,7 @@ msFilterList
 -d att000000000att0000000.weebly.com
 -d attached-file.gq
 -d attcom-prod06a.adobecqms.net
--d attcurrentlymember1.weebly.com
 -d attiva-nuova-procedura-sicurezza-web.ziniamlaminates.com
--d attmailcommunicationserviceonlineverification.weebly.com
 -d attnet-mail-login.netlify.app
 -d attnet.hyperphp.com
 -d attnet4.aidaform.com
@@ -852,7 +839,6 @@ msFilterList
 -d ayazmasud.buet.ac.bd
 -d azaharpanama.com
 -d azb3s.cf
--d azizi-realty.com
 -d aziziproperties.com
 -d azmno.ip.jp.2144.org.cn
 -d azmno.ip.jp.83882.net
@@ -899,7 +885,6 @@ msFilterList
 -d bancaporinternet-netinterbankpe12.com
 -d bancaporinternet.interbrnpe.com
 -d bancaporinternet.lnterbank.grupodigital.bnxoperu.com
--d bancaporinternet.lnterbark.web1.sbs
 -d bancaporlnternet-interbank.pe-gg.com
 -d bancaporlnternet-interbank.pe-pl.com
 -d bancaporlnternet.lnterbank.banceninternet.com
@@ -978,7 +963,6 @@ msFilterList
 -d bcpzonsegurabeta-vlabcp-com.dtuofus.com
 -d bcpzonsegurabeta-vlabcp-com.gurldiro.com
 -d bcvsalvador2021.hostfree.pw
--d bdpharmaceuticals.net
 -d bdxxmg.top
 -d be-home.web.do
 -d beansbulletsbandagesandyou.com
@@ -1005,14 +989,13 @@ msFilterList
 -d bergenfamiilycenter.org
 -d berketurizm.com
 -d berry-more.ru
+-d beskyttelses22298.co.vu
 -d bestasusporgris.blogspot.com
 -d bestbenefitsnow.life
 -d bestbuyturizm.com.tr
--d bestehange.com
 -d bestfive.main.jp
 -d beststlouiscleaningcompany.com
 -d besttest.synergize.co
--d bestvhange.com
 -d bestwaypools.in
 -d bestzhange.com
 -d bet.travel
@@ -1109,7 +1092,6 @@ msFilterList
 -d biblio-emi.md
 -d bibwebshop.com
 -d bicicentroslezama.com
--d bidadarisarugo.000webhostapp.com
 -d bienlinea.com
 -d bigboxevents.com
 -d bigideas.com.ph
@@ -1117,7 +1099,6 @@ msFilterList
 -d bikin.co
 -d billing-errorhelp.com
 -d billingfailure-o2.com
--d billinguk-voda.com
 -d bimoitua.byethost6.com
 -d binarybenliveload.com
 -d binternet-6448984767.square.site
@@ -1127,7 +1108,6 @@ msFilterList
 -d biswasgroceryandcafe.com
 -d bitalchile.cl
 -d bitbaink.web.app
--d bitcoinsystem.ru
 -d bitferronort.blogspot.com
 -d bitflyer.venus.kim
 -d bitflyer2.com
@@ -1177,7 +1157,6 @@ msFilterList
 -d bogdonovlerer.com
 -d boiclub.com
 -d bokep-xnxx7.jkub.com
--d bokepindohot99.duckdns.org
 -d bokepress2020.dns2.us
 -d boliviaayudaa.blogspot.com
 -d bolong3d.com
@@ -1221,7 +1200,6 @@ msFilterList
 -d bridge.axie-lnfinity.com
 -d brierwoodgc.com
 -d brigida_cossette.gitlab.io
--d bring.ddnsking.com
 -d brittoprofissional.com
 -d broacfe.com
 -d broahs.com
@@ -1244,14 +1222,12 @@ msFilterList
 -d bt-102330.square.site
 -d bt-102623.square.site
 -d bt-102804.square.site
--d bt-104755.square.site
 -d bt-106592.square.site
 -d bt-106892.square.site
 -d bt-108528.square.site
 -d bt-broadbrandss-amazing-site.webflow.io
 -d bt-telecommunication-103319.square.site
 -d bt05095.weebly.com
--d bt800919-7867-4350.mystrikingly.com
 -d btbroadband45654378.boxmode.io
 -d btbroadband45659090xx.boxmode.io
 -d btbroadband980nfj.boxmode.io
@@ -1270,6 +1246,7 @@ msFilterList
 -d btconnectfilesecurebthomelogindropboxlinkupdatetdropboxpdf-logs.yolasite.com
 -d btconnectfilesecurebthomeloginpdropboxupdatepdf-logsssss-websit.yolasite.com
 -d btconnectfilesecurebthomesloginpdropboxupdatepdf-logsssss-websi.yolasite.com
+-d btcssommunity.weebly.com
 -d btddidjdjdjdd.boxmode.io
 -d bthak.com
 -d btincomingmailalertq7474444.boxmode.io
@@ -1346,7 +1323,6 @@ msFilterList
 -d cafejipretona.com
 -d cairoscan.com.eg
 -d caixa-gov.com
--d caixaeletronicax.blogspot.com
 -d caixaseguradora.quadientcloud.com
 -d cakesbyannemotha.com
 -d calm-bay-082938110.azurestaticapps.net
@@ -1360,6 +1336,7 @@ msFilterList
 -d campervan-leipzig.de
 -d canadianmidwives-org.ga
 -d canaldigitalnterbank.web1.sbs
+-d cancelaciondetransferenciashonduras2021.webnode.es
 -d cannellandcoflooring.co.uk
 -d cantonsurgery.com
 -d capacidade.dynv6.net
@@ -1388,7 +1365,6 @@ msFilterList
 -d caterin9302.byethost6.com
 -d cateringfoodanddrinksupplies777.business.site
 -d catherinehennig.com
--d cauld-material.000webhostapp.com
 -d caycos.beispielseite-wmka.de
 -d cbdbyrxjessokcpamoitllthky-dot-gowa11111111.rj.r.appspot.com
 -d cbkcares.org
@@ -1450,6 +1426,7 @@ msFilterList
 -d check-pointpages.redirectme.net
 -d check-theperfectgift-balance.info
 -d checkpayroll.creatorlink.net
+-d checkupdatelivexfinity.weebly.com
 -d cherellll.fr
 -d chickenempty.top
 -d chikkuthomas.github.io
@@ -1497,6 +1474,7 @@ msFilterList
 -d clientebnreserva.ultimatefreehost.in
 -d clientesyscaixa4.10001mb.com
 -d clients.devtux.com
+-d clinicadrorcione.com.br
 -d clone-7473c.web.app
 -d cloud-object-storage-az-cos-static-web-hosting-rfg.s3.us-east.cloud-object-storage.appdomain.cloud
 -d cloud.go4clients.com
@@ -1521,7 +1499,6 @@ msFilterList
 -d cnv0hna.cn
 -d co-jp.rapminer.tokyo
 -d co-jp.rkaiomeir.net
--d co-jp.rkaiomeir.shop
 -d co.jp.gqnst.cn
 -d co.jp.qp0eu0z.cn
 -d co.jp.wqgwfl.cn
@@ -1534,7 +1511,6 @@ msFilterList
 -d codecertifiedinspector.com
 -d codepasta.app
 -d coderslashadmin.com
--d cog.smartshopmanager.com
 -d coincheck-137bc.web.app
 -d coinconnectwallet.com
 -d coinly.cz
@@ -1631,7 +1607,6 @@ msFilterList
 -d covid-foyyn.run-us-west2.goorm.io
 -d cox0.yolasite.com
 -d coxalershsjena.weebly.com
--d coxcommunication118.weebly.com
 -d coyotez.web.app
 -d cp45362.tmweb.ru
 -d cpanel.telephone-sfr.com
@@ -1669,7 +1644,6 @@ msFilterList
 -d cristinamambrini.com.br
 -d criticgreen.top
 -d crmlavoz.lavozdelinterior.net
--d crntlyatt.weebly.com
 -d cronologiabacw.ultimatefreehost.in
 -d crpmoney.com
 -d crroweb.emiweb.es
@@ -1742,6 +1716,7 @@ msFilterList
 -d daniellygolden.com
 -d danielwritingportfolio.com
 -d danitraseoexperts.com
+-d dappswallet.info
 -d darah.com.br
 -d daressalaamtextilemills.com
 -d darmowe-tankowanie.click
@@ -1752,20 +1727,19 @@ msFilterList
 -d date-in.rf.gd
 -d datelsolutions.co.uk
 -d david-held.com
--d davidbarrett111.com
 -d daycoval.contrato.srv.br
 -d dazul.com.ar
 -d db-ambientesicuro-ita.com
--d db-registrimtps-it.com
 -d dbalgotechsolution.com
 -d dbs-access.com
--d dbs-aeg.com
 -d dbs-dag.com
 -d dbs-deg.com
 -d dbs-ebs.com
+-d dbs-helpdesk.com
 -d dbs-login.info
 -d dbs-onlinesg.com
 -d dbs-onlinesg.net
+-d dbs-service.net
 -d dbs-supportonline.com
 -d dbs-votes-friend.com
 -d dbs.help-access.info
@@ -1799,9 +1773,7 @@ msFilterList
 -d delhiescort69.com
 -d delicatesedelici.byethost7.com
 -d delightontour.com
--d delistrametracdoposta.com
 -d delivery-support-menu.com
--d deliveryamazon.us.logitel.com.au
 -d delta.flightstatalert.com
 -d deltaflights.org
 -d demallplot-tra.web.app
@@ -1837,7 +1809,6 @@ msFilterList
 -d dev.ei-ie.org
 -d dev.prunescape.com.au
 -d developmandate.top
--d development.matjerwiz.com
 -d deviceviolin.top
 -d dexlerholdings.com
 -d dexterscommunication.in
@@ -1886,7 +1857,6 @@ msFilterList
 -d djeliza.be
 -d dkb-info.com
 -d dkb1231ag.site44.com
--d dkbagrafe.com
 -d dkbaktuelle.com
 -d dkdwmfteuylsitbrsfojilzhad-dot-gowa11111111.rj.r.appspot.com
 -d dkglobaljobs.com
@@ -1936,8 +1906,6 @@ msFilterList
 -d dpd-redelivery-uk.com
 -d dpfoidspoifopdsifpoi.blogspot.com
 -d dqzpcgj.cn
--d draehl.bar
--d dragonfight1.weebly.com
 -d drangelachamorro.com
 -d drasticexclude.top
 -d drclaudiophd.mfs.gg
@@ -1990,7 +1958,6 @@ msFilterList
 -d e-receipts.co
 -d e-registration.co.in
 -d e-voice-msg-6be4da.webflow.io
--d e-voice-msg-a39df9.webflow.io
 -d e4ff557e.sso-secure-mail04wtwdw4.pages.dev
 -d e4ra.byethost8.com
 -d eageramateur.top
@@ -1999,7 +1966,6 @@ msFilterList
 -d easyquotes4you.com
 -d eb49oq.fr
 -d eba0200d0c.nxcli.net
--d ebaezbebeevrbeab.pelangimobile.com
 -d ebay-communaute-fr-t8-forums-de-discussion.22web.org
 -d ebay-diskussion-forum-de-app.22web.org
 -d ebay-diskussion-forum-t1-de.22web.org
@@ -2018,7 +1984,6 @@ msFilterList
 -d ec2-52-221-244-187.ap-southeast-1.compute.amazonaws.com
 -d eccsp.cearcod.com
 -d eces-ecole.org
--d echo-nomic.com
 -d echostar.pl
 -d eclipsephotovoltech.com
 -d eclipsevpn-new.com
@@ -2030,7 +1995,6 @@ msFilterList
 -d ecssps.cearcod.com
 -d edd-ui3.sitey.me
 -d eddcommunicationuibalance.weebly.com
--d eddvisasecureverifyauth0service.weebly.com
 -d edfdto.cn
 -d edgeurl.com
 -d edhf0c.webwave.dev
@@ -2129,7 +2093,6 @@ msFilterList
 -d epsso.cearccd.com
 -d eqhglcz.cn
 -d equalchances.org
--d equipe2suportewebmail.wispform.com
 -d erastylogestle039.clickfunnels.com
 -d ergfg.hyperphp.com
 -d erp.oriontravels.com.bd
@@ -2145,15 +2108,12 @@ msFilterList
 -d estorneaqui.blogspot.com
 -d estudiomaskin.com
 -d etasarla.com
--d etc-malsai.1vy66t.cn
--d etc-malsai.aavwexc.cn
 -d etc-malsai.bjmxlce.cn
 -d etc-malsai.by1338.cn
 -d etc-malsai.cqi92.cn
 -d etc-malsai.dplsy.cn
 -d etc-malsai.hctq7o.cn
 -d etc-malsai.iuyqnz.cn
--d etc-malsai.ngx93z9p.cn
 -d etc-malsai.sibu88996.cn
 -d etc-malsai.szrosedick3.cn
 -d etc-malsai.xrfevmy.cn
@@ -2169,19 +2129,22 @@ msFilterList
 -d etc-meisai.insw1.top
 -d etc-meisai.jp.4rkv9uw.cn
 -d etc-meisai.jp.4s8lxi.cn
+-d etc-meisai.jp.aifoer.bar
 -d etc-meisai.jp.alkji.cn
+-d etc-meisai.jp.araehx.bar
 -d etc-meisai.jp.g0dhex.cn
 -d etc-meisai.jp.gaqrbu.cn
 -d etc-meisai.jp.h2tlh9.cn
 -d etc-meisai.jp.qo27pn.cn
 -d etc-meisai.jp.sk6nzi.cn
+-d etc-meisai.jp.wfjpe.cn
+-d etc-meisai.jp.xiaohuihuide.club
 -d etc-meisai.jp.zcus.cn
 -d etc-meisai.mkvp8a.cn
 -d etc-meisai.p2347.cn
 -d etc-meisai.pdcso.cn
 -d etc-meisai.sanpak.cn
 -d etc-meisai.wp0l13.cn
--d etc-meisai.x24dkct.cn
 -d etc-meisai.xjpjzc.cn
 -d etc-meisal.bh6w900.cn
 -d etc-meisal.l0e5xmv.cn
@@ -2191,7 +2154,6 @@ msFilterList
 -d etc1-melsai.tenfeibuxiugang.cn
 -d etc1-melsai.wwruaxj.cn
 -d ethelpay.com
--d ethlive21.org
 -d ethnictrendz.com
 -d etrack05.com
 -d etskola.com.ba
@@ -2230,6 +2192,7 @@ msFilterList
 -d exoticautowa.com
 -d expeditions-of-e.com
 -d expire-o2-billingupdate.com
+-d expressup.000webhostapp.com
 -d extension-metamask.com.rstebet.co.id
 -d extension.asue.am
 -d extracash-interlbankonline.com
@@ -2287,7 +2250,6 @@ msFilterList
 -d fb.expressturkeyi.com
 -d fb.probox.lk
 -d fb7927.bget.ru
--d fbcontent.live
 -d fbforpages1414141.web.app
 -d fbmail-case199418414.web.app
 -d fclanosa.com
@@ -2315,7 +2277,6 @@ msFilterList
 -d fhzpsbpo9p.apothekelxzsmhz.com
 -d fianceflowers.ir
 -d fibncrpvgwzrghkvpduzyanidnyfvcwwaqndtidtjeduu.66ghz.com
--d fidelitiy.cn
 -d fidelityhealthcare.biz
 -d fiestanube.com.ar
 -d fifohbibou.blogspot.com
@@ -2426,7 +2387,6 @@ msFilterList
 -d galiciabankimg.ihostfull.com
 -d galiciaspersonal.eshost.com.ar
 -d gambling1.ru.com
--d game-tournaments.net.ru
 -d gameofbet.info
 -d gameofbet.org
 -d gamestoppc.com
@@ -2450,7 +2410,6 @@ msFilterList
 -d genie-alba.firebaseapp.com
 -d genietech.sg
 -d gentelisst20.byethost33.com
--d geometic.co.za
 -d germackpistachio.com
 -d gestacultura.com
 -d getactive365.com
@@ -2477,7 +2436,6 @@ msFilterList
 -d giropayzahlen.info
 -d gite-lafage.com
 -d givmers.com
--d gizmoconference.com
 -d gjhanekamp.nl
 -d gjile.mengontolodonshrtoner39184y21hjnr.com
 -d gjliuxue.com.cn
@@ -2513,7 +2471,6 @@ msFilterList
 -d goldpackrio.com.br
 -d goldvipescort.es
 -d golfballsonline.com
--d gome2mek.com
 -d good12345.tripod.com
 -d goodiegirlscupcakes.com
 -d goodstransporter.com
@@ -2551,7 +2508,6 @@ msFilterList
 -d grp01.id.rakuten.co.jp
 -d grub-berbagi-chip-dominohiggs.duckdns.org
 -d grubbokep22.mrbonus.com
--d grubtantebohay.forumz.info
 -d grup-berbagiividio18.duckdns.org
 -d grup-wa-bokep18.wikaba.com
 -d grup-whatsappsexy.xxuz.com
@@ -2598,7 +2554,6 @@ msFilterList
 -d hannetjiefaurie1.creatorlink.net
 -d hanold.cn
 -d hans-ledlite.com
--d haogege.52yjh.top
 -d happy-burnell.104-168-102-175.plesk.page
 -d happyhouru.com
 -d harborstars.info
@@ -2632,7 +2587,6 @@ msFilterList
 -d hepsibahisgirisimiz.blogspot.com
 -d hepsibahisgirisimiz1.blogspot.com
 -d hepsibahisgirisimiz4.blogspot.com
--d heqkorama-com.preview-domain.com
 -d hermes.check-online-reschedule.com
 -d hermes.check-reschedule-online.com
 -d hermes.item-reschedule-online.com
@@ -2699,7 +2653,6 @@ msFilterList
 -d hosting2042037.online.pro
 -d hosting2070987.online.pro
 -d hosting2086464.online.pro
--d hostmium.com
 -d hostnix.net
 -d hostpoint.ch.1200028f.net2care.com
 -d hostpoint.ch.121c0291.net2care.com
@@ -2731,8 +2684,12 @@ msFilterList
 -d httpeugnerally-wixsite-com.filesusr.com
 -d httpsgmx-upgrade-verification-admin-updates-websitess-website.yolasite.com
 -d httpshttpmobile.retrocafe.net.au
+-d htttps.account-system-manage.ka9zc5epf7-ypj68v9ke3l2.p.runcloud.link
+-d htttps.alert-notification-messages.ka9zc5epf7-ypj68v9ke3l2.p.runcloud.link
+-d htttps.contact-form-policies.ka9zc5epf7-ypj68v9ke3l2.p.runcloud.link
 -d htttps.manage-fb-abuse.ka9zc5epf7-ypj68v9ke3l2.p.runcloud.link
 -d htttps.messages-notification-pages.ka9zc5epf7-ypj68v9ke3l2.p.runcloud.link
+-d htttps.mobile-info.ka9zc5epf7-ypj68v9ke3l2.p.runcloud.link
 -d htttps.profile-ref-id.ka9zc5epf7-ypj68v9ke3l2.p.runcloud.link
 -d htttps.violation-system-pages.ka9zc5epf7-ypj68v9ke3l2.p.runcloud.link
 -d htwww.duluxautosales.com
@@ -2823,7 +2780,6 @@ msFilterList
 -d images-y930lpvbt1.salamazerbaycan.az
 -d img.maplejournal.co.in
 -d imi.org.au
--d imperium-alpha.gera.in
 -d impopable.com
 -d impotspublicservice.com
 -d impulseauction.top
@@ -2862,11 +2818,8 @@ msFilterList
 -d innoaura.com
 -d innovacor.com
 -d inpexcom-au.com
--d inpost-agtd.pl-id21427816.xyz
--d inpost-agtd.pl-id49549138.xyz
 -d inpost-conf.pl-id36597183.xyz
 -d inpost-gbjs.pl-id36678292.xyz
--d inpost-orim.id-info08.me
 -d inpost-pl-vw.id-info05.me
 -d inpost-pl.131102.space
 -d inpost-pl.545894.xyz
@@ -2875,8 +2828,6 @@ msFilterList
 -d inpost-pmhz.id-info43.me
 -d inpost-tft.id845765.me
 -d inpost.bezpieczna-oferta.com
--d inpost.pl-dostawa-id43873237.xyz
--d inpost.pl-id03868823.xyz
 -d inpost.pl-id18841898.xyz
 -d inpost.pl-konto-id643747.site
 -d inps-ep.com
@@ -2896,7 +2847,6 @@ msFilterList
 -d interbahiss1.blogspot.com
 -d interbankempresas.pe-il.ru
 -d intercroofthlm.byethost33.com
--d interesting-rubin.178-128-237-148.plesk.page
 -d interestingfurniture.com
 -d interfacethlmt.byethost3.com
 -d intergirisi.blogspot.com
@@ -2975,7 +2925,6 @@ msFilterList
 -d jaccsivr.vmenu.jp
 -d jackbinaspuol.blogspot.com
 -d jackrussellsforsale.com
--d jacktec.com
 -d jacobliston.com
 -d jadebest.ru
 -d jagex.nu
@@ -3014,7 +2963,6 @@ msFilterList
 -d jiontnteegrubwhtsp.se.ke
 -d jip.mceorccarei.com
 -d jip.mcerccaeri.com
--d jip.mecrcoarai.com
 -d jip.mermceamrci.com
 -d jip.mernceanroi.com
 -d jiwanramchemical.com
@@ -3048,8 +2996,8 @@ msFilterList
 -d joyeriajireh.com.mx
 -d jp-amazon.p2w1.top
 -d jp.co.xzhzns.cn
--d jp.mceorooaroi.com
--d jp.mcerccaeri.com
+-d jp.mceircarei.com
+-d jp.mceircarii.com
 -d jp.mcerncarei.com
 -d jp.mecrcoaercri.com
 -d jp.mecrcoarai.com
@@ -3167,7 +3115,6 @@ msFilterList
 -d kraftoninc.com
 -d krakenrums.blogspot.com
 -d kreis-der-spa-rka-ssen-verband.xyz
--d kreiskassenverband12.xyz
 -d kreiskassenverband14.xyz
 -d krishnakhatri.com.np
 -d krishnaprotabsolutions.co.in
@@ -3190,6 +3137,7 @@ msFilterList
 -d kw.yourcarkw.com
 -d kwiks.site
 -d kxgsluznfblwltjhnywgzqwhwq-dot-goff039302032323.rj.r.appspot.com
+-d kxkyzsfhhw.duckdns.org
 -d kybnlx.cn
 -d kzms.cit.net
 -d l1zuo.codesandbox.io
@@ -3203,6 +3151,7 @@ msFilterList
 -d laboracionexacta.byethost6.com
 -d labore-ma.blogspot.com
 -d labpenjasfkip.ulm.ac.id
+-d ladypsvzgn.duckdns.org
 -d lafise.co
 -d laibia.com
 -d lakp.pl
@@ -3241,7 +3190,6 @@ msFilterList
 -d leboncoinsecupaiement.paperform.co
 -d leboncoinsecurepaiement.fr
 -d lecord.com
--d leespring-rfp.gr8.com
 -d lefsb.csb.app
 -d legacylifespaces.com
 -d legalshield.com_client-authorize-id.2uvna-noiwm-bop7l-idjvr-kzk8u.bursavebiz.com
@@ -3280,11 +3228,12 @@ msFilterList
 -d live-site.hopto.me
 -d live.rawfednews.com
 -d live3jertech833.byethost7.com
--d lived.myvnc.com
 -d livewalletkonnect.com
 -d livinglawsociety.org
 -d livinroots.com
+-d lkjxxlynzy.duckdns.org
 -d lkt.bio
+-d lkwjwxjkja.duckdns.org
 -d lladrousa.com
 -d llantasmex.com
 -d llknunz.cn
@@ -3387,12 +3336,12 @@ msFilterList
 -d luxuryautomobile.me
 -d luxustelekatermeszetben.hu
 -d lvas.co.in
+-d lwinazzyxx.duckdns.org
 -d ly12-52.dazog.ge
 -d lycee-ozanam35.fr
 -d lynkos.com.br
 -d m-facebook-com.facebook.suptr32.skyfencenet.com
 -d m.9536365.com
--d m.centroderecargafreefire.site
 -d m.httpsservlces.runescape.com-dg.ru
 -d m04giw4hzx.lilmel2rockedqyzulwpxebtkcuerpoysalud.com
 -d m25g.22web.org
@@ -3462,7 +3411,6 @@ msFilterList
 -d mailserver7656566.blob.core.windows.net
 -d mailtoupdate.checkyouramazononline.buzz
 -d mailupgrade2info.site44.com
--d mainbtmaniloginun.webflow.io
 -d mainehomeconnection.com
 -d mainsupportreview-atc-lrs-gov.com
 -d maklononline.nutrifood.co.id
@@ -3482,6 +3430,7 @@ msFilterList
 -d mandmtextiles.com
 -d mandyhernandez.com
 -d manglam.in
+-d manpowergroupco.com
 -d mantemask.com
 -d mantri.in
 -d mapsa.com.pe
@@ -3513,7 +3462,6 @@ msFilterList
 -d matbetgirisimizgir.blogspot.com
 -d match.lookatmynewphotos.com
 -d matchoklahoma.com
--d matematika.fkip.untirta.ac.id
 -d material-pubgmobile.org
 -d matixlogin.eshost.com.ar
 -d mattresscleaningabudhabi.com
@@ -3557,7 +3505,6 @@ msFilterList
 -d members.theatrewomen.org
 -d membershipff.vn
 -d mensajeriaexpressguatemala.com
--d mentals.3utilities.com
 -d mercadocompras.online
 -d mercadogold-arg.com
 -d mercadolivrechat.com.br
@@ -3645,6 +3592,7 @@ msFilterList
 -d milanobet301.com
 -d militarybikers.org
 -d millenniumstaffing.co.uk
+-d millions.myvnc.com
 -d miloserdie-rzn.ru
 -d mimecast.fmlms.com
 -d mimecast.swagonline.co.uk
@@ -3748,7 +3696,6 @@ msFilterList
 -d msnserviceverifivation.wordpress.com
 -d msofficemessagescenter-1.mfs.gg
 -d msofficesystems.mfs.gg
--d msupdate.net
 -d mtbanking0nline.duckdns.org
 -d mtbforreal.xyz
 -d mtngifts2021.blogspot.com
@@ -3798,6 +3745,7 @@ msFilterList
 -d myhealthinsquotes.com
 -d myhermes-redeliveryhelp.com
 -d myhermes.attempted-redeliveries.com
+-d myjcb3-verify.top
 -d myjobassists.com
 -d mykonos.cl
 -d mylovejar.com
@@ -3893,6 +3841,7 @@ msFilterList
 -d newbrks.com
 -d newcapital-compounds.com
 -d newcreationambassadom.ervlces.runescape.com-fe.ru
+-d newinvest.online
 -d newlien.site44.com
 -d newnanplazapawnshop.com
 -d newonline-payee-restricted.com
@@ -3916,20 +3865,18 @@ msFilterList
 -d ni212065-1.web02.nitrado.hosting
 -d niadabuyherepayhere.com
 -d niagara-violations-spyware-sustained.trycloudflare.com
--d nidasmalada.com
+-d nights.serveftp.com
 -d nihongospeechtrainer.com
 -d nikomac.main.jp
 -d nilsonwind.com
 -d nineled.com
 -d nipunpharmaskill.com
 -d nitro-app-store.com
--d nitro-discords.com
 -d nizotchauffage.bilty.be
 -d njolfs.hyperphp.com
 -d njxzhf.ml
 -d nlmcilhagger.btinternet.tercumandan.com
 -d nneeb.cn
--d no-replytoyouryannsh435e6r8789lickitup.s3.ca-central-1.amazonaws.com
 -d nodgvyovme.duckdns.org
 -d nohe-90.ir
 -d nomehold-gricco3.byethost7.com
@@ -3954,7 +3901,6 @@ msFilterList
 -d notifyfb-kryox10249.tv1space.az
 -d notrigger.com
 -d nour-ala-nour.com
--d novoappsys.ddns.net
 -d nozed-uname.firebaseapp.com
 -d npcs.org.np
 -d nq9gmh.cn
@@ -3963,10 +3909,10 @@ msFilterList
 -d nsaclaim.com
 -d nt.embluemail.com
 -d nt9xnug.cn
--d ntt-docom-info.ac-3.top
+-d ntt-docom-info.aq-2.top
 -d ntt-docom-info.fxc6.top
--d ntt-docom0-info.i7-h.top
--d ntt-docom0-info.t3-i.top
+-d ntt-docom-info.fzc-9.top
+-d ntt-docom-info.tx-5.top
 -d ntt-docono-info.zi-6.top
 -d nueva-acropolis.cl
 -d nuewa-hwa.oracleindustry.com
@@ -4007,7 +3953,6 @@ msFilterList
 -d oah-nc-secure.ga
 -d oahvlz.cn
 -d oberpiskoihof.it
--d obgkotjzba.duckdns.org
 -d observatoriodeourofino.com.br
 -d observatoriodoalgarve.com
 -d obviahonlamsf.com
@@ -4052,8 +3997,8 @@ msFilterList
 -d olx-casa.com
 -d olx-conf.pl-id32386434.xyz
 -d olx-group.com
--d olx-igmr.pl-id30494012.xyz
 -d olx-mdb.id-info43.me
+-d olx-oferta.id-info468.me
 -d olx-pl-konto-ref.com
 -d olx-pl-safe.id-safety.xyz
 -d olx-pl.118115.space
@@ -4062,7 +4007,6 @@ msFilterList
 -d olx.pl-id43657651.xyz
 -d olx.pl-id741566512.net
 -d olx.pl-oplata24-selfsecure.xyz
--d olx.pl.order2.site
 -d olx.rwpay.ru
 -d omesqiwines.de
 -d omnidexeng.com
@@ -4090,6 +4034,7 @@ msFilterList
 -d online.strstbkus.com
 -d online2banking.byethost6.com
 -d onlinebneutuedwybjrgwrezyqqvhatcvbuubebnonline.66ghz.com
+-d onlinebtinternet.weebly.com
 -d onlinedese.temp.swtest.ru
 -d onlinepayee-restricted-service.com
 -d onlineprint.cufapparel.cf
@@ -4101,6 +4046,7 @@ msFilterList
 -d onlineroisupportupdate.com
 -d onlinesbi.online
 -d onlineserveroffice365.mfs.gg
+-d onlineservicebtinternett.weebly.com
 -d onlineservicetec.com
 -d onlineservicetech.website
 -d onlinpromerica2.byethost11.com
@@ -4173,7 +4119,6 @@ msFilterList
 -d outlook-mailer.com
 -d outlook-microsoftlogin98uqwuuw8as.questionpro.com
 -d outlook-passwcloud-object-storage-3h-cos-static-web-hosting-9iu.s3.jp-tok.cloud-object-storage.appdomain.cloud
--d outlook-password-expiring-object-storage-static-web-hosting-ln3.s3.eu-de.cloud-object-storage.appdomain.cloud
 -d outlook.b-cdn.net
 -d outlook12861.activehosted.com
 -d outlook1541489.webcindario.com
@@ -4192,7 +4137,6 @@ msFilterList
 -d owaupgradeservice3.myfreesites.net
 -d owawebaccessss.weebly.com
 -d owiagbn.wmsistseg.com.br
--d oxido.cl
 -d oxskincare.com
 -d ozxl0q.webwave.dev
 -d p.wpage.cc
@@ -4256,7 +4200,6 @@ msFilterList
 -d pancaleswap.com
 -d pancaleswap.financial
 -d pancalteswap.finance
--d panccarrecwap.finance
 -d pancekawsap.finance
 -d pancokiswaps-fust.com
 -d pandaskin.ru.com
@@ -4282,7 +4225,6 @@ msFilterList
 -d patient-cell-40f5.updatedlogmylogin.workers.dev
 -d paulmitchellforcongress.com
 -d paws.org.au
--d paxful-teth.com
 -d paxful.com.pl
 -d pay-pal.newconfig-solana.docsaboutnewrestricted.ltd
 -d pay-sera.web.app
@@ -4327,7 +4269,6 @@ msFilterList
 -d pdxtest.driveinteractivepdx.com
 -d pearlfilms.com
 -d pecadotest.interwapp.com
--d pecgradsyjpgfayrvqcfvibvog-dot-gowa11111111.rj.r.appspot.com
 -d pelhaf041984.byethost9.com
 -d pemersatu-bangsaa-18plus.duckdns.org
 -d pencakecwap.com
@@ -4350,6 +4291,7 @@ msFilterList
 -d petesappliancesllc.com
 -d pfaktgsfwmtawekq-dot-btnet-support-48493-update.oar.appspot.com
 -d pharmaciedefrance-nice.fr
+-d pharmacist.org.tw
 -d pharmaglobiz.com
 -d phatbuddhavision.dev.blayzer.com
 -d phbvcthqwv.duckdns.org
@@ -4362,7 +4304,6 @@ msFilterList
 -d phongvuexpress.vn
 -d photo-wee.com
 -d photoartstavrinos.com
--d photographybyallen.com
 -d phreshphoto.com
 -d piandizano.it
 -d pichiactivate711.ultimatefreehost.in
@@ -4418,16 +4359,13 @@ msFilterList
 -d po.do
 -d poc-rewards-program-c2dfc.web.app
 -d poczta-agtd.pl-id15535276.xyz
--d poczta-agtd.pl-id36597183.xyz
 -d poczta-agtd.pl-id36678292.xyz
 -d poczta-agtd.pl-id74730945.xyz
 -d poczta-igmr.pl-id24086592.xyz
 -d poczta-igmr.pl-id27855309.xyz
--d poczta-igmr.pl-id51457558.xyz
 -d poczta-igmr.pl-id82262587.xyz
 -d poczta-igmr.pl-id96102463.xyz
 -d poczta-polska.top
--d poczta.pl-id73948302.xyz
 -d podpiska-darom.ru
 -d points-fidelites.com
 -d pokajca.web.app
@@ -4446,8 +4384,6 @@ msFilterList
 -d portale-verifica-clienti-com.preview-domain.com
 -d posadalalucia.com.ar
 -d poshqd.classsizecounts.com
--d post-ch-diepost-952c48.ingress-erytho.easywp.com
--d post-myitem.com
 -d post-secu.fr
 -d post-track.ch
 -d posta-romana-express.siingtell.com
@@ -4489,6 +4425,7 @@ msFilterList
 -d premioscocacolafemsamandarin.com
 -d premiumnoidaescorts.com
 -d premiums-discord.com
+-d prepaid.firstdata.com
 -d preppingconfidence.com
 -d prernaindustries.com
 -d prevencionvialbcpzonasegura.esc-pons.com
@@ -4537,7 +4474,6 @@ msFilterList
 -d protect.sabzgoltab.com
 -d protect.theresortweddings.com
 -d protection-newpayee-halifax.com
--d protectyouraccount.checkyouamazononline.club
 -d proteksion-accts1321sdsd.cf
 -d protelesis.cl
 -d provideronline.site
@@ -4600,7 +4536,6 @@ msFilterList
 -d quota.creatorlink.net
 -d qw4g5w3sl31.typeform.com
 -d qwikkar.com
--d qwywtxyyzmmztxiznpecgvngnv-dot-goff039302032323.rj.r.appspot.com
 -d qzke3.cn
 -d r-web-2a3a9.web.app#bucky@prepaidlegal.com
 -d r-web-2a3a9.web.app#ewhalley@prepaidlegal.com
@@ -4625,8 +4560,6 @@ msFilterList
 -d raffermeniac.github.io
 -d raghebalama.com
 -d rajwebtechnology.com
--d rakoten-account.rxjtag.cf
--d rakoten-account.usbuks.ga
 -d rakoten-co-jp.auqu0ei.cf
 -d rakoten-co-jp.ltwqbq8.gq
 -d rakoten-co-jp.ow8bda1.cf
@@ -4644,7 +4577,6 @@ msFilterList
 -d rakutena.ip.co.xytyh.net.cn
 -d rakutencard-info.cheikoat.shop
 -d rakutonei.co-jp.jhvjhcfjhbjkj.jp
--d rakutoni.co-jp.dghfgjgcg.shop
 -d ramgarhiamatrimonial.ca
 -d ranchosanantonio5m.com
 -d randomlinkxxxxxxxxxxxxx.r2xrssjgca-gjy3mwpvv68q.p.runcloud.link
@@ -4655,7 +4587,6 @@ msFilterList
 -d ratiamsdoeru.redirectme.net
 -d raydiumi.io
 -d raydiun.net
--d raydlum.io
 -d razcdf.ultimatefreehost.in
 -d razcompany.cl
 -d rbcmontgomery.com
@@ -4669,7 +4600,6 @@ msFilterList
 -d rdeshapriya.com
 -d rdevro.hyperphp.com
 -d rdfsdept.cn
--d rdx-ajauib.com
 -d re-direct-me.com
 -d re-redirection-acc-id923872635122.blogspot.com
 -d re-redirection-pp-account-id98763432.blogspot.com
@@ -4681,7 +4611,6 @@ msFilterList
 -d realcodashopfreediamonds.freeddns.com
 -d realdatatest.isolusi-bf.com
 -d realestate-page-homes.com
--d realestate168.com
 -d realestateagentlisting.tv
 -d realhypermarket.me
 -d realmoneysend.com
@@ -4691,7 +4620,6 @@ msFilterList
 -d recallvapor.top
 -d recargafreefireoficial.online
 -d recevirementlbc.eu
--d recidivism-apostrop.000webhostapp.com
 -d reconfirmpost287846656.us
 -d recover-help-10000012345986960308190853.tk
 -d recoveraccount0.byethost3.com
@@ -4720,9 +4648,7 @@ msFilterList
 -d registrdatapichi.ihostfull.com
 -d reikisadhna.com
 -d rekapuolam.blogspot.com
--d relaxed-goldstine.193-70-30-101.plesk.page
 -d relaxed-snyder.192-210-132-118.plesk.page
--d relay.lazimn.murrama.com
 -d relevant.systems
 -d remarkableburger.top
 -d remillardconsulting.com
@@ -4754,10 +4680,10 @@ msFilterList
 -d retraiteenaction.ca
 -d revertion-info-page.000webhostapp.com
 -d review-mynew-device.com
--d revolution-12222357159426842579135468295175332.gq
 -d reward-garena-freefireff.blogspot.com
 -d rextraening.dk
 -d rfacff.cn
+-d rfkye.gofirstairscure.link
 -d rgjinsheng.com.cn
 -d rguga.ro
 -d rhinomultimedia.com
@@ -4780,8 +4706,9 @@ msFilterList
 -d rmsfcc.com
 -d rmzengenharia.blogspot.com
 -d rn3pc9bqfbv.typeform.com
+-d rnercari-login.illt31.cn
 -d roadgo.co.uk
--d rob.pl-uplatnosc24-p2p.xyz
+-d roanghwg.com
 -d roccobonheur1-my-cheetah-website-copy.cheetah.builderall.com
 -d rodinagermaniya.ru
 -d roisnoob.github.io
@@ -4790,7 +4717,6 @@ msFilterList
 -d rokutanm-rrbrb.cc
 -d rolinadd.surveysparrow.com
 -d romanpicisan5543.co.vu
--d romantic-agnesi.172-245-8-170.plesk.page
 -d rondelbarrilito.com
 -d roninwallet.cm
 -d rosalinas-initial-project-30ac52.webflow.io
@@ -4883,6 +4809,8 @@ msFilterList
 -d santaninfover.byethost33.com
 -d santepluspharma.eclatmediasolution.website
 -d santoriwoodworking.com
+-d santoshdangi.com.np
+-d santoshdc.com
 -d santtandeerrronl.byethost17.com
 -d saoison-cardverify.com
 -d saranlar.com
@@ -5061,7 +4989,6 @@ msFilterList
 -d sg3plvwcpnl378889.prod.sin3.secureserver.net
 -d sgb-pageonline-original.com
 -d sh199811.website.pl
--d shaahinrahmati.org
 -d shadowpay.net
 -d shadowpay.pp.ru
 -d shajunguo013.cn
@@ -5097,6 +5024,7 @@ msFilterList
 -d sicurezzadigitalmps.com
 -d sicurr-mtb.com
 -d sicurty-login.com
+-d siddhapuje.org.np
 -d siemik.github.io
 -d sig.goreaysen.cl
 -d signature-notes.com
@@ -5157,7 +5085,6 @@ msFilterList
 -d slackcommander.com
 -d slavamel.github.io
 -d sleepmaskz.com
--d sleepy-sinoussi.5-255-96-171.plesk.page
 -d slickparties.com
 -d slmarine.co.kr
 -d slmplenewforward.byethost31.com
@@ -5175,7 +5102,6 @@ msFilterList
 -d smartmco.com
 -d smartsparksolutions.com
 -d smashpc.org
--d smbc-banki.fghjftc.shop
 -d smbc-banki.gjhghktd.net
 -d smbc-card-ke.com
 -d smbc-card.icbctqc.com
@@ -5197,7 +5123,6 @@ msFilterList
 -d smbc-crad-con.honetao.com.cn
 -d smbc-crad-con.hto2o.com.cn
 -d smbc-crad-con.jmdashifu.com.cn
--d smbc-crad-con.jyzhd.com.cn
 -d smbc-crad-con.kato-lian.com.cn
 -d smbc-crad-con.le-yuan.com.cn
 -d smbc-crad-con.ljzjzx.com.cn
@@ -5227,6 +5152,18 @@ msFilterList
 -d smbc-crad.qiuxintang.com.cn
 -d smbc-crad.xiaochanzi.com.cn
 -d smbc-jp.site
+-d smbc.cardc-co.com
+-d smbc.cardc-co.jp
+-d smbc.cardc-co.net
+-d smbc.cards-co.com
+-d smbc.cards-co.jp
+-d smbc.cards-co.net
+-d smbc.carrd-co.com
+-d smbc.carrd-co.jp
+-d smbc.carrd-co.net
+-d smbc.carsd-co.com
+-d smbc.carsd-co.jp
+-d smbc.carsd-co.net
 -d smbcwodeqingguoshoujicojp.top
 -d smbic.banks.makienra.net
 -d smbic.banks.rekaineur.cc
@@ -5265,7 +5202,6 @@ msFilterList
 -d soci-molen.web.app
 -d social-page.netlify.app
 -d sofe-firma.firebaseapp.com
--d sofort-eintragung-on.xyz
 -d soft-shadow-fa4c.mywnewdhlupdatedlogin.workers.dev
 -d softbank-login.mzjwt28.cn
 -d software.verify-secure.info
@@ -5408,7 +5344,6 @@ msFilterList
 -d sso-garena-vn.com
 -d sso-garena.com
 -d sswebmail-4w5twsr.web.app
--d standard.serveftp.com
 -d standardupdatesupportandhelpcenter2021.cf
 -d stapleton-spence-com.gq
 -d stardirectingfr.projet-web.net
@@ -5450,7 +5385,6 @@ msFilterList
 -d stolizaparketa.ru
 -d stoolguilt.top
 -d storage.yandexcloud.net
--d store-gains.com
 -d store.prunescape.com.au
 -d storestok.com
 -d straemcummonilty.com
@@ -5508,12 +5442,10 @@ msFilterList
 -d support-pages-confirmation-link624635754862463575483.r2xrssjgca-gjy3mwpvv68q.p.runcloud.link
 -d support-security.paypal.com.komamen.com
 -d support-verify-mydevices.com
--d support-x48xyv-league-of-legends.000webhostapp.com
 -d supportcenter.prirmeaccount.b187c419657e3a49.support
 -d supportmailbxo.creatorlink.net
 -d supportronin.com
 -d supremenet4555.ultimatefreehost.in
--d surgahosting.com
 -d surtrigi.cn
 -d susanlynnepeters.com
 -d suspedpromericsv.hostfree.pw
@@ -5532,7 +5464,6 @@ msFilterList
 -d swanholm.net
 -d swap.elena.finance
 -d swappauto.staging.lcsolutions.it
--d sweat.ddnsking.com
 -d swisscom.myfreesites.net
 -d swisspost-delivering-parcel.trowelandfork.com
 -d swisspost.editorafiel.pt
@@ -5563,7 +5494,6 @@ msFilterList
 -d taijishentie.com
 -d taiwokupolatiandco.com
 -d takbyte-stockholm.se
--d take.serveftp.com
 -d takingnote.learningmatters.tv
 -d taljliwjbqcxgkwkaubudzoivu-dot-goff039302032323.rj.r.appspot.com
 -d talkingdogsmobile.com
@@ -5580,7 +5510,6 @@ msFilterList
 -d tbositescapecompany.com
 -d tby.eb-sites.com
 -d tcaconnect.ac-page.com
--d tdtd35-jf3jfh3-f3jf8i-f4u8f4-jf49.weebly.com
 -d tea.3utilities.com
 -d team6ods.test.weloobe.com
 -d teamfatbird.com
@@ -5632,7 +5561,6 @@ msFilterList
 -d thechillipicklecanteen.com
 -d thecryptonian.com
 -d theculturewire.com
--d thedesignstudio.net.au
 -d thedom.kg
 -d theduecfoinv.com
 -d theepic.in
@@ -5762,6 +5690,7 @@ msFilterList
 -d tx.vc
 -d typesmartlyocr.com
 -d tyrecentre.ru
+-d tyuytrtyuyty.square.site
 -d tyuyttyuityit.square.site
 -d tyzwox.webwave.dev
 -d tzcucuzjukmjpdqpthhyivrvmehupq.66ghz.com
@@ -5795,7 +5724,6 @@ msFilterList
 -d ukresidential-servicesupport.com
 -d ultimatemotors.co.ke
 -d ultimateseguri9.ultimatefreehost.in
--d ultronsolutions.com.br
 -d umbrellaclubla.com
 -d ummatamima.buet.ac.bd
 -d umu.link
@@ -5919,6 +5847,7 @@ msFilterList
 -d veerkrupaenterprise.com
 -d vegas-x.net
 -d vehicam.com
+-d veise.vivcci.com
 -d velvish.com
 -d vendorcmdecport.vzpla.net
 -d verfiz.me
@@ -5944,6 +5873,7 @@ msFilterList
 -d versement-fond.acces-bass-lbc-secu.com
 -d veryleboncoin.ru
 -d verzeichnisse.creatorlink.net
+-d vesin.vivcci.com
 -d vestacommercialinc.com
 -d vevobahis211.blogspot.com
 -d vevobahisbet.blogspot.com
@@ -5982,7 +5912,6 @@ msFilterList
 -d vinahay.com
 -d vincianedespret.be
 -d vinivet.mk
--d vip.aqa010.top
 -d vipbillspaymentcenternegosyo.com
 -d vipfbtools.com
 -d virii-my-mtb.com
@@ -6005,6 +5934,7 @@ msFilterList
 -d vlabecepevalidarperu.com
 -d vmhouse.welesawekasi.xyz
 -d vmospi111.freecluster.eu
+-d vnasie.vivcoi.com
 -d vnohgv9.cn
 -d vnsai.vovieia.com
 -d vocal-esp.yolasite.com
@@ -6031,6 +5961,7 @@ msFilterList
 -d vqwd.soboja1994.workers.dev
 -d vrbe.in
 -d vrzfni.cn
+-d vsein.vivcoi.com
 -d vt3pa0.webwave.dev
 -d vtennis.vn
 -d vtxmail2018.myfreesites.net
@@ -6156,7 +6087,6 @@ msFilterList
 -d westportvillagegallery.com
 -d wetra.4632.giov.swanngonorthwestregion.cf
 -d wetransfer-view-documentonline.yolasite.com
--d wewtraders.com
 -d wgh3.wghservers.com
 -d wgz1.cn
 -d whatepouhill.byethost15.com
@@ -6177,7 +6107,6 @@ msFilterList
 -d wildcard.tv1space.az
 -d willtoaccssnowand.cf
 -d wimracttus.com
--d windows-329510.nw.r.appspot.com
 -d winville.biz
 -d wireconfirmation68c10a25442a3e13.blogspot.com
 -d wires-business-starter.webflow.io
@@ -6219,7 +6148,6 @@ msFilterList
 -d wtr.tos-kurim.cc
 -d wu7q5.app.link
 -d wulalalela.cyou
--d wvuiqkdqxd.duckdns.org
 -d wvwv.xn--zonsegurasbn1cmp-hmb1nth.com
 -d ww1.bcponlineapplication.com
 -d ww2.activartusoperacionesenlinea.zonasegurabeta.com.pe.vegam.co
@@ -6252,9 +6180,9 @@ msFilterList
 -d www1.acmeon.carcob.com
 -d www1.aecom.corceb.com
 -d www1.ceps.cearccd.com
--d www1.etc.meaisoacio.com
 -d www1.jeb.amcc-jp.com
 -d www1.jeb.anncc-jp.com
+-d www1.jp.mceircarii.com
 -d www1.jp.mceorccarei.com
 -d www1.jp.mceorooaroi.com
 -d www1.jp.mcerncarei.com
@@ -6262,7 +6190,6 @@ msFilterList
 -d www1.jp.mecrecarii.com
 -d www1.jp.mecrocarici.com
 -d www1.jp.mecrocarioi.com
--d www1.jp.meercnarui.com
 -d www1.jp.menrecarii.com
 -d www1.jp.merccearcai.com
 -d www1.jp.mermceamrci.com
@@ -6294,17 +6221,14 @@ msFilterList
 -d www2.jeb.amcc-jp.com
 -d www2.jeb.anncc-jp.com
 -d www2.jeb.cacsomd.com
+-d www2.jp.mceircarii.com
 -d www2.jp.mceorccarei.com
--d www2.jp.mceorooaroi.com
--d www2.jp.mcerccaeri.com
 -d www2.jp.mcerncarei.com
 -d www2.jp.mecrecarii.com
 -d www2.jp.mecrocarici.com
 -d www2.jp.mecrocarioi.com
 -d www2.jp.meercnarui.com
--d www2.jp.menrecarii.com
 -d www2.jp.mernceanroi.com
--d www2.mecrocarici.com
 -d www2.mecrocarioi.com
 -d www2.my-jcb.cacsncnd.com
 -d www2.my.job.amcc-jp.com
@@ -6327,9 +6251,9 @@ msFilterList
 -d www3.epssc.cearccd.com
 -d www3.jeb.amcc-jp.com
 -d www3.jeb.anncc-jp.com
+-d www3.jp.mceircarii.com
 -d www3.jp.mcerccaeri.com
 -d www3.jp.mecrcoaercri.com
--d www3.jp.mecrcoarai.com
 -d www3.jp.mecrecarii.com
 -d www3.jp.mecrocarici.com
 -d www3.jp.mecrocarioi.com
@@ -6391,6 +6315,8 @@ msFilterList
 -d xhmnv.mjt.lu
 -d xhmqu.mjt.lu
 -d xhs02.mjt.lu
+-d xiaoribenguiziwocanilaolaodexiaonaizuia.roq96c.cn
+-d xiaoribenguiziwocanilaolaodexiaonaizuia.sb1job.cn
 -d xid-human-validation.run-us-west2.goorm.io
 -d xiorsil.freecluster.eu
 -d xj333.mjt.lu
@@ -6419,12 +6345,9 @@ msFilterList
 -d xn--lectrum-v7a.org
 -d xn--ltappen-80a.se
 -d xn--meamask-9xc.net
--d xn--metamak-ipb.org
 -d xn--metamsk-w3a.net
--d xn--metmask-jwa.org
 -d xn--metmask-u3a.net
 -d xn--mtamask-bya.org
--d xn--notifictlons-pages-confirmation-link533562463575486-z2o.r2xrssjgca-gjy3mwpvv68q.p.runcloud.link
 -d xn--pacincia-xl-qbb.com
 -d xn--prvacy-pages-confirmation-link535246357543524635752-bsh.r2xrssjgca-gjy3mwpvv68q.p.runcloud.link
 -d xn--rpondeur-sfr2-bhb.yolasite.com
@@ -6455,12 +6378,10 @@ msFilterList
 -d y768766y.byethost6.com
 -d yabo12app.cn
 -d yaboshi.com
--d yahoomailmol.weebly.com
 -d yahoos-initial-project-cf784a.webflow.io
 -d yahuomall.square.site
 -d yairix.github.io
 -d yalena.me
--d yanapaybcponline.yapaybon.com
 -d yaninasozopol.com
 -d yape.greenter.dev
 -d yaqoobi.org
@@ -6478,7 +6399,6 @@ msFilterList
 -d youtudaysmensfoo.byethost31.com
 -d youwingirisimiz.blogspot.com
 -d ypapp.zoomarts.com
--d ystdqczl.com.cn
 -d ytco.in
 -d ytdingduan.cn
 -d ythfdsf.aio49f4vsd.workers.dev
@@ -6492,6 +6412,7 @@ msFilterList
 -d yvesauzon0-mon-site-web-cheetah.cheetah.builderall.com
 -d yvessgaspard-mon-site-web-cheetah.free.builderall.com
 -d yxif0nb.cn
+-d yznpqxocfv.duckdns.org
 -d z-pay.biz
 -d z3voicrxxvs.typeform.com
 -d z965.cn
@@ -6517,7 +6438,6 @@ msFilterList
 -d zix-zero.org.ru
 -d ziyuanart.cn
 -d zlej3mqyoty.typeform.com
--d zmecuo.com
 -d znzwck.cn
 -d zog1.fast-page.org
 -d zoho-online.web.app
@@ -6537,7 +6457,6 @@ msFilterList
 -d zorten.com
 -d zphum.skipdns.link
 -d zplusentertainment.in
--d zpmjikyjmhrzakneiddpiifdla-dot-gowa11111111.rj.r.appspot.com
 -d zrf1892.egmq5.ebxzzgvhzd-it.ml
 -d zschlmmer-schwarz.com
 -d zuxpxo.cn
