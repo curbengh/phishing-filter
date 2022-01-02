@@ -486,11 +486,11 @@ Use shallow clone to get the recent revisions only. Getting the last five revisi
 
 [badge.sh](src/badge.sh) & [.gitlab/](.gitlab/) contain badges that are licensed by [Shields.io](https://shields.io) under [CC0 1.0](LICENSE.md)
 
-[PhishTank](https://www.phishtank.com/): [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5/)
+[PhishTank](https://www.phishtank.com/): Available [free of charge](https://www.phishtank.com/faq.php#isitoktousetheapifor) by Cisco for commercial and non-commercial use.
 
-_PhishTank is either trademark or registered trademark of OpenDNS, LLC._
+_PhishTank is either trademark or registered trademark of Cisco Systems, Inc._
 
-[OpenPhish](https://openphish.com/): Available free of charge by OpenPhish
+[OpenPhish](https://openphish.com/): Available [free of charge](https://openphish.com/terms.html) by OpenPhish
 
 [Tranco List](https://tranco-list.eu/): MIT License
 
