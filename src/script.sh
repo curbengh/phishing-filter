@@ -109,7 +109,9 @@ cat "phishing-domains.txt" | \
 grep -F -vf "phishing-top-domains.txt" > "phishing-notop-domains-temp.txt"
 
 cat "phishing.txt" | \
-grep -F -f "phishing-top-domains.txt" > "phishing-url-top-domains-temp.txt"
+grep -F -f "phishing-top-domains.txt" | \
+# url encode space #11
+sed "s/ /%20/g" > "phishing-url-top-domains-temp.txt"
 
 rm -f "phishing-url-top-domains.txt" "phishing-url-top-domains-raw.txt"
 
