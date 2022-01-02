@@ -39,14 +39,17 @@ sed 's/"//g' | \
 cut -f 3- -d "/" | \
 # Domain must have at least a 'dot'
 grep -F "." | \
-sed "s/^www\.//g" > "phishtank.txt"
+sed "s/^www\.//g" | \
+# url encode space #11
+sed "s/ /%20/g" > "phishtank.txt"
 
 cat "openphish-raw.txt" | \
 dos2unix | \
 tr "[:upper:]" "[:lower:]" | \
 cut -f 3- -d "/" | \
 grep -F "." | \
-sed "s/^www\.//g" > "openphish.txt"
+sed "s/^www\.//g" | \
+sed "s/ /%20/g" > "openphish.txt"
 
 ## Combine PhishTank and OpenPhish
 cat "phishtank.txt" "openphish.txt" | \
@@ -109,9 +112,7 @@ cat "phishing-domains.txt" | \
 grep -F -vf "phishing-top-domains.txt" > "phishing-notop-domains-temp.txt"
 
 cat "phishing.txt" | \
-grep -F -f "phishing-top-domains.txt" | \
-# url encode space #11
-sed "s/ /%20/g" > "phishing-url-top-domains-temp.txt"
+grep -F -f "phishing-top-domains.txt" > "phishing-url-top-domains-temp.txt"
 
 rm -f "phishing-url-top-domains.txt" "phishing-url-top-domains-raw.txt"
 
