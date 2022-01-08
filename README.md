@@ -1,5 +1,7 @@
 # Phishing URL Blocklist
 
+> Edit 2021/01/08: the default branch has changed to **main**.
+
 A blocklist of phishing websites, based on the [PhishTank](https://www.phishtank.com/) and [OpenPhish](https://openphish.com/) lists. Blocklist is updated twice a day.
 
 There are multiple formats available, refer to the appropriate section according to the program used:
@@ -38,12 +40,7 @@ _included by default in uBO >=[1.39.0](https://github.com/gorhill/uBlock/release
 <details>
 <summary>Mirrors</summary>
 
-- https://cdn.statically.io/gl/curben/phishing-filter/master/dist/phishing-filter.txt
-- https://glcdn.githack.com/curben/phishing-filter/raw/master/dist/phishing-filter.txt
-- https://raw.githubusercontent.com/curbengh/phishing-filter/master/dist/phishing-filter.txt
-- https://cdn.statically.io/gh/curbengh/phishing-filter/master/dist/phishing-filter.txt
-- https://gitcdn.xyz/repo/curbengh/phishing-filter/master/dist/phishing-filter.txt
-- https://cdn.jsdelivr.net/gh/curbengh/phishing-filter/dist/phishing-filter.txt
+- https://curben.gitlab.io/phishing-filter/phishing-filter.txt
 
 </details>
 
@@ -58,12 +55,7 @@ Import the following URL into AdGuard browser extension to subscribe:
 <details>
 <summary>Mirrors</summary>
 
-- https://cdn.statically.io/gl/curben/phishing-filter/master/dist/phishing-filter-ag.txt
-- https://glcdn.githack.com/curben/phishing-filter/raw/master/dist/phishing-filter-ag.txt
-- https://raw.githubusercontent.com/curbengh/phishing-filter/master/dist/phishing-filter-ag.txt
-- https://cdn.statically.io/gh/curbengh/phishing-filter/master/dist/phishing-filter-ag.txt
-- https://gitcdn.xyz/repo/curbengh/phishing-filter/master/dist/phishing-filter-ag.txt
-- https://cdn.jsdelivr.net/gh/curbengh/phishing-filter/dist/phishing-filter-ag.txt
+- https://curben.gitlab.io/phishing-filter/phishing-filter-ag.txt
 
 </details>
 
@@ -78,12 +70,7 @@ Import the following URL into Vivaldi's **Tracker Blocking Sources** to subscrib
 <details>
 <summary>Mirrors</summary>
 
-- https://cdn.statically.io/gl/curben/phishing-filter/master/dist/phishing-filter-vivaldi.txt
-- https://glcdn.githack.com/curben/phishing-filter/raw/master/dist/phishing-filter-vivaldi.txt
-- https://raw.githubusercontent.com/curbengh/phishing-filter/master/dist/phishing-filter-vivaldi.txt
-- https://cdn.statically.io/gh/curbengh/phishing-filter/master/dist/phishing-filter-vivaldi.txt
-- https://gitcdn.xyz/repo/curbengh/phishing-filter/master/dist/phishing-filter-vivaldi.txt
-- https://cdn.jsdelivr.net/gh/curbengh/phishing-filter/dist/phishing-filter-vivaldi.txt
+- https://curben.gitlab.io/phishing-filter/phishing-filter-vivaldi.txt
 
 </details>
 
@@ -96,12 +83,7 @@ This blocklist includes domains and IP addresses.
 <details>
 <summary>Mirrors</summary>
 
-- https://cdn.statically.io/gl/curben/phishing-filter/master/dist/phishing-filter-domains.txt
-- https://glcdn.githack.com/curben/phishing-filter/raw/master/dist/phishing-filter-domains.txt
-- https://raw.githubusercontent.com/curbengh/phishing-filter/master/dist/phishing-filter-domains.txt
-- https://cdn.statically.io/gh/curbengh/phishing-filter/master/dist/phishing-filter-domains.txt
-- https://gitcdn.xyz/repo/curbengh/phishing-filter/master/dist/phishing-filter-domains.txt
-- https://cdn.jsdelivr.net/gh/curbengh/phishing-filter/dist/phishing-filter-domains.txt
+- https://curben.gitlab.io/phishing-filter/phishing-filter-domains.txt
 
 </details>
 
@@ -114,12 +96,7 @@ This AdGuard Home-compatible blocklist includes domains and IP addresses.
 <details>
 <summary>Mirrors</summary>
 
-- https://cdn.statically.io/gl/curben/phishing-filter/master/dist/phishing-filter-agh.txt
-- https://glcdn.githack.com/curben/phishing-filter/raw/master/dist/phishing-filter-agh.txt
-- https://raw.githubusercontent.com/curbengh/phishing-filter/master/dist/phishing-filter-agh.txt
-- https://cdn.statically.io/gh/curbengh/phishing-filter/master/dist/phishing-filter-agh.txt
-- https://gitcdn.xyz/repo/curbengh/phishing-filter/master/dist/phishing-filter-agh.txt
-- https://cdn.jsdelivr.net/gh/curbengh/phishing-filter/phishing-filter-agh.txt
+- https://curben.gitlab.io/phishing-filter/phishing-filter-agh.txt
 
 </details>
 
@@ -132,12 +109,7 @@ This blocklist includes domains only.
 <details>
 <summary>Mirrors</summary>
 
-- https://cdn.statically.io/gl/curben/phishing-filter/master/dist/phishing-filter-hosts.txt
-- https://glcdn.githack.com/curben/phishing-filter/raw/master/dist/phishing-filter-hosts.txt
-- https://raw.githubusercontent.com/curbengh/phishing-filter/master/dist/phishing-filter-hosts.txt
-- https://cdn.statically.io/gh/curbengh/phishing-filter/master/dist/phishing-filter-hosts.txt
-- https://gitcdn.xyz/repo/curbengh/phishing-filter/master/dist/phishing-filter-hosts.txt
-- https://cdn.jsdelivr.net/gh/curbengh/phishing-filter/dist/phishing-filter-hosts.txt
+- https://curben.gitlab.io/phishing-filter/phishing-filter-hosts.txt
 
 </details>
 
@@ -166,12 +138,7 @@ printf "\nconf-file=/usr/local/etc/dnsmasq/phishing-filter-dnsmasq.conf\n" >> /e
 <details>
 <summary>Mirrors</summary>
 
-- https://cdn.statically.io/gl/curben/phishing-filter/master/dist/phishing-filter-dnsmasq.conf
-- https://glcdn.githack.com/curben/phishing-filter/raw/master/dist/phishing-filter-dnsmasq.conf
-- https://raw.githubusercontent.com/curbengh/phishing-filter/master/dist/phishing-filter-dnsmasq.conf
-- https://cdn.statically.io/gh/curbengh/phishing-filter/master/dist/phishing-filter-dnsmasq.conf
-- https://gitcdn.xyz/repo/curbengh/phishing-filter/master/dist/phishing-filter-dnsmasq.conf
-- https://cdn.jsdelivr.net/gh/curbengh/phishing-filter/dist/phishing-filter-dnsmasq.conf
+- https://curben.gitlab.io/phishing-filter/phishing-filter-dnsmasq.conf
 
 </details>
 
@@ -218,12 +185,7 @@ Zone file is derived from [here](https://github.com/tomzuu/blacklist-named/blob/
 <details>
 <summary>Mirrors</summary>
 
-- https://cdn.statically.io/gl/curben/phishing-filter/master/dist/phishing-filter-bind.conf
-- https://glcdn.githack.com/curben/phishing-filter/raw/master/dist/phishing-filter-bind.conf
-- https://raw.githubusercontent.com/curbengh/phishing-filter/master/dist/phishing-filter-bind.conf
-- https://cdn.statically.io/gh/curbengh/phishing-filter/master/dist/phishing-filter-bind.conf
-- https://gitcdn.xyz/repo/curbengh/phishing-filter/master/dist/phishing-filter-bind.conf
-- https://cdn.jsdelivr.net/gh/curbengh/phishing-filter/dist/phishing-filter-bind.conf
+- https://curben.gitlab.io/phishing-filter/phishing-filter-bind.conf
 
 </details>
 
@@ -236,12 +198,7 @@ This blocklist includes domains only.
 <details>
 <summary>Mirrors</summary>
 
-- https://cdn.statically.io/gl/curben/phishing-filter/master/dist/phishing-filter-rpz.conf
-- https://glcdn.githack.com/curben/phishing-filter/raw/master/dist/phishing-filter-rpz.conf
-- https://raw.githubusercontent.com/curbengh/phishing-filter/master/dist/phishing-filter-rpz.conf
-- https://cdn.statically.io/gh/curbengh/phishing-filter/master/dist/phishing-filter-rpz.conf
-- https://gitcdn.xyz/repo/curbengh/phishing-filter/master/dist/phishing-filter-rpz.conf
-- https://cdn.jsdelivr.net/gh/curbengh/phishing-filter/dist/phishing-filter-rpz.conf
+- https://curben.gitlab.io/phishing-filter/phishing-filter-rpz.conf
 
 </details>
 
@@ -270,12 +227,7 @@ printf '\n  include: "/usr/local/etc/unbound/phishing-filter-unbound.conf"\n' >>
 <details>
 <summary>Mirrors</summary>
 
-- https://cdn.statically.io/gl/curben/phishing-filter/master/dist/phishing-filter-unbound.conf
-- https://glcdn.githack.com/curben/phishing-filter/raw/master/dist/phishing-filter-unbound.conf
-- https://raw.githubusercontent.com/curbengh/phishing-filter/master/dist/phishing-filter-unbound.conf
-- https://cdn.statically.io/gh/curbengh/phishing-filter/master/dist/phishing-filter-unbound.conf
-- https://gitcdn.xyz/repo/curbengh/phishing-filter/master/dist/phishing-filter-unbound.conf
-- https://cdn.jsdelivr.net/gh/curbengh/phishing-filter/dist/phishing-filter-unbound.conf
+- https://curben.gitlab.io/phishing-filter/phishing-filter-unbound.conf
 
 </details>
 
@@ -311,19 +263,10 @@ Configure dnscrypt-proxy to use the blocklist:
 <details>
 <summary>Mirrors</summary>
 
-- https://cdn.statically.io/gl/curben/phishing-filter/master/dist/phishing-filter-dnscrypt-blocked-names.txt
-- https://glcdn.githack.com/curben/phishing-filter/raw/master/dist/phishing-filter-dnscrypt-blocked-names.txt
-- https://raw.githubusercontent.com/curbengh/phishing-filter/master/dist/phishing-filter-dnscrypt-blocked-names.txt
-- https://cdn.statically.io/gh/curbengh/phishing-filter/master/dist/phishing-filter-dnscrypt-blocked-names.txt
-- https://gitcdn.xyz/repo/curbengh/phishing-filter/master/dist/phishing-filter-dnscrypt-blocked-names.txt
-- https://cdn.jsdelivr.net/gh/curbengh/phishing-filter/dist/phishing-filter-dnscrypt-blocked-names.txt
+- https://curben.gitlab.io/phishing-filter/phishing-filter-dnscrypt-blocked-names.txt
 
-- https://cdn.statically.io/gl/curben/phishing-filter/master/dist/phishing-filter-dnscrypt-blocked-ips.txt
-- https://glcdn.githack.com/curben/phishing-filter/raw/master/dist/phishing-filter-dnscrypt-blocked-ips.txt
-- https://raw.githubusercontent.com/curbengh/phishing-filter/master/dist/phishing-filter-dnscrypt-blocked-ips.txt
-- https://cdn.statically.io/gh/curbengh/phishing-filter/master/dist/phishing-filter-dnscrypt-blocked-ips.txt
-- https://gitcdn.xyz/repo/curbengh/phishing-filter/master/dist/phishing-filter-dnscrypt-blocked-ips.txt
-- https://cdn.jsdelivr.net/gh/curbengh/phishing-filter/dist/phishing-filter-dnscrypt-blocked-ips.txt
+- https://curben.gitlab.io/phishing-filter/phishing-filter-dnscrypt-blocked-ips.txt
+
 </details>
 
 ## Tracking Protection List (IE)
@@ -335,12 +278,7 @@ This blocklist includes domains only.
 <details>
 <summary>Mirrors</summary>
 
-- https://cdn.statically.io/gl/curben/phishing-filter/master/dist/phishing-filter.tpl
-- https://glcdn.githack.com/curben/phishing-filter/raw/master/dist/phishing-filter.tpl
-- https://raw.githubusercontent.com/curbengh/phishing-filter/master/dist/phishing-filter.tpl
-- https://cdn.statically.io/gh/curbengh/phishing-filter/master/dist/phishing-filter.tpl
-- https://gitcdn.xyz/repo/curbengh/phishing-filter/master/dist/phishing-filter.tpl
-- https://cdn.jsdelivr.net/gh/curbengh/phishing-filter/dist/phishing-filter.tpl
+- https://curben.gitlab.io/phishing-filter/phishing-filter.tpl
 
 </details>
 
@@ -369,12 +307,7 @@ printf "\ninclude \$RULE_PATH/phishing-filter-snort2.rules\n" >> /etc/snort/snor
 <details>
 <summary>Mirrors</summary>
 
-- https://cdn.statically.io/gl/curben/phishing-filter/master/dist/phishing-filter-snort2.rules
-- https://glcdn.githack.com/curben/phishing-filter/raw/master/dist/phishing-filter-snort2.rules
-- https://raw.githubusercontent.com/curbengh/phishing-filter/master/dist/phishing-filter-snort2.rules
-- https://cdn.statically.io/gh/curbengh/phishing-filter/master/dist/phishing-filter-snort2.rules
-- https://gitcdn.xyz/repo/curbengh/phishing-filter/master/dist/phishing-filter-snort2.rules
-- https://cdn.jsdelivr.net/gh/curbengh/phishing-filter/dist/phishing-filter-snort2.rules
+- https://curben.gitlab.io/phishing-filter/phishing-filter-snort2.rules
 
 </details>
 
@@ -411,12 +344,7 @@ ips =
 <details>
 <summary>Mirrors</summary>
 
-- https://cdn.statically.io/gl/curben/phishing-filter/master/dist/phishing-filter-snort3.rules
-- https://glcdn.githack.com/curben/phishing-filter/raw/master/dist/phishing-filter-snort3.rules
-- https://raw.githubusercontent.com/curbengh/phishing-filter/master/dist/phishing-filter-snort3.rules
-- https://cdn.statically.io/gh/curbengh/phishing-filter/master/dist/phishing-filter-snort3.rules
-- https://gitcdn.xyz/repo/curbengh/phishing-filter/master/dist/phishing-filter-snort3.rules
-- https://cdn.jsdelivr.net/gh/curbengh/phishing-filter/dist/phishing-filter-snort3.rules
+- https://curben.gitlab.io/phishing-filter/phishing-filter-snort3.rules
 
 </details>
 
@@ -451,12 +379,7 @@ rule-files:
 <details>
 <summary>Mirrors</summary>
 
-- https://cdn.statically.io/gl/curben/phishing-filter/master/dist/phishing-filter-suricata.rules
-- https://glcdn.githack.com/curben/phishing-filter/raw/master/dist/phishing-filter-suricata.rules
-- https://raw.githubusercontent.com/curbengh/phishing-filter/master/dist/phishing-filter-suricata.rules
-- https://cdn.statically.io/gh/curbengh/phishing-filter/master/dist/phishing-filter-suricata.rules
-- https://gitcdn.xyz/repo/curbengh/phishing-filter/master/dist/phishing-filter-suricata.rules
-- https://cdn.jsdelivr.net/gh/curbengh/phishing-filter/dist/phishing-filter-suricata.rules
+- https://curben.gitlab.io/phishing-filter/phishing-filter-suricata.rules
 
 </details>
 
@@ -484,9 +407,7 @@ Use shallow clone to get the recent revisions only. Getting the last five revisi
 
 [src/](src/): [CC0](LICENSE.md)
 
-[dist/](dist/): [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
-
-[badge.sh](src/badge.sh) & [.gitlab/](.gitlab/) contain badges that are licensed by [Shields.io](https://shields.io) under [CC0 1.0](LICENSE.md)
+filters: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
 [PhishTank](https://www.phishtank.com/): Available [free of charge](https://www.phishtank.com/faq.php#isitoktousetheapifor) by Cisco for commercial and non-commercial use.
 

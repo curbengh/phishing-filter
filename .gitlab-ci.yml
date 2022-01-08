@@ -1,93 +1,35 @@
-stages:
-  - test
-  - deploy
-  - failed_stage
-
-image: alpine:latest # Use the latest version of Alpine Linux docker image
+image: alpine:latest
 
 build_job:
-  stage: test
+  stage: build
 
   before_script:
-    - apk update && apk add curl openssh-client git grep xmlstarlet
-    - eval $(ssh-agent -s)
-    - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null
-    - mkdir -p ~/.ssh
-    - chmod 700 ~/.ssh
-    - echo "$SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
-    - chmod 644 ~/.ssh/known_hosts
+    - apk update && apk add brotli curl grep
 
   script:
     - sh src/script.sh
+    - find public -type f -regex '.*\.\(txt\|conf\|tpl\|rules\)$' -exec gzip -f -k -9 {} \;
+    - find public -type f -regex '.*\.\(txt\|conf\|tpl\|rules\)$' -exec brotli -f -k -9 {} \;
 
-    - git checkout master
-    - git config --global user.name "curben-bot"
-    - git config --global user.email "3048979-curben-bot@users.noreply.gitlab.com"
-
-    # Commit the changes
-    - sh src/commit.sh
-
-    # Generate successful status badge
-    - mkdir -p .gitlab/
-    - sh src/badge.sh "success"
-    - git add .gitlab/status.svg
-    # Only commit when diff exists https://stackoverflow.com/a/8123841
-    - git diff-index --quiet HEAD || git commit -m "Success pipeline"
-
-    - ssh -T git@gitlab.com
-    - git remote set-url origin git@gitlab.com:curben/phishing-filter.git
-    - git push origin master
-
-  rules:
-    # Only trigger through schedule job and "Run pipeline" in master branch
-    - if: '$CI_COMMIT_REF_NAME == "master" && ($CI_PIPELINE_SOURCE == "schedule" || $CI_PIPELINE_SOURCE == "web")'
-      when: always
-
-  # Upload working folder as a job artifact
   artifacts:
     paths:
-      - tmp/
-    expire_in: 30 days
+      - tmp
+      - public
 
-deploy_job: # Trigger deploy job on curben/phishing-filter-mirror
+pages:
   stage: deploy
-  trigger:
-    project: curben/phishing-filter-mirror
-    branch: master
-    strategy: depend
-  rules:
-    - if: '$CI_COMMIT_REF_NAME == "master" && ($CI_PIPELINE_SOURCE == "schedule" || $CI_PIPELINE_SOURCE == "web")'
-      when: always
-
-failed_job:
-  stage: failed_stage
-
-  before_script:
-    - 'which ssh-agent || (apk update && apk add curl openssh-client git grep)'
-    - eval $(ssh-agent -s)
-    - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null
-    - mkdir -p ~/.ssh
-    - chmod 700 ~/.ssh
-    - echo "$SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
-    - chmod 644 ~/.ssh/known_hosts
 
   script:
-    - git checkout master
-    - git config --global user.name "curben-bot"
-    - git config --global user.email "3048979-curben-bot@users.noreply.gitlab.com"
+    - echo
 
-    - mkdir -p .gitlab/
-    - sh src/badge.sh "failed"
-    - git add .gitlab/status.svg
-    - git diff-index --quiet HEAD || git commit -m "Failed pipeline"
-    - ssh -T git@gitlab.com
-    - git remote set-url origin git@gitlab.com:curben/phishing-filter.git
-    - git push origin master
+  artifacts:
+    paths:
+      - public
 
   rules:
-    - if: '$CI_COMMIT_REF_NAME == "master" && ($CI_PIPELINE_SOURCE == "schedule" || $CI_PIPELINE_SOURCE == "web")'
-      # Run this job only when deploy_job failed
-      when: on_failure
+    # Only trigger through schedule job and "Run pipeline" in main branch
+    - if: '$CI_COMMIT_REF_NAME == "main" && ($CI_PIPELINE_SOURCE == "schedule" || $CI_PIPELINE_SOURCE == "web")'
+      when: always
 
 include:
   - template: Security/Secret-Detection.gitlab-ci.yml

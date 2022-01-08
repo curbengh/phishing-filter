@@ -150,13 +150,15 @@ THIRD_LINE="! Expires: 1 day (update frequency)"
 FOURTH_LINE="! Homepage: https://gitlab.com/curben/phishing-filter"
 FIFTH_LINE="! License: https://gitlab.com/curben/phishing-filter#license"
 SIXTH_LINE="! Source: https://www.phishtank.com/ & https://openphish.com/"
-NOTICE="\n! Notice: https://curben.gitlab.io/phishing-filter-mirror is moved to https://curben.gitlab.io/malware-filter\n"
-COMMENT_UBO="$FIRST_LINE\n$SECOND_LINE\n$THIRD_LINE\n$FOURTH_LINE\n$FIFTH_LINE\n$SIXTH_LINE\n$NOTICE"
+ANNOUNCEMENT_1="\n! 2021/01/08: There has been a major change to the mirrors, check the repo for the new mirrors."
+ANNOUNCEMENT_2="! Old mirrors will be deprecated in 3 months. The main download link \"curben.gitlab.io/malware-filter/\" _is not affected_."
+COMMENT_UBO="$FIRST_LINE\n$SECOND_LINE\n$THIRD_LINE\n$FOURTH_LINE\n$FIFTH_LINE\n$SIXTH_LINE\n$ANNOUNCEMENT_1\n$ANNOUNCEMENT_2"
 
+mkdir -p "../public/"
 
 cat "phishing-notop-domains.txt" "phishing-url-top-domains.txt" | \
 sort | \
-sed '1 i\'"$COMMENT_UBO"'' > "../dist/phishing-filter.txt"
+sed '1 i\'"$COMMENT_UBO"'' > "../public/phishing-filter.txt"
 
 
 # Adguard Home
@@ -167,7 +169,7 @@ sed "s/$/^/g" > "phishing-domains-adguard-home.txt"
 cat "phishing-domains-adguard-home.txt" | \
 sort | \
 sed '1 i\'"$COMMENT_UBO"'' | \
-sed "1s/Blocklist/Blocklist (AdGuard Home)/" > "../dist/phishing-filter-agh.txt"
+sed "1s/Blocklist/Blocklist (AdGuard Home)/" > "../public/phishing-filter-agh.txt"
 
 
 # Adguard browser extension
@@ -178,7 +180,7 @@ sed "s/$/\$all/g" > "phishing-domains-adguard.txt"
 cat "phishing-domains-adguard.txt" "phishing-url-top-domains.txt" | \
 sort | \
 sed '1 i\'"$COMMENT_UBO"'' | \
-sed "1s/Blocklist/Blocklist (AdGuard)/" > "../dist/phishing-filter-ag.txt"
+sed "1s/Blocklist/Blocklist (AdGuard)/" > "../public/phishing-filter-ag.txt"
 
 
 # Vivaldi
@@ -190,7 +192,7 @@ cat "phishing-domains-vivaldi.txt" "phishing-url-top-domains.txt" | \
 sed "s/\$all$/\$document/g" | \
 sort | \
 sed '1 i\'"$COMMENT_UBO"'' | \
-sed "1s/Blocklist/Blocklist (Vivaldi)/" > "../dist/phishing-filter-vivaldi.txt"
+sed "1s/Blocklist/Blocklist (Vivaldi)/" > "../public/phishing-filter-vivaldi.txt"
 
 
 ## Domains-only blocklist
@@ -199,7 +201,7 @@ COMMENT=$(printf "$COMMENT_UBO" | sed "s/^!/#/g" | sed "1s/URL/Domains/" | awk '
 
 cat "phishing-notop-domains.txt" | \
 sort | \
-sed '1 i\'"$COMMENT"'' > "../dist/phishing-filter-domains.txt"
+sed '1 i\'"$COMMENT"'' > "../public/phishing-filter-domains.txt"
 
 cat "phishing-notop-domains.txt" | \
 grep -vE "^([0-9]{1,3}[\.]){3}[0-9]{1,3}$" > "phishing-notop-hosts.txt"
@@ -209,7 +211,7 @@ cat "phishing-notop-hosts.txt" | \
 sed "s/^/0.0.0.0 /g" | \
 # Re-insert comment
 sed '1 i\'"$COMMENT"'' | \
-sed "1s/Domains/Hosts/" > "../dist/phishing-filter-hosts.txt"
+sed "1s/Domains/Hosts/" > "../public/phishing-filter-hosts.txt"
 
 
 ## Dnsmasq-compatible blocklist
@@ -217,7 +219,7 @@ cat "phishing-notop-hosts.txt" | \
 sed "s/^/address=\//g" | \
 sed "s/$/\/0.0.0.0/g" | \
 sed '1 i\'"$COMMENT"'' | \
-sed "1s/Blocklist/dnsmasq Blocklist/" > "../dist/phishing-filter-dnsmasq.conf"
+sed "1s/Blocklist/dnsmasq Blocklist/" > "../public/phishing-filter-dnsmasq.conf"
 
 
 ## BIND-compatible blocklist
@@ -225,7 +227,7 @@ cat "phishing-notop-hosts.txt" | \
 sed 's/^/zone "/g' | \
 sed 's/$/" { type master; notify no; file "null.zone.file"; };/g' | \
 sed '1 i\'"$COMMENT"'' | \
-sed "1s/Blocklist/BIND Blocklist/" > "../dist/phishing-filter-bind.conf"
+sed "1s/Blocklist/BIND Blocklist/" > "../public/phishing-filter-bind.conf"
 
 
 ## DNS Response Policy Zone (RPZ)
@@ -237,7 +239,7 @@ sed "s/$/ CNAME ./g" | \
 sed '1 i\'"$RPZ_SYNTAX"'' | \
 sed '1 i\'"$COMMENT"'' | \
 sed "s/^#/;/g" | \
-sed "1s/Blocklist/RPZ Blocklist/" > "../dist/phishing-filter-rpz.conf"
+sed "1s/Blocklist/RPZ Blocklist/" > "../public/phishing-filter-rpz.conf"
 
 
 ## Unbound-compatible blocklist
@@ -245,29 +247,29 @@ cat "phishing-notop-hosts.txt" | \
 sed 's/^/local-zone: "/g' | \
 sed 's/$/" always_nxdomain/g' | \
 sed '1 i\'"$COMMENT"'' | \
-sed "1s/Blocklist/Unbound Blocklist/" > "../dist/phishing-filter-unbound.conf"
+sed "1s/Blocklist/Unbound Blocklist/" > "../public/phishing-filter-unbound.conf"
 
 
 ## dnscrypt-proxy blocklists
 # name-based
 cat "phishing-notop-hosts.txt" | \
 sed '1 i\'"$COMMENT"'' | \
-sed "1s/Domains/Names/" > "../dist/phishing-filter-dnscrypt-blocked-names.txt"
+sed "1s/Domains/Names/" > "../public/phishing-filter-dnscrypt-blocked-names.txt"
 
 # IPv4-based
 cat "phishing-notop-domains.txt" | \
 sort | \
 grep -E "^([0-9]{1,3}[\.]){3}[0-9]{1,3}$" | \
 sed '1 i\'"$COMMENT"'' | \
-sed "1s/Domains/IPs/" > "../dist/phishing-filter-dnscrypt-blocked-ips.txt"
+sed "1s/Domains/IPs/" > "../public/phishing-filter-dnscrypt-blocked-ips.txt"
 
 
 set +x
 
 ## Snort & Suricata rulesets
-rm -f "../dist/phishing-filter-snort2.rules" \
-  "../dist/phishing-filter-snort3.rules" \
-  "../dist/phishing-filter-suricata.rules"
+rm -f "../public/phishing-filter-snort2.rules" \
+  "../public/phishing-filter-snort3.rules" \
+  "../public/phishing-filter-suricata.rules"
 
 SID="200000001"
 while read DOMAIN; do
@@ -277,9 +279,9 @@ while read DOMAIN; do
 
   SR_RULE="alert http \$HOME_NET any -> \$EXTERNAL_NET any (msg:\"phishing-filter phishing website detected\"; flow:established,from_client; http.method; content:\"GET\"; http.host; content:\"$DOMAIN\"; classtype:attempted-recon; sid:$SID; rev:1;)"
 
-  echo "$SN_RULE" >> "../dist/phishing-filter-snort2.rules"
-  echo "$SN3_RULE" >> "../dist/phishing-filter-snort3.rules"
-  echo "$SR_RULE" >> "../dist/phishing-filter-suricata.rules"
+  echo "$SN_RULE" >> "../public/phishing-filter-snort2.rules"
+  echo "$SN3_RULE" >> "../public/phishing-filter-snort3.rules"
+  echo "$SR_RULE" >> "../public/phishing-filter-suricata.rules"
 
   SID=$(( $SID + 1 ))
 done < "phishing-notop-domains.txt"
@@ -295,23 +297,23 @@ while read URL; do
 
   SR_RULE="alert http \$HOME_NET any -> \$EXTERNAL_NET any (msg:\"phishing-filter phishing website detected\"; flow:established,from_client; http.method; content:\"GET\"; http.uri; content:\"$URI\"; endswith; nocase; http.host; content:\"$HOST\"; classtype:attempted-recon; sid:$SID; rev:1;)"
 
-  echo "$SN_RULE" >> "../dist/phishing-filter-snort2.rules"
-  echo "$SN3_RULE" >> "../dist/phishing-filter-snort3.rules"
-  echo "$SR_RULE" >> "../dist/phishing-filter-suricata.rules"
+  echo "$SN_RULE" >> "../public/phishing-filter-snort2.rules"
+  echo "$SN3_RULE" >> "../public/phishing-filter-snort3.rules"
+  echo "$SR_RULE" >> "../public/phishing-filter-suricata.rules"
 
   SID=$(( $SID + 1 ))
 done < "phishing-url-top-domains-raw.txt"
 
 set -x
 
-sed -i '1 i\'"$COMMENT"'' "../dist/phishing-filter-snort2.rules"
-sed -i "1s/Domains Blocklist/URL Snort2 Ruleset/" "../dist/phishing-filter-snort2.rules"
+sed -i '1 i\'"$COMMENT"'' "../public/phishing-filter-snort2.rules"
+sed -i "1s/Domains Blocklist/URL Snort2 Ruleset/" "../public/phishing-filter-snort2.rules"
 
-sed -i '1 i\'"$COMMENT"'' "../dist/phishing-filter-snort3.rules"
-sed -i "1s/Domains Blocklist/URL Snort3 Ruleset/" "../dist/phishing-filter-snort3.rules"
+sed -i '1 i\'"$COMMENT"'' "../public/phishing-filter-snort3.rules"
+sed -i "1s/Domains Blocklist/URL Snort3 Ruleset/" "../public/phishing-filter-snort3.rules"
 
-sed -i '1 i\'"$COMMENT"'' "../dist/phishing-filter-suricata.rules"
-sed -i "1s/Domains Blocklist/URL Suricata Ruleset/" "../dist/phishing-filter-suricata.rules"
+sed -i '1 i\'"$COMMENT"'' "../public/phishing-filter-suricata.rules"
+sed -i "1s/Domains Blocklist/URL Suricata Ruleset/" "../public/phishing-filter-suricata.rules"
 
 
 ## IE blocklist
@@ -320,7 +322,7 @@ COMMENT_IE="msFilterList\n$COMMENT\n: Expires=1\n#"
 cat "phishing-notop-hosts.txt" | \
 sed "s/^/-d /g" | \
 sed '1 i\'"$COMMENT_IE"'' | \
-sed "2s/Domains Blocklist/Hosts Blocklist (IE)/" > "../dist/phishing-filter.tpl"
+sed "2s/Domains Blocklist/Hosts Blocklist (IE)/" > "../public/phishing-filter.tpl"
 
 
 ## Clean up artifacts
