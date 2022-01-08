@@ -29,6 +29,5 @@ pages:
   rules:
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
 
-
 include:
   - template: Security/Secret-Detection.gitlab-ci.yml
