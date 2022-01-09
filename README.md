@@ -40,7 +40,13 @@ _included by default in uBO >=[1.39.0](https://github.com/gorhill/uBlock/release
 <details>
 <summary>Mirrors</summary>
 
+- https://curbengh.github.io/malware-filter/phishing-filter.txt
+- https://curbengh.github.io/phishing-filter/phishing-filter.txt
 - https://curben.gitlab.io/phishing-filter/phishing-filter.txt
+- https://malware-filter.pages.dev/phishing-filter.txt
+- https://phishing-filter.pages.dev/phishing-filter.txt
+- https://malware-filter.netlify.app/phishing-filter.txt
+- https://phishing-filter.netlify.app/phishing-filter.txt
 
 </details>
 
@@ -55,7 +61,13 @@ Import the following URL into AdGuard browser extension to subscribe:
 <details>
 <summary>Mirrors</summary>
 
+- https://curbengh.github.io/malware-filter/phishing-filter-ag.txt
+- https://curbengh.github.io/phishing-filter/phishing-filter-ag.txt
 - https://curben.gitlab.io/phishing-filter/phishing-filter-ag.txt
+- https://malware-filter.pages.dev/phishing-filter-ag.txt
+- https://phishing-filter.pages.dev/phishing-filter-ag.txt
+- https://malware-filter.netlify.app/phishing-filter-ag.txt
+- https://phishing-filter.netlify.app/phishing-filter-ag.txt
 
 </details>
 
@@ -70,7 +82,13 @@ Import the following URL into Vivaldi's **Tracker Blocking Sources** to subscrib
 <details>
 <summary>Mirrors</summary>
 
+- https://curbengh.github.io/malware-filter/phishing-filter-vivaldi.txt
+- https://curbengh.github.io/phishing-filter/phishing-filter-vivaldi.txt
 - https://curben.gitlab.io/phishing-filter/phishing-filter-vivaldi.txt
+- https://malware-filter.pages.dev/phishing-filter-vivaldi.txt
+- https://phishing-filter.pages.dev/phishing-filter-vivaldi.txt
+- https://malware-filter.netlify.app/phishing-filter-vivaldi.txt
+- https://phishing-filter.netlify.app/phishing-filter-vivaldi.txt
 
 </details>
 
@@ -83,7 +101,13 @@ This blocklist includes domains and IP addresses.
 <details>
 <summary>Mirrors</summary>
 
+- https://curbengh.github.io/malware-filter/phishing-filter-domains.txt
+- https://curbengh.github.io/phishing-filter/phishing-filter-domains.txt
 - https://curben.gitlab.io/phishing-filter/phishing-filter-domains.txt
+- https://malware-filter.pages.dev/phishing-filter-domains.txt
+- https://phishing-filter.pages.dev/phishing-filter-domains.txt
+- https://malware-filter.netlify.app/phishing-filter-domains.txt
+- https://phishing-filter.netlify.app/phishing-filter-domains.txt
 
 </details>
 
@@ -96,7 +120,13 @@ This AdGuard Home-compatible blocklist includes domains and IP addresses.
 <details>
 <summary>Mirrors</summary>
 
+- https://curbengh.github.io/malware-filter/phishing-filter-agh.txt
+- https://curbengh.github.io/phishing-filter/phishing-filter-agh.txt
 - https://curben.gitlab.io/phishing-filter/phishing-filter-agh.txt
+- https://malware-filter.pages.dev/phishing-filter-agh.txt
+- https://phishing-filter.pages.dev/phishing-filter-agh.txt
+- https://malware-filter.netlify.app/phishing-filter-agh.txt
+- https://phishing-filter.netlify.app/phishing-filter-agh.txt
 
 </details>
 
@@ -109,7 +139,13 @@ This blocklist includes domains only.
 <details>
 <summary>Mirrors</summary>
 
+- https://curbengh.github.io/malware-filter/phishing-filter-hosts.txt
+- https://curbengh.github.io/phishing-filter/phishing-filter-hosts.txt
 - https://curben.gitlab.io/phishing-filter/phishing-filter-hosts.txt
+- https://malware-filter.pages.dev/phishing-filter-hosts.txt
+- https://phishing-filter.pages.dev/phishing-filter-hosts.txt
+- https://malware-filter.netlify.app/phishing-filter-hosts.txt
+- https://phishing-filter.netlify.app/phishing-filter-hosts.txt
 
 </details>
 
@@ -138,7 +174,13 @@ printf "\nconf-file=/usr/local/etc/dnsmasq/phishing-filter-dnsmasq.conf\n" >> /e
 <details>
 <summary>Mirrors</summary>
 
+- https://curbengh.github.io/malware-filter/phishing-filter-dnsmasq.conf
+- https://curbengh.github.io/phishing-filter/phishing-filter-dnsmasq.conf
 - https://curben.gitlab.io/phishing-filter/phishing-filter-dnsmasq.conf
+- https://malware-filter.pages.dev/phishing-filter-dnsmasq.conf
+- https://phishing-filter.pages.dev/phishing-filter-dnsmasq.conf
+- https://malware-filter.netlify.app/phishing-filter-dnsmasq.conf
+- https://phishing-filter.netlify.app/phishing-filter-dnsmasq.conf
 
 </details>
 
@@ -185,7 +227,13 @@ Zone file is derived from [here](https://github.com/tomzuu/blacklist-named/blob/
 <details>
 <summary>Mirrors</summary>
 
+- https://curbengh.github.io/malware-filter/phishing-filter-bind.conf
+- https://curbengh.github.io/phishing-filter/phishing-filter-bind.conf
 - https://curben.gitlab.io/phishing-filter/phishing-filter-bind.conf
+- https://malware-filter.pages.dev/phishing-filter-bind.conf
+- https://phishing-filter.pages.dev/phishing-filter-bind.conf
+- https://malware-filter.netlify.app/phishing-filter-bind.conf
+- https://phishing-filter.netlify.app/phishing-filter-bind.conf
 
 </details>
 
@@ -198,7 +246,13 @@ This blocklist includes domains only.
 <details>
 <summary>Mirrors</summary>
 
+- https://curbengh.github.io/malware-filter/phishing-filter-rpz.conf
+- https://curbengh.github.io/phishing-filter/phishing-filter-rpz.conf
 - https://curben.gitlab.io/phishing-filter/phishing-filter-rpz.conf
+- https://malware-filter.pages.dev/phishing-filter-rpz.conf
+- https://phishing-filter.pages.dev/phishing-filter-rpz.conf
+- https://malware-filter.netlify.app/phishing-filter-rpz.conf
+- https://phishing-filter.netlify.app/phishing-filter-rpz.conf
 
 </details>
 
@@ -227,7 +281,13 @@ printf '\n  include: "/usr/local/etc/unbound/phishing-filter-unbound.conf"\n' >>
 <details>
 <summary>Mirrors</summary>
 
+- https://curbengh.github.io/malware-filter/phishing-filter-unbound.conf
+- https://curbengh.github.io/phishing-filter/phishing-filter-unbound.conf
 - https://curben.gitlab.io/phishing-filter/phishing-filter-unbound.conf
+- https://malware-filter.pages.dev/phishing-filter-unbound.conf
+- https://phishing-filter.pages.dev/phishing-filter-unbound.conf
+- https://malware-filter.netlify.app/phishing-filter-unbound.conf
+- https://phishing-filter.netlify.app/phishing-filter-unbound.conf
 
 </details>
 
@@ -263,9 +323,21 @@ Configure dnscrypt-proxy to use the blocklist:
 <details>
 <summary>Mirrors</summary>
 
+- https://curbengh.github.io/malware-filter/phishing-filter-dnscrypt-blocked-names.txt
+- https://curbengh.github.io/phishing-filter/phishing-filter-dnscrypt-blocked-names.txt
 - https://curben.gitlab.io/phishing-filter/phishing-filter-dnscrypt-blocked-names.txt
+- https://malware-filter.pages.dev/phishing-filter-dnscrypt-blocked-names.txt
+- https://phishing-filter.pages.dev/phishing-filter-dnscrypt-blocked-names.txt
+- https://malware-filter.netlify.app/phishing-filter-dnscrypt-blocked-names.txt
+- https://phishing-filter.netlify.app/phishing-filter-dnscrypt-blocked-names.txt
 
+- https://curbengh.github.io/malware-filter/phishing-filter-dnscrypt-blocked-ips.txt
+- https://curbengh.github.io/phishing-filter/phishing-filter-dnscrypt-blocked-ips.txt
 - https://curben.gitlab.io/phishing-filter/phishing-filter-dnscrypt-blocked-ips.txt
+- https://malware-filter.pages.dev/phishing-filter-dnscrypt-blocked-ips.txt
+- https://phishing-filter.pages.dev/phishing-filter-dnscrypt-blocked-ips.txt
+- https://malware-filter.netlify.app/phishing-filter-dnscrypt-blocked-ips.txt
+- https://phishing-filter.netlify.app/phishing-filter-dnscrypt-blocked-ips.txt
 
 </details>
 
@@ -278,7 +350,13 @@ This blocklist includes domains only.
 <details>
 <summary>Mirrors</summary>
 
+- https://curbengh.github.io/malware-filter/phishing-filter.tpl
+- https://curbengh.github.io/phishing-filter/phishing-filter.tpl
 - https://curben.gitlab.io/phishing-filter/phishing-filter.tpl
+- https://malware-filter.pages.dev/phishing-filter.tpl
+- https://phishing-filter.pages.dev/phishing-filter.tpl
+- https://malware-filter.netlify.app/phishing-filter.tpl
+- https://phishing-filter.netlify.app/phishing-filter.tpl
 
 </details>
 
@@ -307,7 +385,13 @@ printf "\ninclude \$RULE_PATH/phishing-filter-snort2.rules\n" >> /etc/snort/snor
 <details>
 <summary>Mirrors</summary>
 
+- https://curbengh.github.io/malware-filter/phishing-filter-snort2.rules
+- https://curbengh.github.io/phishing-filter/phishing-filter-snort2.rules
 - https://curben.gitlab.io/phishing-filter/phishing-filter-snort2.rules
+- https://malware-filter.pages.dev/phishing-filter-snort2.rules
+- https://phishing-filter.pages.dev/phishing-filter-snort2.rules
+- https://malware-filter.netlify.app/phishing-filter-snort2.rules
+- https://phishing-filter.netlify.app/phishing-filter-snort2.rules
 
 </details>
 
@@ -344,7 +428,13 @@ ips =
 <details>
 <summary>Mirrors</summary>
 
+- https://curbengh.github.io/malware-filter/phishing-filter-snort3.rules
+- https://curbengh.github.io/phishing-filter/phishing-filter-snort3.rules
 - https://curben.gitlab.io/phishing-filter/phishing-filter-snort3.rules
+- https://malware-filter.pages.dev/phishing-filter-snort3.rules
+- https://phishing-filter.pages.dev/phishing-filter-snort3.rules
+- https://malware-filter.netlify.app/phishing-filter-snort3.rules
+- https://phishing-filter.netlify.app/phishing-filter-snort3.rules
 
 </details>
 
@@ -379,7 +469,13 @@ rule-files:
 <details>
 <summary>Mirrors</summary>
 
+- https://curbengh.github.io/malware-filter/phishing-filter-suricata.rules
+- https://curbengh.github.io/phishing-filter/phishing-filter-suricata.rules
 - https://curben.gitlab.io/phishing-filter/phishing-filter-suricata.rules
+- https://malware-filter.pages.dev/phishing-filter-suricata.rules
+- https://phishing-filter.pages.dev/phishing-filter-suricata.rules
+- https://malware-filter.netlify.app/phishing-filter-suricata.rules
+- https://phishing-filter.netlify.app/phishing-filter-suricata.rules
 
 </details>
 
