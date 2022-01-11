@@ -495,14 +495,6 @@ Please report new phishing URL to [PhishTank](https://www.phishtank.com/add_web_
 
 See [wiki](https://gitlab.com/curben/malware-filter/-/wikis/home)
 
-## Cloning
-
-Since the filter is updated frequently, cloning the repo would become slower over time as the revision grows.
-
-Use shallow clone to get the recent revisions only. Getting the last five revisions should be sufficient for a valid MR.
-
-`git clone --depth 5 https://gitlab.com/curben/phishing-filter.git`
-
 ## License
 
 [src/](src/): [CC0](LICENSE.md)
