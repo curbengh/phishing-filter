@@ -491,6 +491,10 @@ This blocklist **only** accepts new phishing URLs from [PhishTank](https://www.p
 
 Please report new phishing URL to [PhishTank](https://www.phishtank.com/add_web_phish.php) or [OpenPhish](https://openphish.com/faq.html).
 
+## FAQ and Guides
+
+See [wiki](https://gitlab.com/curben/malware-filter/-/wikis/home)
+
 ## Cloning
 
 Since the filter is updated frequently, cloning the repo would become slower over time as the revision grows.
