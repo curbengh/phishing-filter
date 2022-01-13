@@ -4,6 +4,20 @@
 
 set -efux -o pipefail
 
+
+## Use GNU grep, busybox grep is too slow
+. "/etc/os-release"
+DISTRO="$ID"
+
+if [ -z "$(grep --help | grep 'GNU')" ]; then
+  if [ "$DISTRO" = "alpine" ]; then
+    echo "Please install GNU grep 'apk add grep'"
+    exit 1
+  fi
+  alias grep="/usr/bin/grep"
+fi
+
+
 ## Detect Musl C library
 LIBC="$(ldd /bin/ls | grep 'musl' || [ $? = 1 ])"
 if [ -z "$LIBC" ]; then
