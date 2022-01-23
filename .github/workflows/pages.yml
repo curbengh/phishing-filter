@@ -17,7 +17,7 @@ jobs:
           apk add brotli curl git grep
       - name: Build
         env:
-        PHISHTANK_API: ${{ secrets.PHISHTANK_API }}
+          PHISHTANK_API: ${{ secrets.PHISHTANK_API }}
         run: sh src/script.sh
       - name: Compress
         run: |
