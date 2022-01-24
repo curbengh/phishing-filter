@@ -14,7 +14,7 @@ jobs:
       - name: Install Dependencies
         run: |
           apk update
-          apk add brotli curl git grep
+          apk add brotli curl git grep xmlstarlet
       - name: Build
         env:
           PHISHTANK_API: ${{ secrets.PHISHTANK_API }}
