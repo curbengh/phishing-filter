@@ -8,7 +8,7 @@ on:
 jobs:
   pages:
     runs-on: ubuntu-latest
-    container: alpine:latest
+    container: node:lts-alpine
     steps:
       - uses: actions/checkout@v2
       - name: Install Dependencies
@@ -41,3 +41,23 @@ jobs:
           name: tmp
           path: ./tmp
           retention-days: 30
+      - name: Check GitLab Status
+        env:
+          GITHUB_ENV: ${{ env.GITHUB_ENV }}
+        run: sh ./src/gitlab_status.sh
+      - name: Cloudflare Pages
+        env:
+          CLOUDFLARE_BUILD_HOOK: ${{ secrets.CLOUDFLARE_BUILD_HOOK }}
+        if: ${{ env.CLOUDFLARE_BUILD_HOOK != 0 && env.GITLAB_STATUS == 'down' }}
+        run: curl -X POST "https://api.cloudflare.com/client/v4/pages/webhooks/deploy_hooks/${{ env.CLOUDFLARE_BUILD_HOOK }}"
+      - name: Netlify
+        env:
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+        if: ${{ env.NETLIFY_SITE_ID != 0 && env.GITLAB_STATUS == 'down' }}
+        run: |
+          npm install
+          npm install netlify-cli -g
+          netlify --telemetry-disable
+          npm run build
+          netlify deploy --dir=public --prod
