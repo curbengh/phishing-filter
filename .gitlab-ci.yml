@@ -27,6 +27,9 @@ build_job:
 pages:
   stage: deploy
 
+  dependencies:
+    - build_job
+
   script:
     - echo
 
@@ -52,13 +55,14 @@ cloudflare:
 netlify:
   stage: deploy
 
+  dependencies:
+    - build_job
+
   before_script:
-    - npm install
     - npm install netlify-cli -g
     - netlify --telemetry-disable
 
   script:
-    - npm run build
     - netlify deploy --dir=public --prod
 
   cache:
