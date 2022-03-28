@@ -4,6 +4,7 @@
 
 set -efux -o pipefail
 
+alias rm="rm -f"
 
 ## Use GNU grep, busybox grep is too slow
 . "/etc/os-release"
@@ -21,7 +22,7 @@ fi
 ## Detect Musl C library
 LIBC="$(ldd /bin/ls | grep 'musl' || [ $? = 1 ])"
 if [ -z "$LIBC" ]; then
-  rm -f "/tmp/musl.log"
+  rm "/tmp/musl.log"
   # Not Musl
   CSVQUOTE="../utils/csvquote-bin-glibc"
 else
@@ -39,7 +40,6 @@ curl -L "https://data.phishtank.com/data/$PHISHTANK_API/online-valid.csv.bz2" -o
 curl -L "https://openphish.com/feed.txt" -o "openphish-raw.txt"
 curl -L "https://s3-us-west-1.amazonaws.com/umbrella-static/top-1m.csv.zip" -o "top-1m-umbrella.zip"
 curl -L "https://tranco-list.eu/top-1m.csv.zip" -o "top-1m-tranco.zip"
-curl -L "https://oisd.nl/excludes.php" -o "oisd-exclude.html"
 
 bunzip2 -kc "phishtank.bz2" > "phishtank.csv"
 
@@ -104,16 +104,16 @@ grep -F "." | \
 sed "s/^www\.//g" | \
 sort -u > "top-1m-tranco.txt"
 
-## Parse oisd exclusion list
-cat "oisd-exclude.html" | \
-# https://stackoverflow.com/a/47600828
-xmlstarlet format --recover --html 2>/dev/null | \
-xmlstarlet select --html --template --value-of '//a' | \
-## Append new line https://unix.stackexchange.com/a/31955
-sed '$a\' > "oisd-exclude.txt"
+# ## Parse oisd exclusion list
+# cat "oisd-exclude.html" | \
+# # https://stackoverflow.com/a/47600828
+# xmlstarlet format --recover --html 2>/dev/null | \
+# xmlstarlet select --html --template --value-of '//a' | \
+# ## Append new line https://unix.stackexchange.com/a/31955
+# sed '$a\' > "oisd-exclude.txt"
 
 # Merge Umbrella, Traco and self-maintained top domains
-cat "top-1m-umbrella.txt" "top-1m-tranco.txt" "exclude.txt" "oisd-exclude.txt" | \
+cat "top-1m-umbrella.txt" "top-1m-tranco.txt" "exclude.txt" | \
 sort -u > "top-1m-well-known.txt"
 
 
@@ -130,7 +130,7 @@ grep -F -vf "phishing-top-domains.txt" > "phishing-notop-domains-temp.txt"
 cat "phishing.txt" | \
 grep -F -f "phishing-top-domains.txt" > "phishing-url-top-domains-temp.txt"
 
-rm -f "phishing-url-top-domains.txt" "phishing-url-top-domains-raw.txt"
+rm "phishing-url-top-domains.txt" "phishing-url-top-domains-raw.txt"
 
 ## Temporarily disable command print
 set +x
@@ -283,7 +283,7 @@ sed "1s/Domains/IPs/" > "../public/phishing-filter-dnscrypt-blocked-ips.txt"
 set +x
 
 ## Snort & Suricata rulesets
-rm -f "../public/phishing-filter-snort2.rules" \
+rm "../public/phishing-filter-snort2.rules" \
   "../public/phishing-filter-snort3.rules" \
   "../public/phishing-filter-suricata.rules"
 
@@ -342,7 +342,7 @@ sed "2s/Domains Blocklist/Hosts Blocklist (IE)/" > "../public/phishing-filter.tp
 
 
 ## Clean up artifacts
-rm "phishtank.csv" "top-1m-umbrella.zip" "top-1m-umbrella.txt" "top-1m-tranco.txt" "openphish-raw.txt" "oisd-exclude.html" "oisd-exclude.txt"
+rm "phishtank.csv" "top-1m-umbrella.zip" "top-1m-umbrella.txt" "top-1m-tranco.txt" "openphish-raw.txt"
 
 
 cd ../
