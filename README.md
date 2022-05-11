@@ -1,6 +1,6 @@
 # Phishing URL Blocklist
 
-> Edit 2021/01/08: the default branch has changed to **main**.
+> Announcement: curben.gitlab.io will be migrated to malware-filter.gitlab.io on 2022/05/21
 
 A blocklist of phishing websites, based on the [PhishTank](https://www.phishtank.com/) and [OpenPhish](https://openphish.com/) lists. Blocklist is updated twice a day.
 

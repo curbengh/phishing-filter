@@ -166,9 +166,8 @@ THIRD_LINE="! Expires: 1 day (update frequency)"
 FOURTH_LINE="! Homepage: https://gitlab.com/curben/phishing-filter"
 FIFTH_LINE="! License: https://gitlab.com/curben/phishing-filter#license"
 SIXTH_LINE="! Source: https://www.phishtank.com/ & https://openphish.com/"
-ANNOUNCEMENT_1="\n! 2021/01/08: There has been a major change to the mirrors, check the repo for the new mirrors."
-ANNOUNCEMENT_2="! Old mirrors will be deprecated in 3 months. The main download link \"curben.gitlab.io/malware-filter/\" _is not affected_."
-COMMENT_UBO="$FIRST_LINE\n$SECOND_LINE\n$THIRD_LINE\n$FOURTH_LINE\n$FIFTH_LINE\n$SIXTH_LINE\n$ANNOUNCEMENT_1\n$ANNOUNCEMENT_2"
+ANNOUNCEMENT_1="\n! curben.gitlab.io will be migrated to malware-filter.gitlab.io on 2022/05/21"
+COMMENT_UBO="$FIRST_LINE\n$SECOND_LINE\n$THIRD_LINE\n$FOURTH_LINE\n$FIFTH_LINE\n$SIXTH_LINE\n$ANNOUNCEMENT_1"
 
 mkdir -p "../public/"
 
