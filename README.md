@@ -1,6 +1,6 @@
 # Phishing URL Blocklist
 
-> Announcement: curben.gitlab.io will be migrated to malware-filter.gitlab.io on 2022/05/21
+> Announcement (2022/05/21): curben.gitlab.io has been migrated to malware-filter.gitlab.io
 
 A blocklist of phishing websites, based on the [PhishTank](https://www.phishtank.com/) and [OpenPhish](https://openphish.com/) lists. Blocklist is updated twice a day.
 
@@ -21,13 +21,13 @@ There are multiple formats available, refer to the appropriate section according
 - [Snort3](#snort3)
 - [Suricata](#suricata)
 
-Not sure which format to choose? See [Compatibility](https://gitlab.com/curben/urlhaus-filter/wikis/compatibility) page.
+Not sure which format to choose? See [Compatibility](https://gitlab.com/malware-filter/urlhaus-filter/wikis/compatibility) page.
 
 Check out my other filters:
 
-- [urlhaus-filter](https://gitlab.com/curben/urlhaus-filter)
-- [pup-filter](https://gitlab.com/curben/pup-filter)
-- [tracking-filter](https://gitlab.com/curben/tracking-filter)
+- [urlhaus-filter](https://gitlab.com/malware-filter/urlhaus-filter)
+- [pup-filter](https://gitlab.com/malware-filter/pup-filter)
+- [tracking-filter](https://gitlab.com/malware-filter/tracking-filter)
 
 ## URL-based
 
@@ -453,7 +453,7 @@ This blocklist operates by blocking the **whole** website, instead of specific w
 
 *Popular* websites are as listed in the [Umbrella Popularity List](https://s3-us-west-1.amazonaws.com/umbrella-static/index.html) (top 1M domains + subdomains), [Tranco List](https://tranco-list.eu/) (top 1M domains) and this [custom list](src/exclude.txt).
 
-If you wish to exclude certain website(s) that you believe is sufficiently well-known, please create an [issue](https://gitlab.com/curben/phishing-filter/issues) or [merge request](https://gitlab.com/curben/phishing-filter/merge_requests).
+If you wish to exclude certain website(s) that you believe is sufficiently well-known, please create an [issue](https://gitlab.com/malware-filter/phishing-filter/issues) or [merge request](https://gitlab.com/malware-filter/phishing-filter/merge_requests).
 
 This blocklist **only** accepts new phishing URLs from [PhishTank](https://www.phishtank.com/) and [OpenPhish](https://openphish.com/).
 
@@ -461,7 +461,7 @@ Please report new phishing URL to [PhishTank](https://www.phishtank.com/add_web_
 
 ## FAQ and Guides
 
-See [wiki](https://gitlab.com/curben/malware-filter/-/wikis/home)
+See [wiki](https://gitlab.com/malware-filter/malware-filter/-/wikis/home)
 
 ## License
 

@@ -1,7 +1,7 @@
 #!/bin/sh
 
-ARTIFACT_STATUS=$(curl -sSIL "https://gitlab.com/curben/phishing-filter/-/jobs/artifacts/main/download?job=pages" | grep -F "HTTP/2 200")
-PIPELINE_STATUS=$(curl -sSL "https://gitlab.com/curben/phishing-filter/badges/main/pipeline.svg" | grep -F "failed")
+ARTIFACT_STATUS=$(curl -sSIL "https://gitlab.com/malware-filter/phishing-filter/-/jobs/artifacts/main/download?job=pages" | grep -F "HTTP/2 200")
+PIPELINE_STATUS=$(curl -sSL "https://gitlab.com/malware-filter/phishing-filter/badges/main/pipeline.svg" | grep -F "failed")
 GITLAB_STATUS="up"
 
 if [ -z "$ARTIFACT_STATUS" ] || [ -n "$PIPELINE_STATUS" ]; then
