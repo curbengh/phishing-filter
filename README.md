@@ -33,7 +33,7 @@ Check out my other filters:
 
 Import the following URL into uBO to subscribe:
 
-- https://curben.gitlab.io/malware-filter/phishing-filter.txt
+- https://malware-filter.gitlab.io/malware-filter/phishing-filter.txt
 
 _included by default in uBO >=[1.39.0](https://github.com/gorhill/uBlock/releases/tag/1.39.0); to enable, head to "Filter lists" tab, expand "Malware domains" section and tick "Phishing URL Blocklist"._
 
@@ -42,7 +42,7 @@ _included by default in uBO >=[1.39.0](https://github.com/gorhill/uBlock/release
 
 - https://curbengh.github.io/malware-filter/phishing-filter.txt
 - https://curbengh.github.io/phishing-filter/phishing-filter.txt
-- https://curben.gitlab.io/phishing-filter/phishing-filter.txt
+- https://malware-filter.gitlab.io/phishing-filter/phishing-filter.txt
 - https://malware-filter.pages.dev/phishing-filter.txt
 - https://phishing-filter.pages.dev/phishing-filter.txt
 
@@ -54,14 +54,14 @@ _included by default in uBO >=[1.39.0](https://github.com/gorhill/uBlock/release
 
 Import the following URL into AdGuard browser extension to subscribe:
 
-- https://curben.gitlab.io/malware-filter/phishing-filter-ag.txt
+- https://malware-filter.gitlab.io/malware-filter/phishing-filter-ag.txt
 
 <details>
 <summary>Mirrors</summary>
 
 - https://curbengh.github.io/malware-filter/phishing-filter-ag.txt
 - https://curbengh.github.io/phishing-filter/phishing-filter-ag.txt
-- https://curben.gitlab.io/phishing-filter/phishing-filter-ag.txt
+- https://malware-filter.gitlab.io/phishing-filter/phishing-filter-ag.txt
 - https://malware-filter.pages.dev/phishing-filter-ag.txt
 - https://phishing-filter.pages.dev/phishing-filter-ag.txt
 
@@ -73,14 +73,14 @@ _Requires Vivaldi Desktop/Android 3.3+, blocking level must be at least "Block T
 
 Import the following URL into Vivaldi's **Tracker Blocking Sources** to subscribe:
 
-- https://curben.gitlab.io/malware-filter/phishing-filter-vivaldi.txt
+- https://malware-filter.gitlab.io/malware-filter/phishing-filter-vivaldi.txt
 
 <details>
 <summary>Mirrors</summary>
 
 - https://curbengh.github.io/malware-filter/phishing-filter-vivaldi.txt
 - https://curbengh.github.io/phishing-filter/phishing-filter-vivaldi.txt
-- https://curben.gitlab.io/phishing-filter/phishing-filter-vivaldi.txt
+- https://malware-filter.gitlab.io/phishing-filter/phishing-filter-vivaldi.txt
 - https://malware-filter.pages.dev/phishing-filter-vivaldi.txt
 - https://phishing-filter.pages.dev/phishing-filter-vivaldi.txt
 
@@ -90,14 +90,14 @@ Import the following URL into Vivaldi's **Tracker Blocking Sources** to subscrib
 
 This blocklist includes domains and IP addresses.
 
-- https://curben.gitlab.io/malware-filter/phishing-filter-domains.txt
+- https://malware-filter.gitlab.io/malware-filter/phishing-filter-domains.txt
 
 <details>
 <summary>Mirrors</summary>
 
 - https://curbengh.github.io/malware-filter/phishing-filter-domains.txt
 - https://curbengh.github.io/phishing-filter/phishing-filter-domains.txt
-- https://curben.gitlab.io/phishing-filter/phishing-filter-domains.txt
+- https://malware-filter.gitlab.io/phishing-filter/phishing-filter-domains.txt
 - https://malware-filter.pages.dev/phishing-filter-domains.txt
 - https://phishing-filter.pages.dev/phishing-filter-domains.txt
 
@@ -107,14 +107,14 @@ This blocklist includes domains and IP addresses.
 
 This AdGuard Home-compatible blocklist includes domains and IP addresses.
 
-- https://curben.gitlab.io/malware-filter/phishing-filter-agh.txt
+- https://malware-filter.gitlab.io/malware-filter/phishing-filter-agh.txt
 
 <details>
 <summary>Mirrors</summary>
 
 - https://curbengh.github.io/malware-filter/phishing-filter-agh.txt
 - https://curbengh.github.io/phishing-filter/phishing-filter-agh.txt
-- https://curben.gitlab.io/phishing-filter/phishing-filter-agh.txt
+- https://malware-filter.gitlab.io/phishing-filter/phishing-filter-agh.txt
 - https://malware-filter.pages.dev/phishing-filter-agh.txt
 - https://phishing-filter.pages.dev/phishing-filter-agh.txt
 
@@ -124,14 +124,14 @@ This AdGuard Home-compatible blocklist includes domains and IP addresses.
 
 This blocklist includes domains only.
 
-- https://curben.gitlab.io/malware-filter/phishing-filter-hosts.txt
+- https://malware-filter.gitlab.io/malware-filter/phishing-filter-hosts.txt
 
 <details>
 <summary>Mirrors</summary>
 
 - https://curbengh.github.io/malware-filter/phishing-filter-hosts.txt
 - https://curbengh.github.io/phishing-filter/phishing-filter-hosts.txt
-- https://curben.gitlab.io/phishing-filter/phishing-filter-hosts.txt
+- https://malware-filter.gitlab.io/phishing-filter/phishing-filter-hosts.txt
 - https://malware-filter.pages.dev/phishing-filter-hosts.txt
 - https://phishing-filter.pages.dev/phishing-filter-hosts.txt
 
@@ -148,7 +148,7 @@ This blocklist includes domains only.
 mkdir -p /usr/local/etc/dnsmasq/
 
 # Create a new cron job for daily update
-printf '#!/bin/sh\ncurl -L "https://curben.gitlab.io/malware-filter/phishing-filter-dnsmasq.conf" -o "/usr/local/etc/dnsmasq/phishing-filter-dnsmasq.conf"\n' > /etc/cron.daily/phishing-filter
+printf '#!/bin/sh\ncurl -L "https://malware-filter.gitlab.io/malware-filter/phishing-filter-dnsmasq.conf" -o "/usr/local/etc/dnsmasq/phishing-filter-dnsmasq.conf"\n' > /etc/cron.daily/phishing-filter
 
 # cron job requires execution permission
 chmod 755 /etc/cron.daily/phishing-filter
@@ -157,14 +157,14 @@ chmod 755 /etc/cron.daily/phishing-filter
 printf "\nconf-file=/usr/local/etc/dnsmasq/phishing-filter-dnsmasq.conf\n" >> /etc/dnsmasq.conf
 ```
 
-- https://curben.gitlab.io/malware-filter/phishing-filter-dnsmasq.conf
+- https://malware-filter.gitlab.io/malware-filter/phishing-filter-dnsmasq.conf
 
 <details>
 <summary>Mirrors</summary>
 
 - https://curbengh.github.io/malware-filter/phishing-filter-dnsmasq.conf
 - https://curbengh.github.io/phishing-filter/phishing-filter-dnsmasq.conf
-- https://curben.gitlab.io/phishing-filter/phishing-filter-dnsmasq.conf
+- https://malware-filter.gitlab.io/phishing-filter/phishing-filter-dnsmasq.conf
 - https://malware-filter.pages.dev/phishing-filter-dnsmasq.conf
 - https://phishing-filter.pages.dev/phishing-filter-dnsmasq.conf
 
@@ -181,7 +181,7 @@ This blocklist includes domains only.
 mkdir -p /usr/local/etc/bind/
 
 # Create a new cron job for daily update
-printf '#!/bin/sh\ncurl -L "https://curben.gitlab.io/malware-filter/phishing-filter-bind.conf" -o "/usr/local/etc/bind/phishing-filter-bind.conf"\n' > /etc/cron.daily/phishing-filter
+printf '#!/bin/sh\ncurl -L "https://malware-filter.gitlab.io/malware-filter/phishing-filter-bind.conf" -o "/usr/local/etc/bind/phishing-filter-bind.conf"\n' > /etc/cron.daily/phishing-filter
 
 # cron job requires execution permission
 chmod 755 /etc/cron.daily/phishing-filter
@@ -208,14 +208,14 @@ $TTL    86400   ; one day
 
 Zone file is derived from [here](https://github.com/tomzuu/blacklist-named/blob/master/null.zone.file).
 
-- https://curben.gitlab.io/malware-filter/phishing-filter-bind.conf
+- https://malware-filter.gitlab.io/malware-filter/phishing-filter-bind.conf
 
 <details>
 <summary>Mirrors</summary>
 
 - https://curbengh.github.io/malware-filter/phishing-filter-bind.conf
 - https://curbengh.github.io/phishing-filter/phishing-filter-bind.conf
-- https://curben.gitlab.io/phishing-filter/phishing-filter-bind.conf
+- https://malware-filter.gitlab.io/phishing-filter/phishing-filter-bind.conf
 - https://malware-filter.pages.dev/phishing-filter-bind.conf
 - https://phishing-filter.pages.dev/phishing-filter-bind.conf
 
@@ -225,14 +225,14 @@ Zone file is derived from [here](https://github.com/tomzuu/blacklist-named/blob/
 
 This blocklist includes domains only.
 
-- https://curben.gitlab.io/malware-filter/phishing-filter-rpz.conf
+- https://malware-filter.gitlab.io/malware-filter/phishing-filter-rpz.conf
 
 <details>
 <summary>Mirrors</summary>
 
 - https://curbengh.github.io/malware-filter/phishing-filter-rpz.conf
 - https://curbengh.github.io/phishing-filter/phishing-filter-rpz.conf
-- https://curben.gitlab.io/phishing-filter/phishing-filter-rpz.conf
+- https://malware-filter.gitlab.io/phishing-filter/phishing-filter-rpz.conf
 - https://malware-filter.pages.dev/phishing-filter-rpz.conf
 - https://phishing-filter.pages.dev/phishing-filter-rpz.conf
 
@@ -249,7 +249,7 @@ This blocklist includes domains only.
 mkdir -p /usr/local/etc/unbound/
 
 # Create a new cron job for daily update
-printf '#!/bin/sh\ncurl -L "https://curben.gitlab.io/malware-filter/phishing-filter-unbound.conf" -o "/usr/local/etc/unbound/phishing-filter-unbound.conf"\n' > /etc/cron.daily/phishing-filter
+printf '#!/bin/sh\ncurl -L "https://malware-filter.gitlab.io/malware-filter/phishing-filter-unbound.conf" -o "/usr/local/etc/unbound/phishing-filter-unbound.conf"\n' > /etc/cron.daily/phishing-filter
 
 # cron job requires execution permission
 chmod 755 /etc/cron.daily/phishing-filter
@@ -258,14 +258,14 @@ chmod 755 /etc/cron.daily/phishing-filter
 printf '\n  include: "/usr/local/etc/unbound/phishing-filter-unbound.conf"\n' >> /etc/unbound/unbound.conf
 ```
 
-- https://curben.gitlab.io/malware-filter/phishing-filter-unbound.conf
+- https://malware-filter.gitlab.io/malware-filter/phishing-filter-unbound.conf
 
 <details>
 <summary>Mirrors</summary>
 
 - https://curbengh.github.io/malware-filter/phishing-filter-unbound.conf
 - https://curbengh.github.io/phishing-filter/phishing-filter-unbound.conf
-- https://curben.gitlab.io/phishing-filter/phishing-filter-unbound.conf
+- https://malware-filter.gitlab.io/phishing-filter/phishing-filter-unbound.conf
 - https://malware-filter.pages.dev/phishing-filter-unbound.conf
 - https://phishing-filter.pages.dev/phishing-filter-unbound.conf
 
@@ -280,8 +280,8 @@ printf '\n  include: "/usr/local/etc/unbound/phishing-filter-unbound.conf"\n' >>
 mkdir -p /etc/dnscrypt-proxy/
 
 # Create a new cron job for daily update
-printf '#!/bin/sh\ncurl -L "https://curben.gitlab.io/malware-filter/phishing-filter-dnscrypt-blocked-names.txt" -o "/etc/dnscrypt-proxy/phishing-filter-dnscrypt-blocked-names.txt"\n' > /etc/cron.daily/phishing-filter
-printf '\ncurl -L "https://curben.gitlab.io/malware-filter/phishing-filter-dnscrypt-blocked-ips.txt" -o "/etc/dnscrypt-proxy/phishing-filter-dnscrypt-blocked-ips.txt"\n' >> /etc/cron.daily/phishing-filter
+printf '#!/bin/sh\ncurl -L "https://malware-filter.gitlab.io/malware-filter/phishing-filter-dnscrypt-blocked-names.txt" -o "/etc/dnscrypt-proxy/phishing-filter-dnscrypt-blocked-names.txt"\n' > /etc/cron.daily/phishing-filter
+printf '\ncurl -L "https://malware-filter.gitlab.io/malware-filter/phishing-filter-dnscrypt-blocked-ips.txt" -o "/etc/dnscrypt-proxy/phishing-filter-dnscrypt-blocked-ips.txt"\n' >> /etc/cron.daily/phishing-filter
 
 # cron job requires execution permission
 chmod 755 /etc/cron.daily/phishing-filter
@@ -297,21 +297,21 @@ Configure dnscrypt-proxy to use the blocklist:
 +  blocked_ips_file = '/etc/dnscrypt-proxy/phishing-filter-dnscrypt-blocked-ips.txt'
 ```
 
-- https://curben.gitlab.io/malware-filter/phishing-filter-dnscrypt-blocked-names.txt
-- https://curben.gitlab.io/malware-filter/phishing-filter-dnscrypt-blocked-ips.txt
+- https://malware-filter.gitlab.io/malware-filter/phishing-filter-dnscrypt-blocked-names.txt
+- https://malware-filter.gitlab.io/malware-filter/phishing-filter-dnscrypt-blocked-ips.txt
 
 <details>
 <summary>Mirrors</summary>
 
 - https://curbengh.github.io/malware-filter/phishing-filter-dnscrypt-blocked-names.txt
 - https://curbengh.github.io/phishing-filter/phishing-filter-dnscrypt-blocked-names.txt
-- https://curben.gitlab.io/phishing-filter/phishing-filter-dnscrypt-blocked-names.txt
+- https://malware-filter.gitlab.io/phishing-filter/phishing-filter-dnscrypt-blocked-names.txt
 - https://malware-filter.pages.dev/phishing-filter-dnscrypt-blocked-names.txt
 - https://phishing-filter.pages.dev/phishing-filter-dnscrypt-blocked-names.txt
 
 - https://curbengh.github.io/malware-filter/phishing-filter-dnscrypt-blocked-ips.txt
 - https://curbengh.github.io/phishing-filter/phishing-filter-dnscrypt-blocked-ips.txt
-- https://curben.gitlab.io/phishing-filter/phishing-filter-dnscrypt-blocked-ips.txt
+- https://malware-filter.gitlab.io/phishing-filter/phishing-filter-dnscrypt-blocked-ips.txt
 - https://malware-filter.pages.dev/phishing-filter-dnscrypt-blocked-ips.txt
 - https://phishing-filter.pages.dev/phishing-filter-dnscrypt-blocked-ips.txt
 
@@ -321,14 +321,14 @@ Configure dnscrypt-proxy to use the blocklist:
 
 This blocklist includes domains only.
 
-- https://curben.gitlab.io/malware-filter/phishing-filter.tpl
+- https://malware-filter.gitlab.io/malware-filter/phishing-filter.tpl
 
 <details>
 <summary>Mirrors</summary>
 
 - https://curbengh.github.io/malware-filter/phishing-filter.tpl
 - https://curbengh.github.io/phishing-filter/phishing-filter.tpl
-- https://curben.gitlab.io/phishing-filter/phishing-filter.tpl
+- https://malware-filter.gitlab.io/phishing-filter/phishing-filter.tpl
 - https://malware-filter.pages.dev/phishing-filter.tpl
 - https://phishing-filter.pages.dev/phishing-filter.tpl
 
@@ -342,10 +342,10 @@ This ruleset includes online URLs only. Not compatible with [Snort3](#snort3).
 
 ```
 # Download ruleset
-curl -L "https://curben.gitlab.io/malware-filter/phishing-filter-snort2.rules" -o "/etc/snort/rules/phishing-filter-snort2.rules"
+curl -L "https://malware-filter.gitlab.io/malware-filter/phishing-filter-snort2.rules" -o "/etc/snort/rules/phishing-filter-snort2.rules"
 
 # Create a new cron job for daily update
-printf '#!/bin/sh\ncurl -L "https://curben.gitlab.io/malware-filter/phishing-filter-snort2.rules" -o "/etc/snort/rules/phishing-filter-snort2.rules"\n' > /etc/cron.daily/phishing-filter
+printf '#!/bin/sh\ncurl -L "https://malware-filter.gitlab.io/malware-filter/phishing-filter-snort2.rules" -o "/etc/snort/rules/phishing-filter-snort2.rules"\n' > /etc/cron.daily/phishing-filter
 
 # cron job requires execution permission
 chmod 755 /etc/cron.daily/phishing-filter
@@ -354,14 +354,14 @@ chmod 755 /etc/cron.daily/phishing-filter
 printf "\ninclude \$RULE_PATH/phishing-filter-snort2.rules\n" >> /etc/snort/snort.conf
 ```
 
-- https://curben.gitlab.io/malware-filter/phishing-filter-snort2.rules
+- https://malware-filter.gitlab.io/malware-filter/phishing-filter-snort2.rules
 
 <details>
 <summary>Mirrors</summary>
 
 - https://curbengh.github.io/malware-filter/phishing-filter-snort2.rules
 - https://curbengh.github.io/phishing-filter/phishing-filter-snort2.rules
-- https://curben.gitlab.io/phishing-filter/phishing-filter-snort2.rules
+- https://malware-filter.gitlab.io/phishing-filter/phishing-filter-snort2.rules
 - https://malware-filter.pages.dev/phishing-filter-snort2.rules
 - https://phishing-filter.pages.dev/phishing-filter-snort2.rules
 
@@ -375,10 +375,10 @@ This ruleset includes online URLs only. Not compatible with [Snort2](#snort2).
 
 ```
 # Download ruleset
-curl -L "https://curben.gitlab.io/malware-filter/phishing-filter-snort3.rules" -o "/etc/snort/rules/phishing-filter-snort3.rules"
+curl -L "https://malware-filter.gitlab.io/malware-filter/phishing-filter-snort3.rules" -o "/etc/snort/rules/phishing-filter-snort3.rules"
 
 # Create a new cron job for daily update
-printf '#!/bin/sh\ncurl -L "https://curben.gitlab.io/malware-filter/phishing-filter-snort3.rules" -o "/etc/snort/rules/phishing-filter-snort3.rules"\n' > /etc/cron.daily/phishing-filter
+printf '#!/bin/sh\ncurl -L "https://malware-filter.gitlab.io/malware-filter/phishing-filter-snort3.rules" -o "/etc/snort/rules/phishing-filter-snort3.rules"\n' > /etc/cron.daily/phishing-filter
 
 # cron job requires execution permission
 chmod 755 /etc/cron.daily/phishing-filter
@@ -395,14 +395,14 @@ ips =
 }
 ```
 
-- https://curben.gitlab.io/malware-filter/phishing-filter-snort3.rules
+- https://malware-filter.gitlab.io/malware-filter/phishing-filter-snort3.rules
 
 <details>
 <summary>Mirrors</summary>
 
 - https://curbengh.github.io/malware-filter/phishing-filter-snort3.rules
 - https://curbengh.github.io/phishing-filter/phishing-filter-snort3.rules
-- https://curben.gitlab.io/phishing-filter/phishing-filter-snort3.rules
+- https://malware-filter.gitlab.io/phishing-filter/phishing-filter-snort3.rules
 - https://malware-filter.pages.dev/phishing-filter-snort3.rules
 - https://phishing-filter.pages.dev/phishing-filter-snort3.rules
 
@@ -416,10 +416,10 @@ This ruleset includes online URLs only.
 
 ```
 # Download ruleset
-curl -L "https://curben.gitlab.io/malware-filter/phishing-filter-suricata.rules" -o "/etc/suricata/rules/phishing-filter-suricata.rules"
+curl -L "https://malware-filter.gitlab.io/malware-filter/phishing-filter-suricata.rules" -o "/etc/suricata/rules/phishing-filter-suricata.rules"
 
 # Create a new cron job for daily update
-printf '#!/bin/sh\ncurl -L "https://curben.gitlab.io/malware-filter/phishing-filter-suricata.rules" -o "/etc/suricata/rules/phishing-filter-suricata.rules"\n' > /etc/cron.daily/phishing-filter
+printf '#!/bin/sh\ncurl -L "https://malware-filter.gitlab.io/malware-filter/phishing-filter-suricata.rules" -o "/etc/suricata/rules/phishing-filter-suricata.rules"\n' > /etc/cron.daily/phishing-filter
 
 # cron job requires execution permission
 chmod 755 /etc/cron.daily/phishing-filter
@@ -434,14 +434,14 @@ rule-files:
 +  - phishing-filter-suricata.rules
 ```
 
-- https://curben.gitlab.io/malware-filter/phishing-filter-suricata.rules
+- https://malware-filter.gitlab.io/malware-filter/phishing-filter-suricata.rules
 
 <details>
 <summary>Mirrors</summary>
 
 - https://curbengh.github.io/malware-filter/phishing-filter-suricata.rules
 - https://curbengh.github.io/phishing-filter/phishing-filter-suricata.rules
-- https://curben.gitlab.io/phishing-filter/phishing-filter-suricata.rules
+- https://malware-filter.gitlab.io/phishing-filter/phishing-filter-suricata.rules
 - https://malware-filter.pages.dev/phishing-filter-suricata.rules
 - https://phishing-filter.pages.dev/phishing-filter-suricata.rules
 
