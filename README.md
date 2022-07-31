@@ -459,6 +459,11 @@ This blocklist **only** accepts new phishing URLs from [PhishTank](https://www.p
 
 Please report new phishing URL to [PhishTank](https://www.phishtank.com/add_web_phish.php) or [OpenPhish](https://openphish.com/faq.html).
 
+## See also
+
+[Phishing Army](https://phishing.army/) by [Andrea Draghetti](https://www.andreadraghetti.it/) is available in domain-based format and utilises more sources (PhishTank, OpenPhish,
+Cert.pl, PhishFindR, Urlscan.io and Phishunt.io). Its exclusion methods are outdated though: [Anudeep's whitelist](https://github.com/anudeepND/whitelist) was lasted updated in Dec 2021 and [Alexa](https://www.alexa.com/topsites) was deprecated in May 2022.
+
 ## FAQ and Guides
 
 See [wiki](https://gitlab.com/malware-filter/malware-filter/-/wikis/home)
