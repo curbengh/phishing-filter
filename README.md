@@ -1,6 +1,6 @@
 # Phishing URL Blocklist
 
-A blocklist of phishing websites, curated from [PhishTank](https://www.phishtank.com/), [OpenPhish](https://openphish.com/), [phishunt.io](https://phishunt.io/) and [mitchellkrogza/Phishing.Database](https://github.com/mitchellkrogza/Phishing.Database/blob/master/phishing-domains-ACTIVE.txt). Blocklist is updated twice a day.
+A blocklist of phishing websites, curated from [PhishTank](https://www.phishtank.com/), [OpenPhish](https://openphish.com/), [phishunt.io](https://phishunt.io/). Blocklist is updated twice a day.
 
 There are multiple formats available, refer to the appropriate section according to the program used:
 
@@ -484,7 +484,5 @@ _PhishTank is either trademark or registered trademark of Cisco Systems, Inc._
 [csvquote](https://github.com/dbro/csvquote): MIT License
 
 [phishunt.io](https://phishunt.io/): All rights reserved by [Daniel López](https://twitter.com/0xDanielLopez)
-
-[mitchellkrogza/Phishing.Database](https://github.com/mitchellkrogza/Phishing.Database): MIT License
 
 This repository is not endorsed by PhishTank/OpenDNS and OpenPhish.

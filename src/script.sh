@@ -39,7 +39,6 @@ cd "tmp/"
 curl -L "https://data.phishtank.com/data/$PHISHTANK_API/online-valid.csv.bz2" -o "phishtank.bz2"
 curl -L "https://openphish.com/feed.txt" -o "openphish-raw.txt"
 curl -L "https://phishunt.io/feed.txt" -o "phishunt-raw.txt"
-curl -L "https://github.com/mitchellkrogza/Phishing.Database/raw/master/phishing-links-ACTIVE.txt" -o "phishing.db-raw.txt"
 curl -L "https://s3-us-west-1.amazonaws.com/umbrella-static/top-1m.csv.zip" -o "top-1m-umbrella.zip"
 curl -L "https://tranco-list.eu/top-1m.csv.zip" -o "top-1m-tranco.zip"
 
@@ -76,15 +75,8 @@ grep -F "." | \
 sed "s/^www\.//g" | \
 sed "s/ /%20/g" > "phishunt.txt"
 
-cat "phishing.db-raw.txt" | \
-tr "[:upper:]" "[:lower:]" | \
-cut -f 3- -d "/" | \
-grep -F "." | \
-sed "s/^www\.//g" | \
-sed "s/ /%20/g" > "phishing.db.txt"
-
 ## Combine all sources
-cat "phishtank.txt" "openphish.txt" "phishunt.txt" "phishing.db.txt" | \
+cat "phishtank.txt" "openphish.txt" "phishunt.txt" | \
 sort -u > "phishing.txt"
 
 ## Parse domain and IP address only
@@ -181,7 +173,7 @@ SECOND_LINE="! Updated: $CURRENT_TIME"
 THIRD_LINE="! Expires: 1 day (update frequency)"
 FOURTH_LINE="! Homepage: https://gitlab.com/malware-filter/phishing-filter"
 FIFTH_LINE="! License: https://gitlab.com/malware-filter/phishing-filter#license"
-SIXTH_LINE="! Sources: phishtank.com, openphish.com, phishunt.io, github.com/mitchellkrogza/Phishing.Database"
+SIXTH_LINE="! Sources: phishtank.com, openphish.com, phishunt.io"
 COMMENT_UBO="$FIRST_LINE\n$SECOND_LINE\n$THIRD_LINE\n$FOURTH_LINE\n$FIFTH_LINE\n$SIXTH_LINE"
 
 mkdir -p "../public/"
