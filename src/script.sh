@@ -2,7 +2,7 @@
 
 # works best on busybox sh
 
-set -efux -o pipefail
+set -efx -o pipefail
 
 alias rm="rm -f"
 
@@ -36,7 +36,12 @@ mkdir -p "tmp/"
 cd "tmp/"
 
 ## Prepare datasets
-curl -L "https://data.phishtank.com/data/$PHISHTANK_API/online-valid.csv.bz2" -o "phishtank.bz2"
+if [ -n "$PHISHTANK_API" ]; then
+  curl -L "https://data.phishtank.com/data/$PHISHTANK_API/online-valid.csv.bz2" -o "phishtank.bz2"
+else
+  curl -L "https://data.phishtank.com/data/online-valid.csv.bz2" -o "phishtank.bz2"
+fi
+
 curl -L "https://openphish.com/feed.txt" -o "openphish-raw.txt"
 curl -L "https://phishunt.io/feed.txt" -o "phishunt-raw.txt"
 curl -L "https://s3-us-west-1.amazonaws.com/umbrella-static/top-1m.csv.zip" -o "top-1m-umbrella.zip"

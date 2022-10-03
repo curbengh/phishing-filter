@@ -1,5 +1,27 @@
 # Phishing URL Blocklist
 
+- Formats
+  * [URL-based](#url-based)
+  * [Domain-based](#domain-based)
+  * [Hosts-based](#hosts-based)
+  * [Domain-based (AdGuard Home)](#domain-based-adguard-home)
+  * [URL-based (AdGuard)](#url-based-adguard)
+  * [URL-based (Vivaldi)](#url-based-vivaldi)
+  * [Dnsmasq](#dnsmasq)
+  * [BIND zone](#bind)
+  * [RPZ](#response-policy-zone)
+  * [Unbound](#unbound)
+  * [dnscrypt-proxy](#dnscrypt-proxy)
+  * [Tracking Protection List (IE)](#tracking-protection-list-ie)
+  * [Snort2](#snort2)
+  * [Snort3](#snort3)
+  * [Suricata](#suricata)
+- [Reporting issues](#issues)
+- [See alse](#see-also)
+- [FAQ and Guides](#faq-and-guides)
+- [CI Variables](#ci-variables)
+- [License](#license)
+
 A blocklist of phishing websites, curated from [PhishTank](https://www.phishtank.com/), [OpenPhish](https://openphish.com/), [phishunt.io](https://phishunt.io/). Blocklist is updated twice a day.
 
 There are multiple formats available, refer to the appropriate section according to the program used:
@@ -464,6 +486,14 @@ Please report new phishing URL to [PhishTank](https://www.phishtank.com/add_web_
 ## FAQ and Guides
 
 See [wiki](https://gitlab.com/malware-filter/malware-filter/-/wikis/home)
+
+## CI Variables
+
+Optional variables:
+
+- `PHISHTANK_API`: Recommended if you intend to run [script.sh](src/script.sh) >5 times daily. Register an account at [phishtank.org](https://phishtank.org/developer_info.php) to generate an application key.
+- `CLOUDFLARE_BUILD_HOOK`: Deploy to Cloudflare Pages.
+- `NETLIFY_SITE_ID`: Deploy to Netlify.
 
 ## License
 
