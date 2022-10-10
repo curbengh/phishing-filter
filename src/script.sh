@@ -4,6 +4,7 @@
 
 set -efx -o pipefail
 
+alias curl="curl -L"
 alias rm="rm -f"
 
 ## Use GNU grep, busybox grep is too slow
@@ -44,17 +45,17 @@ fi
 
 ## Prepare datasets
 if [ -n "$PHISHTANK_API" ]; then
-  curl -L --user-agent "$USER_AGENT" \
+  curl --user-agent "$USER_AGENT" \
   "https://data.phishtank.com/data/$PHISHTANK_API/online-valid.csv.bz2" -o "phishtank.bz2"
 else
-  curl -L --user-agent "$USER_AGENT" \
+  curl --user-agent "$USER_AGENT" \
   "https://data.phishtank.com/data/online-valid.csv.bz2" -o "phishtank.bz2"
 fi
 
-curl -L "https://openphish.com/feed.txt" -o "openphish-raw.txt"
-curl -L "https://phishunt.io/feed.txt" -o "phishunt-raw.txt"
-curl -L "https://s3-us-west-1.amazonaws.com/umbrella-static/top-1m.csv.zip" -o "top-1m-umbrella.zip"
-curl -L "https://tranco-list.eu/top-1m.csv.zip" -o "top-1m-tranco.zip"
+curl "https://openphish.com/feed.txt" -o "openphish-raw.txt"
+curl "https://phishunt.io/feed.txt" -o "phishunt-raw.txt"
+curl "https://s3-us-west-1.amazonaws.com/umbrella-static/top-1m.csv.zip" -o "top-1m-umbrella.zip"
+curl "https://tranco-list.eu/top-1m.csv.zip" -o "top-1m-tranco.zip"
 
 bunzip2 -kc "phishtank.bz2" > "phishtank.csv"
 
