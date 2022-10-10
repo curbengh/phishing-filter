@@ -35,11 +35,20 @@ fi
 mkdir -p "tmp/"
 cd "tmp/"
 
+USER_AGENT="phishtank/malware-filter"
+if [ -n "$GITLAB_USER_LOGIN" ]; then
+  USER_AGENT="phishtank/$GITLAB_USER_LOGIN"
+elif [ -n "$GITHUB_REPOSITORY_OWNER" ]; then
+  USER_AGENT="phishtank/$GITHUB_REPOSITORY_OWNER"
+fi
+
 ## Prepare datasets
 if [ -n "$PHISHTANK_API" ]; then
-  curl -L "https://data.phishtank.com/data/$PHISHTANK_API/online-valid.csv.bz2" -o "phishtank.bz2"
+  curl -L --user-agent "$USER_AGENT" \
+  "https://data.phishtank.com/data/$PHISHTANK_API/online-valid.csv.bz2" -o "phishtank.bz2"
 else
-  curl -L "https://data.phishtank.com/data/online-valid.csv.bz2" -o "phishtank.bz2"
+  curl -L --user-agent "$USER_AGENT" \
+  "https://data.phishtank.com/data/online-valid.csv.bz2" -o "phishtank.bz2"
 fi
 
 curl -L "https://openphish.com/feed.txt" -o "openphish-raw.txt"
