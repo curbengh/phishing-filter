@@ -69,7 +69,7 @@ const f = async () => {
   } else {
     await mkdir(publicPath, { recursive: true })
     await unzip(zipPath, { dir: publicPath })
-    await rm(join(publicPath, 'phishing-filter-snort2.rules'), { force: true })
+    await rm(join('public', 'phishing-filter-snort2.rules'), { force: true })
   }
 }
 
