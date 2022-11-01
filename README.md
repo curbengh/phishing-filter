@@ -18,7 +18,7 @@
   * [Suricata](#suricata)
 - [Compressed version](#compressed-version)
 - [Reporting issues](#issues)
-- [See alse](#see-also)
+- [See also](#see-also)
 - [FAQ and Guides](#faq-and-guides)
 - [CI Variables](#ci-variables)
 - [License](#license)
