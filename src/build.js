@@ -6,7 +6,7 @@ const { stream: gotStream } = require('got')
 const got = require('got')
 const unzip = require('extract-zip')
 const { join } = require('path')
-const { mkdir } = require('fs/promises')
+const { mkdir, rm } = require('fs/promises')
 const { createWriteStream } = require('fs')
 const { pipeline } = require('stream/promises')
 
@@ -64,9 +64,12 @@ const f = async () => {
   console.log('Extracting artifacts.zip...')
   if (isMirror === false) {
     await unzip(zipPath, { dir: rootPath })
+    // snort2.rules is over 25MB limit of CF Pages
+    await rm('phishing-filter-snort2.rules', { force: true })
   } else {
     await mkdir(publicPath, { recursive: true })
     await unzip(zipPath, { dir: publicPath })
+    await rm(join(publicPath, 'phishing-filter-snort2.rules'), { force: true })
   }
 }
 
