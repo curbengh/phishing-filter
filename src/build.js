@@ -65,11 +65,11 @@ const f = async () => {
   if (isMirror === false) {
     await unzip(zipPath, { dir: rootPath })
     // snort2.rules is over 25MB limit of CF Pages
-    await rm('phishing-filter-snort2.rules', { force: true })
+    await rm(join(rootPath, 'phishing-filter-snort2.rules'), { force: true })
   } else {
     await mkdir(publicPath, { recursive: true })
     await unzip(zipPath, { dir: publicPath })
-    await rm(join('public', 'phishing-filter-snort2.rules'), { force: true })
+    await rm(join(publicPath, 'phishing-filter-snort2.rules'), { force: true })
   }
 }
 
