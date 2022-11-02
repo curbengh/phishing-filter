@@ -472,8 +472,8 @@ rule-files:
 
 All filters are also available as gzip- and brotli-compressed.
 
-Gzip: https://malware-filter.gitlab.io/malware-filter/phishing-filter.txt.gz
-Brotli: https://malware-filter.gitlab.io/malware-filter/phishing-filter.txt.br
+- Gzip: https://malware-filter.gitlab.io/malware-filter/phishing-filter.txt.gz
+- Brotli: https://malware-filter.gitlab.io/malware-filter/phishing-filter.txt.br
 
 *Snort 2 rule is only available in compressed format in pages.dev due to the platform's 25MB file size limit*
 
