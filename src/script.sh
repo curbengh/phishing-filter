@@ -53,7 +53,7 @@ else
 fi
 
 curl "https://openphish.com/feed.txt" -o "openphish-raw.txt"
-curl "https://phishunt.io/feed.txt" -o "phishunt-raw.txt"
+curl "https://github.com/0xDanielLopez/TweetFeed/raw/master/week.csv" -o "phishunt.csv"
 curl "https://s3-us-west-1.amazonaws.com/umbrella-static/top-1m.csv.zip" -o "top-1m-umbrella.zip"
 curl "https://tranco-list.eu/top-1m.csv.zip" -o "top-1m-tranco.zip"
 
@@ -83,15 +83,19 @@ grep -F "." | \
 sed "s/^www\.//g" | \
 sed "s/ /%20/g" > "openphish.txt"
 
-cat "phishunt-raw.txt" | \
+cat "phishunt.csv" | \
 tr "[:upper:]" "[:lower:]" | \
+grep -F "#phishing" | \
+cut -f 4 -d "," | \
 cut -f 3- -d "/" | \
 grep -F "." | \
-sed "s/^www\.//g" | \
-sed "s/ /%20/g" > "phishunt.txt"
+sed "s/^www\.//g" > "phishunt.txt"
 
 ## Combine all sources
-cat "phishtank.txt" "openphish.txt" "phishunt.txt" | \
+cat "phishtank.txt" \
+  "openphish.txt" | \
+  # #43 #45
+  # "phishunt.txt" | \
 sort -u > "phishing.txt"
 
 ## Parse domain and IP address only
@@ -363,7 +367,7 @@ sed "2s/Domains Blocklist/Hosts Blocklist (IE)/" > "../public/phishing-filter.tp
 
 
 ## Clean up artifacts
-rm "phishtank.csv" "top-1m-umbrella.zip" "top-1m-umbrella.txt" "top-1m-tranco.txt" "openphish-raw.txt" "phishunt-raw.txt"
+rm "phishtank.csv" "top-1m-umbrella.zip" "top-1m-umbrella.txt" "top-1m-tranco.txt" "openphish-raw.txt" "phishunt.csv"
 
 
 cd ../
