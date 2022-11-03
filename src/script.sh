@@ -32,7 +32,7 @@ else
 fi
 
 
-## Fallback busybox dos2unix
+## Fallback to busybox dos2unix
 if ! command -v dos2unix &> /dev/null
 then
   alias dos2unix="busybox dos2unix"
