@@ -32,6 +32,13 @@ else
 fi
 
 
+## Fallback busybox dos2unix
+if ! command -v dos2unix &> /dev/null
+then
+  alias dos2unix="busybox dos2unix"
+fi
+
+
 ## Create a temporary working folder
 mkdir -p "tmp/"
 cd "tmp/"
