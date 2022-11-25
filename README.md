@@ -1,21 +1,21 @@
 # Phishing URL Blocklist
 
 - Formats
-  * [URL-based](#url-based)
-  * [Domain-based](#domain-based)
-  * [Hosts-based](#hosts-based)
-  * [Domain-based (AdGuard Home)](#domain-based-adguard-home)
-  * [URL-based (AdGuard)](#url-based-adguard)
-  * [URL-based (Vivaldi)](#url-based-vivaldi)
-  * [Dnsmasq](#dnsmasq)
-  * [BIND zone](#bind)
-  * [RPZ](#response-policy-zone)
-  * [Unbound](#unbound)
-  * [dnscrypt-proxy](#dnscrypt-proxy)
-  * [Tracking Protection List (IE)](#tracking-protection-list-ie)
-  * [Snort2](#snort2)
-  * [Snort3](#snort3)
-  * [Suricata](#suricata)
+  - [URL-based](#url-based)
+  - [Domain-based](#domain-based)
+  - [Hosts-based](#hosts-based)
+  - [Domain-based (AdGuard Home)](#domain-based-adguard-home)
+  - [URL-based (AdGuard)](#url-based-adguard)
+  - [URL-based (Vivaldi)](#url-based-vivaldi)
+  - [Dnsmasq](#dnsmasq)
+  - [BIND zone](#bind)
+  - [RPZ](#response-policy-zone)
+  - [Unbound](#unbound)
+  - [dnscrypt-proxy](#dnscrypt-proxy)
+  - [Tracking Protection List (IE)](#tracking-protection-list-ie)
+  - [Snort2](#snort2)
+  - [Snort3](#snort3)
+  - [Suricata](#suricata)
 - [Compressed version](#compressed-version)
 - [Reporting issues](#issues)
 - [See also](#see-also)
@@ -310,7 +310,7 @@ chmod 755 /etc/cron.daily/phishing-filter
 
 Configure dnscrypt-proxy to use the blocklist:
 
-``` diff
+```diff
 [blocked_names]
 +  blocked_names_file = '/etc/dnscrypt-proxy/phishing-filter-dnscrypt-blocked-names.txt'
 
@@ -407,7 +407,7 @@ chmod 755 /etc/cron.daily/phishing-filter
 
 Configure Snort to use the ruleset:
 
-``` diff
+```diff
 # /etc/snort/snort.lua
 ips =
 {
@@ -448,7 +448,7 @@ chmod 755 /etc/cron.daily/phishing-filter
 
 Configure Suricata to use the ruleset:
 
-``` diff
+```diff
 # /etc/suricata/suricata.yaml
 rule-files:
   - local.rules
@@ -475,13 +475,13 @@ All filters are also available as gzip- and brotli-compressed.
 - Gzip: https://malware-filter.gitlab.io/malware-filter/phishing-filter.txt.gz
 - Brotli: https://malware-filter.gitlab.io/malware-filter/phishing-filter.txt.br
 
-*Snort 2 rule is only available in compressed format in pages.dev due to the platform's 25MB file size limit*
+_Snort 2 rule is only available in compressed format in pages.dev due to the platform's 25MB file size limit_
 
 ## Issues
 
 This blocklist operates by blocking the **whole** website, instead of specific webpages; exceptions are made on popular websites (e.g. `https://docs.google.com/`), in which webpages are specified instead (e.g. `https://docs.google.com/phishing-page`). Phishing webpages are only listed in [URL-based](#url-based) filter, popular websites are excluded from other filters.
 
-*Popular* websites are as listed in the [Umbrella Popularity List](https://s3-us-west-1.amazonaws.com/umbrella-static/index.html) (top 1M domains + subdomains), [Tranco List](https://tranco-list.eu/) (top 1M domains) and this [custom list](src/exclude.txt).
+_Popular_ websites are as listed in the [Umbrella Popularity List](https://s3-us-west-1.amazonaws.com/umbrella-static/index.html) (top 1M domains + subdomains), [Tranco List](https://tranco-list.eu/) (top 1M domains), [Cloudflare Radar](https://developers.cloudflare.com/radar/investigate/domain-ranking-datasets/) (top 1M domains) and this [custom list](src/exclude.txt).
 
 If you wish to exclude certain website(s) that you believe is sufficiently well-known, please create an [issue](https://gitlab.com/malware-filter/phishing-filter/issues) or [merge request](https://gitlab.com/malware-filter/phishing-filter/merge_requests).
 
@@ -504,6 +504,7 @@ Optional variables:
 - `PHISHTANK_API`: Recommended if you intend to run [script.sh](src/script.sh) >5 times daily. Register an account at [phishtank.org](https://phishtank.org/developer_info.php) to generate an application key.
 - `CLOUDFLARE_BUILD_HOOK`: Deploy to Cloudflare Pages.
 - `NETLIFY_SITE_ID`: Deploy to Netlify.
+- `CF_API`: Include Cloudflare Radar [domains ranking](https://developers.cloudflare.com/radar/investigate/domain-ranking-datasets/). [Guide](https://developers.cloudflare.com/radar/get-started/first-request/) to create an API token.
 
 ## License
 
@@ -524,5 +525,7 @@ _PhishTank is either trademark or registered trademark of Cisco Systems, Inc._
 [csvquote](https://github.com/dbro/csvquote): MIT License
 
 [phishunt.io](https://phishunt.io/): All rights reserved by [Daniel López](https://twitter.com/0xDanielLopez)
+
+[Cloudflare Radar](https://developers.cloudflare.com/radar/investigate/domain-ranking-datasets/): Available to free Cloudflare account
 
 This repository is not endorsed by PhishTank/OpenDNS and OpenPhish.
