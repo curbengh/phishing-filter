@@ -173,6 +173,12 @@ sort -u > "top-1m-tranco.txt"
 # ## Append new line https://unix.stackexchange.com/a/31955
 # sed '$a\' > "oisd-exclude.txt"
 
+# # html-xml-utils
+# cat "oisd-exclude.html" | \
+# hxwls | \
+# grep -F '?w=' | \
+# sed 's/^?w=//g' > "oisd-exclude.txt"
+
 # Merge Umbrella, Tranco, Radar and self-maintained top domains
 cat "top-1m-umbrella.txt" "top-1m-tranco.txt" "exclude.txt" | \
 sort -u > "top-1m-well-known.txt"
