@@ -212,10 +212,13 @@ while read URL; do
   HOST=$(echo "$URL" | cut -d"/" -f1)
   URI=$(echo "$URL" | sed "s/^$HOST//")
 
-  ## Separate host-only URL
   if [ -z "$URI" ] || [ "$URI" = "/" ]; then
+    ## Separate host-only URL
     echo "$HOST" | \
     cut -f 1 -d ":" >> "phishing-notop-domains-temp.txt"
+  elif test "${URL#*safelinks.protection.outlook.com}" != "$URL"; then
+    ## Parse hostname from O365 safelink
+    echo $(node "../src/safelinks.js" "$URL") >> "phishing-notop-domains-temp.txt"
   else
     ## Parse phishing URLs from popular domains
     echo "$URL" | \
