@@ -235,7 +235,7 @@ sort -u "phishing-notop-domains-temp.txt" > "phishing-notop-domains.txt"
 
 
 ## Merge malware domains and URLs
-CURRENT_TIME="$(date -R -u)"
+CURRENT_TIME=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
 FIRST_LINE="! Title: Phishing URL Blocklist"
 SECOND_LINE="! Updated: $CURRENT_TIME"
 THIRD_LINE="! Expires: 1 day (update frequency)"
@@ -353,7 +353,7 @@ grep -E "^([0-9]{1,3}[\.]){3}[0-9]{1,3}$" | \
 sed '1 i\'"$COMMENT"'' | \
 sed "1s/Domains/IPs/" > "../public/phishing-filter-dnscrypt-blocked-ips.txt"
 
-
+## Temporarily disable command print
 set +x
 
 ## Snort & Suricata rulesets
@@ -394,6 +394,7 @@ while read URL; do
   SID=$(( $SID + 1 ))
 done < "phishing-url-top-domains-raw.txt"
 
+## Re-enable command print
 set -x
 
 sed -i '1 i\'"$COMMENT"'' "../public/phishing-filter-snort2.rules"
