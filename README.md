@@ -165,21 +165,11 @@ This blocklist includes domains only.
 
 This blocklist includes domains only.
 
-### Install
+Save the ruleset to "/usr/local/etc/dnsmasq/phishing-filter-dnsmasq.conf". Refer to this [guide](https://gitlab.com/malware-filter/malware-filter/wikis/update-filter) for auto-update.
 
-```
-# Create a new folder to store the blocklist
-mkdir -p /usr/local/etc/dnsmasq/
+Configure dnsmasq to use the blocklist:
 
-# Create a new cron job for daily update
-printf '#!/bin/sh\ncurl -L "https://malware-filter.gitlab.io/malware-filter/phishing-filter-dnsmasq.conf" -o "/usr/local/etc/dnsmasq/phishing-filter-dnsmasq.conf"\n' > /etc/cron.daily/phishing-filter
-
-# cron job requires execution permission
-chmod 755 /etc/cron.daily/phishing-filter
-
-# Configure dnsmasq to use the blocklist
-printf "\nconf-file=/usr/local/etc/dnsmasq/phishing-filter-dnsmasq.conf\n" >> /etc/dnsmasq.conf
-```
+`printf "\nconf-file=/usr/local/etc/dnsmasq/phishing-filter-dnsmasq.conf\n" >> /etc/dnsmasq.conf`
 
 - https://malware-filter.gitlab.io/malware-filter/phishing-filter-dnsmasq.conf
 
@@ -198,21 +188,11 @@ printf "\nconf-file=/usr/local/etc/dnsmasq/phishing-filter-dnsmasq.conf\n" >> /e
 
 This blocklist includes domains only.
 
-### Install
+Save the ruleset to "/usr/local/etc/bind/phishing-filter-bind.conf". Refer to this [guide](https://gitlab.com/malware-filter/malware-filter/wikis/update-filter) for auto-update.
 
-```
-# Create a new folder to store the blocklist
-mkdir -p /usr/local/etc/bind/
+Configure BIND to use the blocklist:
 
-# Create a new cron job for daily update
-printf '#!/bin/sh\ncurl -L "https://malware-filter.gitlab.io/malware-filter/phishing-filter-bind.conf" -o "/usr/local/etc/bind/phishing-filter-bind.conf"\n' > /etc/cron.daily/phishing-filter
-
-# cron job requires execution permission
-chmod 755 /etc/cron.daily/phishing-filter
-
-# Configure BIND to use the blocklist
-printf '\ninclude "/usr/local/etc/bind/phishing-filter-bind.conf";\n' >> /etc/bind/named.conf
-```
+`printf '\ninclude "/usr/local/etc/bind/phishing-filter-bind.conf";\n' >> /etc/bind/named.conf`
 
 Add this to "/etc/bind/null.zone.file" (skip this step if the file already exists):
 
@@ -266,21 +246,11 @@ This blocklist includes domains only.
 
 This blocklist includes domains only.
 
-### Install
+Save the rulesets to "/usr/local/etc/unbound/phishing-filter-unbound.conf". Refer to this [guide](https://gitlab.com/malware-filter/malware-filter/wikis/update-filter) for auto-update.
 
-```
-# Create a new folder to store the blocklist
-mkdir -p /usr/local/etc/unbound/
+Configure Unbound to use the blocklist:
 
-# Create a new cron job for daily update
-printf '#!/bin/sh\ncurl -L "https://malware-filter.gitlab.io/malware-filter/phishing-filter-unbound.conf" -o "/usr/local/etc/unbound/phishing-filter-unbound.conf"\n' > /etc/cron.daily/phishing-filter
-
-# cron job requires execution permission
-chmod 755 /etc/cron.daily/phishing-filter
-
-# Configure Unbound to use the blocklist
-printf '\n  include: "/usr/local/etc/unbound/phishing-filter-unbound.conf"\n' >> /etc/unbound/unbound.conf
-```
+`printf '\n  include: "/usr/local/etc/unbound/phishing-filter-unbound.conf"\n' >> /etc/unbound/unbound.conf`
 
 - https://malware-filter.gitlab.io/malware-filter/phishing-filter-unbound.conf
 
@@ -297,19 +267,7 @@ printf '\n  include: "/usr/local/etc/unbound/phishing-filter-unbound.conf"\n' >>
 
 ## dnscrypt-proxy
 
-### Install
-
-```
-# Create a new folder to store the blocklist
-mkdir -p /etc/dnscrypt-proxy/
-
-# Create a new cron job for daily update
-printf '#!/bin/sh\ncurl -L "https://malware-filter.gitlab.io/malware-filter/phishing-filter-dnscrypt-blocked-names.txt" -o "/etc/dnscrypt-proxy/phishing-filter-dnscrypt-blocked-names.txt"\n' > /etc/cron.daily/phishing-filter
-printf '\ncurl -L "https://malware-filter.gitlab.io/malware-filter/phishing-filter-dnscrypt-blocked-ips.txt" -o "/etc/dnscrypt-proxy/phishing-filter-dnscrypt-blocked-ips.txt"\n' >> /etc/cron.daily/phishing-filter
-
-# cron job requires execution permission
-chmod 755 /etc/cron.daily/phishing-filter
-```
+Save the rulesets to "/etc/dnscrypt-proxy/". Refer to this [guide](https://gitlab.com/malware-filter/malware-filter/wikis/update-filter) for auto-update.
 
 Configure dnscrypt-proxy to use the blocklist:
 
@@ -362,21 +320,11 @@ This blocklist includes domains only.
 
 This ruleset includes online URLs only. Not compatible with [Snort3](#snort3).
 
-### Install
+Save the ruleset to "/etc/snort/rules/phishing-filter-snort2.rules". Refer to this [guide](https://gitlab.com/malware-filter/malware-filter/wikis/update-filter) for auto-update.
 
-```
-# Download ruleset
-curl -L "https://malware-filter.gitlab.io/malware-filter/phishing-filter-snort2.rules" -o "/etc/snort/rules/phishing-filter-snort2.rules"
+Configure Snort to use the ruleset:
 
-# Create a new cron job for daily update
-printf '#!/bin/sh\ncurl -L "https://malware-filter.gitlab.io/malware-filter/phishing-filter-snort2.rules" -o "/etc/snort/rules/phishing-filter-snort2.rules"\n' > /etc/cron.daily/phishing-filter
-
-# cron job requires execution permission
-chmod 755 /etc/cron.daily/phishing-filter
-
-# Configure Snort to use the ruleset
-printf "\ninclude \$RULE_PATH/phishing-filter-snort2.rules\n" >> /etc/snort/snort.conf
-```
+`printf "\ninclude \$RULE_PATH/phishing-filter-snort2.rules\n" >> /etc/snort/snort.conf`
 
 - https://malware-filter.gitlab.io/malware-filter/phishing-filter-snort2.rules
 
@@ -395,18 +343,7 @@ printf "\ninclude \$RULE_PATH/phishing-filter-snort2.rules\n" >> /etc/snort/snor
 
 This ruleset includes online URLs only. Not compatible with [Snort2](#snort2).
 
-### Install
-
-```
-# Download ruleset
-curl -L "https://malware-filter.gitlab.io/malware-filter/phishing-filter-snort3.rules" -o "/etc/snort/rules/phishing-filter-snort3.rules"
-
-# Create a new cron job for daily update
-printf '#!/bin/sh\ncurl -L "https://malware-filter.gitlab.io/malware-filter/phishing-filter-snort3.rules" -o "/etc/snort/rules/phishing-filter-snort3.rules"\n' > /etc/cron.daily/phishing-filter
-
-# cron job requires execution permission
-chmod 755 /etc/cron.daily/phishing-filter
-```
+Save the ruleset to "/etc/snort/rules/phishing-filter-snort3.rules". Refer to this [guide](https://gitlab.com/malware-filter/malware-filter/wikis/update-filter) for auto-update.
 
 Configure Snort to use the ruleset:
 
@@ -436,18 +373,7 @@ ips =
 
 This ruleset includes online URLs only.
 
-### Install
-
-```
-# Download ruleset
-curl -L "https://malware-filter.gitlab.io/malware-filter/phishing-filter-suricata.rules" -o "/etc/suricata/rules/phishing-filter-suricata.rules"
-
-# Create a new cron job for daily update
-printf '#!/bin/sh\ncurl -L "https://malware-filter.gitlab.io/malware-filter/phishing-filter-suricata.rules" -o "/etc/suricata/rules/phishing-filter-suricata.rules"\n' > /etc/cron.daily/phishing-filter
-
-# cron job requires execution permission
-chmod 755 /etc/cron.daily/phishing-filter
-```
+Save the ruleset to "/etc/suricata/rules/phishing-filter-suricata.rules". Refer to this [guide](https://gitlab.com/malware-filter/malware-filter/wikis/update-filter) for auto-update.
 
 Configure Suricata to use the ruleset:
 
@@ -474,6 +400,8 @@ rule-files:
 ## Splunk
 
 A CSV file for Splunk [lookup](https://docs.splunk.com/Documentation/Splunk/9.0.2/Knowledge/Aboutlookupsandfieldactions). This ruleset includes online URLs only.
+
+Either upload the file via GUI or save the file in `$SPLUNK_HOME/Splunk/etc/system/lookups` or app-specific `$SPLUNK_HOME/etc/YourApp/apps/search/lookups`. Refer to this [guide](https://gitlab.com/malware-filter/malware-filter/wikis/update-filter) or [Getwatchlist](https://splunkbase.splunk.com/app/635) app for auto-update.
 
 - https://malware-filter.gitlab.io/malware-filter/phishing-filter-splunk.csv
 
