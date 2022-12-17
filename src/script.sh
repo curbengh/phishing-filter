@@ -248,7 +248,7 @@ mkdir -p "../public/"
 
 cat "phishing-notop-domains.txt" "phishing-url-top-domains.txt" | \
 sort | \
-sed '1 i\'"$COMMENT_UBO"'' > "../public/phishing-filter.txt"
+sed "1i $COMMENT_UBO" > "../public/phishing-filter.txt"
 
 
 # Adguard Home
@@ -258,7 +258,7 @@ sed "s/$/^/g" > "phishing-domains-adguard-home.txt"
 
 cat "phishing-domains-adguard-home.txt" | \
 sort | \
-sed '1 i\'"$COMMENT_UBO"'' | \
+sed "1i $COMMENT_UBO" | \
 sed "1s/Blocklist/Blocklist (AdGuard Home)/" > "../public/phishing-filter-agh.txt"
 
 
@@ -269,7 +269,7 @@ sed "s/$/\$all/g" > "phishing-domains-adguard.txt"
 
 cat "phishing-domains-adguard.txt" "phishing-url-top-domains.txt" | \
 sort | \
-sed '1 i\'"$COMMENT_UBO"'' | \
+sed "1i $COMMENT_UBO" | \
 sed "1s/Blocklist/Blocklist (AdGuard)/" > "../public/phishing-filter-ag.txt"
 
 
@@ -281,7 +281,7 @@ sed "s/$/\$document/g" > "phishing-domains-vivaldi.txt"
 cat "phishing-domains-vivaldi.txt" "phishing-url-top-domains.txt" | \
 sed "s/\$all$/\$document/g" | \
 sort | \
-sed '1 i\'"$COMMENT_UBO"'' | \
+sed "1i $COMMENT_UBO" | \
 sed "1s/Blocklist/Blocklist (Vivaldi)/" > "../public/phishing-filter-vivaldi.txt"
 
 
@@ -291,7 +291,7 @@ COMMENT=$(printf "$COMMENT_UBO" | sed "s/^!/#/g" | sed "1s/URL/Domains/" | awk '
 
 cat "phishing-notop-domains.txt" | \
 sort | \
-sed '1 i\'"$COMMENT"'' > "../public/phishing-filter-domains.txt"
+sed "1i $COMMENT" > "../public/phishing-filter-domains.txt"
 
 cat "phishing-notop-domains.txt" | \
 grep -vE "^([0-9]{1,3}[\.]){3}[0-9]{1,3}$" > "phishing-notop-hosts.txt"
@@ -300,7 +300,7 @@ grep -vE "^([0-9]{1,3}[\.]){3}[0-9]{1,3}$" > "phishing-notop-hosts.txt"
 cat "phishing-notop-hosts.txt" | \
 sed "s/^/0.0.0.0 /g" | \
 # Re-insert comment
-sed '1 i\'"$COMMENT"'' | \
+sed "1i $COMMENT" | \
 sed "1s/Domains/Hosts/" > "../public/phishing-filter-hosts.txt"
 
 
@@ -308,7 +308,7 @@ sed "1s/Domains/Hosts/" > "../public/phishing-filter-hosts.txt"
 cat "phishing-notop-hosts.txt" | \
 sed "s/^/address=\//g" | \
 sed "s/$/\/0.0.0.0/g" | \
-sed '1 i\'"$COMMENT"'' | \
+sed "1i $COMMENT" | \
 sed "1s/Blocklist/dnsmasq Blocklist/" > "../public/phishing-filter-dnsmasq.conf"
 
 
@@ -316,7 +316,7 @@ sed "1s/Blocklist/dnsmasq Blocklist/" > "../public/phishing-filter-dnsmasq.conf"
 cat "phishing-notop-hosts.txt" | \
 sed 's/^/zone "/g' | \
 sed 's/$/" { type master; notify no; file "null.zone.file"; };/g' | \
-sed '1 i\'"$COMMENT"'' | \
+sed "1i $COMMENT" | \
 sed "1s/Blocklist/BIND Blocklist/" > "../public/phishing-filter-bind.conf"
 
 
@@ -326,8 +326,8 @@ RPZ_SYNTAX="\n\$TTL 30\n@ IN SOA rpz.curben.gitlab.io. hostmaster.rpz.curben.git
 
 cat "phishing-notop-hosts.txt" | \
 sed "s/$/ CNAME ./g" | \
-sed '1 i\'"$RPZ_SYNTAX"'' | \
-sed '1 i\'"$COMMENT"'' | \
+sed "1i $RPZ_SYNTAX" | \
+sed "1i $COMMENT" | \
 sed "s/^#/;/g" | \
 sed "1s/Blocklist/RPZ Blocklist/" > "../public/phishing-filter-rpz.conf"
 
@@ -336,21 +336,21 @@ sed "1s/Blocklist/RPZ Blocklist/" > "../public/phishing-filter-rpz.conf"
 cat "phishing-notop-hosts.txt" | \
 sed 's/^/local-zone: "/g' | \
 sed 's/$/" always_nxdomain/g' | \
-sed '1 i\'"$COMMENT"'' | \
+sed "1i $COMMENT" | \
 sed "1s/Blocklist/Unbound Blocklist/" > "../public/phishing-filter-unbound.conf"
 
 
 ## dnscrypt-proxy blocklists
 # name-based
 cat "phishing-notop-hosts.txt" | \
-sed '1 i\'"$COMMENT"'' | \
+sed "1i $COMMENT" | \
 sed "1s/Domains/Names/" > "../public/phishing-filter-dnscrypt-blocked-names.txt"
 
 # IPv4-based
 cat "phishing-notop-domains.txt" | \
 sort | \
 grep -E "^([0-9]{1,3}[\.]){3}[0-9]{1,3}$" | \
-sed '1 i\'"$COMMENT"'' | \
+sed "1i $COMMENT" | \
 sed "1s/Domains/IPs/" > "../public/phishing-filter-dnscrypt-blocked-ips.txt"
 
 ## Temporarily disable command print
@@ -407,16 +407,16 @@ done < "phishing-url-top-domains-raw.txt"
 ## Re-enable command print
 set -x
 
-sed -i '1 i\'"$COMMENT"'' "../public/phishing-filter-snort2.rules"
+sed -i "1i $COMMENT" "../public/phishing-filter-snort2.rules"
 sed -i "1s/Domains Blocklist/URL Snort2 Ruleset/" "../public/phishing-filter-snort2.rules"
 
-sed -i '1 i\'"$COMMENT"'' "../public/phishing-filter-snort3.rules"
+sed -i "1i $COMMENT" "../public/phishing-filter-snort3.rules"
 sed -i "1s/Domains Blocklist/URL Snort3 Ruleset/" "../public/phishing-filter-snort3.rules"
 
-sed -i '1 i\'"$COMMENT"'' "../public/phishing-filter-suricata.rules"
+sed -i "1i $COMMENT" "../public/phishing-filter-suricata.rules"
 sed -i "1s/Domains Blocklist/URL Suricata Ruleset/" "../public/phishing-filter-suricata.rules"
 
-sed -i -e '1 i\'"$COMMENT"' ' -e '1 i\"host","path","message","updated"' "../public/phishing-filter-splunk.csv"
+sed -i -e "1i $COMMENT" -e '1i "host","path","message","updated"' "../public/phishing-filter-splunk.csv"
 sed -i "1s/Domains Blocklist/URL Splunk Lookup/" "../public/phishing-filter-splunk.csv"
 
 
@@ -425,7 +425,7 @@ COMMENT_IE="msFilterList\n$COMMENT\n: Expires=1\n#"
 
 cat "phishing-notop-hosts.txt" | \
 sed "s/^/-d /g" | \
-sed '1 i\'"$COMMENT_IE"'' | \
+sed "1i $COMMENT_IE" | \
 sed "2s/Domains Blocklist/Hosts Blocklist (IE)/" > "../public/phishing-filter.tpl"
 
 
