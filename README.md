@@ -16,6 +16,7 @@
   - [Snort2](#snort2)
   - [Snort3](#snort3)
   - [Suricata](#suricata)
+  - [Splunk](#splunk)
 - [Compressed version](#compressed-version)
 - [Reporting issues](#issues)
 - [See also](#see-also)
@@ -41,8 +42,9 @@ There are multiple formats available, refer to the appropriate section according
 - [Snort2](#snort2)
 - [Snort3](#snort3)
 - [Suricata](#suricata)
+- [Splunk](#splunk)
 
-Not sure which format to choose? See [Compatibility](https://gitlab.com/malware-filter/urlhaus-filter/wikis/compatibility) page.
+For other programs, see [Compatibility](https://gitlab.com/malware-filter/malware-filter/wikis/compatibility) page in the wiki.
 
 Check out my other filters:
 
@@ -465,6 +467,23 @@ rule-files:
 - https://malware-filter.gitlab.io/phishing-filter/phishing-filter-suricata.rules
 - https://malware-filter.pages.dev/phishing-filter-suricata.rules
 - https://phishing-filter.pages.dev/phishing-filter-suricata.rules
+
+</details>
+
+## Splunk
+
+A CSV file for Splunk [lookup](https://docs.splunk.com/Documentation/Splunk/9.0.2/Knowledge/Aboutlookupsandfieldactions). This ruleset includes online URLs only.
+
+- https://malware-filter.gitlab.io/malware-filter/phishing-filter-splunk.csv
+
+<details>
+<summary>Mirrors</summary>
+
+- https://curbengh.github.io/malware-filter/phishing-filter-splunk.csv
+- https://curbengh.github.io/phishing-filter/phishing-filter-splunk.csv
+- https://malware-filter.gitlab.io/phishing-filter/phishing-filter-splunk.csv
+- https://malware-filter.pages.dev/phishing-filter-splunk.csv
+- https://phishing-filter.pages.dev/phishing-filter-splunk.csv
 
 </details>
 

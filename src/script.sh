@@ -209,12 +209,12 @@ rm "phishing-url-top-domains.txt" "phishing-url-top-domains-raw.txt"
 set +x
 
 while read URL; do
-  HOST=$(echo "$URL" | cut -d"/" -f1)
-  URI=$(echo "$URL" | sed "s/^$HOST//")
+  DOMAIN=$(echo "$URL" | cut -d"/" -f1)
+  PATHNAME=$(echo "$URL" | sed "s/^$DOMAIN//")
 
-  if [ -z "$URI" ] || [ "$URI" = "/" ]; then
+  if [ -z "$PATHNAME" ] || [ "$PATHNAME" = "/" ]; then
     ## Separate host-only URL
-    echo "$HOST" | \
+    echo "$DOMAIN" | \
     cut -f 1 -d ":" >> "phishing-notop-domains-temp.txt"
   elif test "${URL#*safelinks.protection.outlook.com}" != "$URL"; then
     ## Parse hostname from O365 safelink
@@ -359,7 +359,8 @@ set +x
 ## Snort & Suricata rulesets
 rm "../public/phishing-filter-snort2.rules" \
   "../public/phishing-filter-snort3.rules" \
-  "../public/phishing-filter-suricata.rules"
+  "../public/phishing-filter-suricata.rules" \
+  "../public/phishing-filter-splunk.csv"
 
 SID="200000001"
 while read DOMAIN; do
@@ -369,27 +370,36 @@ while read DOMAIN; do
 
   SR_RULE="alert http \$HOME_NET any -> \$EXTERNAL_NET any (msg:\"phishing-filter phishing website detected\"; flow:established,from_client; http.method; content:\"GET\"; http.host; content:\"$DOMAIN\"; classtype:attempted-recon; sid:$SID; rev:1;)"
 
+  SP_RULE="\"$DOMAIN\",\"\",\"phishing-filter phishing website detected\",\"$CURRENT_TIME\""
+
   echo "$SN_RULE" >> "../public/phishing-filter-snort2.rules"
   echo "$SN3_RULE" >> "../public/phishing-filter-snort3.rules"
   echo "$SR_RULE" >> "../public/phishing-filter-suricata.rules"
+  echo "$SP_RULE" >> "../public/phishing-filter-splunk.csv"
 
   SID=$(( $SID + 1 ))
 done < "phishing-notop-domains.txt"
 
 while read URL; do
-  HOST=$(echo "$URL" | cut -d"/" -f1)
-  URI=$(echo "$URL" | sed -e "s/^$HOST//" -e "s/;/\\\;/g")
+  DOMAIN=$(echo "$URL" | cut -d"/" -f1)
+  # escape ";"
+  PATHNAME=$(echo "$URL" | sed -e "s/^$DOMAIN//" -e "s/;/\\\;/g")
 
   # Snort2 only supports <=2047 characters of `content`
-  SN_RULE="alert tcp \$HOME_NET any -> \$EXTERNAL_NET [80,443] (msg:\"phishing-filter phishing website detected\"; flow:established,from_client; content:\"GET\"; http_method; content:\"$(echo $URI | cut -c -2047)\"; http_uri; nocase; content:\"$HOST\"; content:\"Host\"; http_header; classtype:attempted-recon; sid:$SID; rev:1;)"
+  SN_RULE="alert tcp \$HOME_NET any -> \$EXTERNAL_NET [80,443] (msg:\"phishing-filter phishing website detected\"; flow:established,from_client; content:\"GET\"; http_method; content:\"$(echo $PATHNAME | cut -c -2047)\"; http_uri; nocase; content:\"$DOMAIN\"; content:\"Host\"; http_header; classtype:attempted-recon; sid:$SID; rev:1;)"
 
-  SN3_RULE="alert http \$HOME_NET any -> \$EXTERNAL_NET any (msg:\"phishing-filter phishing website detected\"; http_header:field host; content:\"$HOST\",nocase; http_uri; content:\"$URI\",nocase; classtype:attempted-recon; sid:$SID; rev:1;)"
+  SN3_RULE="alert http \$HOME_NET any -> \$EXTERNAL_NET any (msg:\"phishing-filter phishing website detected\"; http_header:field host; content:\"$DOMAIN\",nocase; http_uri; content:\"$PATHNAME\",nocase; classtype:attempted-recon; sid:$SID; rev:1;)"
 
-  SR_RULE="alert http \$HOME_NET any -> \$EXTERNAL_NET any (msg:\"phishing-filter phishing website detected\"; flow:established,from_client; http.method; content:\"GET\"; http.uri; content:\"$URI\"; endswith; nocase; http.host; content:\"$HOST\"; classtype:attempted-recon; sid:$SID; rev:1;)"
+  SR_RULE="alert http \$HOME_NET any -> \$EXTERNAL_NET any (msg:\"phishing-filter phishing website detected\"; flow:established,from_client; http.method; content:\"GET\"; http.uri; content:\"$PATHNAME\"; endswith; nocase; http.host; content:\"$DOMAIN\"; classtype:attempted-recon; sid:$SID; rev:1;)"
+
+  PATHNAME=$(echo "$URL" | sed "s/^$DOMAIN//")
+
+  SP_RULE="\"$DOMAIN\",\"$PATHNAME\",\"phishing-filter phishing website detected\",\"$CURRENT_TIME\""
 
   echo "$SN_RULE" >> "../public/phishing-filter-snort2.rules"
   echo "$SN3_RULE" >> "../public/phishing-filter-snort3.rules"
   echo "$SR_RULE" >> "../public/phishing-filter-suricata.rules"
+  echo "$SP_RULE" >> "../public/phishing-filter-splunk.csv"
 
   SID=$(( $SID + 1 ))
 done < "phishing-url-top-domains-raw.txt"
@@ -405,6 +415,9 @@ sed -i "1s/Domains Blocklist/URL Snort3 Ruleset/" "../public/phishing-filter-sno
 
 sed -i '1 i\'"$COMMENT"'' "../public/phishing-filter-suricata.rules"
 sed -i "1s/Domains Blocklist/URL Suricata Ruleset/" "../public/phishing-filter-suricata.rules"
+
+sed -i -e '1 i\'"$COMMENT"' ' -e '1 i\"host","path","message","updated"' "../public/phishing-filter-splunk.csv"
+sed -i "1s/Domains Blocklist/URL Splunk Lookup/" "../public/phishing-filter-splunk.csv"
 
 
 ## IE blocklist
