@@ -403,6 +403,13 @@ A CSV file for Splunk [lookup](https://docs.splunk.com/Documentation/Splunk/9.0.
 
 Either upload the file via GUI or save the file in `$SPLUNK_HOME/Splunk/etc/system/lookups` or app-specific `$SPLUNK_HOME/etc/YourApp/apps/search/lookups`. Refer to this [guide](https://gitlab.com/malware-filter/malware-filter/wikis/update-filter) or [Getwatchlist](https://splunkbase.splunk.com/app/635) app for auto-update.
 
+Columns:
+
+| host         | path       | message                                   | updated              |
+| ------------ | ---------- | ----------------------------------------- | -------------------- |
+| example.com  |            | phishing-filter phishing website detected | 2022-12-21T12:34:56Z |
+| example2.com | /some-path | phishing-filter phishing website detected | 2022-12-21T12:34:56Z |
+
 - https://malware-filter.gitlab.io/malware-filter/phishing-filter-splunk.csv
 
 <details>
