@@ -463,7 +463,7 @@ Optional variables:
 
 ## License
 
-[src/](src/): [CC0](LICENSE.md)
+[src/](src/): [Creative Commons Zero v1.0 Universal](LICENSE-CC0.md) and [MIT License](LICENSE)
 
 filters: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
