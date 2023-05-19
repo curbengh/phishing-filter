@@ -213,9 +213,10 @@ while read URL; do
   PATHNAME=$(echo "$URL" | sed "s/^$DOMAIN//")
 
   if [ -z "$PATHNAME" ] || [ "$PATHNAME" = "/" ]; then
-    ## Separate host-only URL
+    # Separate domain-only/no-path URL (e.g. "example.com/")
     echo "$DOMAIN" | \
-    cut -f 1 -d ":" >> "phishing-notop-domains-temp.txt"
+    # Remove port
+    cut -f 1 -d ":" >> "phishing-subdomains.txt"
   elif test "${URL#*safelinks.protection.outlook.com}" != "$URL"; then
     ## Parse hostname from O365 safelink
     echo $(node "../src/safelinks.js" "$URL") >> "phishing-notop-domains-temp.txt"
@@ -230,7 +231,12 @@ done < "phishing-url-top-domains-temp.txt"
 ## Re-enable command print
 set -x
 
-## "phishing-url-top-domains-temp.txt" may add duplicate entries
+## "phishing-subdomains.txt" is derived from URLs of top domains that does not have a path
+# exclude from top (sub)domains
+cat "phishing-subdomains.txt" | \
+grep -Fx -vf "phishing-top-domains.txt" >> "phishing-notop-domains-temp.txt"
+
+## "phishing-subdomains.txt" & "phishing-url-top-domains-temp.txt" may add duplicate entries
 sort -u "phishing-notop-domains-temp.txt" > "phishing-notop-domains.txt"
 
 
