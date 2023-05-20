@@ -219,7 +219,13 @@ while read URL; do
     cut -f 1 -d ":" >> "phishing-subdomains.txt"
   elif test "${URL#*safelinks.protection.outlook.com}" != "$URL"; then
     ## Parse hostname from O365 safelink
-    echo $(node "../src/safelinks.js" "$URL") >> "phishing-notop-domains-temp.txt"
+    SAFELINK=$(node "../src/safelinks.js" "$URL")
+    if grep -Fq "$SAFELINK" "top-1m-well-known.txt"; then
+      echo "$SAFELINK" >> "phishing-url-top-domains-temp.txt"
+    else
+      echo "$SAFELINK" | \
+      cut -d"/" -f1 >> "phishing-notop-domains-temp.txt"
+    fi
   else
     ## Parse phishing URLs from popular domains
     echo "$URL" | \
