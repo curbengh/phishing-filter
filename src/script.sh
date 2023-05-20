@@ -13,8 +13,11 @@ alias curl="curl -L"
 alias rm="rm -rf"
 
 ## Use GNU grep, busybox grep is not as performant
-. "/etc/os-release"
-DISTRO="$ID"
+DISTRO=""
+if [ -f "/etc/os-release" ]; then
+  . "/etc/os-release"
+  DISTRO="$ID"
+fi
 
 check_grep() {
   if [ -z "$(grep --help | grep 'GNU')" ]; then
