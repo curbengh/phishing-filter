@@ -19,7 +19,6 @@ DISTRO="$ID"
 check_grep() {
   if [ -z "$(grep --help | grep 'GNU')" ]; then
     if [ -x "/usr/bin/grep" ]; then
-      echo "grep found. try alias"
       alias grep="/usr/bin/grep"
       check_grep
     else
@@ -32,7 +31,6 @@ check_grep() {
     fi
   fi
 }
-
 check_grep
 
 
