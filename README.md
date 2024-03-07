@@ -24,7 +24,7 @@
 - [CI Variables](#ci-variables)
 - [License](#license)
 
-A blocklist of phishing websites, curated from [PhishTank](https://www.phishtank.com/), [OpenPhish](https://openphish.com/), [phishunt.io](https://phishunt.io/). Blocklist is updated twice a day.
+A blocklist of phishing websites, curated from [OpenPhish](https://openphish.com/). Blocklist is updated twice a day.
 
 | Client                                            | mirror 1                                                                                                                                                                                                     | mirror 2                                                                                                                                                                                         | mirror 3                                                                                                                                                                                           | mirror 4                                                                                                                                                                                                       | mirror 5                                                                                                                                                                       | mirror 6                                                                                                                                                                         |
 | ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -227,9 +227,9 @@ _Popular_ websites are as listed in the [Umbrella Popularity List](https://s3-us
 
 If you wish to exclude certain website(s) that you believe is sufficiently well-known, please create an [issue](https://gitlab.com/malware-filter/phishing-filter/issues) or [merge request](https://gitlab.com/malware-filter/phishing-filter/merge_requests).
 
-This blocklist **only** accepts new phishing URLs from [PhishTank](https://www.phishtank.com/) and [OpenPhish](https://openphish.com/).
+This blocklist **only** accepts new phishing URLs from [OpenPhish](https://openphish.com/).
 
-Please report new phishing URL to [PhishTank](https://www.phishtank.com/add_web_phish.php) or [OpenPhish](https://openphish.com/faq.html).
+Please report new phishing URL to [OpenPhish](https://openphish.com/faq.html).
 
 ## See also
 
@@ -243,7 +243,6 @@ See [wiki](https://gitlab.com/malware-filter/malware-filter/-/wikis/home)
 
 Optional variables:
 
-- `PHISHTANK_API`: Recommended if you intend to run [script.sh](src/script.sh) >5 times daily. Register an account at [phishtank.org](https://phishtank.org/developer_info.php) to generate an application key.
 - `CLOUDFLARE_BUILD_HOOK`: Deploy to Cloudflare Pages.
 - `NETLIFY_SITE_ID`: Deploy to Netlify.
 - `CF_API`: Include Cloudflare Radar [domains ranking](https://developers.cloudflare.com/radar/investigate/domain-ranking-datasets/). [Guide](https://developers.cloudflare.com/radar/get-started/first-request/) to create an API token.
@@ -268,4 +267,4 @@ filters: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
 [Cloudflare Radar](https://developers.cloudflare.com/radar/investigate/domain-ranking-datasets/): Available to free Cloudflare account
 
-This repository is not endorsed by PhishTank/OpenDNS and OpenPhish.
+This repository is not endorsed by OpenPhish.
