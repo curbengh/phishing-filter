@@ -258,10 +258,6 @@ https://gitlab.com/curben/blog#repository-mirrors
 
 filters: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
-[PhishTank](https://www.phishtank.com/): Available [free of charge](https://www.phishtank.com/faq.php#isitoktousetheapifor) by Cisco for commercial and non-commercial use.
-
-_PhishTank is either trademark or registered trademark of Cisco Systems, Inc._
-
 [OpenPhish](https://openphish.com/): Available [free of charge](https://openphish.com/terms.html) by OpenPhish
 
 [Tranco List](https://tranco-list.eu/): [MIT License](https://choosealicense.com/licenses/mit/)
@@ -269,8 +265,6 @@ _PhishTank is either trademark or registered trademark of Cisco Systems, Inc._
 [Umbrella Popularity List](https://s3-us-west-1.amazonaws.com/umbrella-static/index.html): Available free of charge by Cisco Umbrella
 
 [csvquote](https://github.com/dbro/csvquote): MIT License
-
-[phishunt.io](https://phishunt.io/): All rights reserved by [Daniel López](https://twitter.com/0xDanielLopez)
 
 [Cloudflare Radar](https://developers.cloudflare.com/radar/investigate/domain-ranking-datasets/): Available to free Cloudflare account
 

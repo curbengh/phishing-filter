@@ -56,7 +56,6 @@ cd "tmp/"
 
 ## Prepare datasets
 curl "https://openphish.com/feed.txt" -o "openphish-raw.txt"
-curl "https://github.com/0xDanielLopez/TweetFeed/raw/master/week.csv" -o "phishunt.csv"
 curl "https://s3-us-west-1.amazonaws.com/umbrella-static/top-1m.csv.zip" -o "top-1m-umbrella.zip"
 curl "https://tranco-list.eu/top-1m.csv.zip" -o "top-1m-tranco.zip"
 
@@ -98,14 +97,6 @@ grep -F "." | \
 sed "s/^www\.//g" | \
 # url encode space #11
 sed "s/ /%20/g" > "openphish.txt"
-
-cat "phishunt.csv" | \
-tr "[:upper:]" "[:lower:]" | \
-grep -F "#phishing" | \
-cut -f 4 -d "," | \
-cut -f 3- -d "/" | \
-grep -F "." | \
-sed "s/^www\.//g" > "phishunt.txt"
 
 ## Combine all sources
 sort -u "openphish.txt" > "phishing.txt"
@@ -231,7 +222,7 @@ SECOND_LINE="! Updated: $CURRENT_TIME"
 THIRD_LINE="! Expires: 1 day (update frequency)"
 FOURTH_LINE="! Homepage: https://gitlab.com/malware-filter/phishing-filter"
 FIFTH_LINE="! License: https://gitlab.com/malware-filter/phishing-filter#license"
-SIXTH_LINE="! Sources: openphish.com, phishunt.io"
+SIXTH_LINE="! Sources: openphish.com"
 COMMENT_UBO="$FIRST_LINE\n$SECOND_LINE\n$THIRD_LINE\n$FOURTH_LINE\n$FIFTH_LINE\n$SIXTH_LINE"
 
 mkdir -p "../public/"
@@ -420,7 +411,7 @@ sed "2s/Domains Blocklist/Hosts Blocklist (IE)/" > "../public/phishing-filter.tp
 
 
 ## Clean up artifacts
-rm "top-1m-umbrella.zip" "top-1m-umbrella.txt" "top-1m-tranco.txt" "openphish-raw.txt" "phishunt.csv" "cf/" "top-1m-radar.txt"
+rm "top-1m-umbrella.zip" "top-1m-umbrella.txt" "top-1m-tranco.txt" "openphish-raw.txt" "cf/" "top-1m-radar.txt"
 
 
 cd ../
