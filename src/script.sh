@@ -181,13 +181,14 @@ while read URL; do
   DOMAIN=$(echo "$URL" | cut -d"/" -f1)
   PATHNAME=$(echo "$URL" | sed "s/^$DOMAIN//")
 
+  # Separate domain-only/no-path URL (e.g. "example.com/")
   if [ -z "$PATHNAME" ] || [ "$PATHNAME" = "/" ]; then
-    # Separate domain-only/no-path URL (e.g. "example.com/")
     echo "$DOMAIN" | \
     # Remove port
     cut -f 1 -d ":" >> "phishing-subdomains.txt"
+    # "phishing-subdomains.txt" may be empty if the data source is clean
+  # Parse hostname from O365 safelink
   elif test "${URL#*safelinks.protection.outlook.com}" != "$URL"; then
-    ## Parse hostname from O365 safelink
     SAFELINK=$(node "../src/safelinks.js" "$URL")
     if grep -Fq "$SAFELINK" "top-1m-well-known.txt"; then
       echo "$SAFELINK" >> "phishing-url-top-domains-temp.txt"
@@ -195,8 +196,8 @@ while read URL; do
       echo "$SAFELINK" | \
       cut -d"/" -f1 >> "phishing-notop-domains-temp.txt"
     fi
+  # Parse phishing URLs from popular domains
   else
-    ## Parse phishing URLs from popular domains
     echo "$URL" | \
     sed -e "s/^/||/g" -e "s/$/\$all/g" >> "phishing-url-top-domains.txt"
     echo "$URL" >> "phishing-url-top-domains-raw.txt"
@@ -208,8 +209,10 @@ set -x
 
 ## "phishing-subdomains.txt" is derived from URLs of top domains that does not have a path
 # exclude from top (sub)domains
-cat "phishing-subdomains.txt" | \
-grep -Fx -vf "phishing-top-domains.txt" >> "phishing-notop-domains-temp.txt"
+if [ -f "phishing-subdomains.txt" ]; then
+  cat "phishing-subdomains.txt" | \
+  grep -Fx -vf "phishing-top-domains.txt" >> "phishing-notop-domains-temp.txt"
+fi
 
 ## "phishing-subdomains.txt" & "phishing-url-top-domains-temp.txt" may add duplicate entries
 sort -u "phishing-notop-domains-temp.txt" > "phishing-notop-domains.txt"
