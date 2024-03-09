@@ -56,6 +56,7 @@ cd "tmp/"
 
 ## Prepare datasets
 curl "https://openphish.com/feed.txt" -o "openphish-raw.txt"
+curl "https://github.com/mitchellkrogza/Phishing.Database/raw/master/phishing-links-ACTIVE.txt" -o "phishing.db-raw.txt"
 curl "https://s3-us-west-1.amazonaws.com/umbrella-static/top-1m.csv.zip" -o "top-1m-umbrella.zip"
 curl "https://tranco-list.eu/top-1m.csv.zip" -o "top-1m-tranco.zip"
 
@@ -98,8 +99,16 @@ sed "s/^www\.//g" | \
 # url encode space #11
 sed "s/ /%20/g" > "openphish.txt"
 
+cat "phishing.db-raw.txt" | \
+tr "[:upper:]" "[:lower:]" | \
+cut -f 3- -d "/" | \
+grep -F "." | \
+sed "s/^www\.//g" | \
+sed "s/ /%20/g" > "phishing.db.txt"
+
 ## Combine all sources
-sort -u "openphish.txt" > "phishing.txt"
+cat "openphish.txt" "phishing.db.txt" | \
+sort -u > "phishing.txt"
 
 ## Parse domain and IP address only
 cat "phishing.txt" | \
@@ -225,7 +234,7 @@ SECOND_LINE="! Updated: $CURRENT_TIME"
 THIRD_LINE="! Expires: 1 day (update frequency)"
 FOURTH_LINE="! Homepage: https://gitlab.com/malware-filter/phishing-filter"
 FIFTH_LINE="! License: https://gitlab.com/malware-filter/phishing-filter#license"
-SIXTH_LINE="! Sources: openphish.com"
+SIXTH_LINE="! Sources: openphish.com, github.com/mitchellkrogza/Phishing.Database"
 COMMENT_UBO="$FIRST_LINE\n$SECOND_LINE\n$THIRD_LINE\n$FOURTH_LINE\n$FIFTH_LINE\n$SIXTH_LINE"
 
 mkdir -p "../public/"
