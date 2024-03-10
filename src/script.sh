@@ -218,7 +218,7 @@ set -x
 
 ## "phishing-subdomains.txt" is derived from URLs of top domains that does not have a path
 # exclude from top (sub)domains
-if [ -f "phishing-subdomains.txt" ]; then
+if [ -s "phishing-subdomains.txt" ]; then
   cat "phishing-subdomains.txt" | \
   grep -Fx -vf "phishing-top-domains.txt" >> "phishing-notop-domains-temp.txt"
 fi
