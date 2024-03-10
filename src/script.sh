@@ -340,11 +340,17 @@ sed "1i $COMMENT" | \
 sed "1s/Domains/Names/" > "../public/phishing-filter-dnscrypt-blocked-names.txt"
 
 # IPv4-based
-cat "phishing-notop-domains.txt" | \
-sort | \
-grep -E "^([0-9]{1,3}[\.]){3}[0-9]{1,3}$" | \
-sed "1i $COMMENT" | \
-sed "1s/Domains/IPs/" > "../public/phishing-filter-dnscrypt-blocked-ips.txt"
+if grep -Eq "^([0-9]{1,3}[\.]){3}[0-9]{1,3}$" "phishing-notop-domains.txt"; then
+  cat "phishing-notop-domains.txt" | \
+  sort | \
+  grep -E "^([0-9]{1,3}[\.]){3}[0-9]{1,3}$" | \
+  sed "1i $COMMENT" | \
+  sed "1s/Domains/IPs/" > "../public/phishing-filter-dnscrypt-blocked-ips.txt"
+else
+  echo | \
+  sed "1i $COMMENT" | \
+  sed "1s/Domains/IPs/" > "../public/phishing-filter-dnscrypt-blocked-ips.txt"
+fi
 
 ## Temporarily disable command print
 set +x
