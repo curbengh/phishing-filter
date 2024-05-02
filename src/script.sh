@@ -9,6 +9,9 @@ else
   set -efx -o pipefail
 fi
 
+# bash does not expand alias by default for non-interactive script
+# shopt -s expand_aliases
+
 alias curl="curl -L"
 alias rm="rm -rf"
 
@@ -56,7 +59,6 @@ cd "tmp/"
 
 ## Prepare datasets
 curl "https://openphish.com/feed.txt" -o "openphish-raw.txt"
-curl "https://github.com/mitchellkrogza/Phishing.Database/raw/master/phishing-links-ACTIVE.txt" -o "phishing.db-raw.txt"
 curl "https://s3-us-west-1.amazonaws.com/umbrella-static/top-1m.csv.zip" -o "top-1m-umbrella.zip"
 curl "https://tranco-list.eu/top-1m.csv.zip" -o "top-1m-tranco.zip"
 
@@ -99,15 +101,16 @@ sed "s/^www\.//g" | \
 # url encode space #11
 sed "s/ /%20/g" > "openphish.txt"
 
-cat "phishing.db-raw.txt" | \
-tr "[:upper:]" "[:lower:]" | \
-cut -f 3- -d "/" | \
-grep -F "." | \
-sed "s/^www\.//g" | \
-sed "s/ /%20/g" > "phishing.db.txt"
+# https://github.com/mitchellkrogza/Phishing.Database/raw/master/ALL-phishing-links.tar.gz
+# tar xzfO "ALL-phishing-links.tar.gz" | \
+# tr "[:upper:]" "[:lower:]" | \
+# cut -f 3- -d "/" | \
+# grep -F "." | \
+# sed "s/^www\.//g" | \
+# sed "s/ /%20/g" > "phishing.db.txt"
 
 ## Combine all sources
-cat "openphish.txt" "phishing.db.txt" | \
+cat "openphish.txt" | \
 sort -u > "phishing.txt"
 
 ## Parse domain and IP address only
