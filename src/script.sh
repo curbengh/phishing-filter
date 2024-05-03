@@ -222,8 +222,11 @@ set -x
 ## "phishing-subdomains.txt" is derived from URLs of top domains that does not have a path
 # exclude from top (sub)domains
 if [ -s "phishing-subdomains.txt" ]; then
-  cat "phishing-subdomains.txt" | \
-  grep -Fx -vf "phishing-top-domains.txt" >> "phishing-notop-domains-temp.txt"
+  excluded_subdomains=$(cat "phishing-subdomains.txt" | grep -Fx -vf "phishing-top-domains.txt" || [ $? = 1 ])
+
+  if [ "$excluded_subdomains" != "" ] && [ -n "$excluded_subdomains" ]; then
+    echo "$excluded_subdomains" >> "phishing-notop-domains-temp.txt"
+  fi
 fi
 
 ## "phishing-subdomains.txt" & "phishing-url-top-domains-temp.txt" may add duplicate entries
