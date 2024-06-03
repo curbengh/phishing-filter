@@ -1,16 +1,18 @@
 #!/bin/sh
 
-## dash does not support pipefail
+# dash does not support pipefail
 # this does not work in `dash script.sh`
-DASH=$(readlink -f "/bin/sh" | grep "dash" || [ $? = 1 ])
-if [ -n "$DASH" ]; then
+IS_DASH=$(readlink -f "/bin/sh" | grep "dash" || [ $? = 1 ])
+if [ -n "$IS_DASH" ]; then
   set -efx
 else
   set -efx -o pipefail
 fi
 
 # bash does not expand alias by default for non-interactive script
-# shopt -s expand_aliases
+if [ -n "$BASH_VERSION" ]; then
+  shopt -s expand_aliases
+fi
 
 alias curl="curl -L"
 alias rm="rm -rf"
