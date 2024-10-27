@@ -4,7 +4,7 @@
 
 import { Extract } from 'unzipper'
 import { dirname, join } from 'node:path'
-import { mkdir, rm } from 'node:fs/promises'
+import { mkdir, readdir, rm, stat } from 'node:fs/promises'
 import { pipeline } from 'node:stream/promises'
 import { fileURLToPath } from 'node:url'
 import { Readable } from 'node:stream'
@@ -57,9 +57,15 @@ const f = async () => {
     }
   }
 
-  // snort2.rules is over 25MB limit of Cloudflare Pages
+  // Cloudflare Pages has maximum file size of 25MiB
   if (process.env.CF_PAGES) {
-    await rm(join(publicPath, 'phishing-filter-snort2.rules'), { force: true })
+    const files = await readdir(publicPath)
+    for (const filename of files) {
+      const { size } = await stat(join(publicPath, filename))
+      if (size >= (25 * 1024 * 1024)) {
+        await rm(join(publicPath, filename), { force: true })
+      }
+    }
   }
 }
 
