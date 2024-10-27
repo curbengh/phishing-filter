@@ -57,8 +57,10 @@ const f = async () => {
     }
   }
 
-  // snort2.rules is over 25MB limit of CF Pages
-  await rm(join(publicPath, 'phishing-filter-snort2.rules'), { force: true })
+  // snort2.rules is over 25MB limit of Cloudflare Pages
+  if (process.env.CF_PAGES) {
+    await rm(join(publicPath, 'phishing-filter-snort2.rules'), { force: true })
+  }
 }
 
 f()
