@@ -58,14 +58,14 @@ const f = async () => {
   }
 
   // Cloudflare Pages has maximum file size of 25MiB
+  const files = await readdir(publicPath)
   if (process.env.CF_PAGES) {
-    const files = await readdir(publicPath)
-    for (const filename of files) {
+    await Promise.all(files.map(async (filename) => {
       const { size } = await stat(join(publicPath, filename))
       if (size >= (25 * 1024 * 1024)) {
         await rm(join(publicPath, filename), { force: true })
       }
-    }
+    }))
   }
 }
 
