@@ -259,7 +259,7 @@ filters: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
 [OpenPhish](https://openphish.com/): Available [free of charge](https://openphish.com/terms.html) by OpenPhish
 
-[mitchellkrogza/Phishing.Database](https://github.com/mitchellkrogza/Phishing.Database): MIT License
+[IPThreat](https://ipthreat.net): CC BY-SA 4.0
 
 [Tranco List](https://tranco-list.eu/): [MIT License](https://choosealicense.com/licenses/mit/)
 
