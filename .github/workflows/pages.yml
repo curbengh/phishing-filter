@@ -14,7 +14,7 @@ jobs:
       - name: Install Dependencies
         run: |
           apk update
-          apk add brotli curl git grep jq xmlstarlet
+          apk add brotli curl git grep jq xmlstarlet zstd
       - name: Build
         env:
           PHISHTANK_API: ${{ secrets.PHISHTANK_API }}
@@ -24,6 +24,7 @@ jobs:
         run: |
           find public -type f -regex '.*\.\(txt\|conf\|tpl\|rules\|csv\)$' -exec gzip -f -k -9 {} \;
           find public -type f -regex '.*\.\(txt\|conf\|tpl\|rules\|csv\)$' -exec brotli -f -k -9 {} \;
+          find public -type f -regex '.*\.\(txt\|conf\|tpl\|rules\|csv\)$' -exec zstd -f -k -9 {} \;
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
