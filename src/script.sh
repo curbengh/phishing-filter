@@ -160,20 +160,6 @@ grep -F "." | \
 sed "s/^www\.//g" | \
 sort -u > "top-1m-tranco.txt"
 
-# ## Parse oisd exclusion list
-# cat "oisd-exclude.html" | \
-# # https://stackoverflow.com/a/47600828
-# xmlstarlet format --recover --html 2>/dev/null | \
-# xmlstarlet select --html --template --value-of '//a' | \
-# ## Append new line https://unix.stackexchange.com/a/31955
-# sed '$a\' > "oisd-exclude.txt"
-
-# # html-xml-utils
-# cat "oisd-exclude.html" | \
-# hxwls | \
-# grep -F '?w=' | \
-# sed 's/^?w=//g' > "oisd-exclude.txt"
-
 # Merge Umbrella, Tranco, Radar and self-maintained top domains
 cat "top-1m-umbrella.txt" "top-1m-tranco.txt" "exclude.txt" | \
 sort -u > "top-1m-well-known.txt"
