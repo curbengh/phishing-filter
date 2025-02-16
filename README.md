@@ -25,7 +25,7 @@
 - [CI Variables](#ci-variables)
 - [License](#license)
 
-A blocklist of phishing websites, curated from [OpenPhish](https://openphish.com/) and [mitchellkrogza/Phishing.Database](https://github.com/mitchellkrogza/Phishing.Database/blob/master/phishing-domains-ACTIVE.txt). Blocklist is updated twice a day.
+A blocklist of phishing websites, curated from [OpenPhish](https://openphish.com/) and [IPThreat](https://ipthreat.net/). Blocklist is updated twice a day.
 
 | Client | mirror 1 | mirror 2 | mirror 3 | mirror 4 | mirror 5 | mirror 6 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -233,9 +233,9 @@ _Popular_ websites are as listed in the [Umbrella Popularity List](https://s3-us
 
 If you wish to exclude certain website(s) that you believe is sufficiently well-known, please create an [issue](https://gitlab.com/malware-filter/phishing-filter/issues) or [merge request](https://gitlab.com/malware-filter/phishing-filter/merge_requests).
 
-This blocklist **only** accepts new phishing URLs from [OpenPhish](https://openphish.com/) and [mitchellkrogza/Phishing.Database](https://github.com/mitchellkrogza/Phishing.Database).
+This blocklist **only** accepts new phishing URLs from [OpenPhish](https://openphish.com/) and [IPThreat](https://ipthreat.net/).
 
-Please report new phishing URL to [OpenPhish](https://openphish.com/faq.html) or [mitchellkrogza/Phishing.Database](https://github.com/mitchellkrogza/Phishing.Database/issues).
+Please report new phishing URL to [OpenPhish](https://openphish.com/faq.html) or [IPThreat](https://ipthreat.net/tools/reportphishing).
 
 ## See also
 
