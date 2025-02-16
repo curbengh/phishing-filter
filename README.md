@@ -29,11 +29,10 @@ A blocklist of phishing websites, curated from [OpenPhish](https://openphish.com
 
 | Client | mirror 1 | mirror 2 | mirror 3 | mirror 4 | mirror 5 | mirror 6 |
 | --- | --- | --- | --- | --- | --- | --- |
-| uBlock Origin, [IP-based](#ip-based) | [link](https://malware-filter.gitlab.io/malware-filter/phishing-filter.txt) | [link](https://curbengh.github.io/malware-filter/phishing-filter.txt) | [link](https://curbengh.github.io/phishing-filter/phishing-filter.txt) | [link](https://malware-filter.gitlab.io/phishing-filter/phishing-filter.txt) | [link](https://malware-filter.pages.dev/phishing-filter.txt) | [link](https://phishing-filter.pages.dev/phishing-filter.txt) |
-| [Pi-hole](#domain-based) | [link](https://malware-filter.gitlab.io/malware-filter/phishing-filter-domains.txt) | [link](https://curbengh.github.io/malware-filter/phishing-filter-domains.txt) | [link](https://curbengh.github.io/phishing-filter/phishing-filter-domains.txt) | [link](https://malware-filter.gitlab.io/phishing-filter/phishing-filter-domains.txt) | [link](https://malware-filter.pages.dev/phishing-filter-domains.txt) | [link](https://phishing-filter.pages.dev/phishing-filter-domains.txt) |
-| [AdGuard Home](#domain-based-adguard-home) | [link](https://malware-filter.gitlab.io/malware-filter/phishing-filter-agh.txt) | [link](https://curbengh.github.io/malware-filter/phishing-filter-agh.txt) | [link](https://curbengh.github.io/phishing-filter/phishing-filter-agh.txt) | [link](https://malware-filter.gitlab.io/phishing-filter/phishing-filter-agh.txt) | [link](https://malware-filter.pages.dev/phishing-filter-agh.txt) | [link](https://phishing-filter.pages.dev/phishing-filter-agh.txt) |
-| [AdGuard (browser extension)](#ip-based-adguard)  | [link](https://malware-filter.gitlab.io/malware-filter/phishing-filter-ag.txt) | [link](https://curbengh.github.io/malware-filter/phishing-filter-ag.txt) | [link](https://curbengh.github.io/phishing-filter/phishing-filter-ag.txt) | [link](https://malware-filter.gitlab.io/phishing-filter/phishing-filter-ag.txt) | [link](https://malware-filter.pages.dev/phishing-filter-ag.txt) | [link](https://phishing-filter.pages.dev/phishing-filter-ag.txt) |
-| [Vivaldi](#ip-based-vivaldi) | [link](https://malware-filter.gitlab.io/malware-filter/phishing-filter-vivaldi.txt) | [link](https://curbengh.github.io/malware-filter/phishing-filter-vivaldi.txt) | [link](https://curbengh.github.io/phishing-filter/phishing-filter-vivaldi.txt) | [link](https://malware-filter.gitlab.io/phishing-filter/phishing-filter-vivaldi.txt) | [link](https://malware-filter.pages.dev/phishing-filter-vivaldi.txt) | [link](https://phishing-filter.pages.dev/phishing-filter-vivaldi.txt) |
+| uBlock Origin, [URL-based](#url-based) | [link](https://malware-filter.gitlab.io/malware-filter/phishing-filter.txt) | [link](https://curbengh.github.io/malware-filter/phishing-filter.txt) | [link](https://curbengh.github.io/phishing-filter/phishing-filter.txt) | [link](https://malware-filter.gitlab.io/phishing-filter/phishing-filter.txt) | [link](https://malware-filter.pages.dev/phishing-filter.txt) | [link](https://phishing-filter.pages.dev/phishing-filter.txt) |
+| [AdGuard Home/Pi-hole](#domain-based-adguard-home) | [link](https://malware-filter.gitlab.io/malware-filter/phishing-filter-agh.txt) | [link](https://curbengh.github.io/malware-filter/phishing-filter-agh.txt) | [link](https://curbengh.github.io/phishing-filter/phishing-filter-agh.txt) | [link](https://malware-filter.gitlab.io/phishing-filter/phishing-filter-agh.txt) | [link](https://malware-filter.pages.dev/phishing-filter-agh.txt) | [link](https://phishing-filter.pages.dev/phishing-filter-agh.txt) |
+| [AdGuard (browser extension)](#url-based-adguard)  | [link](https://malware-filter.gitlab.io/malware-filter/phishing-filter-ag.txt) | [link](https://curbengh.github.io/malware-filter/phishing-filter-ag.txt) | [link](https://curbengh.github.io/phishing-filter/phishing-filter-ag.txt) | [link](https://malware-filter.gitlab.io/phishing-filter/phishing-filter-ag.txt) | [link](https://malware-filter.pages.dev/phishing-filter-ag.txt) | [link](https://phishing-filter.pages.dev/phishing-filter-ag.txt) |
+| [Vivaldi/Brave](#url-based-vivaldi) | [link](https://malware-filter.gitlab.io/malware-filter/phishing-filter-vivaldi.txt) | [link](https://curbengh.github.io/malware-filter/phishing-filter-vivaldi.txt) | [link](https://curbengh.github.io/phishing-filter/phishing-filter-vivaldi.txt) | [link](https://malware-filter.gitlab.io/phishing-filter/phishing-filter-vivaldi.txt) | [link](https://malware-filter.pages.dev/phishing-filter-vivaldi.txt) | [link](https://phishing-filter.pages.dev/phishing-filter-vivaldi.txt) |
 | [Hosts](#hosts-based) | [link](https://malware-filter.gitlab.io/malware-filter/phishing-filter-hosts.txt) | [link](https://curbengh.github.io/malware-filter/phishing-filter-hosts.txt) | [link](https://curbengh.github.io/phishing-filter/phishing-filter-hosts.txt) | [link](https://malware-filter.gitlab.io/phishing-filter/phishing-filter-hosts.txt) | [link](https://malware-filter.pages.dev/phishing-filter-hosts.txt) | [link](https://phishing-filter.pages.dev/phishing-filter-hosts.txt) |
 | [Dnsmasq](#dnsmasq) | [link](https://malware-filter.gitlab.io/malware-filter/phishing-filter-dnsmasq.conf) | [link](https://curbengh.github.io/malware-filter/phishing-filter-dnsmasq.conf) | [link](https://curbengh.github.io/phishing-filter/phishing-filter-dnsmasq.conf) | [link](https://malware-filter.gitlab.io/phishing-filter/phishing-filter-dnsmasq.conf) | [link](https://malware-filter.pages.dev/phishing-filter-dnsmasq.conf) | [link](https://phishing-filter.pages.dev/phishing-filter-dnsmasq.conf) |
 | BIND [zone](#bind) | [link](https://malware-filter.gitlab.io/malware-filter/phishing-filter-bind.conf) | [link](https://curbengh.github.io/malware-filter/phishing-filter-bind.conf) | [link](https://curbengh.github.io/phishing-filter/phishing-filter-bind.conf) | [link](https://malware-filter.gitlab.io/phishing-filter/phishing-filter-bind.conf) | [link](https://malware-filter.pages.dev/phishing-filter-bind.conf) | [link](https://phishing-filter.pages.dev/phishing-filter-bind.conf) |
@@ -69,9 +68,9 @@ Import the link into AdGuard browser extension to subscribe
 
 ## URL-based (Vivaldi)
 
-_Requires Vivaldi Desktop/Android 3.3+, blocking level must be at least "Block Trackers"_
+For Vivaldi, blocking level must be at least "Block Trackers". Import the URL into Vivaldi's **Tracker Blocking Sources** to subscribe.
 
-Import the following link into Vivaldi's **Tracker Blocking Sources** to subscribe.
+For Brave, "Trackers & ads blocking" must be set to Aggressive. Import it under Shields > Content filtering > Add custom filter lists.
 
 ## Domain-based
 
@@ -83,7 +82,7 @@ This blocklist includes domains and IP addresses.
 
 ## Domain-based (AdGuard Home)
 
-This AdGuard Home-compatible blocklist includes domains and IP addresses.
+This AdGuard Home-compatible blocklist includes domains and IP addresses. Also compatible with Pi-hole.
 
 ## Hosts-based
 
