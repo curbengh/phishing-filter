@@ -358,6 +358,14 @@ else
   sed "1s/Domains/IPs/" > "../public/phishing-filter-dnscrypt-blocked-ips.txt"
 fi
 
+
+## Wildcard subdomain
+cat "phishing-notop-hosts.txt" | \
+sed "s/^/*./g" | \
+sed "1i $COMMENT" | \
+sed "1s/Domains/Wildcard Asterisk/" > "../public/phishing-filter-wildcard.txt"
+
+
 ## Temporarily disable command print
 set +x
 
