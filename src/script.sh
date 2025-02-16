@@ -321,7 +321,7 @@ sed "1s/Blocklist/BIND Blocklist/" > "../public/phishing-filter-bind.conf"
 
 ## DNS Response Policy Zone (RPZ)
 CURRENT_UNIX_TIME="$(date +%s)"
-RPZ_SYNTAX="\n\$TTL 30\n@ IN SOA rpz.curben.gitlab.io. hostmaster.rpz.curben.gitlab.io. $CURRENT_UNIX_TIME 86400 3600 604800 30\n NS localhost.\n"
+RPZ_SYNTAX="\n\$TTL 30\n@ IN SOA localhost. root.localhost. $CURRENT_UNIX_TIME 86400 3600 604800 30\n NS localhost.\n"
 
 cat "phishing-notop-hosts.txt" | \
 sed "s/$/ CNAME ./g" | \
