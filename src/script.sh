@@ -72,7 +72,7 @@ cd "tmp/"
 curl "https://openphish.com/feed.txt" -o "openphish-raw.txt"
 curl "https://lists.ipthreat.net/file/ipthreat-lists/phishing/phishing-threat-0.txt.gz" -o "ipthreat.gz"
 curl "https://s3-us-west-1.amazonaws.com/umbrella-static/top-1m.csv.zip" -o "top-1m-umbrella.zip"
-curl "https://tranco-list.eu/top-1m.csv.zip" -o "top-1m-tranco.zip"
+curl "https://tranco-list.eu/download/daily/top-1m.csv.zip" -o "top-1m-tranco.zip"
 
 ## Cloudflare Radar
 if [ -n "$CF_API" ]; then
