@@ -12,7 +12,7 @@ if [ -n "$BASH_VERSION" ]; then
   shopt -s expand_aliases
 fi
 
-alias curl="curl -iL"
+alias curl="curl -L -D -"
 alias rm="rm -rf"
 
 ## Use GNU grep, busybox grep is not as performant
