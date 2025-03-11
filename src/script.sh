@@ -133,6 +133,8 @@ cut -f 1 -d "/" | \
 cut -f 1 -d ":" | \
 # #2
 cut -f 1 -d "?" | \
+# #91
+sed -r "s/.*@(.+)/\1/g" | \
 sort -u > "phishing-domains.txt"
 
 
