@@ -182,7 +182,23 @@ sort -u > "ipthreat.txt"
 
 ## Combine all sources
 cat "openphish.txt" "ipthreat.txt" "phishtank.txt" | \
-sort -u > "phishing.txt"
+sort -u > "phishing-temp.txt"
+
+## Parse O365 safelink
+safelinks="$(cat 'phishing-temp.txt' | grep -F 'safelinks.protection.outlook.com' || [ $? = 1 ])"
+if [ -n "$safelinks" ]; then
+  echo "$safelinks" > "safelinks.txt"
+
+  cat "phishing-temp.txt" | \
+  grep -Fx -vf "safelinks.txt" > "phishing.txt"
+
+  cat "safelinks.txt" | \
+  node "../src/safelinks.js" | \
+  sed -r "s/(^[^\/]*)\/+$/\1/g" | \
+  sort -u >> "phishing.txt"
+else
+  cp "phishing-temp.txt" "phishing.txt"
+fi
 
 ## Parse domain and IP address only
 cat "phishing.txt" | \
@@ -245,58 +261,20 @@ grep -Fx -f "top-1m-well-known.txt" > "phishing-top-domains.txt"
 
 ## Exclude popular domains
 cat "phishing-domains.txt" | \
-grep -F -vf "phishing-top-domains.txt" > "phishing-notop-domains-temp.txt"
+grep -F -vf "phishing-top-domains.txt" > "phishing-notop-domains.txt"
 
 cat "phishing.txt" | \
-grep -F -f "phishing-top-domains.txt" > "phishing-url-top-domains-temp.txt"
+grep -F -f "phishing-top-domains.txt" | \
+# exclude URL of top domains without path #43
+grep -Fx -vf "phishing-top-domains.txt" > "phishing-url-top-domains-temp.txt"
 
-rm "phishing-url-top-domains.txt" "phishing-url-top-domains-raw.txt"
+cat "phishing-url-top-domains-temp.txt" | \
+# url with path
+grep -F "/" > "phishing-url-top-domains-raw.txt"
 
-## Temporarily disable command print
-set +x
-
-while read URL; do
-  DOMAIN=$(echo "$URL" | cut -d"/" -f1)
-  PATHNAME=$(echo "$URL" | sed "s/^$DOMAIN//")
-
-  # Separate domain-only/no-path URL (e.g. "example.com/")
-  if [ -z "$PATHNAME" ] || [ "$PATHNAME" = "/" ]; then
-    echo "$DOMAIN" | \
-    # Remove port
-    cut -f 1 -d ":" >> "phishing-subdomains.txt"
-    # "phishing-subdomains.txt" may be empty if the data source is clean
-  # Parse hostname from O365 safelink
-  elif test "${URL#*safelinks.protection.outlook.com}" != "$URL"; then
-    SAFELINK=$(node "../src/safelinks.js" "$URL")
-    if grep -Fq "$SAFELINK" "top-1m-well-known.txt"; then
-      echo "$SAFELINK" >> "phishing-url-top-domains-temp.txt"
-    else
-      echo "$SAFELINK" | \
-      cut -d"/" -f1 >> "phishing-notop-domains-temp.txt"
-    fi
-  # Parse phishing URLs from popular domains
-  else
-    echo "$URL" | \
-    sed -e "s/^/||/g" -e "s/$/\$all/g" >> "phishing-url-top-domains.txt"
-    echo "$URL" >> "phishing-url-top-domains-raw.txt"
-  fi
-done < "phishing-url-top-domains-temp.txt"
-
-## Re-enable command print
-set -x
-
-## "phishing-subdomains.txt" is derived from URLs of top domains that does not have a path
-# exclude from top (sub)domains
-if [ -s "phishing-subdomains.txt" ]; then
-  excluded_subdomains=$(cat "phishing-subdomains.txt" | grep -Fx -vf "phishing-top-domains.txt" || [ $? = 1 ])
-
-  if [ "$excluded_subdomains" != "" ] && [ -n "$excluded_subdomains" ]; then
-    echo "$excluded_subdomains" >> "phishing-notop-domains-temp.txt"
-  fi
-fi
-
-## "phishing-subdomains.txt" & "phishing-url-top-domains-temp.txt" may add duplicate entries
-sort -u "phishing-notop-domains-temp.txt" > "phishing-notop-domains.txt"
+cat "phishing-url-top-domains-temp.txt" | \
+# url without path
+grep -F -v "/" >> "phishing-notop-domains.txt"
 
 
 ## Merge malware domains and URLs
@@ -310,6 +288,10 @@ SIXTH_LINE="! Sources: openphish.com, ipthreat.net, phishtank.org"
 COMMENT_UBO="$FIRST_LINE\n$SECOND_LINE\n$THIRD_LINE\n$FOURTH_LINE\n$FIFTH_LINE\n$SIXTH_LINE"
 
 mkdir -p "../public/"
+
+cat "phishing-url-top-domains-raw.txt" | \
+sed "s/^/||/g" | \
+sed "s/$/\$all/g" > "phishing-url-top-domains.txt"
 
 cat "phishing-notop-domains.txt" "phishing-url-top-domains.txt" | \
 sort | \
