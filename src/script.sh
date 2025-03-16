@@ -148,7 +148,10 @@ if [ -n "$(file 'phishtank.bz2' | grep 'bzip2 compressed data')" ]; then
   grep -F "." | \
   sed "s/^www\.//g" | \
   # url encode space #11
-  sed "s/ /%20/g" > "phishtank.txt"
+  sed "s/ /%20/g" | \
+  # remove trailing slash from domain except path #43
+  sed -r "s/(^[^\/]*)\/+$/\1/g" | \
+  sort -u > "phishtank.txt"
 else
   # cloudflare may impose captcha
   echo "phishtank.bz2 is not a bzip2, skipping it..."
@@ -161,7 +164,9 @@ tr "[:upper:]" "[:lower:]" | \
 cut -f 3- -d "/" | \
 grep -F "." | \
 sed "s/^www\.//g" | \
-sed "s/ /%20/g" > "openphish.txt"
+sed "s/ /%20/g" | \
+sed -r "s/(^[^\/]*)\/+$/\1/g" | \
+sort -u > "openphish.txt"
 
 gzip -dc "ipthreat.gz" | \
 # remove comment
@@ -171,7 +176,9 @@ tr "[:upper:]" "[:lower:]" | \
 cut -f 3- -d "/" | \
 grep -F "." | \
 sed "s/^www\.//g" | \
-sed "s/ /%20/g" > "ipthreat.txt"
+sed "s/ /%20/g" | \
+sed -r "s/(^[^\/]*)\/+$/\1/g" | \
+sort -u > "ipthreat.txt"
 
 ## Combine all sources
 cat "openphish.txt" "ipthreat.txt" "phishtank.txt" | \
