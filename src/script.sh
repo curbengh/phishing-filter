@@ -103,7 +103,6 @@ curl "https://lists.ipthreat.net/file/ipthreat-lists/phishing/phishing-threat-0.
 curl "https://s3-us-west-1.amazonaws.com/umbrella-static/top-1m.csv.zip" -o "top-1m-umbrella.zip"
 curl "https://tranco-list.eu/download/daily/top-1m.csv.zip" -o "top-1m-tranco.zip"
 
-bunzip2 -kc "phishtank.bz2" > "phishtank.csv"
 
 ## Cloudflare Radar
 if [ -n "$CF_API" ]; then
@@ -134,19 +133,27 @@ fi
 
 
 ## Parse URLs
-cat "phishtank.csv" | \
-tr "[:upper:]" "[:lower:]" | \
-## Workaround for column with double quotes
-"./$CSVQUOTE" | \
-cut -f 2 -d "," | \
-"./$CSVQUOTE" -u | \
-sed 's/"//g' | \
-cut -f 3- -d "/" | \
-# Domain must have at least a 'dot'
-grep -F "." | \
-sed "s/^www\.//g" | \
-# url encode space #11
-sed "s/ /%20/g" > "phishtank.txt"
+if [ -n "$(file 'phishtank.bz2' | grep 'bzip2 compressed data')" ]; then
+  bunzip2 -kc "phishtank.bz2" > "phishtank.csv"
+
+  cat "phishtank.csv" | \
+  tr "[:upper:]" "[:lower:]" | \
+  ## Workaround for column with double quotes
+  "./$CSVQUOTE" | \
+  cut -f 2 -d "," | \
+  "./$CSVQUOTE" -u | \
+  sed 's/"//g' | \
+  cut -f 3- -d "/" | \
+  # Domain must have at least a 'dot'
+  grep -F "." | \
+  sed "s/^www\.//g" | \
+  # url encode space #11
+  sed "s/ /%20/g" > "phishtank.txt"
+else
+  # cloudflare may impose captcha
+  echo "phishtank.bz2 is not a bzip2, skipping it..."
+  touch "phishtank.txt"
+fi
 
 cat "openphish-raw.txt" | \
 dos2unix | \
@@ -167,7 +174,7 @@ sed "s/^www\.//g" | \
 sed "s/ /%20/g" > "ipthreat.txt"
 
 ## Combine all sources
-cat "openphish.txt" "ipthreat.txt" "phishtank" | \
+cat "openphish.txt" "ipthreat.txt" "phishtank.txt" | \
 sort -u > "phishing.txt"
 
 ## Parse domain and IP address only
@@ -206,7 +213,7 @@ if [ -n "$(file 'top-1m-tranco.zip' | grep 'Zip archive data')" ]; then
   sed "s/^www\.//g" | \
   sort -u > "top-1m-tranco.txt"
 else
-  # tranco has unreliable download
+  # cloudflare may impose captcha
   echo "top-1m-tranco.zip is not a zip, skipping it..."
   touch "top-1m-tranco.txt"
 fi
