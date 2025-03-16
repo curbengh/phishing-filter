@@ -39,6 +39,20 @@ check_grep() {
 }
 check_grep
 
+
+## Detect Musl C library
+LIBC="$(ldd /bin/ls | grep 'musl' || [ $? = 1 ])"
+if [ -z "$LIBC" ]; then
+  rm "/tmp/musl.log"
+  # Not Musl
+  CSVQUOTE="../utils/csvquote-bin-glibc"
+else
+  # Musl
+  CSVQUOTE="../utils/csvquote-bin-musl"
+fi
+
+
+## Fallback to busybox's dos2unix if installed
 if ! command -v dos2unix &> /dev/null
 then
   if command -v busybox &> /dev/null
@@ -68,11 +82,28 @@ fi
 mkdir -p "tmp/"
 cd "tmp/"
 
+USER_AGENT="phishtank/malware-filter"
+if [ -n "$GITLAB_USER_LOGIN" ]; then
+  USER_AGENT="phishtank/$GITLAB_USER_LOGIN"
+elif [ -n "$GITHUB_REPOSITORY_OWNER" ]; then
+  USER_AGENT="phishtank/$GITHUB_REPOSITORY_OWNER"
+fi
+
 ## Prepare datasets
+if [ -n "$PHISHTANK_API" ]; then
+  curl --user-agent "$USER_AGENT" \
+  "https://data.phishtank.com/data/$PHISHTANK_API/online-valid.csv.bz2" -o "phishtank.bz2"
+else
+  curl --user-agent "$USER_AGENT" \
+  "https://data.phishtank.com/data/online-valid.csv.bz2" -o "phishtank.bz2"
+fi
+
 curl "https://openphish.com/feed.txt" -o "openphish-raw.txt"
 curl "https://lists.ipthreat.net/file/ipthreat-lists/phishing/phishing-threat-0.txt.gz" -o "ipthreat.gz"
 curl "https://s3-us-west-1.amazonaws.com/umbrella-static/top-1m.csv.zip" -o "top-1m-umbrella.zip"
 curl "https://tranco-list.eu/download/daily/top-1m.csv.zip" -o "top-1m-tranco.zip"
+
+bunzip2 -kc "phishtank.bz2" > "phishtank.csv"
 
 ## Cloudflare Radar
 if [ -n "$CF_API" ]; then
@@ -103,14 +134,26 @@ fi
 
 
 ## Parse URLs
-cat "openphish-raw.txt" | \
-dos2unix | \
+cat "phishtank.csv" | \
 tr "[:upper:]" "[:lower:]" | \
+## Workaround for column with double quotes
+"./$CSVQUOTE" | \
+cut -f 2 -d "," | \
+"./$CSVQUOTE" -u | \
+sed 's/"//g' | \
 cut -f 3- -d "/" | \
 # Domain must have at least a 'dot'
 grep -F "." | \
 sed "s/^www\.//g" | \
 # url encode space #11
+sed "s/ /%20/g" > "phishtank.txt"
+
+cat "openphish-raw.txt" | \
+dos2unix | \
+tr "[:upper:]" "[:lower:]" | \
+cut -f 3- -d "/" | \
+grep -F "." | \
+sed "s/^www\.//g" | \
 sed "s/ /%20/g" > "openphish.txt"
 
 gzip -dc "ipthreat.gz" | \
@@ -124,7 +167,7 @@ sed "s/^www\.//g" | \
 sed "s/ /%20/g" > "ipthreat.txt"
 
 ## Combine all sources
-cat "openphish.txt" "ipthreat.txt" | \
+cat "openphish.txt" "ipthreat.txt" "phishtank" | \
 sort -u > "phishing.txt"
 
 ## Parse domain and IP address only
@@ -249,7 +292,7 @@ SECOND_LINE="! Updated: $CURRENT_TIME"
 THIRD_LINE="! Expires: 1 day (update frequency)"
 FOURTH_LINE="! Homepage: https://gitlab.com/malware-filter/phishing-filter"
 FIFTH_LINE="! License: https://gitlab.com/malware-filter/phishing-filter#license"
-SIXTH_LINE="! Sources: openphish.com, ipthreat.net"
+SIXTH_LINE="! Sources: openphish.com, ipthreat.net, phishtank.org"
 COMMENT_UBO="$FIRST_LINE\n$SECOND_LINE\n$THIRD_LINE\n$FOURTH_LINE\n$FIFTH_LINE\n$SIXTH_LINE"
 
 mkdir -p "../public/"
@@ -452,7 +495,7 @@ sed "2s/Domains Blocklist/Hosts Blocklist (IE)/" > "../public/phishing-filter.tp
 
 
 ## Clean up artifacts
-rm "top-1m-umbrella.zip" "top-1m-umbrella.txt" "top-1m-tranco.txt" "openphish-raw.txt" "cf/" "top-1m-radar.txt"
+rm "phishtank.csv" "top-1m-umbrella.zip" "top-1m-umbrella.txt" "top-1m-tranco.txt" "openphish-raw.txt" "cf/" "top-1m-radar.txt"
 
 
 cd ../
