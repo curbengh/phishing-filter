@@ -25,7 +25,7 @@
 - [CI Variables](#ci-variables)
 - [License](#license)
 
-A blocklist of phishing websites, curated from [OpenPhish](https://openphish.com/) and [IPThreat](https://ipthreat.net/). Blocklist is updated twice a day.
+A blocklist of phishing websites, curated from [OpenPhish](https://openphish.com/), [IPThreat](https://ipthreat.net/) and [PhishTank](https://phishtank.org/). Blocklist is updated twice a day.
 
 | Client | mirror 1 | mirror 2 | mirror 3 | mirror 4 | mirror 5 | mirror 6 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -234,7 +234,7 @@ If you wish to exclude certain website(s) that you believe is sufficiently well-
 
 This blocklist **only** accepts new phishing URLs from [OpenPhish](https://openphish.com/) and [IPThreat](https://ipthreat.net/).
 
-Please report new phishing URL to [OpenPhish](https://openphish.com/faq.html) or [IPThreat](https://ipthreat.net/tools/reportphishing).
+Please report new phishing URL to [OpenPhish](https://openphish.com/faq.html), [IPThreat](https://ipthreat.net/tools/reportphishing) or [PhishTank](https://phishtank.org/add_web_phish.php).
 
 ## See also
 
@@ -248,6 +248,7 @@ See [wiki](https://gitlab.com/malware-filter/malware-filter/-/wikis/home)
 
 Optional variables:
 
+- `PHISHTANK_API`: Recommended if you intend to run [script.sh](src/script.sh) >5 times daily. Register an account at [phishtank.org](https://phishtank.org/developer_info.php) to generate an application key
 - `CLOUDFLARE_BUILD_HOOK`: Deploy to Cloudflare Pages.
 - `NETLIFY_SITE_ID`: Deploy to Netlify.
 - `CF_API`: Include Cloudflare Radar [domains ranking](https://developers.cloudflare.com/radar/investigate/domain-ranking-datasets/). [Guide](https://developers.cloudflare.com/radar/get-started/first-request/) to create an API token.
@@ -266,6 +267,8 @@ filters: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
 [IPThreat](https://ipthreat.net): CC BY-SA 4.0
 
+[PhishTank](https://phishtank.org/): Available [free of charge](https://phishtank.org/faq.php#isitoktousetheapifor) by PhishTank
+
 [Tranco List](https://tranco-list.eu/): [MIT License](https://choosealicense.com/licenses/mit/)
 
 [Umbrella Popularity List](https://s3-us-west-1.amazonaws.com/umbrella-static/index.html): Available free of charge by Cisco Umbrella
@@ -274,4 +277,4 @@ filters: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
 [Cloudflare Radar](https://developers.cloudflare.com/radar/investigate/domain-ranking-datasets/): Available to free Cloudflare account
 
-This repository is not endorsed by OpenPhish.
+This repository is not endorsed by any of the upstream sources.
