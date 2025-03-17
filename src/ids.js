@@ -36,9 +36,9 @@ for await (const line of urls.readLines()) {
   const url = new URL(`http://${line}`)
   const { hostname } = url
   let pathname = url.pathname.replace(';', '\\;')
-  snort2.write(`alert tcp $HOME_NET any -> $EXTERNAL_NET [80,443] (msg:"phishing-filter phishing website detected"; flow:established,from_client; content:"GET"; http_method; content:"${pathname.substring(0, 2048)}"; http_uri; nocase; content:"${hostname}"; content:"Host"; http_header; classtype:attempted-recon; sid:$SID; rev:1;)\n`)
-  snort3.write(`alert http $HOME_NET any -> $EXTERNAL_NET any (msg:"phishing-filter phishing website detected"; http_header:field host; content:"${hostname}",nocase; http_uri; content:"${pathname}",nocase; classtype:attempted-recon; sid:$SID; rev:1;)\n`)
-  suricata.write(`alert http $HOME_NET any -> $EXTERNAL_NET any (msg:"phishing-filter phishing website detected"; flow:established,from_client; http.method; content:"GET"; http.uri; content:"${pathname}"; endswith; nocase; http.host; content:"${hostname}"; classtype:attempted-recon; sid:$SID; rev:1;)\n`)
+  snort2.write(`alert tcp $HOME_NET any -> $EXTERNAL_NET [80,443] (msg:"phishing-filter phishing website detected"; flow:established,from_client; content:"GET"; http_method; content:"${pathname.substring(0, 2048)}"; http_uri; nocase; content:"${hostname}"; content:"Host"; http_header; classtype:attempted-recon; sid:${sid}; rev:1;)\n`)
+  snort3.write(`alert http $HOME_NET any -> $EXTERNAL_NET any (msg:"phishing-filter phishing website detected"; http_header:field host; content:"${hostname}",nocase; http_uri; content:"${pathname}",nocase; classtype:attempted-recon; sid:${sid}; rev:1;)\n`)
+  suricata.write(`alert http $HOME_NET any -> $EXTERNAL_NET any (msg:"phishing-filter phishing website detected"; flow:established,from_client; http.method; content:"GET"; http.uri; content:"${pathname}"; endswith; nocase; http.host; content:"${hostname}"; classtype:attempted-recon; sid:${sid}; rev:1;)\n`)
   pathname = url.pathname
   splunk.write(`"${hostname}","${pathname}","phishing-filter phishing website detected","${process.env.CURRENT_TIME}"\n`)
 
