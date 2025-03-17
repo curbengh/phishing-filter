@@ -414,59 +414,14 @@ sed "1i $COMMENT" | \
 sed "1s/Domains/Wildcard Asterisk/" > "../public/phishing-filter-wildcard.txt"
 
 
-## Temporarily disable command print
-set +x
-
 ## Snort & Suricata rulesets
 rm "../public/phishing-filter-snort2.rules" \
   "../public/phishing-filter-snort3.rules" \
   "../public/phishing-filter-suricata.rules" \
   "../public/phishing-filter-splunk.csv"
 
-SID="200000001"
-while read DOMAIN; do
-  SN_RULE="alert tcp \$HOME_NET any -> \$EXTERNAL_NET [80,443] (msg:\"phishing-filter phishing website detected\"; flow:established,from_client; content:\"GET\"; http_method; content:\"$DOMAIN\"; content:\"Host\"; http_header; classtype:attempted-recon; sid:$SID; rev:1;)"
-
-  SN3_RULE="alert http \$HOME_NET any -> \$EXTERNAL_NET any (msg:\"phishing-filter phishing website detected\"; http_header:field host; content:\"$DOMAIN\",nocase; classtype:attempted-recon; sid:$SID; rev:1;)"
-
-  SR_RULE="alert http \$HOME_NET any -> \$EXTERNAL_NET any (msg:\"phishing-filter phishing website detected\"; flow:established,from_client; http.method; content:\"GET\"; http.host; content:\"$DOMAIN\"; classtype:attempted-recon; sid:$SID; rev:1;)"
-
-  SP_RULE="\"$DOMAIN\",\"\",\"phishing-filter phishing website detected\",\"$CURRENT_TIME\""
-
-  echo "$SN_RULE" >> "../public/phishing-filter-snort2.rules"
-  echo "$SN3_RULE" >> "../public/phishing-filter-snort3.rules"
-  echo "$SR_RULE" >> "../public/phishing-filter-suricata.rules"
-  echo "$SP_RULE" >> "../public/phishing-filter-splunk.csv"
-
-  SID=$(( $SID + 1 ))
-done < "phishing-notop-domains.txt"
-
-while read URL; do
-  DOMAIN=$(echo "$URL" | cut -d"/" -f1)
-  # escape ";"
-  PATHNAME=$(echo "$URL" | sed -e "s/^$DOMAIN//" -e "s/;/\\\;/g")
-
-  # Snort2 only supports <=2047 characters of `content`
-  SN_RULE="alert tcp \$HOME_NET any -> \$EXTERNAL_NET [80,443] (msg:\"phishing-filter phishing website detected\"; flow:established,from_client; content:\"GET\"; http_method; content:\"$(echo $PATHNAME | cut -c -2047)\"; http_uri; nocase; content:\"$DOMAIN\"; content:\"Host\"; http_header; classtype:attempted-recon; sid:$SID; rev:1;)"
-
-  SN3_RULE="alert http \$HOME_NET any -> \$EXTERNAL_NET any (msg:\"phishing-filter phishing website detected\"; http_header:field host; content:\"$DOMAIN\",nocase; http_uri; content:\"$PATHNAME\",nocase; classtype:attempted-recon; sid:$SID; rev:1;)"
-
-  SR_RULE="alert http \$HOME_NET any -> \$EXTERNAL_NET any (msg:\"phishing-filter phishing website detected\"; flow:established,from_client; http.method; content:\"GET\"; http.uri; content:\"$PATHNAME\"; endswith; nocase; http.host; content:\"$DOMAIN\"; classtype:attempted-recon; sid:$SID; rev:1;)"
-
-  PATHNAME=$(echo "$URL" | sed "s/^$DOMAIN//")
-
-  SP_RULE="\"$DOMAIN\",\"$PATHNAME\",\"phishing-filter phishing website detected\",\"$CURRENT_TIME\""
-
-  echo "$SN_RULE" >> "../public/phishing-filter-snort2.rules"
-  echo "$SN3_RULE" >> "../public/phishing-filter-snort3.rules"
-  echo "$SR_RULE" >> "../public/phishing-filter-suricata.rules"
-  echo "$SP_RULE" >> "../public/phishing-filter-splunk.csv"
-
-  SID=$(( $SID + 1 ))
-done < "phishing-url-top-domains-raw.txt"
-
-## Re-enable command print
-set -x
+export CURRENT_TIME
+node "../src/ids.js"
 
 sed -i "1i $COMMENT" "../public/phishing-filter-snort2.rules"
 sed -i "1s/Domains Blocklist/URL Snort2 Ruleset/" "../public/phishing-filter-snort2.rules"
