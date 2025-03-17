@@ -185,7 +185,7 @@ cat "openphish.txt" "ipthreat.txt" "phishtank.txt" | \
 sort -u > "phishing-temp.txt"
 
 ## Parse O365 safelink
-safelinks="$(cat 'phishing-temp.txt' | grep -F 'safelinks.protection.outlook.com' || [ $? = 1 ])"
+safelinks="$(cat 'phishing-temp.txt' | grep -P '^(?:[a-z]{3}\d{2}\.)?safelinks\.protection\.outlook\.com' || [ $? = 1 ])"
 if [ -n "$safelinks" ]; then
   echo "$safelinks" > "safelinks.txt"
 
