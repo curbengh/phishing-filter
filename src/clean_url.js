@@ -1,6 +1,6 @@
 import { createInterface } from 'node:readline'
 
-for await (const line of createInterface({ input: process.stdin })) {
+for await (const line of createInterface({ input: process.stdin, terminal: false })) {
   // parse hostname from url
   if (process.argv[2] === 'hostname') {
     if (URL.canParse(`http://${line}`)) {
