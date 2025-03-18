@@ -1,4 +1,4 @@
-import { createInterface } from "node:readline"
+import { createInterface } from 'node:readline'
 
 for await (const line of createInterface({ input: process.stdin })) {
   // parse hostname from url
@@ -7,17 +7,16 @@ for await (const line of createInterface({ input: process.stdin })) {
       const { hostname } = new URL(`http://${line}`)
 
       console.log(hostname)
-    }
-    else {
+    } else {
       const hostname = line
-      // host
-      .split('/')[0]
-      // exclude credential
-      .replace(/.*@(.+)/, '$1')
-      // exclude port
-      .replace(/:\d+$/, '')
-      // #2
-      .split('?')[0]
+        // host
+        .split('/')[0]
+        // exclude credential
+        .replace(/.*@(.+)/, '$1')
+        // exclude port
+        .replace(/:\d+$/, '')
+        // #2
+        .split('?')[0]
 
       console.log(hostname)
     }
@@ -32,20 +31,19 @@ for await (const line of createInterface({ input: process.stdin })) {
       }
 
       const outUrl = `${url.host.replace(/^www\./, '')}${url.pathname}${url.search}`
-      // remove trailing slash from domain except path #43
-      .replace(/(^[^\/]*)\/+$/, '$1')
+        // remove trailing slash from domain except path #43
+        .replace(/(^[^/]*)\/+$/, '$1')
 
       console.log(outUrl)
-    }
-    else {
+    } else {
       const outUrl = line
-      // remove protocol
-      .split('/').slice(2).join('/')
-      // remove www
-      .replace(/^www\./, '')
-      // url encode space #11
-      .replace(' ', '%20')
-      .replace(/(^[^\/]*)\/+$/, '$1')
+        // remove protocol
+        .split('/').slice(2).join('/')
+        // remove www
+        .replace(/^www\./, '')
+        // url encode space #11
+        .replace(' ', '%20')
+        .replace(/(^[^/]*)\/+$/, '$1')
 
       console.log(outUrl)
     }
