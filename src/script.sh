@@ -230,8 +230,13 @@ grep -Fx -f "top-1m-well-known.txt" > "phishing-top-domains.txt"
 cat "phishing-domains.txt" | \
 grep -F -vf "phishing-top-domains.txt" > "phishing-notop-domains.txt"
 
+cat "phishing-top-domains.txt" | \
+# "example.com" -> "^example\.com"
+sed -e "s/^/^/g" -e "s/\./\\\./g" > "phishing-top-domains-grep.txt"
+
 cat "phishing.txt" | \
-grep -F -f "phishing-top-domains.txt" | \
+# exact match hostname
+grep -f "phishing-top-domains-grep.txt" | \
 # exclude URL of top domains without path #43
 grep -Fx -vf "phishing-top-domains.txt" > "phishing-url-top-domains-temp.txt"
 
