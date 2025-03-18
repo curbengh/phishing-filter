@@ -143,14 +143,7 @@ if [ -n "$(file 'phishtank.bz2' | grep 'bzip2 compressed data')" ]; then
   cut -f 2 -d "," | \
   "./$CSVQUOTE" -u | \
   sed 's/"//g' | \
-  cut -f 3- -d "/" | \
-  # Domain must have at least a 'dot'
-  grep -F "." | \
-  sed "s/^www\.//g" | \
-  # url encode space #11
-  sed "s/ /%20/g" | \
-  # remove trailing slash from domain except path #43
-  sed -r "s/(^[^\/]*)\/+$/\1/g" | \
+  node "../src/clean_url.js" | \
   sort -u > "phishtank.txt"
 else
   # cloudflare may impose captcha
@@ -161,11 +154,7 @@ fi
 cat "openphish-raw.txt" | \
 dos2unix | \
 tr "[:upper:]" "[:lower:]" | \
-cut -f 3- -d "/" | \
-grep -F "." | \
-sed "s/^www\.//g" | \
-sed "s/ /%20/g" | \
-sed -r "s/(^[^\/]*)\/+$/\1/g" | \
+node "../src/clean_url.js" | \
 sort -u > "openphish.txt"
 
 gzip -dc "ipthreat.gz" | \
@@ -173,41 +162,19 @@ gzip -dc "ipthreat.gz" | \
 sed "/^#/d" | \
 sed "s/ # .*//g" | \
 tr "[:upper:]" "[:lower:]" | \
-cut -f 3- -d "/" | \
-grep -F "." | \
-sed "s/^www\.//g" | \
-sed "s/ /%20/g" | \
-sed -r "s/(^[^\/]*)\/+$/\1/g" | \
+node "../src/clean_url.js" | \
 sort -u > "ipthreat.txt"
 
 ## Combine all sources
 cat "openphish.txt" "ipthreat.txt" "phishtank.txt" | \
-sort -u > "phishing-temp.txt"
+# remove blank lines
+sed "/^$/d" | \
+sort -u > "phishing.txt"
 
-## Parse O365 safelink
-safelinks="$(cat 'phishing-temp.txt' | grep -P '^(?:[a-z]{3}\d{2}\.)?safelinks\.protection\.outlook\.com' || [ $? = 1 ])"
-if [ -n "$safelinks" ]; then
-  echo "$safelinks" > "safelinks.txt"
-
-  cat "phishing-temp.txt" | \
-  grep -Fx -vf "safelinks.txt" > "phishing.txt"
-
-  cat "safelinks.txt" | \
-  node "../src/safelinks.js" | \
-  sed -r "s/(^[^\/]*)\/+$/\1/g" | \
-  sort -u >> "phishing.txt"
-else
-  cp "phishing-temp.txt" "phishing.txt"
-fi
 
 ## Parse domain and IP address only
 cat "phishing.txt" | \
-cut -f 1 -d "/" | \
-cut -f 1 -d ":" | \
-# #2
-cut -f 1 -d "?" | \
-# #91
-sed -r "s/.*@(.+)/\1/g" | \
+node "../src/clean_url.js" hostname | \
 sort -u > "phishing-domains.txt"
 
 
@@ -341,7 +308,10 @@ sort | \
 sed "1i $COMMENT" > "../public/phishing-filter-domains.txt"
 
 cat "phishing-notop-domains.txt" | \
-grep -vE "^([0-9]{1,3}[\.]){3}[0-9]{1,3}$" > "phishing-notop-hosts.txt"
+# exclude IPv4
+grep -vE "^([0-9]{1,3}[\.]){3}[0-9]{1,3}$" | \
+# exclude IPv6
+grep -vE "^\[" > "phishing-notop-hosts.txt"
 
 ## Hosts file blocklist
 cat "phishing-notop-hosts.txt" | \
@@ -393,11 +363,12 @@ cat "phishing-notop-hosts.txt" | \
 sed "1i $COMMENT" | \
 sed "1s/Domains/Names/" > "../public/phishing-filter-dnscrypt-blocked-names.txt"
 
-# IPv4-based
-if grep -Eq "^([0-9]{1,3}[\.]){3}[0-9]{1,3}$" "phishing-notop-domains.txt"; then
+# IPv4/6
+if grep -Eq "^(([0-9]{1,3}[\.]){3}[0-9]{1,3}$|\[)" "phishing-notop-domains.txt"; then
   cat "phishing-notop-domains.txt" | \
   sort | \
-  grep -E "^([0-9]{1,3}[\.]){3}[0-9]{1,3}$" | \
+  grep -E "^(([0-9]{1,3}[\.]){3}[0-9]{1,3}$|\[)" | \
+  sed -r "s/\[|\]//g" | \
   sed "1i $COMMENT" | \
   sed "1s/Domains/IPs/" > "../public/phishing-filter-dnscrypt-blocked-ips.txt"
 else
