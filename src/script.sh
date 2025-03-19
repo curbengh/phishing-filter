@@ -127,7 +127,7 @@ if [ -n "$CF_API" ]; then
   dos2unix | \
   tr "[:upper:]" "[:lower:]" | \
   grep -F "." | \
-  sed "s/^www\.//g" | \
+  sed "s/^www\.//" | \
   sort -u > "top-1m-radar.txt"
 fi
 
@@ -160,7 +160,7 @@ sort -u > "openphish.txt"
 gzip -dc "ipthreat.gz" | \
 # remove comment
 sed "/^#/d" | \
-sed "s/ # .*//g" | \
+sed "s/ # .*//" | \
 tr "[:upper:]" "[:lower:]" | \
 node "../src/clean_url.js" | \
 sort -u > "ipthreat.txt"
@@ -188,7 +188,7 @@ tr "[:upper:]" "[:lower:]" | \
 cut -f 2 -d "," | \
 grep -F "." | \
 # Remove www.
-sed "s/^www\.//g" | \
+sed "s/^www\.//" | \
 sort -u > "top-1m-umbrella.txt"
 
 ## Parse the Tranco 1 Million
@@ -200,7 +200,7 @@ if [ -n "$(file 'top-1m-tranco.zip' | grep 'Zip archive data')" ]; then
   cut -f 2 -d "," | \
   grep -F "." | \
   # Remove www.
-  sed "s/^www\.//g" | \
+  sed "s/^www\.//" | \
   sort -u > "top-1m-tranco.txt"
 else
   # cloudflare may impose captcha
@@ -232,7 +232,7 @@ grep -F -vf "phishing-top-domains.txt" > "phishing-notop-domains.txt"
 
 cat "phishing-top-domains.txt" | \
 # "example.com" -> "^example\.com"
-sed -e "s/^/^/g" -e "s/\./\\\./g" > "phishing-top-domains-grep.txt"
+sed -e "s/^/^/" -e "s/\./\\\./g" > "phishing-top-domains-grep.txt"
 
 cat "phishing.txt" | \
 # exact match hostname
@@ -262,8 +262,8 @@ COMMENT_UBO="$FIRST_LINE\n$SECOND_LINE\n$THIRD_LINE\n$FOURTH_LINE\n$FIFTH_LINE\n
 mkdir -p "../public/"
 
 cat "phishing-url-top-domains-raw.txt" | \
-sed "s/^/||/g" | \
-sed 's/$/^$all/g' > "phishing-url-top-domains.txt"
+sed "s/^/||/" | \
+sed 's/$/^$all/' > "phishing-url-top-domains.txt"
 
 cat "phishing-notop-domains.txt" "phishing-url-top-domains.txt" | \
 sort | \
@@ -272,8 +272,8 @@ sed "1i $COMMENT_UBO" > "../public/phishing-filter.txt"
 
 # Adguard Home
 cat "phishing-notop-domains.txt" | \
-sed "s/^/||/g" | \
-sed "s/$/^/g" > "phishing-domains-adguard-home.txt"
+sed "s/^/||/" | \
+sed "s/$/^/" > "phishing-domains-adguard-home.txt"
 
 cat "phishing-domains-adguard-home.txt" | \
 sort | \
@@ -283,8 +283,8 @@ sed "1s/Blocklist/Blocklist (AdGuard Home)/" > "../public/phishing-filter-agh.tx
 
 # Adguard browser extension
 cat "phishing-notop-domains.txt" | \
-sed "s/^/||/g" | \
-sed 's/$/^$all/g' > "phishing-domains-adguard.txt"
+sed "s/^/||/" | \
+sed 's/$/^$all/' > "phishing-domains-adguard.txt"
 
 cat "phishing-domains-adguard.txt" "phishing-url-top-domains.txt" | \
 sort | \
@@ -294,11 +294,11 @@ sed "1s/Blocklist/Blocklist (AdGuard)/" > "../public/phishing-filter-ag.txt"
 
 # Vivaldi
 cat "phishing-notop-domains.txt" | \
-sed "s/^/||/g" | \
-sed 's/$/^$document/g' > "phishing-domains-vivaldi.txt"
+sed "s/^/||/" | \
+sed 's/$/^$document/' > "phishing-domains-vivaldi.txt"
 
 cat "phishing-domains-vivaldi.txt" "phishing-url-top-domains.txt" | \
-sed 's/\$all$/$document/g' | \
+sed 's/\$all$/$document/' | \
 sort | \
 sed "1i $COMMENT_UBO" | \
 sed "1s/Blocklist/Blocklist (Vivaldi)/" > "../public/phishing-filter-vivaldi.txt"
@@ -306,7 +306,7 @@ sed "1s/Blocklist/Blocklist (Vivaldi)/" > "../public/phishing-filter-vivaldi.txt
 
 ## Domains-only blocklist
 # awk + head is a workaround for sed prepend
-COMMENT=$(printf "$COMMENT_UBO" | sed "s/^!/#/g" | sed "1s/URL/Domains/" | awk '{printf "%s\\n", $0}' | head -c -2)
+COMMENT=$(printf "$COMMENT_UBO" | sed "s/^!/#/" | sed "1s/URL/Domains/" | awk '{printf "%s\\n", $0}' | head -c -2)
 
 cat "phishing-notop-domains.txt" | \
 sort | \
@@ -320,7 +320,7 @@ grep -vE "^\[" > "phishing-notop-hosts.txt"
 
 ## Hosts file blocklist
 cat "phishing-notop-hosts.txt" | \
-sed "s/^/0.0.0.0 /g" | \
+sed "s/^/0.0.0.0 /" | \
 # Re-insert comment
 sed "1i $COMMENT" | \
 sed "1s/Domains/Hosts/" > "../public/phishing-filter-hosts.txt"
@@ -328,16 +328,16 @@ sed "1s/Domains/Hosts/" > "../public/phishing-filter-hosts.txt"
 
 ## Dnsmasq-compatible blocklist
 cat "phishing-notop-hosts.txt" | \
-sed "s/^/address=\//g" | \
-sed "s/$/\/0.0.0.0/g" | \
+sed "s/^/address=\//" | \
+sed "s/$/\/0.0.0.0/" | \
 sed "1i $COMMENT" | \
 sed "1s/Blocklist/dnsmasq Blocklist/" > "../public/phishing-filter-dnsmasq.conf"
 
 
 ## BIND-compatible blocklist
 cat "phishing-notop-hosts.txt" | \
-sed 's/^/zone "/g' | \
-sed 's/$/" { type master; notify no; file "null.zone.file"; };/g' | \
+sed 's/^/zone "/' | \
+sed 's/$/" { type master; notify no; file "null.zone.file"; };/' | \
 sed "1i $COMMENT" | \
 sed "1s/Blocklist/BIND Blocklist/" > "../public/phishing-filter-bind.conf"
 
@@ -347,17 +347,17 @@ CURRENT_UNIX_TIME="$(date +%s)"
 RPZ_SYNTAX="\n\$TTL 30\n@ IN SOA localhost. root.localhost. $CURRENT_UNIX_TIME 86400 3600 604800 30\n NS localhost.\n"
 
 cat "phishing-notop-hosts.txt" | \
-sed "s/$/ CNAME ./g" | \
+sed "s/$/ CNAME ./" | \
 sed '1 i\'"$RPZ_SYNTAX"'' | \
 sed "1i $COMMENT" | \
-sed "s/^#/;/g" | \
+sed "s/^#/;/" | \
 sed "1s/Blocklist/RPZ Blocklist/" > "../public/phishing-filter-rpz.conf"
 
 
 ## Unbound-compatible blocklist
 cat "phishing-notop-hosts.txt" | \
-sed 's/^/local-zone: "/g' | \
-sed 's/$/" always_nxdomain/g' | \
+sed 's/^/local-zone: "/' | \
+sed 's/$/" always_nxdomain/' | \
 sed "1i $COMMENT" | \
 sed "1s/Blocklist/Unbound Blocklist/" > "../public/phishing-filter-unbound.conf"
 
@@ -385,7 +385,7 @@ fi
 
 ## Wildcard subdomain
 cat "phishing-notop-hosts.txt" | \
-sed "s/^/*./g" | \
+sed "s/^/*./" | \
 sed "1i $COMMENT" | \
 sed "1s/Domains/Wildcard Asterisk/" > "../public/phishing-filter-wildcard.txt"
 
@@ -416,7 +416,7 @@ sed -i "1s/Domains Blocklist/URL Splunk Lookup/" "../public/phishing-filter-splu
 COMMENT_IE="msFilterList\n$COMMENT\n: Expires=1\n#"
 
 cat "phishing-notop-hosts.txt" | \
-sed "s/^/-d /g" | \
+sed "s/^/-d /" | \
 sed "1i $COMMENT_IE" | \
 sed "2s/Domains Blocklist/Hosts Blocklist (IE)/" > "../public/phishing-filter.tpl"
 
