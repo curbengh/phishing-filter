@@ -263,7 +263,7 @@ mkdir -p "../public/"
 
 cat "phishing-url-top-domains-raw.txt" | \
 sed "s/^/||/g" | \
-sed "s/$/\$all/g" > "phishing-url-top-domains.txt"
+sed 's/$/^$all/g' > "phishing-url-top-domains.txt"
 
 cat "phishing-notop-domains.txt" "phishing-url-top-domains.txt" | \
 sort | \
@@ -284,7 +284,7 @@ sed "1s/Blocklist/Blocklist (AdGuard Home)/" > "../public/phishing-filter-agh.tx
 # Adguard browser extension
 cat "phishing-notop-domains.txt" | \
 sed "s/^/||/g" | \
-sed "s/$/\$all/g" > "phishing-domains-adguard.txt"
+sed 's/$/^$all/g' > "phishing-domains-adguard.txt"
 
 cat "phishing-domains-adguard.txt" "phishing-url-top-domains.txt" | \
 sort | \
@@ -295,10 +295,10 @@ sed "1s/Blocklist/Blocklist (AdGuard)/" > "../public/phishing-filter-ag.txt"
 # Vivaldi
 cat "phishing-notop-domains.txt" | \
 sed "s/^/||/g" | \
-sed "s/$/\$document/g" > "phishing-domains-vivaldi.txt"
+sed 's/$/^$document/g' > "phishing-domains-vivaldi.txt"
 
 cat "phishing-domains-vivaldi.txt" "phishing-url-top-domains.txt" | \
-sed "s/\$all$/\$document/g" | \
+sed 's/\$all$/$document/g' | \
 sort | \
 sed "1i $COMMENT_UBO" | \
 sed "1s/Blocklist/Blocklist (Vivaldi)/" > "../public/phishing-filter-vivaldi.txt"
