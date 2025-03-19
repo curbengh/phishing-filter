@@ -42,7 +42,7 @@ for await (const line of createInterface({ input: process.stdin, terminal: false
         // remove www
         .replace(/^www\./, '')
         // url encode space #11
-        .replace(' ', '%20')
+        .replaceAll(' ', '%20')
         .replace(/(^[^/]*)\/+$/, '$1')
 
       console.log(outUrl)
