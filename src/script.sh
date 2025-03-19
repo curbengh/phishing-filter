@@ -134,9 +134,7 @@ fi
 
 ## Parse URLs
 if [ -n "$(file 'phishtank.bz2' | grep 'bzip2 compressed data')" ]; then
-  bunzip2 -kc "phishtank.bz2" > "phishtank.csv"
-
-  cat "phishtank.csv" | \
+  bunzip2 -kc "phishtank.bz2" | \
   tr "[:upper:]" "[:lower:]" | \
   ## Workaround for column with double quotes
   "./$CSVQUOTE" | \
@@ -422,7 +420,7 @@ sed "2s/Domains Blocklist/Hosts Blocklist (IE)/" > "../public/phishing-filter.tp
 
 
 ## Clean up artifacts
-rm "phishtank.csv" "top-1m-umbrella.zip" "top-1m-umbrella.txt" "top-1m-tranco.txt" "openphish-raw.txt" "cf/" "top-1m-radar.txt"
+rm "phishtank.bz2" "top-1m-umbrella.zip" "top-1m-umbrella.txt" "top-1m-tranco.txt" "openphish-raw.txt" "cf/" "top-1m-radar.txt"
 
 
 cd ../
