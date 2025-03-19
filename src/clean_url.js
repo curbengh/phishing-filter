@@ -30,7 +30,11 @@ for await (const line of createInterface({ input: process.stdin, terminal: false
         url = new URL(url.searchParams.get('url'))
       }
 
-      const outUrl = `${url.host.replace(/^www\./, '')}${url.pathname}${url.search}`
+      url.host = url.host.replace(/^www\./, '')
+      // nodejs does not percent-encode ^ yet
+      // https://github.com/nodejs/node/issues/57313
+      url.pathname = url.pathname.replaceAll('^', encodeURI('^'))
+      const outUrl = `${url.host}${url.pathname}${url.search}`
         // remove trailing slash from domain except path #43
         .replace(/(^[^/]*)\/+$/, '$1')
 
