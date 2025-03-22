@@ -79,6 +79,7 @@ else
 fi
 
 ## Create a temporary working folder
+rm "tmp/"
 mkdir -p "tmp/"
 cd "tmp/"
 
