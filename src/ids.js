@@ -1,3 +1,5 @@
+'use strict'
+
 import { createWriteStream } from 'node:fs'
 import { open } from 'node:fs/promises'
 
