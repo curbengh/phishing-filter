@@ -268,7 +268,6 @@ sed "s/^/||/" | \
 sed 's/$/^$all/' > "phishing-url-top-domains.txt"
 
 cat "phishing-notop-domains.txt" "phishing-url-top-domains.txt" | \
-sort | \
 sed "1i $COMMENT_UBO" > "../public/phishing-filter.txt"
 
 
@@ -278,7 +277,6 @@ sed "s/^/||/" | \
 sed "s/$/^/" > "phishing-domains-adguard-home.txt"
 
 cat "phishing-domains-adguard-home.txt" | \
-sort | \
 sed "1i $COMMENT_UBO" | \
 sed "1s/Blocklist/Blocklist (AdGuard Home)/" > "../public/phishing-filter-agh.txt"
 
@@ -289,7 +287,6 @@ sed "s/^/||/" | \
 sed 's/$/^$all/' > "phishing-domains-adguard.txt"
 
 cat "phishing-domains-adguard.txt" "phishing-url-top-domains.txt" | \
-sort | \
 sed "1i $COMMENT_UBO" | \
 sed "1s/Blocklist/Blocklist (AdGuard)/" > "../public/phishing-filter-ag.txt"
 
@@ -301,7 +298,6 @@ sed 's/$/^$document/' > "phishing-domains-vivaldi.txt"
 
 cat "phishing-domains-vivaldi.txt" "phishing-url-top-domains.txt" | \
 sed 's/\$all$/$document/' | \
-sort | \
 sed "1i $COMMENT_UBO" | \
 sed "1s/Blocklist/Blocklist (Vivaldi)/" > "../public/phishing-filter-vivaldi.txt"
 
@@ -311,7 +307,6 @@ sed "1s/Blocklist/Blocklist (Vivaldi)/" > "../public/phishing-filter-vivaldi.txt
 COMMENT=$(printf "$COMMENT_UBO" | sed "s/^!/#/" | sed "1s/URL/Domains/" | awk '{printf "%s\\n", $0}' | head -c -2)
 
 cat "phishing-notop-domains.txt" | \
-sort | \
 sed "1i $COMMENT" > "../public/phishing-filter-domains.txt"
 
 cat "phishing-notop-domains.txt" | \
