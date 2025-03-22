@@ -226,7 +226,7 @@ grep -Fx -f "top-1m-well-known.txt" > "phishing-top-domains.txt"
 
 ## Exclude popular domains
 cat "phishing-domains.txt" | \
-grep -F -vf "phishing-top-domains.txt" > "phishing-notop-domains.txt"
+grep -F -vf "phishing-top-domains.txt" > "phishing-notop-domains-temp.txt"
 
 cat "phishing-top-domains.txt" | \
 # "example.com" -> "^example\.com"
@@ -240,11 +240,15 @@ grep -Fx -vf "phishing-top-domains.txt" > "phishing-url-top-domains-temp.txt"
 
 cat "phishing-url-top-domains-temp.txt" | \
 # url with path
-grep -F "/" > "phishing-url-top-domains-raw.txt"
+grep -F "/" | \
+sort -u > "phishing-url-top-domains-raw.txt"
 
 cat "phishing-url-top-domains-temp.txt" | \
 # url without path
-grep -F -v "/" >> "phishing-notop-domains.txt"
+grep -F -v "/" >> "phishing-notop-domains-temp.txt"
+
+cat "phishing-notop-domains-temp.txt" | \
+sort -u > "phishing-notop-domains.txt"
 
 
 ## Merge malware domains and URLs
@@ -369,7 +373,6 @@ sed "1s/Domains/Names/" > "../public/phishing-filter-dnscrypt-blocked-names.txt"
 # IPv4/6
 if grep -Eq "^(([0-9]{1,3}[\.]){3}[0-9]{1,3}$|\[)" "phishing-notop-domains.txt"; then
   cat "phishing-notop-domains.txt" | \
-  sort | \
   grep -E "^(([0-9]{1,3}[\.]){3}[0-9]{1,3}$|\[)" | \
   sed -r "s/\[|\]//g" | \
   sed "1i $COMMENT" | \
