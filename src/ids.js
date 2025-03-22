@@ -42,7 +42,7 @@ for await (const line of urls.readLines()) {
 
   const url = new URL(`http://${line}`)
   const { hostname, pathname, search } = url
-  const pathEscape = pathname.replaceAll(';', '\\;') + search
+  const pathEscape = `${pathname}${search}`.replaceAll(';', '\\;')
   const path = pathname + search
 
   snort2.write(`alert tcp $HOME_NET any -> $EXTERNAL_NET [80,443] (msg:"phishing-filter phishing website detected"; flow:established,from_client; content:"GET"; http_method; content:"${pathEscape.substring(0, 2048)}"; http_uri; nocase; content:"${hostname}"; content:"Host"; http_header; classtype:attempted-recon; sid:${sid}; rev:1;)\n`)
