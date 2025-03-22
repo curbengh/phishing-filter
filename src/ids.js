@@ -35,6 +35,11 @@ for await (const domain of domains.readLines()) {
 }
 
 for await (const line of urls.readLines()) {
+  if (!URL.canParse(`http://${line}`)) {
+    console.error(`Invalid URL: ${line}`)
+    continue
+  }
+
   const url = new URL(`http://${line}`)
   const { hostname, pathname, search } = url
   const pathEscape = pathname.replaceAll(';', '\\;') + search
