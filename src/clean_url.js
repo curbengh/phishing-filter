@@ -2,6 +2,19 @@
 
 import { createInterface } from 'node:readline'
 
+// nodejs does not percent-encode ^ yet
+// https://github.com/nodejs/node/issues/57313
+// Applies to path, exclude query string
+const caretPath = (pathname) => {
+  if (!pathname.includes('?')) return pathname.replaceAll('^', '%5E')
+
+  const pathArray = pathname.split('?')
+  const path = pathArray[0].replaceAll('^', '%5E')
+  const search = pathArray.slice(1).join('?')
+
+  return `${path}?${search}`
+}
+
 for await (const line of createInterface({ input: process.stdin, terminal: false })) {
   // parse hostname from url
   if (process.argv[2] === 'hostname') {
@@ -33,16 +46,15 @@ for await (const line of createInterface({ input: process.stdin, terminal: false
       }
 
       url.host = url.host.replace(/^www\./, '')
-      // nodejs does not percent-encode ^ yet
-      // https://github.com/nodejs/node/issues/57313
-      url.pathname = url.pathname.replaceAll('^', encodeURI('^'))
+
+      url.pathname = caretPath(url.pathname)
       const outUrl = `${url.host}${url.pathname}${url.search}`
         // remove trailing slash from domain except path #43
         .replace(/(^[^/]*)\/+$/, '$1')
 
       console.log(outUrl)
     } else {
-      const outUrl = line
+      const outUrl = caretPath(line)
         // remove protocol
         .split('/').slice(2).join('/')
         // remove www
