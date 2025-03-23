@@ -39,10 +39,13 @@ for await (const line of createInterface({ input: process.stdin, terminal: false
     if (URL.canParse(line)) {
       let url = new URL(line)
 
-      // Decode O365 Safelinks
-      // https://support.microsoft.com/en-us/office/advanced-outlook-com-security-for-microsoft-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2
+      // O365 Safelinks
       if (url.hostname.endsWith('safelinks.protection.outlook.com')) {
         url = new URL(url.searchParams.get('url'))
+      }
+      // #92
+      if (url.hostname.endsWith('.protection.sophos.com')) {
+        url = new URL(`http://${url.searchParams.get('d')}`)
       }
 
       url.host = url.host.replace(/^www\./, '')
