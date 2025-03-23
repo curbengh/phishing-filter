@@ -308,6 +308,8 @@ sed "1s/Blocklist/Blocklist (Vivaldi)/" > "../public/phishing-filter-vivaldi.txt
 COMMENT=$(printf "$COMMENT_UBO" | sed "s/^!/#/" | sed "1s/URL/Domains/" | awk '{printf "%s\\n", $0}' | head -c -2)
 
 cat "phishing-notop-domains.txt" | \
+# remove IPv6 bracket
+sed -r "s/\[|\]//g" | \
 sed "1i $COMMENT" > "../public/phishing-filter-domains.txt"
 
 cat "phishing-notop-domains.txt" | \
@@ -412,7 +414,8 @@ sed -i "1s/Domains Blocklist/URL Splunk Lookup/" "../public/phishing-filter-splu
 ## IE blocklist
 COMMENT_IE="msFilterList\n$COMMENT\n: Expires=1\n#"
 
-cat "phishing-notop-hosts.txt" | \
+cat "phishing-notop-domains.txt" | \
+sed -r "s/\[|\]//g" | \
 sed "s/^/-d /" | \
 sed "1i $COMMENT_IE" | \
 sed "2s/Domains Blocklist/Hosts Blocklist (IE)/" > "../public/phishing-filter.tpl"
