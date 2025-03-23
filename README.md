@@ -13,11 +13,11 @@
   - [RPZ](#response-policy-zone)
   - [Unbound](#unbound)
   - [dnscrypt-proxy](#dnscrypt-proxy)
-  - [Tracking Protection List (IE)](#tracking-protection-list-ie)
   - [Snort2](#snort2)
   - [Snort3](#snort3)
   - [Suricata](#suricata)
   - [Splunk](#splunk)
+  - [Tracking Protection List (IE)](#tracking-protection-list-ie)
 - [Compressed version](#compressed-version)
 - [Reporting issues](#issues)
 - [See also](#see-also)
@@ -39,11 +39,11 @@ A blocklist of phishing websites, curated from [OpenPhish](https://openphish.com
 | BIND [RPZ](#response-policy-zone) | [link](https://malware-filter.gitlab.io/malware-filter/phishing-filter-rpz.conf) | [link](https://curbengh.github.io/malware-filter/phishing-filter-rpz.conf) | [link](https://curbengh.github.io/phishing-filter/phishing-filter-rpz.conf) | [link](https://malware-filter.gitlab.io/phishing-filter/phishing-filter-rpz.conf) | [link](https://malware-filter.pages.dev/phishing-filter-rpz.conf) | [link](https://phishing-filter.pages.dev/phishing-filter-rpz.conf) |
 | [dnscrypt-proxy](#dnscrypt-proxy) | [names.txt](https://malware-filter.gitlab.io/malware-filter/phishing-filter-dnscrypt-blocked-names.txt), [ips.txt](https://malware-filter.gitlab.io/malware-filter/phishing-filter-dnscrypt-blocked-ips.txt) | [names.txt](https://curbengh.github.io/malware-filter/phishing-filter-dnscrypt-blocked-names.txt), [ips.txt](https://curbengh.github.io/malware-filter/phishing-filter-dnscrypt-blocked-ips.txt) | [names.txt](https://curbengh.github.io/phishing-filter/phishing-filter-dnscrypt-blocked-names.txt), [ips.txt](https://curbengh.github.io/phishing-filter/phishing-filter-dnscrypt-blocked-ips.txt) | [names.txt](https://malware-filter.gitlab.io/phishing-filter/phishing-filter-dnscrypt-blocked-names.txt), [ips.txt](https://malware-filter.gitlab.io/phishing-filter/phishing-filter-dnscrypt-blocked-ips.txt) | [names.txt](https://malware-filter.pages.dev/phishing-filter-dnscrypt-blocked-names.txt), [ips.txt](https://malware-filter.pages.dev/phishing-filter-dnscrypt-blocked-ips.txt) | [names.txt](https://phishing-filter.pages.dev/phishing-filter-dnscrypt-blocked-names.txt), [ips.txt](https://phishing-filter.pages.dev/phishing-filter-dnscrypt-blocked-ips.txt) |
 | [blocky](#wildcard-asterisk) | [link](https://malware-filter.gitlab.io/malware-filter/phishing-filter-wildcard.txt) | [link](https://curbengh.github.io/malware-filter/phishing-filter-wildcard.txt) | [link](https://curbengh.github.io/phishing-filter/phishing-filter-wildcard.txt) | [link](https://malware-filter.gitlab.io/phishing-filter/phishing-filter-wildcard.txt) | [link](https://malware-filter.pages.dev/phishing-filter-wildcard.txt) | [link](https://phishing-filter.pages.dev/phishing-filter-wildcard.txt) |
-| [Internet Explorer](#tracking-protection-list-ie) | [link](https://malware-filter.gitlab.io/malware-filter/phishing-filter.tpl) | [link](https://curbengh.github.io/malware-filter/phishing-filter.tpl) | [link](https://curbengh.github.io/phishing-filter/phishing-filter.tpl) | [link](https://malware-filter.gitlab.io/phishing-filter/phishing-filter.tpl) | [link](https://malware-filter.pages.dev/phishing-filter.tpl) | [link](https://phishing-filter.pages.dev/phishing-filter.tpl) |
 | [Snort2](#snort2) | [link](https://malware-filter.gitlab.io/malware-filter/phishing-filter-snort2.rules) | [link](https://curbengh.github.io/malware-filter/phishing-filter-snort2.rules) | [link](https://curbengh.github.io/phishing-filter/phishing-filter-snort2.rules) | [link](https://malware-filter.gitlab.io/phishing-filter/phishing-filter-snort2.rules) | [br](https://malware-filter.pages.dev/phishing-filter-snort2.rules.br)/[gz](https://malware-filter.pages.dev/phishing-filter-snort2.rules.gz) | [link](https://phishing-filter.pages.dev/phishing-filter-snort2.rules) |
 | [Snort3](#snort3) | [link](https://malware-filter.gitlab.io/malware-filter/phishing-filter-snort3.rules) | [link](https://curbengh.github.io/malware-filter/phishing-filter-snort3.rules) | [link](https://curbengh.github.io/phishing-filter/phishing-filter-snort3.rules) | [link](https://malware-filter.gitlab.io/phishing-filter/phishing-filter-snort3.rules) | [br](https://malware-filter.pages.dev/phishing-filter-snort3.rules.br)/[gz](https://malware-filter.pages.dev/phishing-filter-snort3.rules.gz) | [link](https://phishing-filter.pages.dev/phishing-filter-snort3.rules) |
 | [Suricata](#suricata) | [link](https://malware-filter.gitlab.io/malware-filter/phishing-filter-suricata.rules) | [link](https://curbengh.github.io/malware-filter/phishing-filter-suricata.rules) | [link](https://curbengh.github.io/phishing-filter/phishing-filter-suricata.rules) | [link](https://malware-filter.gitlab.io/phishing-filter/phishing-filter-suricata.rules) | [br](https://malware-filter.pages.dev/phishing-filter-suricata.rules.br)/[gz](https://malware-filter.pages.dev/phishing-filter-suricata.rules.gz) | [link](https://phishing-filter.pages.dev/phishing-filter-suricata.rules) |
 | [Splunk](#splunk) | [link](https://malware-filter.gitlab.io/malware-filter/phishing-filter-splunk.csv) | [link](https://curbengh.github.io/malware-filter/phishing-filter-splunk.csv) | [link](https://curbengh.github.io/phishing-filter/phishing-filter-splunk.csv) | [link](https://malware-filter.gitlab.io/phishing-filter/phishing-filter-splunk.csv) | [link](https://malware-filter.pages.dev/phishing-filter-splunk.csv) | [link](https://phishing-filter.pages.dev/phishing-filter-splunk.csv) |
+| [Internet Explorer](#tracking-protection-list-ie) | [link](https://malware-filter.gitlab.io/malware-filter/phishing-filter.tpl) | [link](https://curbengh.github.io/malware-filter/phishing-filter.tpl) | [link](https://curbengh.github.io/phishing-filter/phishing-filter.tpl) | [link](https://malware-filter.gitlab.io/phishing-filter/phishing-filter.tpl) | [link](https://malware-filter.pages.dev/phishing-filter.tpl) | [link](https://phishing-filter.pages.dev/phishing-filter.tpl) |
 
 For other programs, see [Compatibility](https://gitlab.com/malware-filter/malware-filter/wikis/compatibility) page in the wiki.
 
@@ -154,10 +154,6 @@ Configure dnscrypt-proxy to use the blocklist:
 +  blocked_ips_file = '/etc/dnscrypt-proxy/phishing-filter-dnscrypt-blocked-ips.txt'
 ```
 
-## Tracking Protection List (IE)
-
-This blocklist includes domains only.
-
 ## Snort2
 
 This ruleset includes online URLs only. Not compatible with [Snort3](#snort3).
@@ -214,6 +210,10 @@ Columns:
 | --- | --- | --- | --- |
 | example.com  | | phishing-filter phishing website detected | 2022-12-21T12:34:56Z |
 | example2.com | /some-path | phishing-filter phishing website detected | 2022-12-21T12:34:56Z |
+
+## Tracking Protection List (IE)
+
+This blocklist includes domains and IP addresses. Supported in Internet Explorer 9+. [Install guide](https://superuser.com/a/550539)
 
 ## Compressed version
 
