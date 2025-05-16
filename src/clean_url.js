@@ -39,6 +39,21 @@ const deSafelink = (urlStr) => {
     url = new URL(url.searchParams.get('a'))
   }
 
+  // Google Ads
+  if (url.hostname.endsWith('doubleclick.net') || url.hostname.endsWith('googleadservices.com')) {
+    url = new URL(url.href.replaceAll('&amp;', '&'))
+    const paramUrl = url.searchParams.getAll('adurl').at(-1) || url.searchParams.getAll('url').at(-1) || url.searchParams.getAll('ds_dest_url').at(-1)
+    if (paramUrl) url = new URL(paramUrl)
+  }
+
+  // Google Search
+  // Google AMP does not redirect (e.g. google.com/amp/example.com)
+  if (url.hostname.endsWith('google.com') && (url.pathname.startsWith('/url') || url.pathname.startsWith('/travel/clk'))) {
+    url = new URL(url.href.replaceAll('&amp;', '&'))
+    const paramUrl = url.searchParams.get('q') || url.searchParams.get('url') || url.searchParams.get('pcurl')
+    if (paramUrl) url = new URL(paramUrl)
+  }
+
   // "Just have to go deep enough."
   if (url.hostname.match(new RegExp(safeLinks.join('|')))) {
     return deSafelink(url.href)
