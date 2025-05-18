@@ -16,6 +16,7 @@
   - [Snort2](#snort2)
   - [Snort3](#snort3)
   - [Suricata](#suricata)
+    - [Suricata (SNI)](#suricata-sni)
   - [Splunk](#splunk)
   - [Tracking Protection List (IE)](#tracking-protection-list-ie)
 - [Compressed version](#compressed-version)
@@ -42,6 +43,7 @@ A blocklist of phishing websites, curated from [OpenPhish](https://openphish.com
 | [Snort2](#snort2) | [link](https://malware-filter.gitlab.io/malware-filter/phishing-filter-snort2.rules) | [link](https://curbengh.github.io/malware-filter/phishing-filter-snort2.rules) | [link](https://curbengh.github.io/phishing-filter/phishing-filter-snort2.rules) | [link](https://malware-filter.gitlab.io/phishing-filter/phishing-filter-snort2.rules) | [br](https://malware-filter.pages.dev/phishing-filter-snort2.rules.br)/[gz](https://malware-filter.pages.dev/phishing-filter-snort2.rules.gz) | [link](https://phishing-filter.pages.dev/phishing-filter-snort2.rules) |
 | [Snort3](#snort3) | [link](https://malware-filter.gitlab.io/malware-filter/phishing-filter-snort3.rules) | [link](https://curbengh.github.io/malware-filter/phishing-filter-snort3.rules) | [link](https://curbengh.github.io/phishing-filter/phishing-filter-snort3.rules) | [link](https://malware-filter.gitlab.io/phishing-filter/phishing-filter-snort3.rules) | [br](https://malware-filter.pages.dev/phishing-filter-snort3.rules.br)/[gz](https://malware-filter.pages.dev/phishing-filter-snort3.rules.gz) | [link](https://phishing-filter.pages.dev/phishing-filter-snort3.rules) |
 | [Suricata](#suricata) | [link](https://malware-filter.gitlab.io/malware-filter/phishing-filter-suricata.rules) | [link](https://curbengh.github.io/malware-filter/phishing-filter-suricata.rules) | [link](https://curbengh.github.io/phishing-filter/phishing-filter-suricata.rules) | [link](https://malware-filter.gitlab.io/phishing-filter/phishing-filter-suricata.rules) | [br](https://malware-filter.pages.dev/phishing-filter-suricata.rules.br)/[gz](https://malware-filter.pages.dev/phishing-filter-suricata.rules.gz) | [link](https://phishing-filter.pages.dev/phishing-filter-suricata.rules) |
+| [Suricata (SNI)](#suricata-sni)| [link](https://malware-filter.gitlab.io/malware-filter/phishing-filter-suricata-sni.rules) | [link](https://curbengh.github.io/malware-filter/phishing-filter-suricata-sni.rules) | [link](https://curbengh.github.io/phishing-filter/phishing-filter-suricata-sni.rules) | [link](https://malware-filter.gitlab.io/phishing-filter/phishing-filter-suricata-sni.rules) | [br](https://malware-filter.pages.dev/phishing-filter-suricata-sni.rules.br)/[gz](https://malware-filter.pages.dev/phishing-filter-suricata-sni.rules.gz) | [link](https://phishing-filter.pages.dev/phishing-filter-suricata-sni.rules) |
 | [Splunk](#splunk) | [link](https://malware-filter.gitlab.io/malware-filter/phishing-filter-splunk.csv) | [link](https://curbengh.github.io/malware-filter/phishing-filter-splunk.csv) | [link](https://curbengh.github.io/phishing-filter/phishing-filter-splunk.csv) | [link](https://malware-filter.gitlab.io/phishing-filter/phishing-filter-splunk.csv) | [link](https://malware-filter.pages.dev/phishing-filter-splunk.csv) | [link](https://phishing-filter.pages.dev/phishing-filter-splunk.csv) |
 | [Internet Explorer](#tracking-protection-list-ie) | [link](https://malware-filter.gitlab.io/malware-filter/phishing-filter.tpl) | [link](https://curbengh.github.io/malware-filter/phishing-filter.tpl) | [link](https://curbengh.github.io/phishing-filter/phishing-filter.tpl) | [link](https://malware-filter.gitlab.io/phishing-filter/phishing-filter.tpl) | [link](https://malware-filter.pages.dev/phishing-filter.tpl) | [link](https://phishing-filter.pages.dev/phishing-filter.tpl) |
 
@@ -195,6 +197,11 @@ rule-files:
   - local.rules
 +  - phishing-filter-suricata.rules
 ```
+
+### Suricata (SNI)
+
+This ruleset includes online domains only. It enables Suricata to detect malicious HTTPS-enabled domains by inspecting the SNI in the [unencrypted ClientHello](https://en.wikipedia.org/wiki/Server_Name_Indication#Security_implications) message. There is increasing support for encrypted Client Hello which defeats SNI inspection.
+
 
 ## Splunk
 

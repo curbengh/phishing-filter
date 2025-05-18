@@ -393,6 +393,7 @@ sed "1s/Domains/Wildcard Asterisk/" > "../public/phishing-filter-wildcard.txt"
 rm "../public/phishing-filter-snort2.rules" \
   "../public/phishing-filter-snort3.rules" \
   "../public/phishing-filter-suricata.rules" \
+  "../public/phishing-filter-suricata-sni.rules" \
   "../public/phishing-filter-splunk.csv"
 
 export CURRENT_TIME
@@ -406,6 +407,9 @@ sed -i "1s/Domains Blocklist/URL Snort3 Ruleset/" "../public/phishing-filter-sno
 
 sed -i "1i $COMMENT" "../public/phishing-filter-suricata.rules"
 sed -i "1s/Domains Blocklist/URL Suricata Ruleset/" "../public/phishing-filter-suricata.rules"
+
+sed -i "1i $COMMENT" "../public/phishing-filter-suricata-sni.rules"
+sed -i "1s/Domains Blocklist/Domain Suricata Ruleset (SNI)/" "../public/phishing-filter-suricata-sni.rules"
 
 sed -i -e "1i $COMMENT" -e '1i "host","path","message","updated"' "../public/phishing-filter-splunk.csv"
 sed -i "1s/Domains Blocklist/URL Splunk Lookup/" "../public/phishing-filter-splunk.csv"
