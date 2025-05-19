@@ -39,8 +39,8 @@ const deSafelink = (urlStr) => {
     url = new URL(url.searchParams.get('a'))
   }
 
-  // ShopMy
-  if (url.hostname === 'api.shopmy.us' && url.pathname === '/api/redirect_click') {
+  // ShopMy & Disqus
+  if ((url.hostname === 'api.shopmy.us' && url.pathname === '/api/redirect_click') || url.hostname === 'disq.us') {
     url = new URL(url.searchParams.get('url'))
   }
 
