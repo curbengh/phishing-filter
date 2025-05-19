@@ -49,6 +49,11 @@ const deSafelink = (urlStr) => {
     url = new URL(url.searchParams.get('to'))
   }
 
+  // WhatsApp
+  if (url.hostname === 'l.wl.co' && url.pathname === '/l') {
+    url = new URL(url.searchParams.get('u'))
+  }
+
   // Google Ads
   if (url.hostname.endsWith('doubleclick.net') || url.hostname.endsWith('googleadservices.com')) {
     url = new URL(url.href.replaceAll('&amp;', '&'))
