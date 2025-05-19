@@ -44,6 +44,11 @@ const deSafelink = (urlStr) => {
     url = new URL(url.searchParams.get('url'))
   }
 
+  // VKontakte
+  if ((url.hostname === 'vk.com' || url.hostname === 'vkontakte.ru') && url.pathname === '/away.php') {
+    url = new URL(url.searchParams.get('to'))
+  }
+
   // Google Ads
   if (url.hostname.endsWith('doubleclick.net') || url.hostname.endsWith('googleadservices.com')) {
     url = new URL(url.href.replaceAll('&amp;', '&'))
