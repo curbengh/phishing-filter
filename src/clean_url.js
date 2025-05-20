@@ -51,6 +51,7 @@ const deSafelink = (urlStr) => {
 
   // WhatsApp
   if (url.hostname === 'l.wl.co' && url.pathname === '/l') {
+    url = new URL(decodeURIComponent(url.href.replaceAll('&amp;', '&')))
     url = new URL(url.searchParams.get('u'))
   }
 
