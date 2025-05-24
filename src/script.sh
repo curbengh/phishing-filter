@@ -409,7 +409,7 @@ sed -i "1i $COMMENT" "../public/phishing-filter-suricata.rules"
 sed -i "1s/Domains Blocklist/URL Suricata Ruleset/" "../public/phishing-filter-suricata.rules"
 
 sed -i "1i $COMMENT" "../public/phishing-filter-suricata-sni.rules"
-sed -i "1s/Domains Blocklist/Domain Suricata Ruleset (SNI)/" "../public/phishing-filter-suricata-sni.rules"
+sed -i "1s/Domains Blocklist/Domains Suricata Ruleset (SNI)/" "../public/phishing-filter-suricata-sni.rules"
 
 sed -i -e "1i $COMMENT" -e '1i "host","path","message","updated"' "../public/phishing-filter-splunk.csv"
 sed -i "1s/Domains Blocklist/URL Splunk Lookup/" "../public/phishing-filter-splunk.csv"
