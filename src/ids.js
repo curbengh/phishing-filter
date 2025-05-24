@@ -39,6 +39,8 @@ for await (const domain of domains.readLines()) {
   sid++
 }
 
+suricataSni.close()
+
 for await (const line of urls.readLines()) {
   if (!URL.canParse(`http://${line}`)) {
     console.error(`Invalid URL: ${line}`)
@@ -61,5 +63,4 @@ for await (const line of urls.readLines()) {
 snort2.close()
 snort3.close()
 suricata.close()
-suricataSni.close()
 splunk.close()

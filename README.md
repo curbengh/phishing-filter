@@ -202,7 +202,6 @@ rule-files:
 
 This ruleset includes online domains only. It enables Suricata to detect malicious HTTPS-enabled domains by inspecting the SNI in the [unencrypted ClientHello](https://en.wikipedia.org/wiki/Server_Name_Indication#Security_implications) message. There is increasing support for encrypted Client Hello which defeats SNI inspection.
 
-
 ## Splunk
 
 A CSV file for Splunk [lookup](https://docs.splunk.com/Documentation/Splunk/latest/Knowledge/Aboutlookupsandfieldactions).
