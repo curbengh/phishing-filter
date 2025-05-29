@@ -256,7 +256,7 @@ sort -u > "phishing-notop-domains.txt"
 CURRENT_TIME=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
 FIRST_LINE="! Title: Phishing URL Blocklist"
 SECOND_LINE="! Updated: $CURRENT_TIME"
-THIRD_LINE="! Expires: 1 day (update frequency)"
+THIRD_LINE="! Expires: 12 hours (update frequency)"
 FOURTH_LINE="! Homepage: https://gitlab.com/malware-filter/phishing-filter"
 FIFTH_LINE="! License: https://gitlab.com/malware-filter/phishing-filter#license"
 SIXTH_LINE="! Sources: openphish.com, ipthreat.net, phishtank.org"
