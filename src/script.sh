@@ -178,6 +178,7 @@ sort -u > "phishing-domains.txt"
 
 
 cp "../src/exclude.txt" "."
+cp "../src/exclude-url.txt" "."
 
 ## Parse the Umbrella 1 Million
 unzip "top-1m-umbrella.zip" | \
@@ -219,6 +220,12 @@ if [ -n "$CF_API" ] && [ -f "top-1m-radar.txt" ]; then
 fi
 
 
+cat "exclude-url.txt" | \
+sed "/^#/d" | \
+# "example.com/path" -> "^example\.com/path"
+# slash doesn't need to be escaped
+sed -e "s/^/^/" -e "s/\./\\\./g" > "exclude-url-grep.txt"
+
 ## Parse popular domains
 cat "phishing-domains.txt" | \
 # grep match whole line
@@ -227,7 +234,10 @@ grep -Fx -f "top-1m-well-known.txt" > "phishing-top-domains.txt"
 
 ## Exclude popular domains
 cat "phishing-domains.txt" | \
-grep -F -vf "phishing-top-domains.txt" > "phishing-notop-domains-temp.txt"
+grep -F -vf "phishing-top-domains.txt" | \
+# exclude domains from domains-based filters
+grep -vf "exclude-url-grep.txt" | \
+sort -u > "phishing-notop-domains.txt"
 
 cat "phishing-top-domains.txt" | \
 # "example.com" -> "^example\.com"
@@ -237,19 +247,10 @@ cat "phishing.txt" | \
 # exact match hostname
 grep -f "phishing-top-domains-grep.txt" | \
 # exclude URL of top domains without path #43
-grep -Fx -vf "phishing-top-domains.txt" > "phishing-url-top-domains-temp.txt"
-
-cat "phishing-url-top-domains-temp.txt" | \
-# url with path
-grep -F "/" | \
+grep -Fx -vf "phishing-top-domains.txt" | \
+# exclude domains/URLs from URL-based filters
+grep -vf "exclude-url-grep.txt" | \
 sort -u > "phishing-url-top-domains-raw.txt"
-
-cat "phishing-url-top-domains-temp.txt" | \
-# url without path
-grep -F -v "/" >> "phishing-notop-domains-temp.txt"
-
-cat "phishing-notop-domains-temp.txt" | \
-sort -u > "phishing-notop-domains.txt"
 
 
 ## Merge malware domains and URLs

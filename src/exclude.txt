@@ -1,5 +1,5 @@
-# Exclusion list
-# phishing links are still included in "phishing-filter.txt"
+# Domain exclusion list
+# Domains listed here will be excluded from domain-based filters only, not URL-based filters
 s3.amazonaws.com
 s3.us-east-2.amazonaws.com
 s3.us-east-1.amazonaws.com
