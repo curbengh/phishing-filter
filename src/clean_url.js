@@ -81,6 +81,11 @@ const deSafelink = (urlStr) => {
     url = new URL(url.searchParams.get('uddg'))
   }
 
+  // Calendly
+  if (url.hostname === 'calendly.com' && url.pathname === '/url') {
+    url = new URL(url.searchParams.get('q'))
+  }
+
   // "Just have to go deep enough."
   if (url.hostname.match(new RegExp(safeLinks.join('|')))) {
     return deSafelink(url.href)
