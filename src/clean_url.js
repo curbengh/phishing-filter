@@ -19,7 +19,8 @@ const safeLinks = [
   'safelinks\\.protection\\.outlook\\.com',
   '\\.protection\\.sophos\\.com',
   'linkprotect\\.cudasvc\\.com',
-  'ctp\\.trendmicro\\.com'
+  'ctp\\.trendmicro\\.com',
+  'urlsand\\.esvalabs\\.com'
 ]
 
 const deSafelink = (urlStr) => {
@@ -85,6 +86,11 @@ const deSafelink = (urlStr) => {
   // Calendly
   if (url.hostname === 'calendly.com' && url.pathname === '/url') {
     url = new URL(url.searchParams.get('q'))
+  }
+
+  // EsvaLabs
+  if (url.hostname === 'urlsand.esvalabs.com') {
+    url = new URL(url.searchParams.get('u'))
   }
 
   // "Just have to go deep enough."
