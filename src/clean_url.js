@@ -94,6 +94,11 @@ const deSafelink = (urlStr) => {
     url = new URL(url.searchParams.get('u'))
   }
 
+  // Mailinblack
+  if (url.hostname.endsWith('.mailinblack.com') && url.pathname === '/securelink/') {
+    url = new URL(JSON.parse(atob(url.searchParams.get('key')))?.['url'])
+  }
+
   // "Just have to go deep enough."
   if (url.hostname.match(new RegExp(safeLinks.join('|')))) {
     return deSafelink(url.href)
