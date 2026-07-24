@@ -136,7 +136,7 @@ fi
 ## Parse URLs
 if [ -n "$(file 'phishtank.bz2' | grep 'bzip2 compressed data')" ]; then
   bunzip2 -kc "phishtank.bz2" | \
-  tr "[:upper:]" "[:lower:]" | \
+  # tr "[:upper:]" "[:lower:]" | \
   ## Workaround for column with double quotes
   "./$CSVQUOTE" | \
   cut -f 2 -d "," | \
