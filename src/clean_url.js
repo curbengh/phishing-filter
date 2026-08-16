@@ -111,6 +111,9 @@ for await (const line of createInterface({ input: process.stdin, terminal: false
   // parse hostname from url
   if (process.argv[2] === 'hostname') {
     if (URL.canParse(`http://${line}`)) {
+      const cleanLine = line
+        // #95
+        .replace(/\.$/, '')
       const { hostname } = new URL(`http://${line}`)
 
       console.log(hostname)
@@ -124,6 +127,8 @@ for await (const line of createInterface({ input: process.stdin, terminal: false
         .replace(/:\d+$/, '')
         // #2
         .split('?')[0]
+        // #95
+        .replace(/\.$/, '')
 
       console.log(hostname)
     }
