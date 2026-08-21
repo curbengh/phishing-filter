@@ -15,6 +15,9 @@ const caretPath = (pathname) => {
   return `${path}?${search}`
 }
 
+// #150
+const stripRootLabel = (host) => host.replace(/\.+(?=(:\d+)?$)/, '')
+
 const safeLinks = [
   'safelinks\\.protection\\.outlook\\.com',
   '\\.protection\\.sophos\\.com',
@@ -113,7 +116,7 @@ for await (const line of createInterface({ input: process.stdin, terminal: false
     if (URL.canParse(`http://${line}`)) {
       const { hostname } = new URL(`http://${line}`)
 
-      console.log(hostname)
+      console.log(stripRootLabel(hostname))
     } else {
       const hostname = line
         // host
@@ -125,13 +128,13 @@ for await (const line of createInterface({ input: process.stdin, terminal: false
         // #2
         .split('?')[0]
 
-      console.log(hostname)
+      console.log(stripRootLabel(hostname))
     }
   } else {
     if (URL.canParse(line)) {
       const url = new URL(deSafelink(line))
 
-      url.host = url.host.replace(/^www\./, '')
+      url.host = stripRootLabel(url.host).replace(/^www\./, '')
 
       url.pathname = caretPath(url.pathname)
       const outUrl = `${url.host}${url.pathname}${url.search}`
@@ -140,9 +143,10 @@ for await (const line of createInterface({ input: process.stdin, terminal: false
 
       console.log(outUrl)
     } else {
-      const outUrl = caretPath(line)
+      const [host, ...path] = caretPath(line)
         // remove protocol
-        .split('/').slice(2).join('/')
+        .split('/').slice(2)
+      const outUrl = [stripRootLabel(host), ...path].join('/')
         // remove www
         .replace(/^www\./, '')
         // url encode space #11
