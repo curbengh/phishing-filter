@@ -1,5 +1,7 @@
 # Phishing URL Blocklist
 
+- [Which format should I use?](#which-format-should-i-use)
+- [Feed URL](#feed-url)
 - Formats
   - [URL-based](#url-based)
   - [Domain-based](#domain-based)
@@ -28,6 +30,12 @@
 
 A blocklist of phishing websites, curated from [OpenPhish](https://openphish.com/), [IPThreat](https://ipthreat.net/) and [PhishTank](https://phishtank.org/). Blocklist is updated twice a day.
 
+## Which format should I use?
+
+For programs not listed in the next section, see [Compatibility](https://gitlab.com/malware-filter/malware-filter/wikis/compatibility) page in the wiki.
+
+## Feed URL
+
 | Client | mirror 1 | mirror 2 | mirror 3 | mirror 4 | mirror 5 | mirror 6 |
 | --- | --- | --- | --- | --- | --- | --- |
 | [uBlock Origin](#url-based) | [link](https://malware-filter.gitlab.io/malware-filter/phishing-filter.txt) | [link](https://curbengh.github.io/malware-filter/phishing-filter.txt) | [link](https://curbengh.github.io/phishing-filter/phishing-filter.txt) | [link](https://malware-filter.gitlab.io/phishing-filter/phishing-filter.txt) | [link](https://malware-filter.pages.dev/phishing-filter.txt) | [link](https://phishing-filter.pages.dev/phishing-filter.txt) |
@@ -46,8 +54,6 @@ A blocklist of phishing websites, curated from [OpenPhish](https://openphish.com
 | [Suricata (SNI)](#suricata-sni)| [link](https://malware-filter.gitlab.io/malware-filter/phishing-filter-suricata-sni.rules) | [link](https://curbengh.github.io/malware-filter/phishing-filter-suricata-sni.rules) | [link](https://curbengh.github.io/phishing-filter/phishing-filter-suricata-sni.rules) | [link](https://malware-filter.gitlab.io/phishing-filter/phishing-filter-suricata-sni.rules) | [br](https://malware-filter.pages.dev/phishing-filter-suricata-sni.rules.br)/[gz](https://malware-filter.pages.dev/phishing-filter-suricata-sni.rules.gz) | [link](https://phishing-filter.pages.dev/phishing-filter-suricata-sni.rules) |
 | [Splunk](#splunk) | [link](https://malware-filter.gitlab.io/malware-filter/phishing-filter-splunk.csv) | [link](https://curbengh.github.io/malware-filter/phishing-filter-splunk.csv) | [link](https://curbengh.github.io/phishing-filter/phishing-filter-splunk.csv) | [link](https://malware-filter.gitlab.io/phishing-filter/phishing-filter-splunk.csv) | [link](https://malware-filter.pages.dev/phishing-filter-splunk.csv) | [link](https://phishing-filter.pages.dev/phishing-filter-splunk.csv) |
 | [Internet Explorer](#tracking-protection-list-ie) | [link](https://malware-filter.gitlab.io/malware-filter/phishing-filter.tpl) | [link](https://curbengh.github.io/malware-filter/phishing-filter.tpl) | [link](https://curbengh.github.io/phishing-filter/phishing-filter.tpl) | [link](https://malware-filter.gitlab.io/phishing-filter/phishing-filter.tpl) | [link](https://malware-filter.pages.dev/phishing-filter.tpl) | [link](https://phishing-filter.pages.dev/phishing-filter.tpl) |
-
-For other programs, see [Compatibility](https://gitlab.com/malware-filter/malware-filter/wikis/compatibility) page in the wiki.
 
 Check out my other filters:
 
