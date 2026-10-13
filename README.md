@@ -58,7 +58,6 @@ For programs not listed in the next section, see [Compatibility](https://gitlab.
 Check out my other filters:
 
 - [urlhaus-filter](https://gitlab.com/malware-filter/urlhaus-filter)
-- [pup-filter](https://gitlab.com/malware-filter/pup-filter)
 - [tracking-filter](https://gitlab.com/malware-filter/tracking-filter)
 - [vn-badsite-filter](https://gitlab.com/malware-filter/vn-badsite-filter)
 
