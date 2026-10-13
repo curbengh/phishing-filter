@@ -59,7 +59,6 @@ Check out my other filters:
 
 - [urlhaus-filter](https://gitlab.com/malware-filter/urlhaus-filter)
 - [tracking-filter](https://gitlab.com/malware-filter/tracking-filter)
-- [vn-badsite-filter](https://gitlab.com/malware-filter/vn-badsite-filter)
 
 ## URL-based
 
